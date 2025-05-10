@@ -1,12 +1,12 @@
 import pandas as pd
-import tokencost
+import tokencostauto
 from decimal import Decimal
 import json
 import re
 
 # Update model_prices.json with the latest costs from the LiteLLM cost tracker
 print("Fetching latest prices...")
-tokencost.refresh_prices(write_file=False)
+tokencostauto.refresh_prices(write_file=False)
 
 
 def diff_dicts(dict1, dict2):
@@ -27,20 +27,20 @@ def diff_dicts(dict1, dict2):
 
 
 # Load the current file for comparison
-with open("tokencost/model_prices.json", "r") as f:
+with open("tokencostauto/model_prices.json", "r") as f:
     model_prices = json.load(f)
 
 # Compare the refreshed TOKEN_COSTS with the file
-if diff_dicts(model_prices, tokencost.TOKEN_COSTS):
+if diff_dicts(model_prices, tokencostauto.TOKEN_COSTS):
     print("Updating model_prices.json")
-    with open("tokencost/model_prices.json", "w") as f:
-        json.dump(tokencost.TOKEN_COSTS, f, indent=4)
+    with open("tokencostauto/model_prices.json", "w") as f:
+        json.dump(tokencostauto.TOKEN_COSTS, f, indent=4)
     print("File updated successfully")
 else:
     print("File is already up to date")
 
 # Load the data
-df = pd.DataFrame(tokencost.TOKEN_COSTS).T
+df = pd.DataFrame(tokencostauto.TOKEN_COSTS).T
 df.loc[df.index[1:], "max_input_tokens"] = (
     df["max_input_tokens"].iloc[1:].apply(lambda x: "{:,.0f}".format(x))
 )

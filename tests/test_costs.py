@@ -3,7 +3,7 @@
 
 import pytest
 from decimal import Decimal
-from tokencost.costs import (
+from tokencostauto.costs import (
     count_message_tokens,
     count_string_tokens,
     calculate_cost_by_tokens,

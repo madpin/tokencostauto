@@ -6,9 +6,9 @@
   <em>Clientside token counting + price estimation for LLM apps and AI agents.</em>
 </p>
 <p align="center">
-    <a href="https://pypi.org/project/tokencost/" target="_blank">
+    <a href="https://pypi.org/project/tokencostauto/" target="_blank">
         <img alt="Python" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-        <img alt="Version" src="https://img.shields.io/pypi/v/tokencost?style=for-the-badge&color=3670A0">
+        <img alt="Version" src="https://img.shields.io/pypi/v/tokencostauto?style=for-the-badge&color=3670A0">
     </a>
 </p>
 <p align="center">
@@ -16,7 +16,7 @@
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 <a href="https://discord.com/invite/FagdcwwXRR">📢 Discord</a>
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="https://agentops.ai/?tokencost">🖇️ AgentOps</a>
+<a href="https://agentops.ai/?tokencostauto">🖇️ AgentOps</a>
 </p>
 
 
@@ -26,7 +26,7 @@
 
 Tokencost helps calculate the USD cost of using major Large Language Model (LLMs) APIs by calculating the estimated cost of prompts and completions.
 
-Building AI agents? Check out [AgentOps](https://agentops.ai/?tokencost)
+Building AI agents? Check out [AgentOps](https://agentops.ai/?tokencostauto)
 
 
 ### Features
@@ -37,7 +37,7 @@ Building AI agents? Check out [AgentOps](https://agentops.ai/?tokencost)
 ### Example usage:
 
 ```python
-from tokencost import calculate_prompt_cost, calculate_completion_cost
+from tokencostauto import calculate_prompt_cost, calculate_completion_cost
 
 model = "gpt-3.5-turbo"
 prompt = [{ "role": "user", "content": "Hello world"}]
@@ -52,10 +52,10 @@ print(f"{prompt_cost} + {completion_cost} = {prompt_cost + completion_cost}")
 
 ## Installation
 
-#### Recommended: [PyPI](https://pypi.org/project/tokencost/):
+#### Recommended: [PyPI](https://pypi.org/project/tokencostauto/):
 
 ```bash
-pip install tokencost
+pip install tokencostauto
 ```
 
 ## Usage
@@ -84,7 +84,7 @@ print(f"{prompt_cost} + {completion_cost} = {prompt_cost + completion_cost}")
 
 **Calculating cost using string prompts instead of messages:**
 ```python
-from tokencost import calculate_prompt_cost
+from tokencostauto import calculate_prompt_cost
 
 prompt_string = "Hello world" 
 response = "How may I assist you today?"
@@ -92,13 +92,13 @@ model= "gpt-3.5-turbo"
 
 prompt_cost = calculate_prompt_cost(prompt_string, model)
 print(f"Cost: ${prompt_cost}")
-# Cost: $3e-06
+# Cost: $3e-06tokencostauto
 ```
 
 **Counting tokens**
 
 ```python
-from tokencost import count_message_tokens, count_string_tokens
+from tokencostauto import count_message_tokens, count_string_tokens
 
 message_prompt = [{ "role": "user", "content": "Hello world"}]
 # Counting tokens in prompts formatted as message lists
@@ -1163,7 +1163,7 @@ This repo also supports `tox`, simply run `python -m tox`.
 
 ## Contributing
 
-Contributions to TokenCost are welcome! Feel free to create an [issue](https://github.com/AgentOps-AI/tokencost/issues) for any bug reports, complaints, or feature suggestions.
+Contributions to TokenCost are welcome! Feel free to create an [issue](https://github.com/AgentOps-AI/tokencostauto/issues) for any bug reports, complaints, or feature suggestions.
 
 ## License
 

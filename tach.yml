@@ -1,17 +1,17 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/gauge-sh/tach/v0.6.9/public/tach-yml-schema.json
 modules:
-  - path: tokencost
+  - path: tokencostauto
     depends_on:
-      - tokencost.constants
-      - tokencost.costs
-  - path: tokencost.constants
+      - tokencostauto.constants
+      - tokencostauto.costs
+  - path: tokencostauto.constants
     depends_on: []
   - path: tokencost.costs
     depends_on:
-      - tokencost.constants
+      - tokencostauto.constants
   - path: update_prices
     depends_on:
-      - tokencost
+      - tokencostauto
 exclude:
   - .*__pycache__
   - .*egg-info

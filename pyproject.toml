@@ -6,15 +6,16 @@ build-backend = "setuptools.build_meta"
 include-package-data = true
 
 [tool.setuptools.package-data]
-tokencost = ["model_prices.json"]
+tokencostauto = ["model_prices.json"]
 
 [project]
-name = "tokencost"
+name = "tokencostauto"
 version = "0.1.22"
 authors = [
   { name = "Trisha Pan", email = "trishaepan@gmail.com" },
   { name = "Alex Reibman", email = "areibman@gmail.com" },
   { name = "Pratyush Shukla", email = "ps4534@nyu.edu" },
+  { name = "Thiago MadPin", email = "madpin@gmail.com" },
 ]
 description = "To calculate token and translated USD cost of string and message calls to OpenAI, for example when used by AI agents"
 readme = "README.md"
@@ -41,5 +42,5 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/AgentOps-AI/tokencost"
-Issues = "https://github.com/AgentOps-AI/tokencost/issues"
+Homepage = "https://github.com/madpin/tokencostaudo"
+Issues = "https://github.com/madpin/tokencostauto/issues"
