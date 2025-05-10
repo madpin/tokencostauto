@@ -11,9 +11,17 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      id-token: write
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Set up Git config
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -24,6 +32,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -e ".[dev]"
+        pip install build semver
         
     - name: Update prices
       run: python update_prices.py
@@ -36,38 +45,45 @@ jobs:
         
     - name: Get current date
       id: date
-      run: echo "date=$(date +'%d-%m-%Y')" >> $GITHUB_OUTPUT
-        
-    - name: Show status
-      run: |
-        if [ "${{ steps.git-check.outputs.changed }}" -gt "0" ]; then
-          echo "Changes detected - will create PR"
-          git status
-        else
-          echo "No changes detected - skipping PR creation"
-        fi
+      run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
       
-    - name: Create Pull Request
+    - name: Bump package version
       if: steps.git-check.outputs.changed > 0
-      uses: peter-evans/create-pull-request@v5
+      id: bump-version
+      run: |
+        # Read current version from pyproject.toml
+        CURRENT_VERSION=$(grep 'version = ' pyproject.toml | sed 's/version = "\(.*\)"/\1/')
+        echo "Current version: $CURRENT_VERSION"
+        
+        # Increment patch version
+        NEW_VERSION=$(python -c "import semver; print(semver.VersionInfo.parse('$CURRENT_VERSION').bump_patch())")
+        echo "New version: $NEW_VERSION"
+        
+        # Update pyproject.toml with new version
+        sed -i "s/version = \"$CURRENT_VERSION\"/version = \"$NEW_VERSION\"/" pyproject.toml
+        
+        # Save new version for later use
+        echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+        
+    - name: Commit and push changes
+      if: steps.git-check.outputs.changed > 0
+      run: |
+        git add .
+        git commit -m "chore: Update token prices (${{ steps.date.outputs.date }})"
+        git push origin HEAD:main
+        
+    - name: Create Release
+      if: steps.git-check.outputs.changed > 0
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        commit-message: "chore: Update token prices (${{ steps.date.outputs.date }})"
-        title: "chore: Daily token price update (${{ steps.date.outputs.date }})"
+        tag_name: v${{ steps.bump-version.outputs.new_version }}
+        release_name: Release v${{ steps.bump-version.outputs.new_version }}
         body: |
-          GitHub Action to update token prices
+          Automated release for price updates on ${{ steps.date.outputs.date }}
           
-          This PR updates the token prices based on the latest data.
-          
-          Changes detected:
-          ```
-          ${{ steps.git-check.outputs.changed }} files modified
-          ```
-        branch: automated/price-updates-${{ steps.date.outputs.date }}
-        base: main
-        delete-branch: true
+          This release contains updated token prices from the latest API data.
         draft: false
-        reviewers: |
-          the-praxs
-        labels: |
-          automated
-          prices 
+        prerelease: false 
