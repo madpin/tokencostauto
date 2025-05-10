@@ -53,7 +53,7 @@ jobs:
       id: bump-version
       run: |
         # Call the bump_version.py script
-        NEW_VERSION=$(python bump_version.py patch)
+        NEW_VERSION=$(python bump_version.py patch | tail -n 1)
         echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
         
     - name: Commit and push changes
@@ -77,6 +77,26 @@ jobs:
       if: steps.git-check.outputs.changed > 0
       run: python -m build
       
+    - name: Check built distributions
+      if: steps.git-check.outputs.changed > 0
+      run: |
+        python -m pip install --upgrade twine
+        twine check dist/*
+        ls -la dist/
+    
+    - name: Upload dists to GitHub Release
+      if: steps.git-check.outputs.changed > 0
+      uses: softprops/action-gh-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        files: dist/*
+        tag_name: v${{ steps.bump-version.outputs.new_version }}
+        name: Release v${{ steps.bump-version.outputs.new_version }}
+        body: |
+          Automated release for price updates on ${{ steps.date.outputs.date }}
+          This release contains updated token prices from the latest API data.
+          
     - name: Publish package to PyPI
       if: steps.git-check.outputs.changed > 0
       uses: pypa/gh-action-pypi-publish@release/v1
