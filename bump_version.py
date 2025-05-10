@@ -68,4 +68,5 @@ def bump_version(bump_type='patch'):
 
 if __name__ == "__main__":
     bump_type = sys.argv[1] if len(sys.argv) > 1 else 'patch'
-    bump_version(bump_type)
+    new_version = bump_version(bump_type)
+    print(new_version)  # Print to stdout for GitHub Actions to capture

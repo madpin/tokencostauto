@@ -1,4 +1,4 @@
-name: Daily Price Updates
+name: Daily Price Update and Publish
 
 on:
   schedule:
@@ -52,18 +52,8 @@ jobs:
       if: steps.git-check.outputs.changed > 0
       id: bump-version
       run: |
-        # Read current version from pyproject.toml
-        CURRENT_VERSION=$(grep 'version = ' pyproject.toml | sed 's/version = "\(.*\)"/\1/')
-        echo "Current version: $CURRENT_VERSION"
-        
-        # Increment patch version
-        NEW_VERSION=$(python -c "import semver; print(semver.VersionInfo.parse('$CURRENT_VERSION').bump_patch())")
-        echo "New version: $NEW_VERSION"
-        
-        # Update pyproject.toml with new version
-        sed -i "s/version = \"$CURRENT_VERSION\"/version = \"$NEW_VERSION\"/" pyproject.toml
-        
-        # Save new version for later use
+        # Call the bump_version.py script
+        NEW_VERSION=$(python bump_version.py patch)
         echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
         
     - name: Commit and push changes
@@ -75,7 +65,6 @@ jobs:
         
     - name: Create Release
       if: steps.git-check.outputs.changed > 0
-      id: create_release
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
@@ -92,4 +81,4 @@ jobs:
       if: steps.git-check.outputs.changed > 0
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
-        password: ${{ secrets.PYPI_API_TOKEN }} 
+        password: ${{ secrets.PYPI_API_TOKEN }}
