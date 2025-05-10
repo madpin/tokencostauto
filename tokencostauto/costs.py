@@ -79,7 +79,7 @@ def count_message_tokens(messages: List[Dict[str, str]], model: str) -> int:
     try:
         encoding = tiktoken.encoding_for_model(model)
     except KeyError:
-        logger.warning("Model not found. Using cl100k_base encoding.")
+        logger.info("Model not found. Using cl100k_base encoding.")
         encoding = tiktoken.get_encoding("cl100k_base")
     if model in {
         "gpt-3.5-turbo-0613",
@@ -100,17 +100,22 @@ def count_message_tokens(messages: List[Dict[str, str]], model: str) -> int:
         tokens_per_message = 4
         tokens_per_name = -1  # if there's a name, the role is omitted
     elif "gpt-3.5-turbo" in model:
-        logger.warning(
+        logger.info(
             "gpt-3.5-turbo may update over time. Returning num tokens assuming gpt-3.5-turbo-0613."
         )
         return count_message_tokens(messages, model="gpt-3.5-turbo-0613")
     elif "gpt-4o" in model:
-        logger.warning(
+        logger.info(
             "Warning: gpt-4o may update over time. Returning num tokens assuming gpt-4o-2024-05-13."
         )
         return count_message_tokens(messages, model="gpt-4o-2024-05-13")
+    elif "gpt-4.1" in model:
+        logger.info(
+            "Warning: gpt-4.1 may update over time. Returning num tokens assuming gpt-4o-2024-05-13."
+        )
+        return count_message_tokens(messages, model="gpt-4o-2024-05-13")
     elif "gpt-4" in model:
-        logger.warning(
+        logger.info(
             "gpt-4 may update over time. Returning num tokens assuming gpt-4-0613."
         )
         return count_message_tokens(messages, model="gpt-4-0613")
@@ -154,7 +159,7 @@ def count_string_tokens(prompt: str, model: str) -> int:
     try:
         encoding = tiktoken.encoding_for_model(model)
     except KeyError:
-        logger.warning("Warning: model not found. Using cl100k_base encoding.")
+        logger.info("Warning: model not found. Using cl100k_base encoding.")
         encoding = tiktoken.get_encoding("cl100k_base")
 
     return len(encoding.encode(prompt))
