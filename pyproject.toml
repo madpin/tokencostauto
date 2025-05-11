@@ -21,7 +21,7 @@ authors = [
 ]
 description = "To calculate token and translated USD cost of string and message calls to OpenAI, for example when used by AI agents"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
