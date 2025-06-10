@@ -1074,3 +1074,4 @@
 | azure/codex-mini-latest                                               | $1.5                              | $6                                    | 200,000             |          100000     |
 | gemini-2.5-pro-preview-06-05                                          | $1.25                             | $10                                   | 1,048,576           |           65535     |
 | gemini/gemini-2.5-pro-preview-06-05                                   | $1.25                             | $10                                   | 1,048,576           |           65535     |
+| gpt-4o-audio-preview-2025-06-03                                       | $2.5                              | $10                                   | 128,000             |           16384     |
