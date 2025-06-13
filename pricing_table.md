@@ -1117,3 +1117,5 @@
 | deepgram/whisper-small                                                | --                                | --                                    | nan                 |             nan     |
 | deepgram/whisper-medium                                               | --                                | --                                    | nan                 |             nan     |
 | deepgram/whisper-large                                                | --                                | --                                    | nan                 |             nan     |
+| azure/gpt-4o-transcribe                                               | $2.5                              | $10                                   | 16,000              |            2000     |
+| azure/gpt-4o-mini-transcribe                                          | $1.25                             | $5                                    | 16,000              |            2000     |
