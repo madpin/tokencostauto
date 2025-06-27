@@ -15740,7 +15740,7 @@
         "input_cost_per_token_batches": 1e-05,
         "output_cost_per_token_batches": 4e-05,
         "litellm_provider": "azure",
-        "mode": "chat",
+        "mode": "responses",
         "supported_endpoints": [
             "/v1/chat/completions",
             "/v1/batch",
@@ -15770,7 +15770,7 @@
         "input_cost_per_token_batches": 1e-05,
         "output_cost_per_token_batches": 4e-05,
         "litellm_provider": "azure",
-        "mode": "chat",
+        "mode": "responses",
         "supported_endpoints": [
             "/v1/chat/completions",
             "/v1/batch",
