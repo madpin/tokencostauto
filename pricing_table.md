@@ -1160,3 +1160,4 @@
 | elevenlabs/scribe_v1                                                  | --                                | --                                    | nan                 |             nan     |
 | elevenlabs/scribe_v1_experimental                                     | --                                | --                                    | nan                 |             nan     |
 | azure_ai/cohere-rerank-v3.5                                           | $0                                | $0                                    | 4,096               |            4096     |
+| watsonx/mistralai/mistral-large                                       | $3                                | $10                                   | 131,072             |           16384     |
