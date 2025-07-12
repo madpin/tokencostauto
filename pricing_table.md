@@ -1167,3 +1167,9 @@
 | xai/grok-4                                                            | $3                                | $15                                   | 256,000             |          256000     |
 | xai/grok-4-0709                                                       | $3                                | $15                                   | 256,000             |          256000     |
 | xai/grok-4-latest                                                     | $3                                | $15                                   | 256,000             |          256000     |
+| eu.mistral.pixtral-large-2502-v1:0                                    | $2                                | $6                                    | 128,000             |            4096     |
+| us.mistral.pixtral-large-2502-v1:0                                    | $2                                | $6                                    | 128,000             |            4096     |
+| dashscope/qwen-max                                                    | --                                | --                                    | 30,720              |            8192     |
+| dashscope/qwen-plus-latest                                            | --                                | --                                    | 129,024             |           16384     |
+| dashscope/qwen-turbo-latest                                           | --                                | --                                    | 129,024             |           16384     |
+| dashscope/qwen3-30b-a3b                                               | --                                | --                                    | 129,024             |           16384     |
