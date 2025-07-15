@@ -1173,3 +1173,13 @@
 | dashscope/qwen-plus-latest                                            | --                                | --                                    | 129,024             |           16384     |
 | dashscope/qwen-turbo-latest                                           | --                                | --                                    | 129,024             |           16384     |
 | dashscope/qwen3-30b-a3b                                               | --                                | --                                    | 129,024             |           16384     |
+| jamba-large-1.7                                                       | $2                                | $8                                    | 256,000             |          256000     |
+| jamba-mini-1.7                                                        | $0.2                              | $0.4                                  | 256,000             |          256000     |
+| moonshot/moonshot-v1-8k                                               | --                                | --                                    | 8,192               |            8192     |
+| moonshot/moonshot-v1-32k                                              | --                                | --                                    | 32,768              |           32768     |
+| moonshot/moonshot-v1-128k                                             | --                                | --                                    | 131,072             |          131072     |
+| moonshot/moonshot-v1-auto                                             | --                                | --                                    | 131,072             |          131072     |
+| moonshot/kimi-k2-0711-preview                                         | $0.6                              | $2.5                                  | 131,072             |          131072     |
+| moonshot/moonshot-v1-32k-0430                                         | --                                | --                                    | 32,768              |           32768     |
+| moonshot/moonshot-v1-128k-0430                                        | --                                | --                                    | 131,072             |          131072     |
+| moonshot/moonshot-v1-8k-0430                                          | --                                | --                                    | 8,192               |            8192     |
