@@ -8581,7 +8581,7 @@
     },
     "amazon.nova-micro-v1:0": {
         "max_tokens": 10000,
-        "max_input_tokens": 300000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 10000,
         "input_cost_per_token": 3.5e-08,
         "output_cost_per_token": 1.4e-07,
@@ -8593,7 +8593,7 @@
     },
     "amazon.nova-lite-v1:0": {
         "max_tokens": 10000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 300000,
         "max_output_tokens": 10000,
         "input_cost_per_token": 6e-08,
         "output_cost_per_token": 2.4e-07,
@@ -9408,7 +9408,7 @@
     },
     "us.amazon.nova-micro-v1:0": {
         "max_tokens": 10000,
-        "max_input_tokens": 300000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 10000,
         "input_cost_per_token": 3.5e-08,
         "output_cost_per_token": 1.4e-07,
@@ -9420,7 +9420,7 @@
     },
     "us.amazon.nova-lite-v1:0": {
         "max_tokens": 10000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 300000,
         "max_output_tokens": 10000,
         "input_cost_per_token": 6e-08,
         "output_cost_per_token": 2.4e-07,
@@ -10492,7 +10492,7 @@
     },
     "eu.amazon.nova-micro-v1:0": {
         "max_tokens": 10000,
-        "max_input_tokens": 300000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 10000,
         "input_cost_per_token": 4.6e-08,
         "output_cost_per_token": 1.84e-07,
@@ -10504,7 +10504,7 @@
     },
     "eu.amazon.nova-lite-v1:0": {
         "max_tokens": 10000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 300000,
         "max_output_tokens": 10000,
         "input_cost_per_token": 7.8e-08,
         "output_cost_per_token": 3.12e-07,
@@ -12974,6 +12974,8 @@
         ]
     },
     "together_ai/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8": {
+        "input_cost_per_token": 2.7e-07,
+        "output_cost_per_token": 8.5e-07,
         "litellm_provider": "together_ai",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
@@ -12981,6 +12983,8 @@
         "supports_tool_choice": true
     },
     "together_ai/meta-llama/Llama-4-Scout-17B-16E-Instruct": {
+        "input_cost_per_token": 1.8e-07,
+        "output_cost_per_token": 5.9e-07,
         "litellm_provider": "together_ai",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
@@ -13009,6 +13013,8 @@
         "supports_tool_choice": true
     },
     "together_ai/deepseek-ai/DeepSeek-V3": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 1.25e-06,
         "litellm_provider": "together_ai",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
@@ -15634,7 +15640,7 @@
     },
     "apac.amazon.nova-micro-v1:0": {
         "max_tokens": 10000,
-        "max_input_tokens": 300000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 10000,
         "input_cost_per_token": 3.7e-08,
         "output_cost_per_token": 1.48e-07,
@@ -15646,7 +15652,7 @@
     },
     "apac.amazon.nova-lite-v1:0": {
         "max_tokens": 10000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 300000,
         "max_output_tokens": 10000,
         "input_cost_per_token": 6.3e-08,
         "output_cost_per_token": 2.52e-07,
@@ -16357,5 +16363,36 @@
         "supports_tool_choice": true,
         "mode": "chat",
         "source": "https://platform.moonshot.ai/docs/pricing"
+    },
+    "groq/moonshotai-kimi-k2-instruct": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": 1e-06,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+    },
+    "together_ai/deepseek-ai/DeepSeek-R1": {
+        "input_cost_per_token": 3e-06,
+        "output_cost_per_token": 7e-06,
+        "litellm_provider": "together_ai",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "mode": "chat",
+        "supports_tool_choice": true
+    },
+    "together_ai/moonshotai/Kimi-K2-Instruct": {
+        "input_cost_per_token": 1e-06,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "together_ai",
+        "supports_function_calling": true,
+        "supports_tool_choice": true,
+        "supports_parallel_function_calling": true,
+        "mode": "chat",
+        "source": "https://www.together.ai/models/kimi-k2-instruct"
     }
 }
