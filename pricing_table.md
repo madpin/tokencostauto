@@ -1186,3 +1186,8 @@
 | groq/moonshotai-kimi-k2-instruct                                      | $1                                | $3                                    | 131,072             |           16384     |
 | together_ai/deepseek-ai/DeepSeek-R1                                   | $3                                | $7                                    | nan                 |             nan     |
 | together_ai/moonshotai/Kimi-K2-Instruct                               | $1                                | $3                                    | nan                 |             nan     |
+| azure_ai/grok-3                                                       | $3.3                              | $16.5                                 | 131,072             |          131072     |
+| azure_ai/global/grok-3                                                | $3                                | $15                                   | 131,072             |          131072     |
+| azure_ai/global/grok-3-mini                                           | $0.25                             | $1.27                                 | 131,072             |          131072     |
+| azure_ai/grok-3-mini                                                  | $0.28                             | $1.38                                 | 131,072             |          131072     |
+| azure_ai/jais-30b-chat                                                | $3200                             | $9710                                 | 8,192               |            8192     |
