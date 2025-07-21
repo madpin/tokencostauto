@@ -11,7 +11,7 @@ tokencostauto = ["model_prices.json"]
 [project]
 
 name = "tokencostauto"
-version = "0.1.141"
+version = "0.1.142"
 
 authors = [
     { name = "Trisha Pan", email = "trishaepan@gmail.com" },
