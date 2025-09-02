@@ -1576,3 +1576,10 @@
 | vercel_ai_gateway/moonshotai/kimi-k2                                  | $0.55                             | $2.2                                  | 131,072             |     16384           |
 | vercel_ai_gateway/alibaba/qwen-3-32b                                  | $0.1                              | $0.3                                  | 40,960              |     16384           |
 | vercel_ai_gateway/openai/gpt-4.1                                      | $2                                | $8                                    | 1,047,576           |     32768           |
+| openrouter/openai/gpt-4.1                                             | $2                                | $8                                    | 1,047,576           |     32768           |
+| openrouter/openai/gpt-4.1-2025-04-14                                  | $2                                | $8                                    | 1,047,576           |     32768           |
+| openrouter/openai/gpt-4.1-mini                                        | $0.4                              | $1.6                                  | 1,047,576           |     32768           |
+| openrouter/openai/gpt-4.1-mini-2025-04-14                             | $0.4                              | $1.6                                  | 1,047,576           |     32768           |
+| openrouter/openai/gpt-4.1-nano                                        | $0.1                              | $0.4                                  | 1,047,576           |     32768           |
+| openrouter/openai/gpt-4.1-nano-2025-04-14                             | $0.1                              | $0.4                                  | 1,047,576           |     32768           |
+| together_ai/deepseek-ai/DeepSeek-V3.1                                 | $0.6                              | $1.7                                  | nan                 |       nan           |
