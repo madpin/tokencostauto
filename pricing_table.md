@@ -1583,3 +1583,5 @@
 | openrouter/openai/gpt-4.1-nano                                        | $0.1                              | $0.4                                  | 1,047,576           |     32768           |
 | openrouter/openai/gpt-4.1-nano-2025-04-14                             | $0.1                              | $0.4                                  | 1,047,576           |     32768           |
 | together_ai/deepseek-ai/DeepSeek-V3.1                                 | $0.6                              | $1.7                                  | nan                 |       nan           |
+| vertex_ai/openai/gpt-oss-20b-maas                                     | $0.08                             | $0.3                                  | 131,072             |     32768           |
+| vertex_ai/openai/gpt-oss-120b-maas                                    | $0.15                             | $0.6                                  | 131,072             |     32768           |
