@@ -1585,3 +1585,9 @@
 | together_ai/deepseek-ai/DeepSeek-V3.1                                 | $0.6                              | $1.7                                  | nan                 |       nan           |
 | vertex_ai/openai/gpt-oss-20b-maas                                     | $0.08                             | $0.3                                  | 131,072             |     32768           |
 | vertex_ai/openai/gpt-oss-120b-maas                                    | $0.15                             | $0.6                                  | 131,072             |     32768           |
+| gemini/veo-3.0-generate-preview                                       | --                                | --                                    | 1,024               |       nan           |
+| gemini/veo-3.0-fast-generate-preview                                  | --                                | --                                    | 1,024               |       nan           |
+| gemini/veo-2.0-generate-001                                           | --                                | --                                    | 1,024               |       nan           |
+| vertex_ai/veo-3.0-generate-preview                                    | --                                | --                                    | 1,024               |       nan           |
+| vertex_ai/veo-3.0-fast-generate-preview                               | --                                | --                                    | 1,024               |       nan           |
+| vertex_ai/veo-2.0-generate-001                                        | --                                | --                                    | 1,024               |       nan           |
