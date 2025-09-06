@@ -1591,3 +1591,8 @@
 | vertex_ai/veo-3.0-generate-preview                                    | --                                | --                                    | 1,024               |       nan           |
 | vertex_ai/veo-3.0-fast-generate-preview                               | --                                | --                                    | 1,024               |       nan           |
 | vertex_ai/veo-2.0-generate-001                                        | --                                | --                                    | 1,024               |       nan           |
+| doubao-embedding-large                                                | $0                                | $0                                    | 4,096               |       nan           |
+| doubao-embedding-large-text-250515                                    | $0                                | $0                                    | 4,096               |       nan           |
+| doubao-embedding-large-text-240915                                    | $0                                | $0                                    | 4,096               |       nan           |
+| doubao-embedding                                                      | $0                                | $0                                    | 4,096               |       nan           |
+| doubao-embedding-text-240715                                          | $0                                | $0                                    | 4,096               |       nan           |
