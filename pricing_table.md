@@ -1596,3 +1596,7 @@
 | doubao-embedding-large-text-240915                                    | $0                                | $0                                    | 4,096               |       nan           |
 | doubao-embedding                                                      | $0                                | $0                                    | 4,096               |       nan           |
 | doubao-embedding-text-240715                                          | $0                                | $0                                    | 4,096               |       nan           |
+| heroku/claude-4-sonnet                                                | --                                | --                                    | nan                 |       nan           |
+| heroku/claude-3-7-sonnet                                              | --                                | --                                    | nan                 |       nan           |
+| heroku/claude-3-5-sonnet-latest                                       | --                                | --                                    | nan                 |       nan           |
+| heroku/claude-3-5-haiku                                               | --                                | --                                    | nan                 |       nan           |
