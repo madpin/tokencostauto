@@ -1600,3 +1600,4 @@
 | heroku/claude-3-7-sonnet                                              | --                                | --                                    | nan                 |       nan           |
 | heroku/claude-3-5-sonnet-latest                                       | --                                | --                                    | nan                 |       nan           |
 | heroku/claude-3-5-haiku                                               | --                                | --                                    | nan                 |       nan           |
+| together_ai/openai/gpt-oss-20b                                        | $0.05                             | $0.2                                  | 128,000             |       nan           |
