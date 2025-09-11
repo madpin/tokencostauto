@@ -19081,8 +19081,7 @@
         "output_cost_per_token": 8.9e-07,
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_tool_choice": true,
-        "supports_reasoning": true
+        "supports_tool_choice": true
     },
     "deepinfra/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo": {
         "max_tokens": 131072,
@@ -19112,8 +19111,7 @@
         "output_cost_per_token": 3e-06,
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_tool_choice": true,
-        "supports_reasoning": true
+        "supports_tool_choice": true
     },
     "deepinfra/Qwen/Qwen2-7B-Instruct": {
         "max_tokens": 32768,
@@ -19201,10 +19199,10 @@
         "max_output_tokens": 163840,
         "input_cost_per_token": 2.8e-07,
         "output_cost_per_token": 8.8e-07,
+        "cache_read_input_token_cost": 2.24e-07,
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_tool_choice": true,
-        "supports_reasoning": true
+        "supports_tool_choice": true
     },
     "deepinfra/anthropic/claude-3-7-sonnet-latest": {
         "max_tokens": 200000,
@@ -19212,6 +19210,7 @@
         "max_output_tokens": 200000,
         "input_cost_per_token": 3.3e-06,
         "output_cost_per_token": 1.65e-05,
+        "cache_read_input_token_cost": 3.3e-07,
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_tool_choice": true
@@ -19365,7 +19364,7 @@
         "output_cost_per_token": 2.8e-07,
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_tool_choice": true
+        "supports_tool_choice": false
     },
     "deepinfra/deepseek-ai/DeepSeek-R1-Distill-Llama-70B": {
         "max_tokens": 131072,
@@ -19375,8 +19374,7 @@
         "output_cost_per_token": 4e-07,
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_tool_choice": false,
-        "supports_reasoning": true
+        "supports_tool_choice": false
     },
     "deepinfra/meta-llama/Llama-Guard-3-8B": {
         "max_tokens": 131072,
@@ -19512,12 +19510,12 @@
         "max_tokens": 163840,
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
-        "input_cost_per_token": 3e-07,
+        "input_cost_per_token": 2.7e-07,
         "output_cost_per_token": 1e-06,
+        "cache_read_input_token_cost": 2.16e-07,
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_tool_choice": false,
-        "supports_reasoning": true
+        "supports_tool_choice": true
     },
     "deepinfra/Qwen/Qwen2.5-Coder-7B": {
         "max_tokens": 32768,
@@ -19604,8 +19602,8 @@
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": 7.5e-08,
-        "output_cost_per_token": 1.5e-07,
+        "input_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 4e-07,
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_tool_choice": true
@@ -19664,12 +19662,11 @@
         "max_tokens": 163840,
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
-        "input_cost_per_token": 4.5e-07,
-        "output_cost_per_token": 2.15e-06,
+        "input_cost_per_token": 7e-07,
+        "output_cost_per_token": 2.4e-06,
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_tool_choice": true,
-        "supports_reasoning": true
+        "supports_tool_choice": true
     },
     "deepinfra/mistralai/Mistral-7B-Instruct-v0.3": {
         "max_tokens": 32768,
@@ -19759,8 +19756,7 @@
         "output_cost_per_token": 1.5e-07,
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_tool_choice": true,
-        "supports_reasoning": true
+        "supports_tool_choice": true
     },
     "deepinfra/openai/gpt-oss-120b": {
         "max_tokens": 131072,
@@ -19788,6 +19784,7 @@
         "max_output_tokens": 262144,
         "input_cost_per_token": 3e-07,
         "output_cost_per_token": 1.2e-06,
+        "cache_read_input_token_cost": 2.4e-07,
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_tool_choice": true
@@ -19928,21 +19925,20 @@
         "max_output_tokens": 163840,
         "input_cost_per_token": 5e-07,
         "output_cost_per_token": 2.15e-06,
+        "cache_read_input_token_cost": 4e-07,
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_tool_choice": true,
-        "supports_reasoning": true
+        "supports_tool_choice": true
     },
     "deepinfra/deepseek-ai/DeepSeek-R1-Turbo": {
-        "max_tokens": 163840,
-        "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 40960,
         "input_cost_per_token": 1e-06,
         "output_cost_per_token": 3e-06,
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_tool_choice": true,
-        "supports_reasoning": true
+        "supports_tool_choice": true
     },
     "deepinfra/NovaSky-AI/Sky-T1-32B-Preview": {
         "max_tokens": 32768,
@@ -20008,8 +20004,8 @@
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": 2e-08,
-        "output_cost_per_token": 4e-08,
+        "input_cost_per_token": 4e-08,
+        "output_cost_per_token": 8e-08,
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_tool_choice": true
