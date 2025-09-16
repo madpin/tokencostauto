@@ -1634,3 +1634,4 @@
 | ovhcloud/Mistral-Nemo-Instruct-2407                                   | $0.13                             | $0.13                                 | 118,000             |    118000           |
 | ovhcloud/Qwen3-32B                                                    | $0.08                             | $0.23                                 | 32,000              |     32000           |
 | ovhcloud/mamba-codestral-7B-v0.1                                      | $0.19                             | $0.19                                 | 256,000             |    256000           |
+| bedrock/us.anthropic.claude-3-5-haiku-20241022-v1:0                   | $0.8                              | $4                                    | 200,000             |      8192           |
