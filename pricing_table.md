@@ -1635,3 +1635,9 @@
 | ovhcloud/Qwen3-32B                                                    | $0.08                             | $0.23                                 | 32,000              |     32000           |
 | ovhcloud/mamba-codestral-7B-v0.1                                      | $0.19                             | $0.19                                 | 256,000             |    256000           |
 | bedrock/us.anthropic.claude-3-5-haiku-20241022-v1:0                   | $0.8                              | $4                                    | 200,000             |      8192           |
+| twelvelabs.marengo-embed-2-7-v1:0                                     | $70                               | $0                                    | 77                  |       nan           |
+| us.twelvelabs.marengo-embed-2-7-v1:0                                  | $70                               | $0                                    | 77                  |       nan           |
+| eu.twelvelabs.marengo-embed-2-7-v1:0                                  | $70                               | $0                                    | 77                  |       nan           |
+| twelvelabs.pegasus-1-2-v1:0                                           | --                                | $7.5                                  | nan                 |       nan           |
+| us.twelvelabs.pegasus-1-2-v1:0                                        | --                                | $7.5                                  | nan                 |       nan           |
+| eu.twelvelabs.pegasus-1-2-v1:0                                        | --                                | $7.5                                  | nan                 |       nan           |
