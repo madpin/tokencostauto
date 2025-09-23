@@ -1641,3 +1641,17 @@
 | twelvelabs.pegasus-1-2-v1:0                                           | --                                | $7.5                                  | nan                 |       nan           |
 | us.twelvelabs.pegasus-1-2-v1:0                                        | --                                | $7.5                                  | nan                 |       nan           |
 | eu.twelvelabs.pegasus-1-2-v1:0                                        | --                                | $7.5                                  | nan                 |       nan           |
+| wandb/openai/gpt-oss-120b                                             | $15000                            | $60000                                | 131,072             |    131072           |
+| wandb/openai/gpt-oss-20b                                              | $5000                             | $20000                                | 131,072             |    131072           |
+| wandb/zai-org/GLM-4.5                                                 | $55000                            | $200000                               | 131,072             |    131072           |
+| wandb/Qwen/Qwen3-235B-A22B-Instruct-2507                              | $10000                            | $10000                                | 262,144             |    262144           |
+| wandb/Qwen/Qwen3-Coder-480B-A35B-Instruct                             | $100000                           | $150000                               | 262,144             |    262144           |
+| wandb/Qwen/Qwen3-235B-A22B-Thinking-2507                              | $10000                            | $10000                                | 262,144             |    262144           |
+| wandb/moonshotai/Kimi-K2-Instruct                                     | $135000                           | $400000                               | 128,000             |    128000           |
+| wandb/meta-llama/Llama-3.1-8B-Instruct                                | $22000                            | $22000                                | 128,000             |    128000           |
+| wandb/deepseek-ai/DeepSeek-V3.1                                       | $55000                            | $165000                               | 128,000             |    128000           |
+| wandb/deepseek-ai/DeepSeek-R1-0528                                    | $135000                           | $540000                               | 161,000             |    161000           |
+| wandb/deepseek-ai/DeepSeek-V3-0324                                    | $114000                           | $275000                               | 161,000             |    161000           |
+| wandb/meta-llama/Llama-3.3-70B-Instruct                               | $71000                            | $71000                                | 128,000             |    128000           |
+| wandb/meta-llama/Llama-4-Scout-17B-16E-Instruct                       | $17000                            | $66000                                | 64,000              |     64000           |
+| wandb/microsoft/Phi-4-mini-instruct                                   | $8000                             | $35000                                | 128,000             |    128000           |
