@@ -1655,3 +1655,8 @@
 | wandb/meta-llama/Llama-3.3-70B-Instruct                               | $71000                            | $71000                                | 128,000             |    128000           |
 | wandb/meta-llama/Llama-4-Scout-17B-16E-Instruct                       | $17000                            | $66000                                | 64,000              |     64000           |
 | wandb/microsoft/Phi-4-mini-instruct                                   | $8000                             | $35000                                | 128,000             |    128000           |
+| openrouter/x-ai/grok-4-fast:free                                      | $0                                | $0                                    | 2,000,000           |     30000           |
+| vertex_ai/qwen/qwen3-next-80b-a3b-instruct-maas                       | $0.15                             | $1.2                                  | 262,144             |    262144           |
+| vertex_ai/qwen/qwen3-next-80b-a3b-thinking-maas                       | $0.15                             | $1.2                                  | 262,144             |    262144           |
+| xai/grok-4-fast-reasoning                                             | $0.2                              | $0.5                                  | 2,000,000           |         2e+06       |
+| xai/grok-4-fast-non-reasoning                                         | $0.2                              | $0.5                                  | 2,000,000           |         2e+06       |
