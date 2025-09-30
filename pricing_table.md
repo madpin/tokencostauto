@@ -1681,3 +1681,12 @@
 | gemini/gemini-flash-lite-latest                                       | $0.1                              | $0.4                                  | 1,048,576           |     65535           |
 | openrouter/openai/gpt-5-codex                                         | $1.25                             | $10                                   | 272,000             |    128000           |
 | openrouter/openai/gpt-5                                               | $1.25                             | $10                                   | 272,000             |    128000           |
+| anthropic/claude-sonnet-4-5                                           | $3                                | $15                                   | 200,000             |     64000           |
+| claude-sonnet-4-5-20250929                                            | $3                                | $15                                   | 200,000             |     64000           |
+| ollama/deepseek-v3.1:671b-cloud                                       | $0                                | $0                                    | 163,840             |    163840           |
+| ollama/gpt-oss:120b-cloud                                             | $0                                | $0                                    | 131,072             |    131072           |
+| ollama/gpt-oss:20b-cloud                                              | $0                                | $0                                    | 131,072             |    131072           |
+| ollama/qwen3-coder:480b-cloud                                         | $0                                | $0                                    | 262,144             |    262144           |
+| us.anthropic.claude-sonnet-4-5-20250929-v1:0                          | $3                                | $15                                   | 200,000             |     64000           |
+| vertex_ai/claude-sonnet-4-5                                           | $3                                | $15                                   | 200,000             |     64000           |
+| vertex_ai/claude-sonnet-4-5@20250929                                  | $3                                | $15                                   | 200,000             |     64000           |
