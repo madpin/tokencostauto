@@ -1690,3 +1690,6 @@
 | us.anthropic.claude-sonnet-4-5-20250929-v1:0                          | $3                                | $15                                   | 200,000             |     64000           |
 | vertex_ai/claude-sonnet-4-5                                           | $3                                | $15                                   | 200,000             |     64000           |
 | vertex_ai/claude-sonnet-4-5@20250929                                  | $3                                | $15                                   | 200,000             |     64000           |
+| claude-sonnet-4-5                                                     | $3                                | $15                                   | 200,000             |     64000           |
+| lemonade/Qwen3-Coder-30B-A3B-Instruct-GGUF                            | $0                                | $0                                    | 32,768              |     32768           |
+| groq/moonshotai/kimi-k2-instruct-0905                                 | $1                                | $3                                    | 262,144             |     16384           |
