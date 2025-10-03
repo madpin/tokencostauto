@@ -1693,3 +1693,7 @@
 | claude-sonnet-4-5                                                     | $3                                | $15                                   | 200,000             |     64000           |
 | lemonade/Qwen3-Coder-30B-A3B-Instruct-GGUF                            | $0                                | $0                                    | 32,768              |     32768           |
 | groq/moonshotai/kimi-k2-instruct-0905                                 | $1                                | $3                                    | 262,144             |     16384           |
+| azure_ai/grok-4                                                       | $5.5                              | $27.5                                 | 131,072             |    131072           |
+| azure_ai/grok-4-fast-non-reasoning                                    | $5                                | $2500                                 | 131,072             |    131072           |
+| azure_ai/grok-4-fast-reasoning                                        | $5.8                              | $2900                                 | 131,072             |    131072           |
+| azure_ai/grok-code-fast-1                                             | $3.5                              | $17.5                                 | 131,072             |    131072           |
