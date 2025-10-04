@@ -1697,3 +1697,6 @@
 | azure_ai/grok-4-fast-non-reasoning                                    | $5                                | $2500                                 | 131,072             |    131072           |
 | azure_ai/grok-4-fast-reasoning                                        | $5.8                              | $2900                                 | 131,072             |    131072           |
 | azure_ai/grok-code-fast-1                                             | $3.5                              | $17.5                                 | 131,072             |    131072           |
+| eu.anthropic.claude-sonnet-4-5-20250929-v1:0                          | $3                                | $15                                   | 200,000             |     64000           |
+| nvidia_nim/nvidia/nv-rerankqa-mistral-4b-v3                           | $0                                | $0                                    | nan                 |       nan           |
+| nvidia_nim/nvidia/llama-3_2-nv-rerankqa-1b-v2                         | $0                                | $0                                    | nan                 |       nan           |
