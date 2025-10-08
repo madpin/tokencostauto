@@ -1687,7 +1687,7 @@
 | ollama/gpt-oss:120b-cloud                                             | $0                                | $0                                    | 131,072             |    131072           |
 | ollama/gpt-oss:20b-cloud                                              | $0                                | $0                                    | 131,072             |    131072           |
 | ollama/qwen3-coder:480b-cloud                                         | $0                                | $0                                    | 262,144             |    262144           |
-| us.anthropic.claude-sonnet-4-5-20250929-v1:0                          | $3                                | $15                                   | 200,000             |     64000           |
+| us.anthropic.claude-sonnet-4-5-20250929-v1:0                          | $33                               | $16.5                                 | 200,000             |     64000           |
 | vertex_ai/claude-sonnet-4-5                                           | $3                                | $15                                   | 200,000             |     64000           |
 | vertex_ai/claude-sonnet-4-5@20250929                                  | $3                                | $15                                   | 200,000             |     64000           |
 | claude-sonnet-4-5                                                     | $3                                | $15                                   | 200,000             |     64000           |
@@ -1697,7 +1697,7 @@
 | azure_ai/grok-4-fast-non-reasoning                                    | $0.43                             | $1.73                                 | 131,072             |    131072           |
 | azure_ai/grok-4-fast-reasoning                                        | $0.43                             | $1.73                                 | 131,072             |    131072           |
 | azure_ai/grok-code-fast-1                                             | $3.5                              | $17.5                                 | 131,072             |    131072           |
-| eu.anthropic.claude-sonnet-4-5-20250929-v1:0                          | $3                                | $15                                   | 200,000             |     64000           |
+| eu.anthropic.claude-sonnet-4-5-20250929-v1:0                          | $3.3                              | $16.5                                 | 200,000             |     64000           |
 | nvidia_nim/nvidia/nv-rerankqa-mistral-4b-v3                           | $0                                | $0                                    | nan                 |       nan           |
 | nvidia_nim/nvidia/llama-3_2-nv-rerankqa-1b-v2                         | $0                                | $0                                    | nan                 |       nan           |
 | deepinfra/Qwen/Qwen3-Next-80B-A3B-Instruct                            | $0.14                             | $1.4                                  | 262,144             |    262144           |
@@ -1706,7 +1706,7 @@
 | deepinfra/moonshotai/Kimi-K2-Instruct-0905                            | $0.5                              | $2                                    | 262,144             |    262144           |
 | deepinfra/nvidia/Llama-3.3-Nemotron-Super-49B-v1.5                    | $0.1                              | $0.4                                  | 131,072             |    131072           |
 | deepinfra/nvidia/NVIDIA-Nemotron-Nano-9B-v2                           | $0.04                             | $0.16                                 | 131,072             |    131072           |
-| jp.anthropic.claude-sonnet-4-5-20250929-v1:0                          | $3                                | $15                                   | 200,000             |     64000           |
+| jp.anthropic.claude-sonnet-4-5-20250929-v1:0                          | $3.3                              | $16.5                                 | 200,000             |     64000           |
 | watsonx/bigscience/mt0-xxl-13b                                        | $500                              | $2000                                 | 8,192               |      8192           |
 | watsonx/core42/jais-13b-chat                                          | $500                              | $2000                                 | 8,192               |      8192           |
 | watsonx/google/flan-t5-xl-3b                                          | $100                              | $250                                  | 8,192               |      8192           |
@@ -1732,3 +1732,14 @@
 | watsonx/mistralai/pixtral-12b-2409                                    | $150                              | $150                                  | 128,000             |    128000           |
 | watsonx/openai/gpt-oss-120b                                           | $4000                             | $16000                                | 8,192               |      8192           |
 | watsonx/sdaia/allam-1-13b-instruct                                    | $500                              | $2000                                 | 8,192               |      8192           |
+| global.anthropic.claude-sonnet-4-5-20250929-v1:0                      | $3                                | $15                                   | 200,000             |     64000           |
+| global.anthropic.claude-sonnet-4-20250514-v1:0                        | $3                                | $15                                   | 1,000,000           |     64000           |
+| gpt-5-pro                                                             | $15                               | $120                                  | 400,000             |    272000           |
+| gpt-image-1-mini                                                      | $2                                | --                                    | nan                 |       nan           |
+| gpt-realtime-mini                                                     | $0.6                              | $2.4                                  | 128,000             |      4096           |
+| low/1024-x-1024/gpt-image-1-mini                                      | --                                | --                                    | nan                 |       nan           |
+| low/1024-x-1536/gpt-image-1-mini                                      | --                                | --                                    | nan                 |       nan           |
+| low/1536-x-1024/gpt-image-1-mini                                      | --                                | --                                    | nan                 |       nan           |
+| medium/1024-x-1024/gpt-image-1-mini                                   | --                                | --                                    | nan                 |       nan           |
+| medium/1024-x-1536/gpt-image-1-mini                                   | --                                | --                                    | nan                 |       nan           |
+| medium/1536-x-1024/gpt-image-1-mini                                   | --                                | --                                    | nan                 |       nan           |
