@@ -1743,3 +1743,4 @@
 | medium/1024-x-1024/gpt-image-1-mini                                   | --                                | --                                    | nan                 |       nan           |
 | medium/1024-x-1536/gpt-image-1-mini                                   | --                                | --                                    | nan                 |       nan           |
 | medium/1536-x-1024/gpt-image-1-mini                                   | --                                | --                                    | nan                 |       nan           |
+| cohere.embed-v4:0                                                     | $0.12                             | $0                                    | 128,000             |       nan           |
