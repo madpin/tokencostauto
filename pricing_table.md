@@ -1744,3 +1744,4 @@
 | medium/1024-x-1536/gpt-image-1-mini                                   | --                                | --                                    | nan                 |       nan           |
 | medium/1536-x-1024/gpt-image-1-mini                                   | --                                | --                                    | nan                 |       nan           |
 | cohere.embed-v4:0                                                     | $0.12                             | $0                                    | 128,000             |       nan           |
+| gpt-5-pro-2025-10-06                                                  | $15                               | $120                                  | 400,000             |    272000           |
