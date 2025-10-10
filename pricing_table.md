@@ -1745,3 +1745,6 @@
 | medium/1536-x-1024/gpt-image-1-mini                                   | --                                | --                                    | nan                 |       nan           |
 | cohere.embed-v4:0                                                     | $0.12                             | $0                                    | 128,000             |       nan           |
 | gpt-5-pro-2025-10-06                                                  | $15                               | $120                                  | 400,000             |    272000           |
+| azure_ai/Phi-4-mini-reasoning                                         | $0.08                             | $0.32                                 | 131,072             |      4096           |
+| azure_ai/Phi-4-reasoning                                              | $0.12                             | $0.5                                  | 32,768              |      4096           |
+| azure_ai/MAI-DS-R1                                                    | $1.35                             | $5.4                                  | 128,000             |      8192           |
