@@ -1748,3 +1748,10 @@
 | azure_ai/Phi-4-mini-reasoning                                         | $0.08                             | $0.32                                 | 131,072             |      4096           |
 | azure_ai/Phi-4-reasoning                                              | $0.12                             | $0.5                                  | 32,768              |      4096           |
 | azure_ai/MAI-DS-R1                                                    | $1.35                             | $5.4                                  | 128,000             |      8192           |
+| au.anthropic.claude-sonnet-4-5-20250929-v1:0                          | $3.3                              | $16.5                                 | 200,000             |     64000           |
+| oci/cohere.command-latest                                             | $1.56                             | $1.56                                 | 128,000             |      4000           |
+| oci/cohere.command-a-03-2025                                          | $1.56                             | $1.56                                 | 256,000             |      4000           |
+| oci/cohere.command-plus-latest                                        | $1.56                             | $1.56                                 | 128,000             |      4000           |
+| together_ai/moonshotai/Kimi-K2-Instruct-0905                          | $1                                | $3                                    | 262,144             |       nan           |
+| together_ai/Qwen/Qwen3-Next-80B-A3B-Instruct                          | $0.15                             | $1.5                                  | 262,144             |       nan           |
+| together_ai/Qwen/Qwen3-Next-80B-A3B-Thinking                          | $0.15                             | $1.5                                  | 262,144             |       nan           |
