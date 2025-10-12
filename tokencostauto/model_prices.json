@@ -23429,12 +23429,12 @@
     },
     "us.anthropic.claude-sonnet-4-5-20250929-v1:0": {
         "cache_creation_input_token_cost": 4.125e-06,
-        "cache_read_input_token_cost": 3.3e-06,
-        "input_cost_per_token": 3.3e-05,
-        "input_cost_per_token_above_200k_tokens": 6.6e-05,
+        "cache_read_input_token_cost": 3.3e-07,
+        "input_cost_per_token": 3.3e-06,
+        "input_cost_per_token_above_200k_tokens": 6.6e-06,
         "output_cost_per_token_above_200k_tokens": 2.475e-05,
         "cache_creation_input_token_cost_above_200k_tokens": 8.25e-06,
-        "cache_read_input_token_cost_above_200k_tokens": 6.6e-06,
+        "cache_read_input_token_cost_above_200k_tokens": 6.6e-07,
         "litellm_provider": "bedrock_converse",
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
@@ -24419,5 +24419,21 @@
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_tool_choice": true
+    },
+    "together_ai/baai/bge-base-en-v1.5": {
+        "input_cost_per_token": 8e-09,
+        "litellm_provider": "together_ai",
+        "max_input_tokens": 512,
+        "mode": "embedding",
+        "output_cost_per_token": 0.0,
+        "output_vector_size": 768
+    },
+    "together_ai/BAAI/bge-base-en-v1.5": {
+        "input_cost_per_token": 8e-09,
+        "litellm_provider": "together_ai",
+        "max_input_tokens": 512,
+        "mode": "embedding",
+        "output_cost_per_token": 0.0,
+        "output_vector_size": 768
     }
 }

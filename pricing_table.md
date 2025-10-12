@@ -1687,7 +1687,7 @@
 | ollama/gpt-oss:120b-cloud                                             | $0                                | $0                                    | 131,072             |    131072           |
 | ollama/gpt-oss:20b-cloud                                              | $0                                | $0                                    | 131,072             |    131072           |
 | ollama/qwen3-coder:480b-cloud                                         | $0                                | $0                                    | 262,144             |    262144           |
-| us.anthropic.claude-sonnet-4-5-20250929-v1:0                          | $33                               | $16.5                                 | 200,000             |     64000           |
+| us.anthropic.claude-sonnet-4-5-20250929-v1:0                          | $3.3                              | $16.5                                 | 200,000             |     64000           |
 | vertex_ai/claude-sonnet-4-5                                           | $3                                | $15                                   | 200,000             |     64000           |
 | vertex_ai/claude-sonnet-4-5@20250929                                  | $3                                | $15                                   | 200,000             |     64000           |
 | claude-sonnet-4-5                                                     | $3                                | $15                                   | 200,000             |     64000           |
@@ -1755,3 +1755,5 @@
 | together_ai/moonshotai/Kimi-K2-Instruct-0905                          | $1                                | $3                                    | 262,144             |       nan           |
 | together_ai/Qwen/Qwen3-Next-80B-A3B-Instruct                          | $0.15                             | $1.5                                  | 262,144             |       nan           |
 | together_ai/Qwen/Qwen3-Next-80B-A3B-Thinking                          | $0.15                             | $1.5                                  | 262,144             |       nan           |
+| together_ai/baai/bge-base-en-v1.5                                     | $0.01                             | $0                                    | 512                 |       nan           |
+| together_ai/BAAI/bge-base-en-v1.5                                     | $0.01                             | $0                                    | 512                 |       nan           |
