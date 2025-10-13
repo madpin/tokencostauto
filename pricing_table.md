@@ -1067,7 +1067,7 @@
 | cerebras/qwen-3-32b                                                   | $0.4                              | $0.8                                  | 128,000             |    128000           |
 | gemini-embedding-001                                                  | $0.15                             | $0                                    | 2,048               |       nan           |
 | claude-4-opus-20250514                                                | $15                               | $75                                   | 200,000             |     32000           |
-| claude-4-sonnet-20250514                                              | $3                                | $15                                   | 1,000,000           |         1e+06       |
+| claude-4-sonnet-20250514                                              | $3                                | $15                                   | 1,000,000           |     64000           |
 | fireworks_ai/accounts/fireworks/models/llama-v3p2-90b-vision-instruct | $0.9                              | $0.9                                  | 16,384              |     16384           |
 | fireworks_ai/accounts/fireworks/models/deepseek-r1-0528               | $3                                | $8                                    | 160,000             |    160000           |
 | codex-mini-latest                                                     | $1.5                              | $6                                    | 200,000             |    100000           |
