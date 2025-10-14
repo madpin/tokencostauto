@@ -1757,3 +1757,4 @@
 | together_ai/Qwen/Qwen3-Next-80B-A3B-Thinking                          | $0.15                             | $1.5                                  | 262,144             |       nan           |
 | together_ai/baai/bge-base-en-v1.5                                     | $0.01                             | $0                                    | 512                 |       nan           |
 | together_ai/BAAI/bge-base-en-v1.5                                     | $0.01                             | $0                                    | 512                 |       nan           |
+| openrouter/anthropic/claude-sonnet-4.5                                | $3                                | $15                                   | 1,000,000           |         1e+06       |
