@@ -1780,3 +1780,6 @@
 | global.anthropic.claude-haiku-4-5-20251001-v1:0                       | $1                                | $5                                    | 200,000             |      8192           |
 | au.anthropic.claude-haiku-4-5-20251001-v1:0                           | $1.1                              | $5.5                                  | 200,000             |      8192           |
 | vercel_ai_gateway/glm-4.6                                             | $0.6                              | $2.2                                  | 200,000             |    200000           |
+| azure/speech/azure-tts                                                | --                                | --                                    | nan                 |       nan           |
+| azure/speech/azure-tts-hd                                             | --                                | --                                    | nan                 |       nan           |
+| bedrock/us-gov-west-1/anthropic.claude-3-7-sonnet-20240620-v1:0       | $3.6                              | $18                                   | 200,000             |      8192           |
