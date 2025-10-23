@@ -1783,3 +1783,5 @@
 | azure/speech/azure-tts                                                | --                                | --                                    | nan                 |       nan           |
 | azure/speech/azure-tts-hd                                             | --                                | --                                    | nan                 |       nan           |
 | bedrock/us-gov-west-1/anthropic.claude-3-7-sonnet-20240620-v1:0       | $3.6                              | $18                                   | 200,000             |      8192           |
+| anthropic.claude-3-7-sonnet-20240620-v1:0                             | $3.6                              | $18                                   | 200,000             |      8192           |
+| bedrock/us-gov-west-1/anthropic.claude-3-7-sonnet-20250219-v1:0       | $3.6                              | $18                                   | 200,000             |      8192           |
