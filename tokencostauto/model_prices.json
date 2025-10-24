@@ -24972,5 +24972,60 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true
+    },
+    "dataforseo/search": {
+        "input_cost_per_query": 0.003,
+        "litellm_provider": "dataforseo",
+        "mode": "search"
+    },
+    "exa_ai/search": {
+        "litellm_provider": "exa_ai",
+        "mode": "search",
+        "tiered_pricing": [
+            {
+                "input_cost_per_query": 0.005,
+                "max_results_range": [
+                    0,
+                    25
+                ]
+            },
+            {
+                "input_cost_per_query": 0.025,
+                "max_results_range": [
+                    26,
+                    100
+                ]
+            }
+        ]
+    },
+    "perplexity/search": {
+        "input_cost_per_query": 0.005,
+        "litellm_provider": "perplexity",
+        "mode": "search"
+    },
+    "google_pse/search": {
+        "input_cost_per_query": 0.005,
+        "litellm_provider": "google_pse",
+        "mode": "search"
+    },
+    "parallel_ai/search": {
+        "input_cost_per_query": 0.004,
+        "litellm_provider": "parallel_ai",
+        "mode": "search"
+    },
+    "parallel_ai/search-pro": {
+        "input_cost_per_query": 0.009,
+        "litellm_provider": "parallel_ai",
+        "mode": "search"
+    },
+    "tavily/search": {
+        "input_cost_per_query": 0.008,
+        "litellm_provider": "tavily",
+        "mode": "search"
+    },
+    "tavily/search-advanced": {
+        "input_cost_per_query": 0.016,
+        "litellm_provider": "tavily",
+        "mode": "search"
     }
 }

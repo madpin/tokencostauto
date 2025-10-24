@@ -1785,3 +1785,11 @@
 | bedrock/us-gov-west-1/anthropic.claude-3-7-sonnet-20240620-v1:0       | $3.6                              | $18                                   | 200,000             |      8192           |
 | anthropic.claude-3-7-sonnet-20240620-v1:0                             | $3.6                              | $18                                   | 200,000             |      8192           |
 | bedrock/us-gov-west-1/anthropic.claude-3-7-sonnet-20250219-v1:0       | $3.6                              | $18                                   | 200,000             |      8192           |
+| dataforseo/search                                                     | --                                | --                                    | nan                 |       nan           |
+| exa_ai/search                                                         | --                                | --                                    | nan                 |       nan           |
+| perplexity/search                                                     | --                                | --                                    | nan                 |       nan           |
+| google_pse/search                                                     | --                                | --                                    | nan                 |       nan           |
+| parallel_ai/search                                                    | --                                | --                                    | nan                 |       nan           |
+| parallel_ai/search-pro                                                | --                                | --                                    | nan                 |       nan           |
+| tavily/search                                                         | --                                | --                                    | nan                 |       nan           |
+| tavily/search-advanced                                                | --                                | --                                    | nan                 |       nan           |
