@@ -1793,3 +1793,15 @@
 | parallel_ai/search-pro                                                | --                                | --                                    | nan                 |       nan           |
 | tavily/search                                                         | --                                | --                                    | nan                 |       nan           |
 | tavily/search-advanced                                                | --                                | --                                    | nan                 |       nan           |
+| vertex_ai/mistralai/codestral-2@001                                   | $0.3                              | $0.9                                  | 128,000             |    128000           |
+| vertex_ai/codestral-2                                                 | $0.3                              | $0.9                                  | 128,000             |    128000           |
+| vertex_ai/codestral-2@001                                             | $0.3                              | $0.9                                  | 128,000             |    128000           |
+| vertex_ai/mistralai/codestral-2                                       | $0.3                              | $0.9                                  | 128,000             |    128000           |
+| vertex_ai/mistral-medium-3                                            | $0.4                              | $2                                    | 128,000             |      8191           |
+| vertex_ai/mistral-medium-3@001                                        | $0.4                              | $2                                    | 128,000             |      8191           |
+| vertex_ai/mistralai/mistral-medium-3                                  | $0.4                              | $2                                    | 128,000             |      8191           |
+| vertex_ai/mistralai/mistral-medium-3@001                              | $0.4                              | $2                                    | 128,000             |      8191           |
+| openai/sora-2                                                         | --                                | --                                    | nan                 |       nan           |
+| azure/sora-2                                                          | --                                | --                                    | nan                 |       nan           |
+| azure/sora-2-pro                                                      | --                                | --                                    | nan                 |       nan           |
+| azure/sora-2-pro-high-res                                             | --                                | --                                    | nan                 |       nan           |
