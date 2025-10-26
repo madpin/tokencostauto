@@ -1805,3 +1805,6 @@
 | azure/sora-2                                                          | --                                | --                                    | nan                 |       nan           |
 | azure/sora-2-pro                                                      | --                                | --                                    | nan                 |       nan           |
 | azure/sora-2-pro-high-res                                             | --                                | --                                    | nan                 |       nan           |
+| amazon.titan-image-generator-v1                                       | --                                | --                                    | nan                 |       nan           |
+| amazon.titan-image-generator-v2                                       | --                                | --                                    | nan                 |       nan           |
+| vertex_ai/search_api                                                  | --                                | --                                    | nan                 |       nan           |
