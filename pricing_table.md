@@ -1809,3 +1809,4 @@
 | amazon.titan-image-generator-v2                                       | --                                | --                                    | nan                 |       nan           |
 | vertex_ai/search_api                                                  | --                                | --                                    | nan                 |       nan           |
 | openai/sora-2-pro                                                     | --                                | --                                    | nan                 |       nan           |
+| openrouter/anthropic/claude-haiku-4.5                                 | $1                                | $5                                    | 200,000             |    200000           |
