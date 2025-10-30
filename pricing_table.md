@@ -1810,3 +1810,10 @@
 | vertex_ai/search_api                                                  | --                                | --                                    | nan                 |       nan           |
 | openai/sora-2-pro                                                     | --                                | --                                    | nan                 |       nan           |
 | openrouter/anthropic/claude-haiku-4.5                                 | $1                                | $5                                    | 200,000             |    200000           |
+| fal_ai/bria/text-to-image/3.2                                         | --                                | --                                    | nan                 |       nan           |
+| fal_ai/fal-ai/flux-pro/v1.1-ultra                                     | --                                | --                                    | nan                 |       nan           |
+| fal_ai/fal-ai/imagen4/preview                                         | --                                | --                                    | nan                 |       nan           |
+| fal_ai/fal-ai/recraft/v3/text-to-image                                | --                                | --                                    | nan                 |       nan           |
+| fal_ai/fal-ai/stable-diffusion-v35-medium                             | --                                | --                                    | nan                 |       nan           |
+| mistral/codestral-embed                                               | $0.15                             | --                                    | 8,192               |       nan           |
+| mistral/codestral-embed-2505                                          | $0.15                             | --                                    | 8,192               |       nan           |
