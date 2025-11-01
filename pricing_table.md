@@ -1817,3 +1817,5 @@
 | fal_ai/fal-ai/stable-diffusion-v35-medium                             | --                                | --                                    | nan                 |       nan           |
 | mistral/codestral-embed                                               | $0.15                             | --                                    | 8,192               |       nan           |
 | mistral/codestral-embed-2505                                          | $0.15                             | --                                    | 8,192               |       nan           |
+| gemini/gemini-embedding-001                                           | $0.15                             | $0                                    | 2,048               |       nan           |
+| vercel_ai_gateway/zai/glm-4.6                                         | $0.45                             | $1.8                                  | 200,000             |    200000           |
