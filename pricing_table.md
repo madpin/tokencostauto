@@ -1819,3 +1819,6 @@
 | mistral/codestral-embed-2505                                          | $0.15                             | --                                    | 8,192               |       nan           |
 | gemini/gemini-embedding-001                                           | $0.15                             | $0                                    | 2,048               |       nan           |
 | vercel_ai_gateway/zai/glm-4.6                                         | $0.45                             | $1.8                                  | 200,000             |    200000           |
+| openrouter/nvidia/nemotron-nano-9b-v2:free                            | $0                                | $0                                    | nan                 |       nan           |
+| openai/container                                                      | --                                | --                                    | nan                 |       nan           |
+| azure/container                                                       | --                                | --                                    | nan                 |       nan           |
