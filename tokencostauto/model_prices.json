@@ -25367,5 +25367,14 @@
         "code_interpreter_cost_per_session": 0.03,
         "litellm_provider": "azure",
         "mode": "container"
+    },
+    "vertex_ai/mistral-ocr-2505": {
+        "litellm_provider": "vertex_ai",
+        "mode": "ocr",
+        "ocr_cost_per_page": 0.0005,
+        "supported_endpoints": [
+            "/v1/ocr"
+        ],
+        "source": "https://cloud.google.com/generative-ai-app-builder/pricing"
     }
 }

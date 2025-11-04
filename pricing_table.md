@@ -1822,3 +1822,4 @@
 | openrouter/nvidia/nemotron-nano-9b-v2:free                            | $0                                | $0                                    | nan                 |       nan           |
 | openai/container                                                      | --                                | --                                    | nan                 |       nan           |
 | azure/container                                                       | --                                | --                                    | nan                 |       nan           |
+| vertex_ai/mistral-ocr-2505                                            | --                                | --                                    | nan                 |       nan           |
