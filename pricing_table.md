@@ -1823,3 +1823,8 @@
 | openai/container                                                      | --                                | --                                    | nan                 |       nan           |
 | azure/container                                                       | --                                | --                                    | nan                 |       nan           |
 | vertex_ai/mistral-ocr-2505                                            | --                                | --                                    | nan                 |       nan           |
+| azure_ai/doc-intelligence/prebuilt-read                               | --                                | --                                    | nan                 |       nan           |
+| azure_ai/doc-intelligence/prebuilt-layout                             | --                                | --                                    | nan                 |       nan           |
+| azure_ai/doc-intelligence/prebuilt-document                           | --                                | --                                    | nan                 |       nan           |
+| gemini-live-2.5-flash-preview-native-audio-09-2025                    | $0.3                              | $2                                    | 1,048,576           |     65535           |
+| gemini/gemini-live-2.5-flash-preview-native-audio-09-2025             | $0.3                              | $2                                    | 1,048,576           |     65535           |
