@@ -1828,3 +1828,15 @@
 | azure_ai/doc-intelligence/prebuilt-document                           | --                                | --                                    | nan                 |       nan           |
 | gemini-live-2.5-flash-preview-native-audio-09-2025                    | $0.3                              | $2                                    | 1,048,576           |     65535           |
 | gemini/gemini-live-2.5-flash-preview-native-audio-09-2025             | $0.3                              | $2                                    | 1,048,576           |     65535           |
+| azure/gpt-image-1-mini                                                | --                                | --                                    | nan                 |       nan           |
+| azure/low/1024-x-1024/gpt-image-1-mini                                | --                                | --                                    | nan                 |       nan           |
+| azure/low/1024-x-1536/gpt-image-1-mini                                | --                                | --                                    | nan                 |       nan           |
+| azure/low/1536-x-1024/gpt-image-1-mini                                | --                                | --                                    | nan                 |       nan           |
+| azure/medium/1024-x-1024/gpt-image-1-mini                             | --                                | --                                    | nan                 |       nan           |
+| azure/medium/1024-x-1536/gpt-image-1-mini                             | --                                | --                                    | nan                 |       nan           |
+| azure/medium/1536-x-1024/gpt-image-1-mini                             | --                                | --                                    | nan                 |       nan           |
+| azure/high/1024-x-1024/gpt-image-1-mini                               | --                                | --                                    | nan                 |       nan           |
+| azure/high/1024-x-1536/gpt-image-1-mini                               | --                                | --                                    | nan                 |       nan           |
+| azure/high/1536-x-1024/gpt-image-1-mini                               | --                                | --                                    | nan                 |       nan           |
+| firecrawl/search                                                      | --                                | --                                    | nan                 |       nan           |
+| searxng/search                                                        | --                                | --                                    | nan                 |       nan           |
