@@ -1840,3 +1840,4 @@
 | azure/high/1536-x-1024/gpt-image-1-mini                               | --                                | --                                    | nan                 |       nan           |
 | firecrawl/search                                                      | --                                | --                                    | nan                 |       nan           |
 | searxng/search                                                        | --                                | --                                    | nan                 |       nan           |
+| azure/gpt-5-pro                                                       | $15                               | $120                                  | 272,000             |    128000           |
