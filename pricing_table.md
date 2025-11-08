@@ -1777,7 +1777,7 @@
 | mistral/mistral-ocr-latest                                            | --                                | --                                    | nan                 |       nan           |
 | mistral/mistral-ocr-2505-completion                                   | --                                | --                                    | nan                 |       nan           |
 | watsonx/mistralai/mistral-small-3-1-24b-instruct-2503                 | $0.1                              | $0.3                                  | 32,000              |     32000           |
-| global.anthropic.claude-haiku-4-5-20251001-v1:0                       | $1                                | $5                                    | 200,000             |      8192           |
+| global.anthropic.claude-haiku-4-5-20251001-v1:0                       | $1.1                              | $5.5                                  | 200,000             |      8192           |
 | au.anthropic.claude-haiku-4-5-20251001-v1:0                           | $1.1                              | $5.5                                  | 200,000             |      8192           |
 | vercel_ai_gateway/glm-4.6                                             | $0.6                              | $2.2                                  | 200,000             |    200000           |
 | azure/speech/azure-tts                                                | --                                | --                                    | nan                 |       nan           |
@@ -1841,3 +1841,4 @@
 | firecrawl/search                                                      | --                                | --                                    | nan                 |       nan           |
 | searxng/search                                                        | --                                | --                                    | nan                 |       nan           |
 | azure/gpt-5-pro                                                       | $15                               | $120                                  | 272,000             |    128000           |
+| vertex_ai/minimaxai/minimax-m2-maas                                   | $0.3                              | $1.2                                  | 196,608             |    196608           |
