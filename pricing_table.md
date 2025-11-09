@@ -1842,3 +1842,8 @@
 | searxng/search                                                        | --                                | --                                    | nan                 |       nan           |
 | azure/gpt-5-pro                                                       | $15                               | $120                                  | 272,000             |    128000           |
 | vertex_ai/minimaxai/minimax-m2-maas                                   | $0.3                              | $1.2                                  | 196,608             |    196608           |
+| cohere/embed-v4.0                                                     | $0.12                             | $0                                    | 128,000             |       nan           |
+| gemini/veo-3.1-fast-generate-preview                                  | --                                | --                                    | 1,024               |       nan           |
+| gemini/veo-3.1-generate-preview                                       | --                                | --                                    | 1,024               |       nan           |
+| vertex_ai/veo-3.1-generate-preview                                    | --                                | --                                    | 1,024               |       nan           |
+| vertex_ai/veo-3.1-fast-generate-preview                               | --                                | --                                    | 1,024               |       nan           |
