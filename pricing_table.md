@@ -1847,3 +1847,4 @@
 | gemini/veo-3.1-generate-preview                                       | --                                | --                                    | 1,024               |       nan           |
 | vertex_ai/veo-3.1-generate-preview                                    | --                                | --                                    | 1,024               |       nan           |
 | vertex_ai/veo-3.1-fast-generate-preview                               | --                                | --                                    | 1,024               |       nan           |
+| moonshot/kimi-k2-thinking                                             | $0.6                              | $2.5                                  | 262,144             |    262144           |
