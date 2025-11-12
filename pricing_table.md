@@ -1848,3 +1848,4 @@
 | vertex_ai/veo-3.1-generate-preview                                    | --                                | --                                    | 1,024               |       nan           |
 | vertex_ai/veo-3.1-fast-generate-preview                               | --                                | --                                    | 1,024               |       nan           |
 | moonshot/kimi-k2-thinking                                             | $0.6                              | $2.5                                  | 262,144             |    262144           |
+| mistral/magistral-medium-2509                                         | $2                                | $5                                    | 40,000              |     40000           |
