@@ -1276,7 +1276,7 @@
 | gemini-2.5-flash-lite                                                 | $0.1                              | $0.4                                  | 1,048,576           |     65535           |
 | gpt-4o-realtime-preview-2025-06-03                                    | $5                                | $20                                   | 128,000             |      4096           |
 | openrouter/bytedance/ui-tars-1.5-7b                                   | $0.1                              | $0.2                                  | 131,072             |      2048           |
-| openrouter/qwen/qwen3-coder                                           | $1                                | $5                                    | 1,000,000           |         1e+06       |
+| openrouter/qwen/qwen3-coder                                           | $0.22                             | $0.95                                 | 262,100             |    262100           |
 | gemini/imagen-4.0-generate-preview-06-06                              | --                                | --                                    | nan                 |       nan           |
 | gemini/imagen-4.0-ultra-generate-preview-06-06                        | --                                | --                                    | nan                 |       nan           |
 | gemini/imagen-4.0-fast-generate-preview-06-06                         | --                                | --                                    | nan                 |       nan           |
@@ -1849,3 +1849,12 @@
 | vertex_ai/veo-3.1-fast-generate-preview                               | --                                | --                                    | 1,024               |       nan           |
 | moonshot/kimi-k2-thinking                                             | $0.6                              | $2.5                                  | 262,144             |    262144           |
 | mistral/magistral-medium-2509                                         | $2                                | $5                                    | 40,000              |     40000           |
+| openrouter/deepseek/deepseek-v3.2-exp                                 | $0.2                              | $0.4                                  | 163,840             |    163840           |
+| openrouter/minimax/minimax-m2                                         | $0.26                             | $1.02                                 | 204,800             |    204800           |
+| openrouter/z-ai/glm-4.6                                               | $0.4                              | $1.75                                 | 202,800             |    131000           |
+| openrouter/z-ai/glm-4.6:exacto                                        | $0.45                             | $1.9                                  | 202,800             |    131000           |
+| runwayml/gen4_turbo                                                   | --                                | --                                    | nan                 |       nan           |
+| runwayml/gen4_aleph                                                   | --                                | --                                    | nan                 |       nan           |
+| runwayml/gen3a_turbo                                                  | --                                | --                                    | nan                 |       nan           |
+| runwayml/gen4_image                                                   | --                                | --                                    | nan                 |       nan           |
+| runwayml/gen4_image_turbo                                             | --                                | --                                    | nan                 |       nan           |
