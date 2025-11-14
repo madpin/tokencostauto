@@ -1858,3 +1858,8 @@
 | runwayml/gen3a_turbo                                                  | --                                | --                                    | nan                 |       nan           |
 | runwayml/gen4_image                                                   | --                                | --                                    | nan                 |       nan           |
 | runwayml/gen4_image_turbo                                             | --                                | --                                    | nan                 |       nan           |
+| gpt-5.1                                                               | $1.25                             | $10                                   | 272,000             |    128000           |
+| gpt-5.1-2025-11-13                                                    | $1.25                             | $10                                   | 272,000             |    128000           |
+| gpt-5.1-chat-latest                                                   | $1.25                             | $10                                   | 128,000             |     16384           |
+| gpt-5.1-codex                                                         | $1.25                             | $10                                   | 272,000             |    128000           |
+| gpt-5.1-codex-mini                                                    | $0.25                             | $2                                    | 272,000             |    128000           |
