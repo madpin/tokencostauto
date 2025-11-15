@@ -1863,3 +1863,9 @@
 | gpt-5.1-chat-latest                                                   | $1.25                             | $10                                   | 128,000             |     16384           |
 | gpt-5.1-codex                                                         | $1.25                             | $10                                   | 272,000             |    128000           |
 | gpt-5.1-codex-mini                                                    | $0.25                             | $2                                    | 272,000             |    128000           |
+| fal_ai/fal-ai/flux/schnell                                            | --                                | --                                    | nan                 |       nan           |
+| fal_ai/fal-ai/imagen4/preview/fast                                    | --                                | --                                    | nan                 |       nan           |
+| fal_ai/fal-ai/imagen4/preview/ultra                                   | --                                | --                                    | nan                 |       nan           |
+| voyage/voyage-3.5                                                     | $0.06                             | $0                                    | 32,000              |       nan           |
+| voyage/voyage-3.5-lite                                                | $0.02                             | $0                                    | 32,000              |       nan           |
+| runwayml/eleven_multilingual_v2                                       | --                                | --                                    | nan                 |       nan           |
