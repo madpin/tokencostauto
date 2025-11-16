@@ -1869,3 +1869,8 @@
 | voyage/voyage-3.5                                                     | $0.06                             | $0                                    | 32,000              |       nan           |
 | voyage/voyage-3.5-lite                                                | $0.02                             | $0                                    | 32,000              |       nan           |
 | runwayml/eleven_multilingual_v2                                       | --                                | --                                    | nan                 |       nan           |
+| fal_ai/fal-ai/flux-pro/v1.1                                           | --                                | --                                    | nan                 |       nan           |
+| fal_ai/fal-ai/bytedance/seedream/v3/text-to-image                     | --                                | --                                    | nan                 |       nan           |
+| fal_ai/fal-ai/bytedance/dreamina/v3.1/text-to-image                   | --                                | --                                    | nan                 |       nan           |
+| fal_ai/fal-ai/ideogram/v3                                             | --                                | --                                    | nan                 |       nan           |
+| vertex_ai/moonshotai/kimi-k2-thinking-maas                            | $0.6                              | $2.5                                  | 256,000             |    256000           |
