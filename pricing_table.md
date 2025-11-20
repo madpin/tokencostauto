@@ -1891,3 +1891,12 @@
 | gemini/gemini-3-pro-preview                                           | $2                                | $12                                   | 1,048,576           |     65535           |
 | vertex_ai/veo-3.0-fast-generate-001                                   | --                                | --                                    | 1,024               |       nan           |
 | vertex_ai/veo-3.0-generate-001                                        | --                                | --                                    | 1,024               |       nan           |
+| azure/gpt-audio-2025-08-28                                            | $2.5                              | $10                                   | 128,000             |     16384           |
+| azure/gpt-audio-mini-2025-10-06                                       | $0.6                              | $2.4                                  | 128,000             |     16384           |
+| azure/gpt-realtime-2025-08-28                                         | $4                                | $16                                   | 32,000              |      4096           |
+| azure/gpt-realtime-mini-2025-10-06                                    | $0.6                              | $2.4                                  | 32,000              |      4096           |
+| azure/gpt-4o-transcribe-diarize                                       | $2.5                              | $10                                   | 16,000              |      2000           |
+| azure/gpt-5.1-2025-11-13                                              | $1.25                             | $10                                   | 272,000             |    128000           |
+| azure/gpt-5.1-chat-2025-11-13                                         | $1.25                             | $10                                   | 128,000             |     16384           |
+| azure/gpt-5.1-codex-2025-11-13                                        | $1.25                             | $10                                   | 272,000             |    128000           |
+| azure/gpt-5.1-codex-mini-2025-11-13                                   | $0.25                             | $2                                    | 272,000             |    128000           |
