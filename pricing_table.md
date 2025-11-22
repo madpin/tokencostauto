@@ -1919,3 +1919,14 @@
 | vertex_ai/gemini-3-pro-preview                                        | $2                                | $12                                   | 1,048,576           |     65535           |
 | vertex_ai/gemini-2.5-flash-image                                      | --                                | --                                    | nan                 |       nan           |
 | vertex_ai/imagen-3.0-capability-001                                   | --                                | --                                    | nan                 |       nan           |
+| cerebras/gpt-oss-120b                                                 | $0.25                             | $0.69                                 | 131,072             |     32768           |
+| gemini-3-pro-image-preview                                            | $2                                | $12                                   | 65,536              |     32768           |
+| gemini/gemini-3-pro-image-preview                                     | $2                                | $12                                   | 65,536              |     32768           |
+| openrouter/google/gemini-3-pro-preview                                | $2                                | $12                                   | 1,048,576           |     65535           |
+| together_ai/zai-org/GLM-4.6                                           | $0.6                              | $2.2                                  | 200,000             |    200000           |
+| vertex_ai/gemini-3-pro-image-preview                                  | $2                                | $12                                   | 65,536              |     32768           |
+| xai/grok-4-1-fast                                                     | $0.2                              | $0.5                                  | 2,000,000           |         2e+06       |
+| xai/grok-4-1-fast-reasoning                                           | $0.2                              | $0.5                                  | 2,000,000           |         2e+06       |
+| xai/grok-4-1-fast-reasoning-latest                                    | $0.2                              | $0.5                                  | 2,000,000           |         2e+06       |
+| xai/grok-4-1-fast-non-reasoning                                       | $0.2                              | $0.5                                  | 2,000,000           |         2e+06       |
+| xai/grok-4-1-fast-non-reasoning-latest                                | $0.2                              | $0.5                                  | 2,000,000           |         2e+06       |
