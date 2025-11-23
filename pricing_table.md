@@ -1917,7 +1917,7 @@
 | azure/us/gpt-5.1-codex                                                | $1.38                             | $11                                   | 272,000             |    128000           |
 | azure/us/gpt-5.1-codex-mini                                           | $0.28                             | $2.2                                  | 272,000             |    128000           |
 | vertex_ai/gemini-3-pro-preview                                        | $2                                | $12                                   | 1,048,576           |     65535           |
-| vertex_ai/gemini-2.5-flash-image                                      | --                                | --                                    | nan                 |       nan           |
+| vertex_ai/gemini-2.5-flash-image                                      | $0.3                              | $2.5                                  | 32,768              |     32768           |
 | vertex_ai/imagen-3.0-capability-001                                   | --                                | --                                    | nan                 |       nan           |
 | cerebras/gpt-oss-120b                                                 | $0.25                             | $0.69                                 | 131,072             |     32768           |
 | gemini-3-pro-image-preview                                            | $2                                | $12                                   | 65,536              |     32768           |
@@ -1930,3 +1930,7 @@
 | xai/grok-4-1-fast-reasoning-latest                                    | $0.2                              | $0.5                                  | 2,000,000           |         2e+06       |
 | xai/grok-4-1-fast-non-reasoning                                       | $0.2                              | $0.5                                  | 2,000,000           |         2e+06       |
 | xai/grok-4-1-fast-non-reasoning-latest                                | $0.2                              | $0.5                                  | 2,000,000           |         2e+06       |
+| anthropic.claude-sonnet-4-5-20250929-v1:0                             | $3                                | $15                                   | 200,000             |     64000           |
+| bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0                 | $3.3                              | $16.5                                 | 200,000             |      4096           |
+| bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0                 | $3.3                              | $16.5                                 | 200,000             |      4096           |
+| claude-sonnet-4-5-20250929-v1:0                                       | $3                                | $15                                   | 200,000             |     64000           |
