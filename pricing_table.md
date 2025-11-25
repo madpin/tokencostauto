@@ -1934,3 +1934,6 @@
 | bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0                 | $3.3                              | $16.5                                 | 200,000             |      4096           |
 | bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0                 | $3.3                              | $16.5                                 | 200,000             |      4096           |
 | claude-sonnet-4-5-20250929-v1:0                                       | $3                                | $15                                   | 200,000             |     64000           |
+| anthropic.claude-opus-4-5-20251101-v1:0                               | $5                                | $25                                   | 200,000             |     64000           |
+| claude-opus-4-5-20251101                                              | $5                                | $25                                   | 200,000             |     64000           |
+| us.anthropic.claude-opus-4-5-20251101-v1:0                            | $5                                | $25                                   | 200,000             |     64000           |
