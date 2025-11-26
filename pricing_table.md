@@ -1937,3 +1937,8 @@
 | anthropic.claude-opus-4-5-20251101-v1:0                               | $5                                | $25                                   | 200,000             |     64000           |
 | claude-opus-4-5-20251101                                              | $5                                | $25                                   | 200,000             |     64000           |
 | us.anthropic.claude-opus-4-5-20251101-v1:0                            | $5                                | $25                                   | 200,000             |     64000           |
+| azure/claude-haiku-4-5                                                | $1                                | $5                                    | 200,000             |     64000           |
+| azure/claude-opus-4-1                                                 | $15                               | $75                                   | 200,000             |     32000           |
+| azure/claude-sonnet-4-5                                               | $3                                | $15                                   | 200,000             |     64000           |
+| vertex_ai/claude-opus-4-5                                             | $5                                | $25                                   | 200,000             |     64000           |
+| vertex_ai/claude-opus-4-5@20251101                                    | $5                                | $25                                   | 200,000             |     64000           |
