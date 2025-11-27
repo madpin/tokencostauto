@@ -1942,3 +1942,7 @@
 | azure/claude-sonnet-4-5                                               | $3                                | $15                                   | 200,000             |     64000           |
 | vertex_ai/claude-opus-4-5                                             | $5                                | $25                                   | 200,000             |     64000           |
 | vertex_ai/claude-opus-4-5@20251101                                    | $5                                | $25                                   | 200,000             |     64000           |
+| embed-multilingual-light-v3.0                                         | $100                              | $0                                    | 1,024               |       nan           |
+| fireworks_ai/accounts/fireworks/models/glm-4p6                        | $0.55                             | $2.19                                 | 202,800             |    202800           |
+| openrouter/anthropic/claude-opus-4.5                                  | $5                                | $25                                   | 200,000             |     32000           |
+| watsonx/whisper-large-v3-turbo                                        | --                                | --                                    | nan                 |       nan           |
