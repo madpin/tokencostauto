@@ -1946,3 +1946,13 @@
 | fireworks_ai/accounts/fireworks/models/glm-4p6                        | $0.55                             | $2.19                                 | 202,800             |    202800           |
 | openrouter/anthropic/claude-opus-4.5                                  | $5                                | $25                                   | 200,000             |     32000           |
 | watsonx/whisper-large-v3-turbo                                        | --                                | --                                    | nan                 |       nan           |
+| amazon.nova-canvas-v1:0                                               | --                                | --                                    | 2,600               |       nan           |
+| publicai/swiss-ai/apertus-8b-instruct                                 | $0                                | $0                                    | 8,192               |      4096           |
+| publicai/swiss-ai/apertus-70b-instruct                                | $0                                | $0                                    | 8,192               |      4096           |
+| publicai/aisingapore/Gemma-SEA-LION-v4-27B-IT                         | $0                                | $0                                    | 8,192               |      4096           |
+| publicai/BSC-LT/salamandra-7b-instruct-tools-16k                      | $0                                | $0                                    | 16,384              |      4096           |
+| publicai/BSC-LT/ALIA-40b-instruct_Q8_0                                | $0                                | $0                                    | 8,192               |      4096           |
+| publicai/allenai/Olmo-3-7B-Instruct                                   | $0                                | $0                                    | 32,768              |      4096           |
+| publicai/aisingapore/Qwen-SEA-LION-v4-32B-IT                          | $0                                | $0                                    | 32,768              |      4096           |
+| publicai/allenai/Olmo-3-7B-Think                                      | $0                                | $0                                    | 32,768              |      4096           |
+| publicai/allenai/Olmo-3-32B-Think                                     | $0                                | $0                                    | 32,768              |      4096           |
