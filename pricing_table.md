@@ -1956,3 +1956,4 @@
 | publicai/aisingapore/Qwen-SEA-LION-v4-32B-IT                          | $0                                | $0                                    | 32,768              |      4096           |
 | publicai/allenai/Olmo-3-7B-Think                                      | $0                                | $0                                    | 32,768              |      4096           |
 | publicai/allenai/Olmo-3-32B-Think                                     | $0                                | $0                                    | 32,768              |      4096           |
+| fireworks_ai/accounts/fireworks/models/kimi-k2-instruct-0905          | $0.6                              | $2.5                                  | 262,144             |     32768           |
