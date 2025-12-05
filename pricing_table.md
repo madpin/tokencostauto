@@ -1220,7 +1220,7 @@
 | moonshot/kimi-latest-8k                                               | $0.2                              | $2                                    | 8,192               |      8192           |
 | moonshot/kimi-latest-32k                                              | $1                                | $3                                    | 32,768              |     32768           |
 | moonshot/kimi-latest-128k                                             | $2                                | $5                                    | 131,072             |    131072           |
-| moonshot/kimi-thinking-preview                                        | $30                               | $30                                   | 131,072             |    131072           |
+| moonshot/kimi-thinking-preview                                        | $0.6                              | $2.5                                  | 131,072             |    131072           |
 | moonshot/moonshot-v1-8k-vision-preview                                | $0.2                              | $2                                    | 8,192               |      8192           |
 | moonshot/moonshot-v1-32k-vision-preview                               | $1                                | $3                                    | 32,768              |     32768           |
 | moonshot/moonshot-v1-128k-vision-preview                              | $2                                | $5                                    | 131,072             |    131072           |
@@ -1647,7 +1647,7 @@
 | wandb/Qwen/Qwen3-235B-A22B-Instruct-2507                              | $10000                            | $10000                                | 262,144             |    262144           |
 | wandb/Qwen/Qwen3-Coder-480B-A35B-Instruct                             | $100000                           | $150000                               | 262,144             |    262144           |
 | wandb/Qwen/Qwen3-235B-A22B-Thinking-2507                              | $10000                            | $10000                                | 262,144             |    262144           |
-| wandb/moonshotai/Kimi-K2-Instruct                                     | $135000                           | $400000                               | 128,000             |    128000           |
+| wandb/moonshotai/Kimi-K2-Instruct                                     | $0.6                              | $2.5                                  | 128,000             |    128000           |
 | wandb/meta-llama/Llama-3.1-8B-Instruct                                | $22000                            | $22000                                | 128,000             |    128000           |
 | wandb/deepseek-ai/DeepSeek-V3.1                                       | $55000                            | $165000                               | 128,000             |    128000           |
 | wandb/deepseek-ai/DeepSeek-R1-0528                                    | $135000                           | $540000                               | 161,000             |    161000           |
@@ -1996,3 +1996,7 @@
 | ft:o4-mini-2025-04-16                                                 | $4                                | $16                                   | 200,000             |    100000           |
 | openrouter/deepseek/deepseek-v3.2                                     | $0.28                             | $0.4                                  | 163,840             |    163840           |
 | global.anthropic.claude-opus-4-5-20251101-v1:0                        | $5                                | $25                                   | 200,000             |     64000           |
+| amazon.titan-image-generator-v2:0                                     | --                                | --                                    | nan                 |       nan           |
+| moonshot/kimi-k2-0905-preview                                         | $0.6                              | $2.5                                  | 262,144             |    262144           |
+| moonshot/kimi-k2-turbo-preview                                        | $1.15                             | $8                                    | 262,144             |    262144           |
+| moonshot/kimi-k2-thinking-turbo                                       | $1.15                             | $8                                    | 262,144             |    262144           |
