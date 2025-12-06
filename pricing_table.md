@@ -2000,3 +2000,7 @@
 | moonshot/kimi-k2-0905-preview                                         | $0.6                              | $2.5                                  | 262,144             |    262144           |
 | moonshot/kimi-k2-turbo-preview                                        | $1.15                             | $8                                    | 262,144             |    262144           |
 | moonshot/kimi-k2-thinking-turbo                                       | $1.15                             | $8                                    | 262,144             |    262144           |
+| azure/gpt-5.1-codex-max                                               | $1.25                             | $10                                   | 400,000             |    128000           |
+| azure_ai/mistral-large-3                                              | $0.5                              | $1.5                                  | 256,000             |      8191           |
+| gpt-5.1-codex-max                                                     | $1.25                             | $10                                   | 400,000             |    128000           |
+| mistral/mistral-large-3                                               | $0.5                              | $1.5                                  | 256,000             |      8191           |
