@@ -2004,3 +2004,7 @@
 | azure_ai/mistral-large-3                                              | $0.5                              | $1.5                                  | 256,000             |      8191           |
 | gpt-5.1-codex-max                                                     | $1.25                             | $10                                   | 400,000             |    128000           |
 | mistral/mistral-large-3                                               | $0.5                              | $1.5                                  | 256,000             |      8191           |
+| amazon-nova/nova-micro-v1                                             | $0.04                             | $0.14                                 | 128,000             |     10000           |
+| amazon-nova/nova-lite-v1                                              | $0.06                             | $0.24                                 | 300,000             |     10000           |
+| amazon-nova/nova-premier-v1                                           | $2.5                              | $12.5                                 | 1,000,000           |     10000           |
+| amazon-nova/nova-pro-v1                                               | $0.8                              | $3.2                                  | 300,000             |     10000           |
