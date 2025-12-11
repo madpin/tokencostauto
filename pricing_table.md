@@ -2260,3 +2260,7 @@
 | fireworks_ai/accounts/fireworks/models/yi-34b-chat                           | $0.9                              | $0.9                                  | 4,096               |      4096           |
 | fireworks_ai/accounts/fireworks/models/yi-6b                                 | $0.2                              | $0.2                                  | 4,096               |      4096           |
 | fireworks_ai/accounts/fireworks/models/zephyr-7b-beta                        | $0.2                              | $0.2                                  | 32,768              |     32768           |
+| gemini/gemini-2.5-computer-use-preview-10-2025                               | $1.25                             | $10                                   | 128,000             |     64000           |
+| vertex_ai/deepseek-ai/deepseek-v3.2-maas                                     | $0.56                             | $1.68                                 | 163,840             |     32768           |
+| voyage/rerank-2.5                                                            | $0.05                             | $0                                    | 32,000              |     32000           |
+| voyage/rerank-2.5-lite                                                       | $0.02                             | $0                                    | 32,000              |     32000           |
