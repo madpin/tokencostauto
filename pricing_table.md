@@ -1777,7 +1777,7 @@
 | mistral/mistral-ocr-latest                                                   | --                                | --                                    | nan                 |       nan           |
 | mistral/mistral-ocr-2505-completion                                          | --                                | --                                    | nan                 |       nan           |
 | watsonx/mistralai/mistral-small-3-1-24b-instruct-2503                        | $0.1                              | $0.3                                  | 32,000              |     32000           |
-| global.anthropic.claude-haiku-4-5-20251001-v1:0                              | $1.1                              | $5.5                                  | 200,000             |     64000           |
+| global.anthropic.claude-haiku-4-5-20251001-v1:0                              | $1                                | $5                                    | 200,000             |     64000           |
 | au.anthropic.claude-haiku-4-5-20251001-v1:0                                  | $1.1                              | $5.5                                  | 200,000             |     64000           |
 | vercel_ai_gateway/glm-4.6                                                    | $0.6                              | $2.2                                  | 200,000             |    200000           |
 | azure/speech/azure-tts                                                       | --                                | --                                    | nan                 |       nan           |
@@ -2264,3 +2264,14 @@
 | vertex_ai/deepseek-ai/deepseek-v3.2-maas                                     | $0.56                             | $1.68                                 | 163,840             |     32768           |
 | voyage/rerank-2.5                                                            | $0.05                             | $0                                    | 32,000              |     32000           |
 | voyage/rerank-2.5-lite                                                       | $0.02                             | $0                                    | 32,000              |     32000           |
+| azure_ai/claude-haiku-4-5                                                    | $1                                | $5                                    | 200,000             |     64000           |
+| azure_ai/claude-opus-4-1                                                     | $15                               | $75                                   | 200,000             |     32000           |
+| azure_ai/claude-sonnet-4-5                                                   | $3                                | $15                                   | 200,000             |     64000           |
+| gpt-5.2                                                                      | $1.75                             | $14                                   | 400,000             |    128000           |
+| gpt-5.2-2025-12-11                                                           | $1.75                             | $14                                   | 400,000             |    128000           |
+| gpt-5.2-chat-latest                                                          | $1.75                             | $14                                   | 128,000             |     16384           |
+| gpt-5.2-pro                                                                  | $21                               | $168                                  | 400,000             |    128000           |
+| gpt-5.2-pro-2025-12-11                                                       | $21                               | $168                                  | 400,000             |    128000           |
+| mistral/codestral-2508                                                       | $0.3                              | $0.9                                  | 256,000             |    256000           |
+| mistral/labs-devstral-small-2512                                             | $0.1                              | $0.3                                  | 256,000             |    256000           |
+| mistral/devstral-2512                                                        | $0.4                              | $2                                    | 256,000             |    256000           |
