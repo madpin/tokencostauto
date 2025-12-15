@@ -2281,3 +2281,14 @@
 | azure/gpt-5.2-pro                                                            | $21                               | $168                                  | 400,000             |    128000           |
 | azure/gpt-5.2-pro-2025-12-11                                                 | $21                               | $168                                  | 400,000             |    128000           |
 | eu.anthropic.claude-opus-4-5-20251101-v1:0                                   | $5                                | $25                                   | 200,000             |     64000           |
+| azure_ai/cohere-rerank-v4.0-pro                                              | $0                                | $0                                    | 32,768              |     32768           |
+| azure_ai/cohere-rerank-v4.0-fast                                             | $0                                | $0                                    | 32,768              |     32768           |
+| stability/sd3                                                                | --                                | --                                    | nan                 |       nan           |
+| stability/sd3-large                                                          | --                                | --                                    | nan                 |       nan           |
+| stability/sd3-large-turbo                                                    | --                                | --                                    | nan                 |       nan           |
+| stability/sd3-medium                                                         | --                                | --                                    | nan                 |       nan           |
+| stability/sd3.5-large                                                        | --                                | --                                    | nan                 |       nan           |
+| stability/sd3.5-large-turbo                                                  | --                                | --                                    | nan                 |       nan           |
+| stability/sd3.5-medium                                                       | --                                | --                                    | nan                 |       nan           |
+| stability/stable-image-ultra                                                 | --                                | --                                    | nan                 |       nan           |
+| stability/stable-image-core                                                  | --                                | --                                    | nan                 |       nan           |
