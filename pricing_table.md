@@ -898,7 +898,7 @@
 | o3-2025-04-16                                                                | $2                                | $8                                    | 200,000             |    100000           |
 | o4-mini                                                                      | $1.1                              | $4.4                                  | 200,000             |    100000           |
 | o4-mini-2025-04-16                                                           | $1.1                              | $4.4                                  | 200,000             |    100000           |
-| gpt-image-1                                                                  | --                                | --                                    | nan                 |       nan           |
+| gpt-image-1                                                                  | $5                                | $40                                   | nan                 |       nan           |
 | low/1024-x-1024/gpt-image-1                                                  | --                                | --                                    | nan                 |       nan           |
 | medium/1024-x-1024/gpt-image-1                                               | --                                | --                                    | nan                 |       nan           |
 | high/1024-x-1024/gpt-image-1                                                 | --                                | --                                    | nan                 |       nan           |
@@ -2292,3 +2292,12 @@
 | stability/sd3.5-medium                                                       | --                                | --                                    | nan                 |       nan           |
 | stability/stable-image-ultra                                                 | --                                | --                                    | nan                 |       nan           |
 | stability/stable-image-core                                                  | --                                | --                                    | nan                 |       nan           |
+| openrouter/mistralai/devstral-2512:free                                      | $0                                | $0                                    | 262,144             |                     |
+| openrouter/mistralai/devstral-2512                                           | $0.15                             | $0.6                                  | 262,144             |     65536           |
+| openrouter/mistralai/ministral-3b-2512                                       | $0.1                              | $0.1                                  | 131,072             |                     |
+| openrouter/mistralai/ministral-8b-2512                                       | $0.15                             | $0.15                                 | 262,144             |                     |
+| openrouter/mistralai/ministral-14b-2512                                      | $0.2                              | $0.2                                  | 262,144             |                     |
+| openrouter/mistralai/mistral-large-2512                                      | $0.5                              | $1.5                                  | 262,144             |                     |
+| openrouter/openai/gpt-5.2                                                    | $1.75                             | $14                                   | 400,000             |    128000           |
+| openrouter/openai/gpt-5.2-chat                                               | $1.75                             | $14                                   | 128,000             |     16384           |
+| openrouter/openai/gpt-5.2-pro                                                | $21                               | $168                                  | 400,000             |    128000           |
