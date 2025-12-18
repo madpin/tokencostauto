@@ -2333,3 +2333,8 @@
 | github_copilot/text-embedding-3-small-inference                              | --                                | --                                    | 8,191               |       nan           |
 | github_copilot/text-embedding-ada-002                                        | --                                | --                                    | 8,191               |       nan           |
 | fireworks_ai/accounts/fireworks/models/                                      | $0.1                              | $0                                    | 40,960              |     40960           |
+| gpt-4o-transcribe-diarize                                                    | $2.5                              | $10                                   | 16,000              |      2000           |
+| gemini/gemini-3-flash-preview                                                | $0.5                              | $3                                    | 1,048,576           |     65535           |
+| gemini-3-flash-preview                                                       | $0.5                              | $3                                    | 1,048,576           |     65535           |
+| gpt-image-1.5                                                                | $5                                | $10                                   | nan                 |       nan           |
+| gpt-image-1.5-2025-12-16                                                     | $5                                | $10                                   | nan                 |       nan           |
