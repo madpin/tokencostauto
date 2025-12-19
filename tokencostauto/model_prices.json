@@ -20412,6 +20412,7 @@
         "max_videos_per_prompt": 10,
         "mode": "image_generation",
         "output_cost_per_image": 0.039,
+        "output_cost_per_image_token": 3e-05,
         "output_cost_per_reasoning_token": 3e-05,
         "output_cost_per_token": 3e-05,
         "rpm": 100000,
@@ -20460,6 +20461,7 @@
         "max_videos_per_prompt": 10,
         "mode": "image_generation",
         "output_cost_per_image": 0.039,
+        "output_cost_per_image_token": 3e-05,
         "output_cost_per_reasoning_token": 3e-05,
         "output_cost_per_token": 3e-05,
         "rpm": 100000,
@@ -24682,6 +24684,7 @@
         "max_videos_per_prompt": 10,
         "mode": "image_generation",
         "output_cost_per_image": 0.039,
+        "output_cost_per_image_token": 3e-05,
         "output_cost_per_reasoning_token": 2.5e-06,
         "output_cost_per_token": 2.5e-06,
         "rpm": 100000,
@@ -24731,6 +24734,7 @@
         "max_videos_per_prompt": 10,
         "mode": "image_generation",
         "output_cost_per_image": 0.039,
+        "output_cost_per_image_token": 3e-05,
         "output_cost_per_reasoning_token": 2.5e-06,
         "output_cost_per_token": 2.5e-06,
         "rpm": 100000,
@@ -27605,6 +27609,7 @@
         "max_videos_per_prompt": 10,
         "mode": "image_generation",
         "output_cost_per_image": 0.039,
+        "output_cost_per_image_token": 3e-05,
         "output_cost_per_reasoning_token": 2.5e-06,
         "output_cost_per_token": 2.5e-06,
         "rpm": 100000,
@@ -29457,7 +29462,8 @@
         "input_cost_per_token": 4.5e-07,
         "output_cost_per_token": 1.8e-06,
         "litellm_provider": "fireworks_ai",
-        "mode": "chat"
+        "mode": "chat",
+        "supports_reasoning": true
     },
     "fireworks_ai/accounts/fireworks/models/flux-kontext-pro": {
         "max_tokens": 4096,
@@ -31159,7 +31165,8 @@
         "input_cost_per_token": 9e-07,
         "output_cost_per_token": 9e-07,
         "litellm_provider": "fireworks_ai",
-        "mode": "chat"
+        "mode": "chat",
+        "supports_reasoning": true
     },
     "fireworks_ai/accounts/fireworks/models/qwen3-4b": {
         "max_tokens": 40960,
@@ -31186,7 +31193,8 @@
         "input_cost_per_token": 2e-07,
         "output_cost_per_token": 2e-07,
         "litellm_provider": "fireworks_ai",
-        "mode": "chat"
+        "mode": "chat",
+        "supports_reasoning": true
     },
     "fireworks_ai/accounts/fireworks/models/qwen3-coder-30b-a3b-instruct": {
         "max_tokens": 262144,
@@ -32122,7 +32130,7 @@
         "input_cost_per_token": 0,
         "litellm_provider": "openrouter",
         "max_input_tokens": 262144,
-        "max_output_tokens": null,
+        "max_output_tokens": 262144,
         "max_tokens": 262144,
         "mode": "chat",
         "output_cost_per_token": 0,
@@ -32150,7 +32158,7 @@
         "input_cost_per_token": 1e-07,
         "litellm_provider": "openrouter",
         "max_input_tokens": 131072,
-        "max_output_tokens": null,
+        "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
         "output_cost_per_token": 1e-07,
@@ -32164,7 +32172,7 @@
         "input_cost_per_token": 1.5e-07,
         "litellm_provider": "openrouter",
         "max_input_tokens": 262144,
-        "max_output_tokens": null,
+        "max_output_tokens": 262144,
         "max_tokens": 262144,
         "mode": "chat",
         "output_cost_per_token": 1.5e-07,
@@ -32178,7 +32186,7 @@
         "input_cost_per_token": 2e-07,
         "litellm_provider": "openrouter",
         "max_input_tokens": 262144,
-        "max_output_tokens": null,
+        "max_output_tokens": 262144,
         "max_tokens": 262144,
         "mode": "chat",
         "output_cost_per_token": 2e-07,
@@ -32192,7 +32200,7 @@
         "input_cost_per_token": 5e-07,
         "litellm_provider": "openrouter",
         "max_input_tokens": 262144,
-        "max_output_tokens": null,
+        "max_output_tokens": 262144,
         "max_tokens": 262144,
         "mode": "chat",
         "output_cost_per_token": 1.5e-06,
@@ -32282,7 +32290,7 @@
         "max_tokens": 16000,
         "mode": "chat",
         "supported_endpoints": [
-            "/chat/completions"
+            "/v1/chat/completions"
         ],
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
@@ -32295,7 +32303,7 @@
         "max_tokens": 16000,
         "mode": "chat",
         "supported_endpoints": [
-            "/chat/completions"
+            "/v1/chat/completions"
         ],
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
@@ -32308,7 +32316,7 @@
         "max_tokens": 16000,
         "mode": "chat",
         "supported_endpoints": [
-            "/chat/completions"
+            "/v1/chat/completions"
         ],
         "supports_vision": true
     },
@@ -32319,7 +32327,7 @@
         "max_tokens": 16000,
         "mode": "chat",
         "supported_endpoints": [
-            "/chat/completions"
+            "/v1/chat/completions"
         ],
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
@@ -32332,7 +32340,7 @@
         "max_tokens": 16000,
         "mode": "chat",
         "supported_endpoints": [
-            "/chat/completions"
+            "/v1/chat/completions"
         ],
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
@@ -32489,8 +32497,8 @@
         "max_tokens": 128000,
         "mode": "chat",
         "supported_endpoints": [
-            "/chat/completions",
-            "/responses"
+            "/v1/chat/completions",
+            "/v1/responses"
         ],
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
@@ -32515,8 +32523,8 @@
         "max_tokens": 64000,
         "mode": "chat",
         "supported_endpoints": [
-            "/chat/completions",
-            "/responses"
+            "/v1/chat/completions",
+            "/v1/responses"
         ],
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
@@ -32530,7 +32538,7 @@
         "max_tokens": 128000,
         "mode": "responses",
         "supported_endpoints": [
-            "/responses"
+            "/v1/responses"
         ],
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
@@ -32544,8 +32552,8 @@
         "max_tokens": 64000,
         "mode": "chat",
         "supported_endpoints": [
-            "/chat/completions",
-            "/responses"
+            "/v1/chat/completions",
+            "/v1/responses"
         ],
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
@@ -32695,7 +32703,8 @@
         "supported_endpoints": [
             "/v1/images/generations"
         ],
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_pdf_input": true
     },
     "gpt-image-1.5-2025-12-16": {
         "cache_read_input_image_token_cost": 2e-06,
@@ -32709,6 +32718,60 @@
         "supported_endpoints": [
             "/v1/images/generations"
         ],
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_pdf_input": true
+    },
+    "vertex_ai/gemini-3-flash-preview": {
+        "cache_read_input_token_cost": 5e-08,
+        "input_cost_per_token": 5e-07,
+        "input_cost_per_audio_token": 1e-06,
+        "litellm_provider": "vertex_ai",
+        "max_audio_length_hours": 8.4,
+        "max_audio_per_prompt": 1,
+        "max_images_per_prompt": 3000,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_pdf_size_mb": 30,
+        "max_tokens": 65535,
+        "max_video_length": 1,
+        "max_videos_per_prompt": 10,
+        "mode": "chat",
+        "output_cost_per_token": 3e-06,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+        "supported_endpoints": [
+            "/v1/chat/completions",
+            "/v1/completions",
+            "/v1/batch"
+        ],
+        "supported_modalities": [
+            "text",
+            "image",
+            "audio",
+            "video"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_audio_input": true,
+        "supports_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": true,
+        "supports_tool_choice": true,
+        "supports_video_input": true,
+        "supports_vision": true,
+        "supports_web_search": true
+    },
+    "linkup/search": {
+        "input_cost_per_query": 0.00587,
+        "litellm_provider": "linkup",
+        "mode": "search"
+    },
+    "linkup/search-deep": {
+        "input_cost_per_query": 0.05867,
+        "litellm_provider": "linkup",
+        "mode": "search"
     }
 }
