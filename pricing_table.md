@@ -2369,3 +2369,11 @@
 | stability.stable-image-style-guide-v1:0                                      | --                                | --                                    | 77                  |       nan           |
 | stability.stable-style-transfer-v1:0                                         | --                                | --                                    | 77                  |       nan           |
 | vertex_ai/deepseek-ai/deepseek-ocr-maas                                      | $0.3                              | $1.2                                  | nan                 |       nan           |
+| gemini/veo-3.1-fast-generate-001                                             | --                                | --                                    | 1,024               |       nan           |
+| gemini/veo-3.1-generate-001                                                  | --                                | --                                    | 1,024               |       nan           |
+| aws_polly/standard                                                           | --                                | --                                    | nan                 |       nan           |
+| aws_polly/neural                                                             | --                                | --                                    | nan                 |       nan           |
+| aws_polly/long-form                                                          | --                                | --                                    | nan                 |       nan           |
+| aws_polly/generative                                                         | --                                | --                                    | nan                 |       nan           |
+| vertex_ai/veo-3.1-generate-001                                               | --                                | --                                    | 1,024               |       nan           |
+| vertex_ai/veo-3.1-fast-generate-001                                          | --                                | --                                    | 1,024               |       nan           |

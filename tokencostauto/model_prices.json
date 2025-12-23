@@ -32971,5 +32971,97 @@
         "output_cost_per_token": 1.2e-06,
         "ocr_cost_per_page": 0.0003,
         "source": "https://cloud.google.com/vertex-ai/pricing"
+    },
+    "gemini/veo-3.1-fast-generate-001": {
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1024,
+        "max_tokens": 1024,
+        "mode": "video_generation",
+        "output_cost_per_second": 0.15,
+        "source": "https://ai.google.dev/gemini-api/docs/video",
+        "supported_modalities": [
+            "text"
+        ],
+        "supported_output_modalities": [
+            "video"
+        ]
+    },
+    "gemini/veo-3.1-generate-001": {
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1024,
+        "max_tokens": 1024,
+        "mode": "video_generation",
+        "output_cost_per_second": 0.4,
+        "source": "https://ai.google.dev/gemini-api/docs/video",
+        "supported_modalities": [
+            "text"
+        ],
+        "supported_output_modalities": [
+            "video"
+        ]
+    },
+    "aws_polly/standard": {
+        "input_cost_per_character": 4e-06,
+        "litellm_provider": "aws_polly",
+        "mode": "audio_speech",
+        "supported_endpoints": [
+            "/v1/audio/speech"
+        ],
+        "source": "https://aws.amazon.com/polly/pricing/"
+    },
+    "aws_polly/neural": {
+        "input_cost_per_character": 1.6e-05,
+        "litellm_provider": "aws_polly",
+        "mode": "audio_speech",
+        "supported_endpoints": [
+            "/v1/audio/speech"
+        ],
+        "source": "https://aws.amazon.com/polly/pricing/"
+    },
+    "aws_polly/long-form": {
+        "input_cost_per_character": 0.0001,
+        "litellm_provider": "aws_polly",
+        "mode": "audio_speech",
+        "supported_endpoints": [
+            "/v1/audio/speech"
+        ],
+        "source": "https://aws.amazon.com/polly/pricing/"
+    },
+    "aws_polly/generative": {
+        "input_cost_per_character": 3e-05,
+        "litellm_provider": "aws_polly",
+        "mode": "audio_speech",
+        "supported_endpoints": [
+            "/v1/audio/speech"
+        ],
+        "source": "https://aws.amazon.com/polly/pricing/"
+    },
+    "vertex_ai/veo-3.1-generate-001": {
+        "litellm_provider": "vertex_ai-video-models",
+        "max_input_tokens": 1024,
+        "max_tokens": 1024,
+        "mode": "video_generation",
+        "output_cost_per_second": 0.4,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/veo",
+        "supported_modalities": [
+            "text"
+        ],
+        "supported_output_modalities": [
+            "video"
+        ]
+    },
+    "vertex_ai/veo-3.1-fast-generate-001": {
+        "litellm_provider": "vertex_ai-video-models",
+        "max_input_tokens": 1024,
+        "max_tokens": 1024,
+        "mode": "video_generation",
+        "output_cost_per_second": 0.15,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/veo",
+        "supported_modalities": [
+            "text"
+        ],
+        "supported_output_modalities": [
+            "video"
+        ]
     }
 }
