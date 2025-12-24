@@ -2377,3 +2377,14 @@
 | aws_polly/generative                                                         | --                                | --                                    | nan                 |       nan           |
 | vertex_ai/veo-3.1-generate-001                                               | --                                | --                                    | 1,024               |       nan           |
 | vertex_ai/veo-3.1-fast-generate-001                                          | --                                | --                                    | 1,024               |       nan           |
+| azure_ai/gpt-oss-120b                                                        | $0.15                             | $0.6                                  | 131,072             |    131072           |
+| azure/gpt-image-1.5                                                          | $5                                | --                                    | nan                 |       nan           |
+| azure/gpt-image-1.5-2025-12-16                                               | $5                                | --                                    | nan                 |       nan           |
+| groq/meta-llama/llama-guard-4-12b                                            | $0.2                              | $0.2                                  | 8,192               |      8192           |
+| minimax/speech-02-hd                                                         | --                                | --                                    | nan                 |       nan           |
+| minimax/speech-02-turbo                                                      | --                                | --                                    | nan                 |       nan           |
+| minimax/speech-2.6-hd                                                        | --                                | --                                    | nan                 |       nan           |
+| minimax/speech-2.6-turbo                                                     | --                                | --                                    | nan                 |       nan           |
+| minimax/MiniMax-M2.1                                                         | $0.3                              | $1.2                                  | 1,000,000           |      8192           |
+| minimax/MiniMax-M2.1-lightning                                               | $0.3                              | $2.4                                  | 1,000,000           |      8192           |
+| minimax/MiniMax-M2                                                           | $0.3                              | $1.2                                  | 200,000             |      8192           |
