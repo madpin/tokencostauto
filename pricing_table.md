@@ -2388,3 +2388,4 @@
 | minimax/MiniMax-M2.1                                                         | $0.3                              | $1.2                                  | 1,000,000           |      8192           |
 | minimax/MiniMax-M2.1-lightning                                               | $0.3                              | $2.4                                  | 1,000,000           |      8192           |
 | minimax/MiniMax-M2                                                           | $0.3                              | $1.2                                  | 200,000             |      8192           |
+| azure/gpt-5.2-chat                                                           | $1.75                             | $14                                   | 128,000             |     16384           |
