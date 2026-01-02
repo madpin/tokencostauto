@@ -155,7 +155,7 @@
 | groq/llama-3.1-70b-versatile                                                 | $0.59                             | $0.79                                 | 8,192               |      8192           |
 | groq/llama-3.1-405b-reasoning                                                | $0.59                             | $0.79                                 | 8,192               |      8192           |
 | groq/mixtral-8x7b-32768                                                      | $0.24                             | $0.24                                 | 32,768              |     32768           |
-| groq/gemma-7b-it                                                             | $0.07                             | $0.07                                 | 8,192               |      8192           |
+| groq/gemma-7b-it                                                             | $0.05                             | $0.08                                 | 8,192               |      8192           |
 | groq/gemma2-9b-it                                                            | $0.2                              | $0.2                                  | 8,192               |      8192           |
 | groq/llama3-groq-70b-8192-tool-use-preview                                   | $0.89                             | $0.89                                 | 8,192               |      8192           |
 | groq/llama3-groq-8b-8192-tool-use-preview                                    | $0.19                             | $0.19                                 | 8,192               |      8192           |
