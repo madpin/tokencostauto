@@ -2422,3 +2422,4 @@
 | 1024-x-1536/gpt-image-1.5-2025-12-16                                         | --                                | --                                    | nan                 |       nan           |
 | 1536-x-1024/gpt-image-1.5-2025-12-16                                         | --                                | --                                    | nan                 |       nan           |
 | zai/glm-4.7                                                                  | $0.6                              | $2.2                                  | 200,000             |    128000           |
+| openrouter/google/gemini-3-flash-preview                                     | $0.5                              | $3                                    | 1,048,576           |     65535           |
