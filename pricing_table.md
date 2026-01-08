@@ -2446,3 +2446,4 @@
 | llamagate/gemma3-4b                                                          | $0.03                             | $0.08                                 | 128,000             |      8192           |
 | llamagate/nomic-embed-text                                                   | $0.02                             | $0                                    | 8,192               |       nan           |
 | llamagate/qwen3-embedding-8b                                                 | $0.02                             | $0                                    | 40,960              |       nan           |
+| azure_ai/flux.2-pro                                                          | --                                | --                                    | nan                 |       nan           |
