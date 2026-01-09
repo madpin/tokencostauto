@@ -2447,3 +2447,4 @@
 | llamagate/nomic-embed-text                                                   | $0.02                             | $0                                    | 8,192               |       nan           |
 | llamagate/qwen3-embedding-8b                                                 | $0.02                             | $0                                    | 40,960              |       nan           |
 | azure_ai/flux.2-pro                                                          | --                                | --                                    | nan                 |       nan           |
+| vertex_ai/zai-org/glm-4.7-maas                                               | $0.3                              | $1.2                                  | 200,000             |    128000           |

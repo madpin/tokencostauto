@@ -1661,7 +1661,7 @@
         "litellm_provider": "deepseek",
         "max_input_tokens": 131072,
         "max_output_tokens": 8192,
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "mode": "chat",
         "output_cost_per_token": 1.7e-06,
         "source": "https://api-docs.deepseek.com/quick_start/pricing",
@@ -21993,7 +21993,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 997952,
         "max_output_tokens": 32768,
-        "max_tokens": 1000000,
+        "max_tokens": 32768,
         "mode": "chat",
         "source": "https://www.alibabacloud.com/help/en/model-studio/models",
         "supports_function_calling": true,
@@ -28632,7 +28632,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 128000,
         "max_output_tokens": 32000,
-        "max_tokens": 128000,
+        "max_tokens": 32000,
         "metadata": {
             "notes": "Input/output cost per token is dbu cost * $0.070. Number provided for reference, '*_dbu_cost_per_token' used in actual calculation."
         },
@@ -33967,5 +33967,18 @@
         "supported_endpoints": [
             "/v1/images/generations"
         ]
+    },
+    "vertex_ai/zai-org/glm-4.7-maas": {
+        "input_cost_per_token": 3e-07,
+        "litellm_provider": "vertex_ai-zai_models",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "output_cost_per_token": 1.2e-06,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#partner-models",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_tool_choice": true
     }
 }
