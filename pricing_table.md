@@ -2447,7 +2447,7 @@
 | llamagate/nomic-embed-text                                                   | $0.02                             | $0                                    | 8,192               |       nan           |
 | llamagate/qwen3-embedding-8b                                                 | $0.02                             | $0                                    | 40,960              |       nan           |
 | azure_ai/flux.2-pro                                                          | --                                | --                                    | nan                 |       nan           |
-| vertex_ai/zai-org/glm-4.7-maas                                               | $0.3                              | $1.2                                  | 200,000             |    128000           |
+| vertex_ai/zai-org/glm-4.7-maas                                               | $0.6                              | $2.2                                  | 200,000             |    128000           |
 | novita/deepseek/deepseek-v3.2                                                | $0.27                             | $0.4                                  | 163,840             |     65536           |
 | novita/minimax/minimax-m2.1                                                  | $0.3                              | $1.2                                  | 204,800             |    131072           |
 | novita/zai-org/glm-4.7                                                       | $0.6                              | $2.2                                  | 204,800             |    131072           |
@@ -2565,3 +2565,4 @@
 | cerebras/zai-glm-4.7                                                         | $2.25                             | $2.75                                 | 128,000             |    128000           |
 | gpt-5.2-codex                                                                | $1.75                             | $14                                   | 400,000             |    128000           |
 | openrouter/openai/gpt-5.2-codex                                              | $1.75                             | $14                                   | 400,000             |    128000           |
+| azure/gpt-5.2-codex                                                          | $1.75                             | $14                                   | 128,000             |     16384           |
