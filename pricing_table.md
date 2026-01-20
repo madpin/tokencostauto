@@ -1312,8 +1312,8 @@
 | azure/gpt-5-nano                                                             | $0.05                             | $0.4                                  | 272,000             |    128000           |
 | azure/gpt-5-chat                                                             | $1.25                             | $10                                   | 128,000             |     16384           |
 | azure/gpt-5-chat-latest                                                      | $1.25                             | $10                                   | 128,000             |     16384           |
-| groq/openai/gpt-oss-20b                                                      | $0.1                              | $0.5                                  | 131,072             |     32768           |
-| groq/openai/gpt-oss-120b                                                     | $0.15                             | $0.75                                 | 131,072             |     32766           |
+| groq/openai/gpt-oss-20b                                                      | $0.08                             | $0.3                                  | 131,072             |     32768           |
+| groq/openai/gpt-oss-120b                                                     | $0.15                             | $0.6                                  | 131,072             |     32766           |
 | claude-opus-4-1                                                              | $15                               | $75                                   | 200,000             |     32000           |
 | oci/meta.llama-4-maverick-17b-128e-instruct-fp8                              | $0.72                             | $0.72                                 | 512,000             |      4000           |
 | oci/meta.llama-4-scout-17b-16e-instruct                                      | $0.72                             | $0.72                                 | 192,000             |      4000           |
@@ -2566,3 +2566,5 @@
 | gpt-5.2-codex                                                                | $1.75                             | $14                                   | 400,000             |    128000           |
 | openrouter/openai/gpt-5.2-codex                                              | $1.75                             | $14                                   | 400,000             |    128000           |
 | azure/gpt-5.2-codex                                                          | $1.75                             | $14                                   | 128,000             |     16384           |
+| dall-e-2                                                                     | --                                | --                                    | nan                 |       nan           |
+| dall-e-3                                                                     | --                                | --                                    | nan                 |       nan           |
