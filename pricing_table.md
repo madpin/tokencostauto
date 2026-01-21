@@ -1936,7 +1936,7 @@
 | claude-sonnet-4-5-20250929-v1:0                                              | $3                                | $15                                   | 200,000             |     64000           |
 | anthropic.claude-opus-4-5-20251101-v1:0                                      | $5                                | $25                                   | 200,000             |     64000           |
 | claude-opus-4-5-20251101                                                     | $5                                | $25                                   | 200,000             |     64000           |
-| us.anthropic.claude-opus-4-5-20251101-v1:0                                   | $5                                | $25                                   | 200,000             |     64000           |
+| us.anthropic.claude-opus-4-5-20251101-v1:0                                   | $5.5                              | $27.5                                 | 200,000             |     64000           |
 | azure/claude-haiku-4-5                                                       | $1                                | $5                                    | 200,000             |     64000           |
 | azure/claude-opus-4-1                                                        | $15                               | $75                                   | 200,000             |     32000           |
 | azure/claude-sonnet-4-5                                                      | $3                                | $15                                   | 200,000             |     64000           |
@@ -2568,3 +2568,8 @@
 | azure/gpt-5.2-codex                                                          | $1.75                             | $14                                   | 128,000             |     16384           |
 | dall-e-2                                                                     | --                                | --                                    | nan                 |       nan           |
 | dall-e-3                                                                     | --                                | --                                    | nan                 |       nan           |
+| gemini-2.5-computer-use-preview-10-2025                                      | $1.25                             | $10                                   | 128,000             |     64000           |
+| chatgpt/gpt-5.2-codex                                                        | --                                | --                                    | 128,000             |    128000           |
+| chatgpt/gpt-5.2                                                              | --                                | --                                    | 128,000             |     64000           |
+| chatgpt/gpt-5.1-codex-max                                                    | --                                | --                                    | 128,000             |    128000           |
+| chatgpt/gpt-5.1-codex-mini                                                   | --                                | --                                    | 128,000             |     64000           |
