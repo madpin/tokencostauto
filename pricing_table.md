@@ -2573,3 +2573,4 @@
 | chatgpt/gpt-5.2                                                              | --                                | --                                    | 128,000             |     64000           |
 | chatgpt/gpt-5.1-codex-max                                                    | --                                | --                                    | 128,000             |    128000           |
 | chatgpt/gpt-5.1-codex-mini                                                   | --                                | --                                    | 128,000             |     64000           |
+| sarvam/sarvam-m                                                              | $0                                | $0                                    | 8,192               |     32000           |
