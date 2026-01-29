@@ -2600,3 +2600,4 @@
 | glm-4-7-251222                                                               | $0                                | $0                                    | 204,800             |    131072           |
 | kimi-k2-thinking-251104                                                      | $0                                | $0                                    | 229,376             |     32768           |
 | gemini-robotics-er-1.5-preview                                               | $0.3                              | $2.5                                  | 1,048,576           |     65535           |
+| gemini/gemini-robotics-er-1.5-preview                                        | $0.3                              | $2.5                                  | 1,048,576           |     65535           |
