@@ -2601,3 +2601,7 @@
 | kimi-k2-thinking-251104                                                      | $0                                | $0                                    | 229,376             |     32768           |
 | gemini-robotics-er-1.5-preview                                               | $0.3                              | $2.5                                  | 1,048,576           |     65535           |
 | gemini/gemini-robotics-er-1.5-preview                                        | $0.3                              | $2.5                                  | 1,048,576           |     65535           |
+| openrouter/xiaomi/mimo-v2-flash                                              | $0.09                             | $0.29                                 | 262,144             |     16384           |
+| openrouter/z-ai/glm-4.7                                                      | $0.4                              | $1.5                                  | 202,752             |     64000           |
+| openrouter/z-ai/glm-4.7-flash                                                | $0.07                             | $0.4                                  | 200,000             |     32000           |
+| openrouter/minimax/minimax-m2.1                                              | $0.27                             | $1.2                                  | 204,000             |     64000           |
