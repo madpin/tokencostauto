@@ -2563,9 +2563,9 @@
 | novita/qwen/qwen3-omni-30b-a3b-thinking                                      | $0.25                             | $0.97                                 | 65,536              |     16384           |
 | novita/qwen/qwen3-omni-30b-a3b-instruct                                      | $0.25                             | $0.97                                 | 65,536              |     16384           |
 | cerebras/zai-glm-4.7                                                         | $2.25                             | $2.75                                 | 128,000             |    128000           |
-| gpt-5.2-codex                                                                | $1.75                             | $14                                   | 400,000             |    128000           |
-| openrouter/openai/gpt-5.2-codex                                              | $1.75                             | $14                                   | 400,000             |    128000           |
-| azure/gpt-5.2-codex                                                          | $1.75                             | $14                                   | 128,000             |     16384           |
+| gpt-5.2-codex                                                                | $1.75                             | $14                                   | 272,000             |    128000           |
+| openrouter/openai/gpt-5.2-codex                                              | $1.75                             | $14                                   | 272,000             |    128000           |
+| azure/gpt-5.2-codex                                                          | $1.75                             | $14                                   | 272,000             |    128000           |
 | dall-e-2                                                                     | --                                | --                                    | nan                 |       nan           |
 | dall-e-3                                                                     | --                                | --                                    | nan                 |       nan           |
 | gemini-2.5-computer-use-preview-10-2025                                      | $1.25                             | $10                                   | 128,000             |     64000           |
@@ -2605,3 +2605,8 @@
 | openrouter/z-ai/glm-4.7                                                      | $0.4                              | $1.5                                  | 202,752             |     64000           |
 | openrouter/z-ai/glm-4.7-flash                                                | $0.07                             | $0.4                                  | 200,000             |     32000           |
 | openrouter/minimax/minimax-m2.1                                              | $0.27                             | $1.2                                  | 204,000             |     64000           |
+| amazon.nova-2-pro-preview-20251202-v1:0                                      | $2.19                             | $17.5                                 | 1,000,000           |     64000           |
+| apac.amazon.nova-2-pro-preview-20251202-v1:0                                 | $2.19                             | $17.5                                 | 1,000,000           |     64000           |
+| eu.amazon.nova-2-pro-preview-20251202-v1:0                                   | $2.19                             | $17.5                                 | 1,000,000           |     64000           |
+| us.amazon.nova-2-pro-preview-20251202-v1:0                                   | $2.19                             | $17.5                                 | 1,000,000           |     64000           |
+| openrouter/moonshotai/kimi-k2.5                                              | $0.6                              | $3                                    | 262,144             |    262144           |
