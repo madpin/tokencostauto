@@ -2610,3 +2610,4 @@
 | eu.amazon.nova-2-pro-preview-20251202-v1:0                                   | $2.19                             | $17.5                                 | 1,000,000           |     64000           |
 | us.amazon.nova-2-pro-preview-20251202-v1:0                                   | $2.19                             | $17.5                                 | 1,000,000           |     64000           |
 | openrouter/moonshotai/kimi-k2.5                                              | $0.6                              | $3                                    | 262,144             |    262144           |
+| azure_ai/model_router                                                        | $0.14                             | $0                                    | nan                 |       nan           |
