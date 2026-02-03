@@ -397,8 +397,8 @@
 | bedrock/us-west-2/mistral.mistral-large-2402-v1:0                            | $8                                | $24                                   | 32,000              |      8191           |
 | bedrock/eu-west-3/mistral.mistral-large-2402-v1:0                            | $10.4                             | $31.2                                 | 32,000              |      8191           |
 | anthropic.claude-3-sonnet-20240229-v1:0                                      | $3                                | $15                                   | 200,000             |      4096           |
-| anthropic.claude-3-5-sonnet-20240620-v1:0                                    | $3                                | $15                                   | 200,000             |      4096           |
-| anthropic.claude-3-5-sonnet-20241022-v2:0                                    | $3                                | $15                                   | 200,000             |      8192           |
+| anthropic.claude-3-5-sonnet-20240620-v1:0                                    | $3                                | $15                                   | 1,000,000           |      4096           |
+| anthropic.claude-3-5-sonnet-20241022-v2:0                                    | $3                                | $15                                   | 1,000,000           |      8192           |
 | anthropic.claude-3-5-sonnet-latest-v2:0                                      | $3                                | $15                                   | 200,000             |      4096           |
 | anthropic.claude-3-haiku-20240307-v1:0                                       | $0.25                             | $1.25                                 | 200,000             |      4096           |
 | anthropic.claude-3-opus-20240229-v1:0                                        | $15                               | $75                                   | 200,000             |      4096           |
@@ -1919,7 +1919,7 @@
 | vertex_ai/gemini-3-pro-preview                                               | $2                                | $12                                   | 1,048,576           |     65535           |
 | vertex_ai/gemini-2.5-flash-image                                             | $0.3                              | $2.5                                  | 32,768              |     32768           |
 | vertex_ai/imagen-3.0-capability-001                                          | --                                | --                                    | nan                 |       nan           |
-| cerebras/gpt-oss-120b                                                        | $0.25                             | $0.69                                 | 131,072             |     32768           |
+| cerebras/gpt-oss-120b                                                        | $0.35                             | $0.75                                 | 131,072             |     32768           |
 | gemini-3-pro-image-preview                                                   | $2                                | $12                                   | 65,536              |     32768           |
 | gemini/gemini-3-pro-image-preview                                            | $2                                | $12                                   | 65,536              |     32768           |
 | openrouter/google/gemini-3-pro-preview                                       | $2                                | $12                                   | 1,048,576           |     65535           |
@@ -2611,3 +2611,4 @@
 | us.amazon.nova-2-pro-preview-20251202-v1:0                                   | $2.19                             | $17.5                                 | 1,000,000           |     64000           |
 | openrouter/moonshotai/kimi-k2.5                                              | $0.6                              | $3                                    | 262,144             |    262144           |
 | azure_ai/model_router                                                        | $0.14                             | $0                                    | nan                 |       nan           |
+| moonshot/kimi-k2.5                                                           | $0.6                              | $3                                    | 262,144             |    262144           |
