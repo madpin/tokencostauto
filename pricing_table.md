@@ -2612,3 +2612,5 @@
 | openrouter/moonshotai/kimi-k2.5                                              | $0.6                              | $3                                    | 262,144             |    262144           |
 | azure_ai/model_router                                                        | $0.14                             | $0                                    | nan                 |       nan           |
 | moonshot/kimi-k2.5                                                           | $0.6                              | $3                                    | 262,144             |    262144           |
+| together_ai/zai-org/GLM-4.7                                                  | $0.45                             | $2                                    | 200,000             |    200000           |
+| together_ai/moonshotai/Kimi-K2.5                                             | $0.5                              | $2.8                                  | 256,000             |    256000           |
