@@ -2614,3 +2614,6 @@
 | moonshot/kimi-k2.5                                                           | $0.6                              | $3                                    | 262,144             |    262144           |
 | together_ai/zai-org/GLM-4.7                                                  | $0.45                             | $2                                    | 200,000             |    200000           |
 | together_ai/moonshotai/Kimi-K2.5                                             | $0.5                              | $2.8                                  | 256,000             |    256000           |
+| deep-research-pro-preview-12-2025                                            | $2                                | $12                                   | 65,536              |     32768           |
+| gemini/deep-research-pro-preview-12-2025                                     | $2                                | $12                                   | 65,536              |     32768           |
+| vertex_ai/deep-research-pro-preview-12-2025                                  | $2                                | $12                                   | 65,536              |     32768           |
