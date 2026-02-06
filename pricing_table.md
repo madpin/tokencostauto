@@ -2617,3 +2617,14 @@
 | deep-research-pro-preview-12-2025                                            | $2                                | $12                                   | 65,536              |     32768           |
 | gemini/deep-research-pro-preview-12-2025                                     | $2                                | $12                                   | 65,536              |     32768           |
 | vertex_ai/deep-research-pro-preview-12-2025                                  | $2                                | $12                                   | 65,536              |     32768           |
+| anthropic.claude-opus-4-6-v1:0                                               | $5                                | $25                                   | 200,000             |    128000           |
+| global.anthropic.claude-opus-4-6-v1:0                                        | $5                                | $25                                   | 200,000             |    128000           |
+| us.anthropic.claude-opus-4-6-v1:0                                            | $5.5                              | $27.5                                 | 200,000             |    128000           |
+| eu.anthropic.claude-opus-4-6-v1:0                                            | $5.5                              | $27.5                                 | 200,000             |    128000           |
+| apac.anthropic.claude-opus-4-6-v1:0                                          | $5.5                              | $27.5                                 | 200,000             |    128000           |
+| azure_ai/claude-opus-4-6                                                     | $5                                | $25                                   | 200,000             |    128000           |
+| claude-opus-4-6                                                              | $5                                | $25                                   | 200,000             |    128000           |
+| claude-opus-4-6-20260205                                                     | $5                                | $25                                   | 200,000             |    128000           |
+| openrouter/qwen/qwen3-235b-a22b-2507                                         | $0.07                             | $0.1                                  | 262,144             |    262144           |
+| openrouter/qwen/qwen3-235b-a22b-thinking-2507                                | $0.11                             | $0.6                                  | 262,144             |    262144           |
+| vertex_ai/claude-opus-4-6                                                    | $5                                | $25                                   | 200,000             |    128000           |
