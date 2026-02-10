@@ -2638,3 +2638,16 @@
 | us/claude-opus-4-6-20260205                                                  | $5.5                              | $27.5                                 | 200,000             |    128000           |
 | elevenlabs/eleven_v3                                                         | --                                | --                                    | nan                 |       nan           |
 | elevenlabs/eleven_multilingual_v2                                            | --                                | --                                    | nan                 |       nan           |
+| fast/claude-opus-4-6                                                         | $30                               | $150                                  | 1,000,000           |    128000           |
+| fast/us/claude-opus-4-6                                                      | $30                               | $150                                  | 200,000             |    128000           |
+| fast/claude-opus-4-6-20260205                                                | $30                               | $150                                  | 1,000,000           |    128000           |
+| vercel_ai_gateway/anthropic/claude-3-5-sonnet                                | $3                                | $15                                   | 200,000             |      8192           |
+| vercel_ai_gateway/anthropic/claude-3-5-sonnet-20241022                       | $3                                | $15                                   | 200,000             |      8192           |
+| vercel_ai_gateway/anthropic/claude-3-7-sonnet                                | $3                                | $15                                   | 200,000             |     64000           |
+| vercel_ai_gateway/anthropic/claude-haiku-4.5                                 | $1                                | $5                                    | 200,000             |     64000           |
+| vercel_ai_gateway/anthropic/claude-opus-4                                    | $15                               | $75                                   | 200,000             |     32000           |
+| vercel_ai_gateway/anthropic/claude-opus-4.1                                  | $15                               | $75                                   | 200,000             |     32000           |
+| vercel_ai_gateway/anthropic/claude-opus-4.5                                  | $5                                | $25                                   | 200,000             |     64000           |
+| vercel_ai_gateway/anthropic/claude-opus-4.6                                  | $5                                | $25                                   | 200,000             |     64000           |
+| vercel_ai_gateway/anthropic/claude-sonnet-4                                  | $3                                | $15                                   | 200,000             |     64000           |
+| vercel_ai_gateway/anthropic/claude-sonnet-4.5                                | $3                                | $15                                   | 1,000,000           |     64000           |
