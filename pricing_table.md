@@ -712,7 +712,7 @@
 | mistral/mistral-large-2411                                                   | $2                                | $6                                    | 128,000             |    128000           |
 | mistral/pixtral-large-latest                                                 | $2                                | $6                                    | 128,000             |    128000           |
 | mistral/pixtral-large-2411                                                   | $2                                | $6                                    | 128,000             |    128000           |
-| deepseek/deepseek-chat                                                       | $0.28                             | $0.42                                 | 128,000             |      8192           |
+| deepseek/deepseek-chat                                                       | $0.28                             | $0.42                                 | 131,072             |      8192           |
 | deepseek/deepseek-coder                                                      | $0.14                             | $0.28                                 | 128,000             |      4096           |
 | groq/llama-3.3-70b-versatile                                                 | $0.59                             | $0.79                                 | 128,000             |     32768           |
 | groq/llama-3.3-70b-specdec                                                   | $0.59                             | $0.99                                 | 8,192               |      8192           |
@@ -760,7 +760,7 @@
 | azure/o3-mini                                                                | $1.1                              | $4.4                                  | 200,000             |    100000           |
 | azure/o1-2024-12-17                                                          | $15                               | $60                                   | 200,000             |    100000           |
 | azure_ai/deepseek-r1                                                         | $1.35                             | $5.4                                  | 128,000             |      8192           |
-| deepseek/deepseek-reasoner                                                   | $0.28                             | $0.42                                 | 128,000             |      8192           |
+| deepseek/deepseek-reasoner                                                   | $0.28                             | $0.42                                 | 131,072             |     65536           |
 | xai/grok-2-vision-1212                                                       | $2                                | $10                                   | 32,768              |     32768           |
 | xai/grok-2-vision-latest                                                     | $2                                | $10                                   | 32,768              |     32768           |
 | xai/grok-2-vision                                                            | $2                                | $10                                   | 32,768              |     32768           |
@@ -2670,3 +2670,4 @@
 | perplexity/google/gemini-2.0-flash-thinking-exp                              | --                                | --                                    | nan                 |       nan           |
 | perplexity/xai/grok-2-1212                                                   | --                                | --                                    | nan                 |       nan           |
 | perplexity/xai/grok-2-vision-1212                                            | --                                | --                                    | nan                 |       nan           |
+| dashscope/qwen3-max                                                          | --                                | --                                    | 258,048             |     65536           |
