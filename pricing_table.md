@@ -2671,3 +2671,6 @@
 | perplexity/xai/grok-2-1212                                                   | --                                | --                                    | nan                 |       nan           |
 | perplexity/xai/grok-2-vision-1212                                            | --                                | --                                    | nan                 |       nan           |
 | dashscope/qwen3-max                                                          | --                                | --                                    | 258,048             |     65536           |
+| minimax/MiniMax-M2.5                                                         | $0.3                              | $1.2                                  | 1,000,000           |      8192           |
+| minimax/MiniMax-M2.5-lightning                                               | $0.3                              | $2.4                                  | 1,000,000           |      8192           |
+| vertex_ai/zai-org/glm-5-maas                                                 | $1                                | $3.2                                  | 200,000             |    128000           |
