@@ -1320,8 +1320,8 @@
 | oci/meta.llama-3.3-70b-instruct                                              | $0.72                             | $0.72                                 | 128,000             |      4000           |
 | oci/meta.llama-3.2-90b-vision-instruct                                       | $2                                | $2                                    | 128,000             |      4000           |
 | oci/meta.llama-3.1-405b-instruct                                             | $10.68                            | $10.68                                | 128,000             |      4000           |
-| oci/xai.grok-4                                                               | $3                                | $0.15                                 | 128,000             |    128000           |
-| oci/xai.grok-3                                                               | $3                                | $0.15                                 | 131,072             |    131072           |
+| oci/xai.grok-4                                                               | $3                                | $15                                   | 128,000             |    128000           |
+| oci/xai.grok-3                                                               | $3                                | $15                                   | 131,072             |    131072           |
 | oci/xai.grok-3-mini                                                          | $0.3                              | $0.5                                  | 131,072             |    131072           |
 | oci/xai.grok-3-fast                                                          | $5                                | $25                                   | 131,072             |    131072           |
 | oci/xai.grok-3-mini-fast                                                     | $0.6                              | $4                                    | 131,072             |    131072           |
@@ -2749,3 +2749,5 @@
 | gemini-pro-latest                                                            | $1.25                             | $10                                   | 1,048,576           |     65535           |
 | gemini/gemini-pro-latest                                                     | $1.25                             | $10                                   | 1,048,576           |     65535           |
 | gemini-exp-1206                                                              | $0.3                              | $2.5                                  | 1,048,576           |     65535           |
+| au.anthropic.claude-opus-4-6-v1                                              | $5.5                              | $27.5                                 | 1,000,000           |    128000           |
+| fireworks_ai/accounts/fireworks/models/kimi-k2p5                             | $0.6                              | $3                                    | 262,144             |    262144           |
