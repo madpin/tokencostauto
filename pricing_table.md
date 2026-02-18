@@ -2751,3 +2751,15 @@
 | gemini-exp-1206                                                              | $0.3                              | $2.5                                  | 1,048,576           |     65535           |
 | au.anthropic.claude-opus-4-6-v1                                              | $5.5                              | $27.5                                 | 1,000,000           |    128000           |
 | fireworks_ai/accounts/fireworks/models/kimi-k2p5                             | $0.6                              | $3                                    | 262,144             |    262144           |
+| anthropic.claude-sonnet-4-6                                                  | $3                                | $15                                   | 200,000             |     64000           |
+| global.anthropic.claude-sonnet-4-6                                           | $3                                | $15                                   | 200,000             |     64000           |
+| us.anthropic.claude-sonnet-4-6                                               | $3.3                              | $16.5                                 | 200,000             |     64000           |
+| eu.anthropic.claude-sonnet-4-6                                               | $3.3                              | $16.5                                 | 200,000             |     64000           |
+| apac.anthropic.claude-sonnet-4-6                                             | $3.3                              | $16.5                                 | 200,000             |     64000           |
+| azure_ai/claude-sonnet-4-6                                                   | $3                                | $15                                   | 200,000             |     64000           |
+| claude-sonnet-4-6                                                            | $3                                | $15                                   | 200,000             |     64000           |
+| github_copilot/claude-opus-4.6-fast                                          | --                                | --                                    | 128,000             |     16000           |
+| github_copilot/gpt-5.3-codex                                                 | --                                | --                                    | 128,000             |    128000           |
+| vertex_ai/claude-opus-4-6@default                                            | $5                                | $25                                   | 1,000,000           |    128000           |
+| vertex_ai/claude-sonnet-4-6                                                  | $3                                | $15                                   | 200,000             |     64000           |
+| vertex_ai/claude-sonnet-4-6@default                                          | $3                                | $15                                   | 200,000             |     64000           |
