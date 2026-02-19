@@ -2763,3 +2763,8 @@
 | vertex_ai/claude-opus-4-6@default                                            | $5                                | $25                                   | 1,000,000           |    128000           |
 | vertex_ai/claude-sonnet-4-6                                                  | $3                                | $15                                   | 200,000             |     64000           |
 | vertex_ai/claude-sonnet-4-6@default                                          | $3                                | $15                                   | 200,000             |     64000           |
+| us/claude-sonnet-4-6                                                         | $3.3                              | $16.5                                 | 200,000             |     64000           |
+| mistral/devstral-small-latest                                                | $0.1                              | $0.3                                  | 256,000             |    256000           |
+| mistral/devstral-latest                                                      | $0.4                              | $2                                    | 256,000             |    256000           |
+| mistral/devstral-medium-latest                                               | $0.4                              | $2                                    | 256,000             |    256000           |
+| duckduckgo/search                                                            | --                                | --                                    | nan                 |       nan           |
