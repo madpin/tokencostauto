@@ -2768,3 +2768,9 @@
 | mistral/devstral-latest                                                      | $0.4                              | $2                                    | 256,000             |    256000           |
 | mistral/devstral-medium-latest                                               | $0.4                              | $2                                    | 256,000             |    256000           |
 | duckduckgo/search                                                            | --                                | --                                    | nan                 |       nan           |
+| gemini-3.1-pro-preview                                                       | $2                                | $12                                   | 1,048,576           |     65536           |
+| gemini-3.1-pro-preview-customtools                                           | $2                                | $12                                   | 1,048,576           |     65536           |
+| vertex_ai/gemini-3.1-pro-preview                                             | $2                                | $12                                   | 1,048,576           |     65536           |
+| vertex_ai/gemini-3.1-pro-preview-customtools                                 | $2                                | $12                                   | 1,048,576           |     65536           |
+| gemini/gemini-3.1-pro-preview                                                | $2                                | $12                                   | 1,048,576           |     65536           |
+| gemini/gemini-3.1-pro-preview-customtools                                    | $2                                | $12                                   | 1,048,576           |     65536           |
