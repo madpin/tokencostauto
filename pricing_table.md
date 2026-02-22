@@ -2779,3 +2779,4 @@
 | fireworks_ai/glm-4p7                                                         | $0.6                              | $2.2                                  | 202,800             |    202800           |
 | fireworks_ai/kimi-k2p5                                                       | $0.6                              | $3                                    | 262,144             |    262144           |
 | fireworks_ai/minimax-m2p1                                                    | $0.3                              | $1.2                                  | 204,800             |    204800           |
+| openrouter/minimax/minimax-m2.5                                              | $0.3                              | $1.1                                  | 196,608             |     65536           |
