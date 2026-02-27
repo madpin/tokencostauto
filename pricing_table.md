@@ -884,7 +884,7 @@
 | gpt-4o-mini-search-preview-2025-03-11                                        | $0.15                             | $0.6                                  | 128,000             |     16384           |
 | gpt-4o-mini-search-preview                                                   | $0.15                             | $0.6                                  | 128,000             |     16384           |
 | azure/gpt-4.5-preview                                                        | $75                               | $150                                  | 128,000             |     16384           |
-| azure_ai/mistral-small-2503                                                  | $1                                | $3                                    | 128,000             |    128000           |
+| azure_ai/mistral-small-2503                                                  | $0.1                              | $0.3                                  | 128,000             |    128000           |
 | text-embedding-large-exp-03-07                                               | $0.1                              | $0                                    | 8,192               |       nan           |
 | gpt-4.1                                                                      | $2                                | $8                                    | 1,047,576           |     32768           |
 | gpt-4.1-2025-04-14                                                           | $2                                | $8                                    | 1,047,576           |     32768           |
@@ -2797,3 +2797,6 @@
 | perplexity/google/gemini-2.5-flash                                           | --                                | --                                    | nan                 |       nan           |
 | perplexity/xai/grok-4-1-fast-non-reasoning                                   | --                                | --                                    | nan                 |       nan           |
 | perplexity/perplexity/sonar                                                  | --                                | --                                    | nan                 |       nan           |
+| azure/gpt-audio-1.5-2026-02-23                                               | $2.5                              | $10                                   | 128,000             |     16384           |
+| azure/gpt-realtime-1.5-2026-02-23                                            | $4                                | $16                                   | 32,000              |      4096           |
+| azure/gpt-5.3-codex                                                          | $1.75                             | $14                                   | 272,000             |    128000           |
