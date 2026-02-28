@@ -2800,3 +2800,11 @@
 | azure/gpt-audio-1.5-2026-02-23                                               | $2.5                              | $10                                   | 128,000             |     16384           |
 | azure/gpt-realtime-1.5-2026-02-23                                            | $4                                | $16                                   | 32,000              |      4096           |
 | azure/gpt-5.3-codex                                                          | $1.75                             | $14                                   | 272,000             |    128000           |
+| gemini-3.1-flash-image-preview                                               | $0.5                              | $3                                    | 65,536              |     32768           |
+| gpt-audio-1.5                                                                | $2.5                              | $10                                   | 128,000             |     16384           |
+| gpt-realtime-1.5                                                             | $4                                | $16                                   | 32,000              |      4096           |
+| openrouter/anthropic/claude-opus-4.6                                         | $5                                | $25                                   | 1,000,000           |    128000           |
+| openrouter/openrouter/auto                                                   | $0                                | $0                                    | 2,000,000           |       nan           |
+| openrouter/openrouter/free                                                   | $0                                | $0                                    | 200,000             |       nan           |
+| openrouter/openrouter/bodybuilder                                            | $0                                | $0                                    | 128,000             |       nan           |
+| vertex_ai/gemini-3.1-flash-image-preview                                     | $0.5                              | $3                                    | 65,536              |     32768           |
