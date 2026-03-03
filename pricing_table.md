@@ -124,11 +124,11 @@
 | claude-instant-1                                                             | $1.63                             | $5.51                                 | 100,000             |      8191           |
 | mistral/mistral-tiny                                                         | $0.25                             | $0.25                                 | 32,000              |      8191           |
 | mistral/mistral-small                                                        | $0.1                              | $0.3                                  | 32,000              |      8191           |
-| mistral/mistral-small-latest                                                 | $0.1                              | $0.3                                  | 32,000              |      8191           |
+| mistral/mistral-small-latest                                                 | $0.06                             | $0.18                                 | 131,072             |    131072           |
 | mistral/mistral-medium                                                       | $2.7                              | $8.1                                  | 32,000              |      8191           |
-| mistral/mistral-medium-latest                                                | $0.4                              | $2                                    | 131,072             |      8191           |
+| mistral/mistral-medium-latest                                                | $0.4                              | $2                                    | 131,072             |    131072           |
 | mistral/mistral-medium-2312                                                  | $2.7                              | $8.1                                  | 32,000              |      8191           |
-| mistral/mistral-large-latest                                                 | $2                                | $6                                    | 128,000             |    128000           |
+| mistral/mistral-large-latest                                                 | $0.5                              | $1.5                                  | 262,144             |    262144           |
 | mistral/mistral-large-2402                                                   | $4                                | $12                                   | 32,000              |      8191           |
 | mistral/mistral-large-2407                                                   | $3                                | $9                                    | 128,000             |    128000           |
 | mistral/pixtral-12b-2409                                                     | $0.15                             | $0.15                                 | 128,000             |    128000           |
@@ -2003,7 +2003,7 @@
 | azure/gpt-5.1-codex-max                                                      | $1.25                             | $10                                   | 272,000             |    128000           |
 | azure_ai/mistral-large-3                                                     | $0.5                              | $1.5                                  | 256,000             |      8191           |
 | gpt-5.1-codex-max                                                            | $1.25                             | $10                                   | 272,000             |    128000           |
-| mistral/mistral-large-3                                                      | $0.5                              | $1.5                                  | 256,000             |      8191           |
+| mistral/mistral-large-3                                                      | $0.5                              | $1.5                                  | 262,144             |    262144           |
 | amazon-nova/nova-micro-v1                                                    | $0.04                             | $0.14                                 | 128,000             |     10000           |
 | amazon-nova/nova-lite-v1                                                     | $0.06                             | $0.24                                 | 300,000             |     10000           |
 | amazon-nova/nova-premier-v1                                                  | $2.5                              | $12.5                                 | 1,000,000           |     10000           |
@@ -2808,3 +2808,13 @@
 | openrouter/openrouter/free                                                   | $0                                | $0                                    | 200,000             |       nan           |
 | openrouter/openrouter/bodybuilder                                            | $0                                | $0                                    | 128,000             |       nan           |
 | vertex_ai/gemini-3.1-flash-image-preview                                     | $0.5                              | $3                                    | 65,536              |     32768           |
+| dashscope/qwen3-vl-plus                                                      | --                                | --                                    | 260,096             |     32768           |
+| dashscope/qwen3.5-plus                                                       | --                                | --                                    | 991,808             |     65536           |
+| mistral/magistral-medium-1-2-2509                                            | $2                                | $5                                    | 40,000              |     40000           |
+| mistral/magistral-small-1-2-2509                                             | $0.5                              | $1.5                                  | 40,000              |     40000           |
+| mistral/mistral-large-2512                                                   | $0.5                              | $1.5                                  | 262,144             |    262144           |
+| mistral/mistral-medium-3-1-2508                                              | $0.4                              | $2                                    | 131,072             |    131072           |
+| mistral/mistral-small-3-2-2506                                               | $0.06                             | $0.18                                 | 131,072             |    131072           |
+| mistral/ministral-3-3b-2512                                                  | $0.1                              | $0.1                                  | 131,072             |    131072           |
+| mistral/ministral-3-8b-2512                                                  | $0.15                             | $0.15                                 | 262,144             |    262144           |
+| mistral/ministral-3-14b-2512                                                 | $0.2                              | $0.2                                  | 262,144             |    262144           |
