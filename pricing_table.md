@@ -2871,3 +2871,11 @@
 | mistral.devstral-2-123b                                                      | $0.4                              | $2                                    |    256000           |      8192           |
 | together_ai/Qwen/Qwen3.5-397B-A17B                                           | $0.6                              | $3.6                                  |    262144           |       nan           |
 | zai.glm-4.7-flash                                                            | $0.07                             | $0.4                                  |    200000           |    128000           |
+| au.anthropic.claude-sonnet-4-6                                               | $3.3                              | $16.5                                 |    200000           |     64000           |
+| azure_ai/mistral-document-ai-2512                                            | --                                | --                                    |       nan           |       nan           |
+| gpt-5.4                                                                      | $2.5                              | $15                                   |         1.05e+06    |    128000           |
+| gpt-5.4-2026-03-05                                                           | $2.5                              | $15                                   |         1.05e+06    |    128000           |
+| bedrock_mantle/openai.gpt-oss-120b                                           | $0.15                             | $0.6                                  |    131072           |     32768           |
+| bedrock_mantle/openai.gpt-oss-20b                                            | $0.08                             | $0.3                                  |    131072           |     32768           |
+| bedrock_mantle/openai.gpt-oss-safeguard-120b                                 | $0.15                             | $0.6                                  |    131072           |     65536           |
+| bedrock_mantle/openai.gpt-oss-safeguard-20b                                  | $0.08                             | $0.3                                  |    131072           |     65536           |
