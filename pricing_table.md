@@ -2879,3 +2879,11 @@
 | bedrock_mantle/openai.gpt-oss-20b                                            | $0.08                             | $0.3                                  |    131072           |     32768           |
 | bedrock_mantle/openai.gpt-oss-safeguard-120b                                 | $0.15                             | $0.6                                  |    131072           |     65536           |
 | bedrock_mantle/openai.gpt-oss-safeguard-20b                                  | $0.08                             | $0.3                                  |    131072           |     65536           |
+| chatgpt/gpt-5.4                                                              | --                                | --                                    |         1.05e+06    |    128000           |
+| chatgpt/gpt-5.4-pro                                                          | --                                | --                                    |         1.05e+06    |    128000           |
+| chatgpt/gpt-5.3-codex                                                        | --                                | --                                    |    128000           |    128000           |
+| chatgpt/gpt-5.3-codex-spark                                                  | --                                | --                                    |    128000           |    128000           |
+| chatgpt/gpt-5.3-instant                                                      | --                                | --                                    |    128000           |     64000           |
+| chatgpt/gpt-5.3-chat-latest                                                  | --                                | --                                    |    128000           |     64000           |
+| gpt-5.4-pro                                                                  | $30                               | $180                                  |         1.05e+06    |    128000           |
+| gpt-5.4-pro-2026-03-05                                                       | $30                               | $180                                  |         1.05e+06    |    128000           |
