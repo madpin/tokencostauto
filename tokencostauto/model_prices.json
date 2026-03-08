@@ -27417,7 +27417,8 @@
         "supports_system_messages": true,
         "supports_tool_choice": true,
         "supports_service_tier": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_none_reasoning_effort": true
     },
     "azure/gpt-5.1-chat-2025-11-13": {
         "cache_read_input_token_cost": 1.25e-07,
@@ -27452,7 +27453,8 @@
         "supports_response_schema": true,
         "supports_system_messages": true,
         "supports_tool_choice": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_none_reasoning_effort": true
     },
     "azure/gpt-5.1-codex-2025-11-13": {
         "cache_read_input_token_cost": 1.25e-07,
@@ -27551,7 +27553,8 @@
         "supports_response_schema": true,
         "supports_system_messages": true,
         "supports_tool_choice": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_none_reasoning_effort": true
     },
     "azure/eu/gpt-5.1-chat": {
         "cache_read_input_token_cost": 1.4e-07,
@@ -27584,7 +27587,8 @@
         "supports_response_schema": true,
         "supports_system_messages": true,
         "supports_tool_choice": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_none_reasoning_effort": true
     },
     "azure/eu/gpt-5.1-codex": {
         "cache_read_input_token_cost": 1.4e-07,
@@ -27677,7 +27681,8 @@
         "supports_response_schema": true,
         "supports_system_messages": true,
         "supports_tool_choice": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_none_reasoning_effort": true
     },
     "azure/global/gpt-5.1-chat": {
         "cache_read_input_token_cost": 1.25e-07,
@@ -27710,7 +27715,8 @@
         "supports_response_schema": true,
         "supports_system_messages": true,
         "supports_tool_choice": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_none_reasoning_effort": true
     },
     "azure/global/gpt-5.1-codex": {
         "cache_read_input_token_cost": 1.25e-07,
@@ -27803,7 +27809,8 @@
         "supports_response_schema": true,
         "supports_system_messages": true,
         "supports_tool_choice": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_none_reasoning_effort": true
     },
     "azure/gpt-5.1-chat": {
         "cache_read_input_token_cost": 1.25e-07,
@@ -27836,7 +27843,8 @@
         "supports_response_schema": true,
         "supports_system_messages": true,
         "supports_tool_choice": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_none_reasoning_effort": true
     },
     "azure/gpt-5.1-codex": {
         "cache_read_input_token_cost": 1.25e-07,
@@ -27929,7 +27937,8 @@
         "supports_response_schema": true,
         "supports_system_messages": true,
         "supports_tool_choice": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_none_reasoning_effort": true
     },
     "azure/us/gpt-5.1-chat": {
         "cache_read_input_token_cost": 1.4e-07,
@@ -27962,7 +27971,8 @@
         "supports_response_schema": true,
         "supports_system_messages": true,
         "supports_tool_choice": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_none_reasoning_effort": true
     },
     "azure/us/gpt-5.1-codex": {
         "cache_read_input_token_cost": 1.4e-07,
@@ -41930,5 +41940,34 @@
         "supports_web_search": true,
         "supports_none_reasoning_effort": false,
         "supports_xhigh_reasoning_effort": true
+    },
+    "azure_ai/grok-4-1-fast-non-reasoning": {
+        "input_cost_per_token": 2e-07,
+        "output_cost_per_token": 5e-07,
+        "litellm_provider": "azure_ai",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "source": "https://techcommunity.microsoft.com/t5/Azure-AI-Foundry-Blog/Grok-4-0-Goes-GA-in-Microsoft-Foundry-and-Grok-4-1-Fast-Arrives/ba-p/4497964",
+        "supports_function_calling": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true,
+        "supports_web_search": true
+    },
+    "azure_ai/grok-4-1-fast-reasoning": {
+        "input_cost_per_token": 2e-07,
+        "output_cost_per_token": 5e-07,
+        "litellm_provider": "azure_ai",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "source": "https://techcommunity.microsoft.com/t5/Azure-AI-Foundry-Blog/Grok-4-0-Goes-GA-in-Microsoft-Foundry-and-Grok-4-1-Fast-Arrives/ba-p/4497964",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true,
+        "supports_web_search": true
     }
 }
