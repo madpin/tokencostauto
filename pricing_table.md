@@ -2889,3 +2889,5 @@
 | gpt-5.4-pro-2026-03-05                                                       | $30                               | $180                                  |         1.05e+06    |    128000           |
 | azure_ai/grok-4-1-fast-non-reasoning                                         | $0.2                              | $0.5                                  |    131072           |    131072           |
 | azure_ai/grok-4-1-fast-reasoning                                             | $0.2                              | $0.5                                  |    131072           |    131072           |
+| serper/search                                                                | --                                | --                                    |       nan           |       nan           |
+| gemini/gemini-3.1-flash-image-preview                                        | $0.25                             | $1.5                                  |     65536           |     32768           |
