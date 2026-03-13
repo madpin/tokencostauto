@@ -266,7 +266,7 @@
 | palm/text-bison-safety-recitation-off                                        | $0.12                             | $0.12                                 |      8192           |      1024           |
 | gemini/gemini-1.5-flash-002                                                  | $0.08                             | $0.3                                  |         1.04858e+06 |      8192           |
 | gemini/gemini-1.5-flash-001                                                  | $0.08                             | $0.3                                  |         1.04858e+06 |      8192           |
-| gemini/gemini-1.5-flash                                                      | $0.08                             | $0.3                                  |         1.04858e+06 |      8192           |
+| gemini/gemini-1.5-flash                                                      | $0.08                             | $0                                    |      8192           |       nan           |
 | gemini/gemini-1.5-flash-latest                                               | $0.08                             | $0.3                                  |         1.04858e+06 |      8192           |
 | gemini/gemini-1.5-flash-8b-exp-0924                                          | $0                                | $0                                    |         1.04858e+06 |      8192           |
 | gemini/gemini-1.5-flash-exp-0827                                             | $0                                | $0                                    |         1.04858e+06 |      8192           |
@@ -2906,7 +2906,7 @@
 | black_forest_labs/flux-pro                                                   | --                                | --                                    |       nan           |       nan           |
 | gemini-embedding-2-preview                                                   | $0.2                              | $0                                    |      8192           |       nan           |
 | vertex_ai/gemini-embedding-2-preview                                         | $0.15                             | $0                                    |      8192           |       nan           |
-| gemini/gemini-embedding-2-preview                                            | $0.15                             | $0                                    |      8192           |       nan           |
+| gemini/gemini-embedding-2-preview                                            | $0.2                              | $0                                    |      8192           |       nan           |
 | openrouter/qwen/qwen3.5-35b-a3b                                              | $0.25                             | $2                                    |    262144           |     65536           |
 | openrouter/qwen/qwen3.5-27b                                                  | $0.3                              | $2.4                                  |    262144           |     65536           |
 | openrouter/qwen/qwen3.5-122b-a10b                                            | $0.4                              | $2                                    |    262144           |     65536           |

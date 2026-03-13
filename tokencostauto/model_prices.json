@@ -2912,13 +2912,11 @@
         "max_input_tokens": 1000000,
         "max_output_tokens": 8192,
         "max_tokens": 8192,
-        "mode": "chat",
-        "output_cost_per_character": 0,
+        "mode": "embedding",
         "output_cost_per_token": 0,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/gemini-experimental",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": true,
-        "supports_tool_choice": true
+        "output_vector_size": 3072,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+        "uses_embed_content": true
     },
     "gemini-pro-vision": {
         "input_cost_per_image": 0.0025,
@@ -3470,26 +3468,15 @@
         "input_cost_per_token": 7.5e-08,
         "input_cost_per_token_above_128k_tokens": 1.5e-07,
         "litellm_provider": "gemini",
-        "max_audio_length_hours": 8.4,
-        "max_audio_per_prompt": 1,
-        "max_images_per_prompt": 3000,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 8192,
-        "max_pdf_size_mb": 30,
+        "max_input_tokens": 8192,
         "max_tokens": 8192,
-        "max_video_length": 1,
-        "max_videos_per_prompt": 10,
-        "mode": "chat",
-        "output_cost_per_token": 3e-07,
-        "output_cost_per_token_above_128k_tokens": 6e-07,
-        "rpm": 2000,
-        "source": "https://ai.google.dev/pricing",
-        "supports_function_calling": true,
-        "supports_response_schema": true,
-        "supports_system_messages": true,
-        "supports_tool_choice": true,
-        "supports_vision": true,
-        "tpm": 4000000
+        "mode": "embedding",
+        "output_cost_per_token": 0,
+        "output_vector_size": 3072,
+        "rpm": 10000,
+        "source": "https://ai.google.dev/gemini-api/docs/embeddings#multimodal",
+        "supports_multimodal": true,
+        "tpm": 10000000
     },
     "gemini/gemini-1.5-flash-latest": {
         "deprecation_date": "2025-09-29",
@@ -34485,6 +34472,9 @@
         "mode": "chat",
         "output_cost_per_token": 2.2e-06,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#partner-models",
+        "supported_regions": [
+            "global"
+        ],
         "supports_function_calling": true,
         "supports_reasoning": true,
         "supports_tool_choice": true
@@ -38016,6 +38006,9 @@
         "mode": "chat",
         "output_cost_per_token": 3.2e-06,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#glm-models",
+        "supported_regions": [
+            "global"
+        ],
         "supports_function_calling": true,
         "supports_prompt_caching": true,
         "supports_reasoning": true,
@@ -42305,7 +42298,7 @@
         "input_cost_per_audio_per_second": 0.00016,
         "input_cost_per_image": 0.00012,
         "input_cost_per_token": 2e-07,
-        "input_cost_per_video_per_second": 0.0237,
+        "input_cost_per_video_per_second": 0.00079,
         "litellm_provider": "vertex_ai-embedding-models",
         "max_input_tokens": 8192,
         "max_tokens": 8192,
@@ -42328,7 +42321,10 @@
         "uses_embed_content": true
     },
     "gemini/gemini-embedding-2-preview": {
-        "input_cost_per_token": 1.5e-07,
+        "input_cost_per_audio_per_second": 0.00016,
+        "input_cost_per_image": 0.00012,
+        "input_cost_per_token": 2e-07,
+        "input_cost_per_video_per_second": 0.00079,
         "litellm_provider": "gemini",
         "max_input_tokens": 8192,
         "max_tokens": 8192,
@@ -42336,7 +42332,7 @@
         "output_cost_per_token": 0,
         "output_vector_size": 3072,
         "rpm": 10000,
-        "source": "https://ai.google.dev/gemini-api/docs/embeddings#multimodal",
+        "source": "https://ai.google.dev/gemini-api/docs/pricing",
         "supports_multimodal": true,
         "tpm": 10000000
     },
