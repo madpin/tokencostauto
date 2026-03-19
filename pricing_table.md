@@ -2913,3 +2913,6 @@
 | openrouter/qwen/qwen3.5-flash-02-23                                          | $0.1                              | $0.4                                  |         1e+06       |     65536           |
 | openrouter/qwen/qwen3.5-plus-02-15                                           | $0.4                              | $2.4                                  |         1e+06       |     65536           |
 | openrouter/qwen/qwen3.5-397b-a17b                                            | $0.6                              | $3.6                                  |    262144           |     65536           |
+| xai/grok-4.20-multi-agent-beta-0309                                          | $2                                | $6                                    |         2e+06       |         2e+06       |
+| xai/grok-4.20-beta-0309-reasoning                                            | $2                                | $6                                    |         2e+06       |         2e+06       |
+| xai/grok-4.20-beta-0309-non-reasoning                                        | $2                                | $6                                    |         2e+06       |         2e+06       |
