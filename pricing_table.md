@@ -2916,3 +2916,9 @@
 | xai/grok-4.20-multi-agent-beta-0309                                          | $2                                | $6                                    |         2e+06       |         2e+06       |
 | xai/grok-4.20-beta-0309-reasoning                                            | $2                                | $6                                    |         2e+06       |         2e+06       |
 | xai/grok-4.20-beta-0309-non-reasoning                                        | $2                                | $6                                    |         2e+06       |         2e+06       |
+| azure/gpt-5.4-mini                                                           | $0.75                             | $4.5                                  |         1.05e+06    |    128000           |
+| azure/gpt-5.4-nano                                                           | $0.2                              | $1.25                                 |         1.05e+06    |    128000           |
+| volcengine/doubao-seed-2-0-pro-260215                                        | --                                | --                                    |    256000           |    128000           |
+| volcengine/doubao-seed-2-0-lite-260215                                       | --                                | --                                    |    256000           |    128000           |
+| volcengine/doubao-seed-2-0-mini-260215                                       | --                                | --                                    |    256000           |    128000           |
+| volcengine/doubao-seed-2-0-code-preview-260215                               | --                                | --                                    |    256000           |    128000           |
