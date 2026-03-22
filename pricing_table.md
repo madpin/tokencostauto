@@ -2922,3 +2922,5 @@
 | volcengine/doubao-seed-2-0-lite-260215                                       | --                                | --                                    |    256000           |    128000           |
 | volcengine/doubao-seed-2-0-mini-260215                                       | --                                | --                                    |    256000           |    128000           |
 | volcengine/doubao-seed-2-0-code-preview-260215                               | --                                | --                                    |    256000           |    128000           |
+| gpt-5.4-mini                                                                 | $0.75                             | $4.5                                  |    272000           |    128000           |
+| gpt-5.4-nano                                                                 | $0.2                              | $1.25                                 |    272000           |    128000           |
