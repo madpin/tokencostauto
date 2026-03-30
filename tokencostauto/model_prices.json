@@ -23320,7 +23320,8 @@
         "output_cost_per_token": 1.68e-06,
         "supports_function_calling": true,
         "supports_reasoning": true,
-        "supports_tool_choice": true
+        "supports_tool_choice": true,
+        "supports_native_structured_output": true
     },
     "gpt-5-codex": {
         "cache_read_input_token_cost": 1.25e-07,
@@ -23366,7 +23367,8 @@
         "output_cost_per_token": 1.8e-06,
         "supports_function_calling": true,
         "supports_reasoning": true,
-        "supports_tool_choice": true
+        "supports_tool_choice": true,
+        "supports_native_structured_output": true
     },
     "qwen.qwen3-235b-a22b-2507-v1:0": {
         "input_cost_per_token": 2.2e-07,
@@ -23378,7 +23380,8 @@
         "output_cost_per_token": 8.8e-07,
         "supports_function_calling": true,
         "supports_reasoning": true,
-        "supports_tool_choice": true
+        "supports_tool_choice": true,
+        "supports_native_structured_output": true
     },
     "qwen.qwen3-coder-30b-a3b-v1:0": {
         "input_cost_per_token": 1.5e-07,
@@ -23390,7 +23393,8 @@
         "output_cost_per_token": 6e-07,
         "supports_function_calling": true,
         "supports_reasoning": true,
-        "supports_tool_choice": true
+        "supports_tool_choice": true,
+        "supports_native_structured_output": true
     },
     "qwen.qwen3-32b-v1:0": {
         "input_cost_per_token": 1.5e-07,
@@ -23402,7 +23406,8 @@
         "output_cost_per_token": 6e-07,
         "supports_function_calling": true,
         "supports_reasoning": true,
-        "supports_tool_choice": true
+        "supports_tool_choice": true,
+        "supports_native_structured_output": true
     },
     "sambanova/DeepSeek-V3.1": {
         "max_tokens": 32768,
@@ -23983,7 +23988,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "vertex_ai/claude-sonnet-4-5": {
         "cache_creation_input_token_cost": 3.75e-06,
@@ -24176,7 +24182,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "nvidia_nim/nvidia/nv-rerankqa-mistral-4b-v3": {
         "input_cost_per_query": 0.0,
@@ -24288,7 +24295,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "watsonx/bigscience/mt0-xxl-13b": {
         "max_tokens": 8192,
@@ -24618,7 +24626,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "global.anthropic.claude-sonnet-4-20250514-v1:0": {
         "cache_creation_input_token_cost": 3.75e-06,
@@ -24888,7 +24897,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "oci/cohere.command-latest": {
         "input_cost_per_token": 1.56e-06,
@@ -25021,7 +25031,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "anthropic.claude-haiku-4-5@20251001": {
         "cache_creation_input_token_cost": 1.25e-06,
@@ -25044,7 +25055,8 @@
         "supports_tool_choice": true,
         "supports_vision": true,
         "tool_use_system_prompt_tokens": 346,
-        "supports_native_streaming": true
+        "supports_native_streaming": true,
+        "supports_native_structured_output": true
     },
     "apac.anthropic.claude-haiku-4-5-20251001-v1:0": {
         "cache_creation_input_token_cost": 1.375e-06,
@@ -25066,7 +25078,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "claude-haiku-4-5-20251001": {
         "cache_creation_input_token_cost": 1.25e-06,
@@ -25131,7 +25144,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "gemini-2.5-flash-image": {
         "cache_read_input_token_cost": 3e-08,
@@ -25300,7 +25314,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
         "cache_creation_input_token_cost": 1.375e-06,
@@ -25322,7 +25337,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "vertex_ai/claude-haiku-4-5@20251001": {
         "cache_creation_input_token_cost": 1.25e-06,
@@ -25406,7 +25422,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "au.anthropic.claude-haiku-4-5-20251001-v1:0": {
         "cache_creation_input_token_cost": 1.375e-06,
@@ -25427,7 +25444,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "vercel_ai_gateway/glm-4.6": {
         "litellm_provider": "vercel_ai_gateway",
@@ -28463,7 +28481,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 159
+        "tool_use_system_prompt_tokens": 159,
+        "supports_native_structured_output": true
     },
     "bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0": {
         "input_cost_per_token": 3.3e-06,
@@ -28554,7 +28573,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 159
+        "tool_use_system_prompt_tokens": 159,
+        "supports_native_structured_output": true
     },
     "claude-opus-4-5-20251101": {
         "cache_creation_input_token_cost": 6.25e-06,
@@ -28607,7 +28627,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 159
+        "tool_use_system_prompt_tokens": 159,
+        "supports_native_structured_output": true
     },
     "azure/claude-haiku-4-5": {
         "input_cost_per_token": 1e-06,
@@ -29520,7 +29541,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 159
+        "tool_use_system_prompt_tokens": 159,
+        "supports_native_structured_output": true
     },
     "amazon.titan-image-generator-v2:0": {
         "input_cost_per_image": 0.0,
@@ -29778,7 +29800,8 @@
         "max_tokens": 8192,
         "mode": "chat",
         "output_cost_per_token": 1.2e-06,
-        "supports_system_messages": true
+        "supports_system_messages": true,
+        "supports_native_structured_output": true
     },
     "mistral.magistral-small-2509": {
         "input_cost_per_token": 5e-07,
@@ -29801,7 +29824,8 @@
         "mode": "chat",
         "output_cost_per_token": 2e-07,
         "supports_function_calling": true,
-        "supports_system_messages": true
+        "supports_system_messages": true,
+        "supports_native_structured_output": true
     },
     "mistral.ministral-3-3b-instruct": {
         "input_cost_per_token": 1e-07,
@@ -29812,7 +29836,8 @@
         "mode": "chat",
         "output_cost_per_token": 1e-07,
         "supports_function_calling": true,
-        "supports_system_messages": true
+        "supports_system_messages": true,
+        "supports_native_structured_output": true
     },
     "mistral.ministral-3-8b-instruct": {
         "input_cost_per_token": 1.5e-07,
@@ -29823,7 +29848,8 @@
         "mode": "chat",
         "output_cost_per_token": 1.5e-07,
         "supports_function_calling": true,
-        "supports_system_messages": true
+        "supports_system_messages": true,
+        "supports_native_structured_output": true
     },
     "mistral.mistral-large-3-675b-instruct": {
         "input_cost_per_token": 5e-07,
@@ -29834,7 +29860,8 @@
         "mode": "chat",
         "output_cost_per_token": 1.5e-06,
         "supports_function_calling": true,
-        "supports_system_messages": true
+        "supports_system_messages": true,
+        "supports_native_structured_output": true
     },
     "mistral.voxtral-mini-3b-2507": {
         "input_cost_per_token": 4e-08,
@@ -29845,7 +29872,8 @@
         "mode": "chat",
         "output_cost_per_token": 4e-08,
         "supports_audio_input": true,
-        "supports_system_messages": true
+        "supports_system_messages": true,
+        "supports_native_structured_output": true
     },
     "mistral.voxtral-small-24b-2507": {
         "input_cost_per_token": 1e-07,
@@ -29856,7 +29884,8 @@
         "mode": "chat",
         "output_cost_per_token": 3e-07,
         "supports_audio_input": true,
-        "supports_system_messages": true
+        "supports_system_messages": true,
+        "supports_native_structured_output": true
     },
     "moonshot.kimi-k2-thinking": {
         "input_cost_per_token": 6e-07,
@@ -29867,7 +29896,8 @@
         "mode": "chat",
         "output_cost_per_token": 2.5e-06,
         "supports_reasoning": true,
-        "supports_system_messages": true
+        "supports_system_messages": true,
+        "supports_native_structured_output": true
     },
     "nvidia.nemotron-nano-12b-v2": {
         "input_cost_per_token": 2e-07,
@@ -29919,7 +29949,8 @@
         "mode": "chat",
         "output_cost_per_token": 1.2e-06,
         "supports_function_calling": true,
-        "supports_system_messages": true
+        "supports_system_messages": true,
+        "supports_native_structured_output": true
     },
     "qwen.qwen3-vl-235b-a22b": {
         "input_cost_per_token": 5.3e-07,
@@ -29931,7 +29962,8 @@
         "output_cost_per_token": 2.66e-06,
         "supports_function_calling": true,
         "supports_system_messages": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_native_structured_output": true
     },
     "nvidia_nim/ranking/nvidia/llama-3.2-nv-rerankqa-1b-v2": {
         "input_cost_per_query": 0.0,
@@ -32599,7 +32631,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 159
+        "tool_use_system_prompt_tokens": 159,
+        "supports_native_structured_output": true
     },
     "azure_ai/cohere-rerank-v4.0-pro": {
         "input_cost_per_query": 0.0025,
@@ -37261,7 +37294,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "global.anthropic.claude-opus-4-6-v1": {
         "cache_creation_input_token_cost": 6.25e-06,
@@ -37287,7 +37321,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "us.anthropic.claude-opus-4-6-v1": {
         "cache_creation_input_token_cost": 6.875e-06,
@@ -37313,7 +37348,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "eu.anthropic.claude-opus-4-6-v1": {
         "cache_creation_input_token_cost": 6.875e-06,
@@ -37339,7 +37375,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "apac.anthropic.claude-opus-4-6-v1": {
         "cache_creation_input_token_cost": 6.875e-06,
@@ -38589,7 +38626,8 @@
         "supports_function_calling": true,
         "supports_system_messages": true,
         "supports_tool_choice": true,
-        "source": "https://aws.amazon.com/bedrock/pricing/"
+        "source": "https://aws.amazon.com/bedrock/pricing/",
+        "supports_native_structured_output": true
     },
     "qwen.qwen3-coder-next": {
         "input_cost_per_token": 5e-07,
@@ -39312,7 +39350,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "fireworks_ai/accounts/fireworks/models/kimi-k2p5": {
         "cache_read_input_token_cost": 1e-07,
@@ -39352,7 +39391,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "global.anthropic.claude-sonnet-4-6": {
         "cache_creation_input_token_cost": 3.75e-06,
@@ -39378,7 +39418,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "us.anthropic.claude-sonnet-4-6": {
         "cache_creation_input_token_cost": 4.125e-06,
@@ -39404,7 +39445,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "eu.anthropic.claude-sonnet-4-6": {
         "cache_creation_input_token_cost": 4.125e-06,
@@ -39430,7 +39472,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "apac.anthropic.claude-sonnet-4-6": {
         "cache_creation_input_token_cost": 4.125e-06,
@@ -41586,7 +41629,8 @@
         "supports_response_schema": true,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tool_use_system_prompt_tokens": 346
+        "tool_use_system_prompt_tokens": 346,
+        "supports_native_structured_output": true
     },
     "azure_ai/mistral-document-ai-2512": {
         "litellm_provider": "azure_ai",
@@ -42284,14 +42328,17 @@
         "uses_embed_content": true
     },
     "vertex_ai/gemini-embedding-2-preview": {
-        "input_cost_per_token": 1.5e-07,
+        "input_cost_per_audio_per_second": 0.00016,
+        "input_cost_per_image": 0.00012,
+        "input_cost_per_token": 2e-07,
+        "input_cost_per_video_per_second": 0.00079,
         "litellm_provider": "vertex_ai",
         "max_input_tokens": 8192,
         "max_tokens": 8192,
         "mode": "embedding",
         "output_cost_per_token": 0,
         "output_vector_size": 3072,
-        "source": "https://ai.google.dev/gemini-api/docs/embeddings#multimodal",
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
         "supports_multimodal": true,
         "uses_embed_content": true
     },
