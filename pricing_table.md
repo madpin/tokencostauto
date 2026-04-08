@@ -1931,8 +1931,8 @@
 | xai/grok-4-1-fast-non-reasoning                                              | $0.2                              | $0.5                                  |         2e+06       |         2e+06       |
 | xai/grok-4-1-fast-non-reasoning-latest                                       | $0.2                              | $0.5                                  |         2e+06       |         2e+06       |
 | anthropic.claude-sonnet-4-5-20250929-v1:0                                    | $3                                | $15                                   |    200000           |     64000           |
-| bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0                        | $3.6                              | $18                                   |    200000           |      4096           |
-| bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0                        | $3.6                              | $18                                   |    200000           |      4096           |
+| bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0                        | $3.6                              | $18                                   |    200000           |      8192           |
+| bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0                        | $3.6                              | $18                                   |    200000           |      8192           |
 | claude-sonnet-4-5-20250929-v1:0                                              | $3                                | $15                                   |    200000           |     64000           |
 | anthropic.claude-opus-4-5-20251101-v1:0                                      | $5                                | $25                                   |    200000           |     64000           |
 | claude-opus-4-5-20251101                                                     | $5                                | $25                                   |    200000           |     64000           |
@@ -2972,3 +2972,6 @@
 | oci/cohere.embed-multilingual-light-image-v3.0                               | $0.1                              | $0                                    |       512           |       nan           |
 | oci/cohere.embed-v4.0                                                        | $0.12                             | $0                                    |    128000           |       nan           |
 | vertex_ai/claude-haiku-4-5                                                   | $1                                | $5                                    |    200000           |      8192           |
+| bedrock/us-gov-east-1/anthropic.claude-sonnet-4-5-20250929-v1:0              | $3.3                              | $16.5                                 |    200000           |      8192           |
+| bedrock/us-gov-west-1/anthropic.claude-sonnet-4-5-20250929-v1:0              | $3.3                              | $16.5                                 |    200000           |      8192           |
+| us-gov.anthropic.claude-sonnet-4-5-20250929-v1:0                             | $3.3                              | $16.5                                 |    200000           |     64000           |
