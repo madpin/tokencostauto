@@ -1931,8 +1931,8 @@
 | xai/grok-4-1-fast-non-reasoning                                              | $0.2                              | $0.5                                  |         2e+06       |         2e+06       |
 | xai/grok-4-1-fast-non-reasoning-latest                                       | $0.2                              | $0.5                                  |         2e+06       |         2e+06       |
 | anthropic.claude-sonnet-4-5-20250929-v1:0                                    | $3                                | $15                                   |    200000           |     64000           |
-| bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0                        | $3.6                              | $18                                   |    200000           |      8192           |
-| bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0                        | $3.6                              | $18                                   |    200000           |      8192           |
+| bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0                        | $3.3                              | $16.5                                 |    200000           |      8192           |
+| bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0                        | $3.3                              | $16.5                                 |    200000           |      8192           |
 | claude-sonnet-4-5-20250929-v1:0                                              | $3                                | $15                                   |    200000           |     64000           |
 | anthropic.claude-opus-4-5-20251101-v1:0                                      | $5                                | $25                                   |    200000           |     64000           |
 | claude-opus-4-5-20251101                                                     | $5                                | $25                                   |    200000           |     64000           |
@@ -2975,3 +2975,14 @@
 | bedrock/us-gov-east-1/anthropic.claude-sonnet-4-5-20250929-v1:0              | $3.3                              | $16.5                                 |    200000           |      8192           |
 | bedrock/us-gov-west-1/anthropic.claude-sonnet-4-5-20250929-v1:0              | $3.3                              | $16.5                                 |    200000           |      8192           |
 | us-gov.anthropic.claude-sonnet-4-5-20250929-v1:0                             | $3.3                              | $16.5                                 |    200000           |     64000           |
+| baseten/MiniMaxAI/MiniMax-M2.5                                               | $0.3                              | $1.2                                  |       nan           |       nan           |
+| baseten/nvidia/Nemotron-120B-A12B                                            | $0.3                              | $0.75                                 |       nan           |       nan           |
+| baseten/zai-org/GLM-5                                                        | $0.95                             | $3.15                                 |       nan           |       nan           |
+| baseten/zai-org/GLM-4.7                                                      | $0.6                              | $2.2                                  |       nan           |       nan           |
+| baseten/zai-org/GLM-4.6                                                      | $0.6                              | $2.2                                  |       nan           |       nan           |
+| baseten/moonshotai/Kimi-K2.5                                                 | $0.6                              | $3                                    |       nan           |       nan           |
+| baseten/moonshotai/Kimi-K2-Thinking                                          | $0.6                              | $2.5                                  |       nan           |       nan           |
+| baseten/moonshotai/Kimi-K2-Instruct-0905                                     | $0.6                              | $2.5                                  |       nan           |       nan           |
+| baseten/openai/gpt-oss-120b                                                  | $0.1                              | $0.5                                  |       nan           |       nan           |
+| baseten/deepseek-ai/DeepSeek-V3.1                                            | $0.5                              | $1.5                                  |       nan           |       nan           |
+| baseten/deepseek-ai/DeepSeek-V3-0324                                         | $0.77                             | $0.77                                 |       nan           |       nan           |
