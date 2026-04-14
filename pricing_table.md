@@ -1353,7 +1353,7 @@
 | together_ai/Qwen/Qwen3-235B-A22B-Thinking-2507                               | $0.65                             | $3                                    |    256000           |       nan           |
 | together_ai/Qwen/Qwen3-235B-A22B-fp8-tput                                    | $0.2                              | $0.6                                  |     40000           |       nan           |
 | together_ai/deepseek-ai/DeepSeek-R1-0528-tput                                | $0.55                             | $2.19                                 |    128000           |       nan           |
-| together_ai/openai/gpt-oss-120b                                              | $0.15                             | $0.6                                  |    128000           |       nan           |
+| together_ai/openai/gpt-oss-120b                                              | $0.15                             | $0.6                                  |    131072           |    131072           |
 | together_ai/OpenAI/gpt-oss-20B                                               | $0.05                             | $0.2                                  |    128000           |       nan           |
 | together_ai/zai-org/GLM-4.5-Air-FP8                                          | $0.2                              | $1.1                                  |    128000           |       nan           |
 | fireworks_ai/accounts/fireworks/models/deepseek-v3-0324                      | $0.9                              | $0.9                                  |    163840           |    163840           |
