@@ -2986,3 +2986,6 @@
 | baseten/openai/gpt-oss-120b                                                  | $0.1                              | $0.5                                  |       nan           |       nan           |
 | baseten/deepseek-ai/DeepSeek-V3.1                                            | $0.5                              | $1.5                                  |       nan           |       nan           |
 | baseten/deepseek-ai/DeepSeek-V3-0324                                         | $0.77                             | $0.77                                 |       nan           |       nan           |
+| gemini/veo-3.1-lite-generate-preview                                         | --                                | --                                    |      1024           |       nan           |
+| wandb/moonshotai/Kimi-K2.5                                                   | $0.6                              | $3                                    |    262144           |    262144           |
+| wandb/MiniMaxAI/MiniMax-M2.5                                                 | $0.3                              | $1.2                                  |    197000           |    197000           |
