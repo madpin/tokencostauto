@@ -2989,3 +2989,14 @@
 | gemini/veo-3.1-lite-generate-preview                                         | --                                | --                                    |      1024           |       nan           |
 | wandb/moonshotai/Kimi-K2.5                                                   | $0.6                              | $3                                    |    262144           |    262144           |
 | wandb/MiniMaxAI/MiniMax-M2.5                                                 | $0.3                              | $1.2                                  |    197000           |    197000           |
+| anthropic.claude-opus-4-7                                                    | $5                                | $25                                   |         1e+06       |    128000           |
+| global.anthropic.claude-opus-4-7                                             | $5                                | $25                                   |         1e+06       |    128000           |
+| us.anthropic.claude-opus-4-7                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
+| eu.anthropic.claude-opus-4-7                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
+| au.anthropic.claude-opus-4-7                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
+| azure_ai/claude-opus-4-7                                                     | $5                                | $25                                   |    200000           |    128000           |
+| claude-opus-4-7                                                              | $5                                | $25                                   |         1e+06       |    128000           |
+| claude-opus-4-7-20260416                                                     | $5                                | $25                                   |         1e+06       |    128000           |
+| perplexity/anthropic/claude-opus-4-7                                         | --                                | --                                    |       nan           |       nan           |
+| vertex_ai/claude-opus-4-7                                                    | $5                                | $25                                   |         1e+06       |    128000           |
+| vertex_ai/claude-opus-4-7@default                                            | $5                                | $25                                   |         1e+06       |    128000           |
