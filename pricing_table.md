@@ -3000,3 +3000,4 @@
 | perplexity/anthropic/claude-opus-4-7                                         | --                                | --                                    |       nan           |       nan           |
 | vertex_ai/claude-opus-4-7                                                    | $5                                | $25                                   |         1e+06       |    128000           |
 | vertex_ai/claude-opus-4-7@default                                            | $5                                | $25                                   |         1e+06       |    128000           |
+| openrouter/google/gemini-3.1-flash-lite-preview                              | $0.25                             | $1.5                                  |         1.04858e+06 |     65536           |
