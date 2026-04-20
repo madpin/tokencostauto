@@ -3001,3 +3001,4 @@
 | vertex_ai/claude-opus-4-7                                                    | $5                                | $25                                   |         1e+06       |    128000           |
 | vertex_ai/claude-opus-4-7@default                                            | $5                                | $25                                   |         1e+06       |    128000           |
 | openrouter/google/gemini-3.1-flash-lite-preview                              | $0.25                             | $1.5                                  |         1.04858e+06 |     65536           |
+| xai/grok-4.20-0309-reasoning                                                 | $2                                | $6                                    |         2e+06       |         2e+06       |
