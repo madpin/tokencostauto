@@ -3003,6 +3003,11 @@
 | openrouter/google/gemini-3.1-flash-lite-preview                              | $0.25                             | $1.5                                  |         1.04858e+06 |     65536           |
 | xai/grok-4.20-0309-reasoning                                                 | $2                                | $6                                    |         2e+06       |         2e+06       |
 | anthropic.claude-mythos-preview                                              | $0                                | $0                                    |         1e+06       |    128000           |
-| gpt-5.5                                                                      | $5                                | $30                                   |    272000           |    128000           |
+| gpt-5.5                                                                      | $5                                | $30                                   |         1.05e+06    |    128000           |
 | moonshot/kimi-k2.6                                                           | $0.95                             | $4                                    |    262144           |    262144           |
 | openrouter/anthropic/claude-opus-4.7                                         | $5                                | $25                                   |         1e+06       |    128000           |
+| dashscope/qwen-image-2.0                                                     | --                                | --                                    |       nan           |       nan           |
+| dashscope/qwen-image-2.0-pro                                                 | --                                | --                                    |       nan           |       nan           |
+| gpt-5.5-2026-04-23                                                           | $5                                | $30                                   |         1.05e+06    |    128000           |
+| gpt-5.5-pro                                                                  | $60                               | $360                                  |         1.05e+06    |    128000           |
+| gpt-5.5-pro-2026-04-23                                                       | $60                               | $360                                  |         1.05e+06    |    128000           |
