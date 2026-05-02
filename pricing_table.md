@@ -3024,3 +3024,7 @@
 | gpt-5.4-nano-2026-03-17                                                      | $0.2                              | $1.25                                 |    272000           |    128000           |
 | bedrock/us-east-1/zai.glm-5                                                  | $1                                | $3.2                                  |    200000           |    128000           |
 | bedrock/us-west-2/zai.glm-5                                                  | $1                                | $3.2                                  |    200000           |    128000           |
+| azure/gpt-image-2                                                            | $5                                | $10                                   |       nan           |       nan           |
+| azure/gpt-image-2-2026-04-21                                                 | $5                                | $10                                   |       nan           |       nan           |
+| gpt-image-2                                                                  | $5                                | $10                                   |       nan           |       nan           |
+| gpt-image-2-2026-04-21                                                       | $5                                | $10                                   |       nan           |       nan           |
