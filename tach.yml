@@ -6,7 +6,7 @@ modules:
       - tokencostauto.costs
   - path: tokencostauto.constants
     depends_on: []
-  - path: tokencost.costs
+  - path: tokencostauto.costs
     depends_on:
       - tokencostauto.constants
   - path: update_prices

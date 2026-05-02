@@ -20,8 +20,8 @@
 </p>
 
 
-# TokenCost
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![PyPI - Version](https://img.shields.io/pypi/v/tokencost)
+# TokenCostAuto
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![PyPI - Version](https://img.shields.io/pypi/v/tokencostauto)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/AgentOpsAI)](https://x.com/agentopsai)
 
 Tokencost helps calculate the USD cost of using major Large Language Model (LLMs) APIs by calculating the estimated cost of prompts and completions.
@@ -92,7 +92,7 @@ model= "gpt-3.5-turbo"
 
 prompt_cost = calculate_prompt_cost(prompt_string, model)
 print(f"Cost: ${prompt_cost}")
-# Cost: $3e-06tokencostauto
+# Cost: $3e-06
 ```
 
 **Counting tokens**
@@ -123,6 +123,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 
 
 * Prices last updated Jan 30, 2024 from [LiteLLM's cost dictionary](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json)
+
+<!-- PRICING_TABLE_START -->
 
 | Model Name                                                            | Prompt Cost (USD) per 1M tokens   | Completion Cost (USD) per 1M tokens   | Max Prompt Tokens   |   Max Output Tokens |
 |:----------------------------------------------------------------------|:----------------------------------|:--------------------------------------|:--------------------|--------------------:|
@@ -1145,6 +1147,10 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | nscale/meta-llama/Llama-3.1-8B-Instruct                               | $0.03                             | $0.03                                 | nan                 |             nan     |
 | nscale/meta-llama/Llama-3.3-70B-Instruct                              | $0.2                              | $0.2                                  | nan                 |             nan     |
 | nscale/black-forest-labs/FLUX.1-schnell                               | --                                | --                                    | nan                 |             nan     |
-| nscale/stabilityai/stable-diffusion-xl-base-1.0                       | --                                | --                                    | nan                 |             nan     |## License
+| nscale/stabilityai/stable-diffusion-xl-base-1.0                       | --                                | --                                    | nan                 |                nan  |
+
+<!-- PRICING_TABLE_END -->
+
+## License
 
 TokenCost is released under the MIT License.

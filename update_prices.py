@@ -10,10 +10,14 @@ tokencostauto.refresh_prices(write_file=False)
 
 
 def diff_dicts(dict1, dict2):
-    diff_keys = dict1.keys() ^ dict2.keys()
-    differences = {k: (dict1.get(k), dict2.get(k)) for k in diff_keys}
+    # Filter out keys from dict1 that start with 'openai/'
+    dict1_filtered = {k: v for k, v in dict1.items() if not k.startswith('openai/')}
+
+    diff_keys_initial = dict1_filtered.keys() ^ dict2.keys()
+    diff_keys = {k for k in diff_keys_initial if not k.startswith('openai/')}
+    differences = {k: (dict1_filtered.get(k), dict2.get(k)) for k in diff_keys}
     differences.update(
-        {k: (dict1[k], dict2[k]) for k in dict1 if k in dict2 and dict1[k] != dict2[k]}
+        {k: (dict1_filtered[k], dict2[k]) for k in dict1_filtered if k in dict2 and dict1_filtered[k] != dict2[k]}
     )
 
     if differences:
@@ -30,22 +34,40 @@ def diff_dicts(dict1, dict2):
 with open("tokencostauto/model_prices.json", "r") as f:
     model_prices = json.load(f)
 
-# Compare the refreshed TOKEN_COSTS with the file
+# Compare the refreshed TOKEN_COSTS with the file, ignoring "openai/" keys
 if diff_dicts(model_prices, tokencostauto.TOKEN_COSTS):
     print("Updating model_prices.json")
+    # In upstream they use tokencost.TOKEN_COSTS which is the global updated dict
     with open("tokencostauto/model_prices.json", "w") as f:
         json.dump(tokencostauto.TOKEN_COSTS, f, indent=4)
     print("File updated successfully")
+    # Reload the prices after updating
+    with open("tokencostauto/model_prices.json", "r") as f:
+        model_prices = json.load(f)
 else:
-    print("File is already up to date")
+    print("File is already up to date. Exiting.")
+    exit(0)
+
+# Add/overwrite the "openai/" keys from the unprefixed keys in the final price list
+openai_models = {key: value for key, value in model_prices.items() if value.get("litellm_provider") == "openai"}
+
+for key, value in openai_models.items():
+    if not key.startswith('openai/'):
+        new_key = f"openai/{key}"
+        model_prices[new_key] = value
+
+# Write the final, consistent data back to the file
+print("Adding 'openai/' pre-fixed models to model_prices.json")
+with open("tokencostauto/model_prices.json", "w") as f:
+    json.dump(model_prices, f, indent=4)
 
 # Load the data
-df = pd.DataFrame(tokencostauto.TOKEN_COSTS).T
+df = pd.DataFrame(model_prices).T
 df.loc[df.index[1:], "max_input_tokens"] = (
-    df["max_input_tokens"].iloc[1:].apply(lambda x: "{:,.0f}".format(x))
+    df["max_input_tokens"].iloc[1:].apply(lambda x: "{:,.0f}".format(x) if pd.notna(x) else "nan")
 )
 df.loc[df.index[1:], "max_tokens"] = (
-    df["max_tokens"].iloc[1:].apply(lambda x: "{:,.0f}".format(x))
+    df["max_tokens"].iloc[1:].apply(lambda x: "{:,.0f}".format(x) if pd.notna(x) else "nan")
 )
 
 
@@ -102,19 +124,36 @@ table_md = df[
 with open("pricing_table.md", "w") as f:
     f.write(table_md)
 
-# Read the README.md file
-with open("README.md", "r") as f:
-    readme_content = f.read()
+print("Pricing table updated in pricing_table.md")
 
-# Find and replace just the table in the README, preserving the header text
-# The regex pattern matches a markdown table starting with the "Model Name" header
-# and ending before the next markdown header. DOTALL mode is enabled to allow
-# the `.` character to match newline characters.
-table_pattern = r"(?s)\| Model Name.*?\n\n(?=#)"
-table_replacement = table_md
+# --- Update README.md with the latest pricing table ---
+start_marker = "<!-- PRICING_TABLE_START -->"
+end_marker = "<!-- PRICING_TABLE_END -->"
 
-updated_readme = re.sub(table_pattern, table_replacement, readme_content, flags=re.DOTALL)
+try:
+    with open("README.md", "r") as f:
+        readme_content = f.read()
 
-# Write the updated README
-with open("README.md", "w") as f:
-    f.write(updated_readme)
+    table_block = f"{start_marker}\n\n{table_md}\n\n{end_marker}"
+
+    if start_marker in readme_content and end_marker in readme_content:
+        # Replace the existing table block
+        pattern = re.compile(f"{re.escape(start_marker)}.*?{re.escape(end_marker)}", re.DOTALL)
+        updated_readme = pattern.sub(table_block, readme_content)
+    else:
+        # Fallback to the old regex if markers are missing (though I just added them)
+        table_pattern = r"(?s)\| Model Name.*?\n\n(?=#)"
+        if re.search(table_pattern, readme_content):
+             updated_readme = re.sub(table_pattern, f"{table_block}\n\n", readme_content, flags=re.DOTALL)
+        else:
+            if "## Cost table" in readme_content:
+                updated_readme = readme_content.replace("## Cost table", f"## Cost table\n\n{table_block}")
+            else:
+                updated_readme = readme_content + "\n\n" + table_block
+
+    with open("README.md", "w") as f:
+        f.write(updated_readme)
+
+    print("Pricing table updated in README.md")
+except FileNotFoundError:
+    print("README.md not found. Skipping README update.")
