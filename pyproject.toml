@@ -40,5 +40,5 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/madpin/tokencostaudo"
+Homepage = "https://github.com/madpin/tokencostauto"
 Issues = "https://github.com/madpin/tokencostauto/issues"

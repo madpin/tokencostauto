@@ -5,10 +5,11 @@ Costs dictionary and utility tool for counting tokens
 import os
 import tiktoken
 import anthropic
-from typing import Union, List, Dict
+from typing import Union, List, Dict, Literal, Optional, Tuple, Pattern
 from .constants import TOKEN_COSTS
 from decimal import Decimal
 import logging
+import re
 
 logger = logging.getLogger(__name__)
 
@@ -16,10 +17,153 @@ logger = logging.getLogger(__name__)
 # https://github.com/anthropics/anthropic-tokenizer-typescript/blob/main/index.ts
 
 
+TokenType = Literal["input", "output", "cached"]
+
+
+MODEL_PRICE_PATTERNS: List[Tuple[Pattern[str], Dict[str, Union[int, float, str, bool]]]] = []
+
+
+def _to_per_token(cost_per_1k_tokens: Union[int, float, Decimal]) -> float:
+    """Convert a price expressed per 1K tokens to a per-token float."""
+    return float(Decimal(str(cost_per_1k_tokens)) / Decimal(1000))
+
+
+def configure_model(
+    model_name: str,
+    input_cost_per_1k_tokens: Union[int, float, Decimal],
+    output_cost_per_1k_tokens: Union[int, float, Decimal],
+    *,
+    max_input_tokens: Optional[int] = None,
+    max_output_tokens: Optional[int] = None,
+    litellm_provider: Optional[str] = None,
+    mode: str = "chat",
+) -> None:
+    """
+    Register or override pricing for a specific model name.
+
+    Args:
+        model_name: The exact model identifier to store (case-insensitive).
+        input_cost_per_1k_tokens: USD per 1K input tokens (e.g., 0.003 for $3.00/M).
+        output_cost_per_1k_tokens: USD per 1K output tokens (e.g., 0.015 for $15.00/M).
+        max_input_tokens: Optional maximum input tokens.
+        max_output_tokens: Optional maximum output tokens.
+        litellm_provider: Optional provider hint (e.g., "bedrock").
+        mode: Model mode, defaults to "chat".
+    """
+    key = model_name.lower()
+    TOKEN_COSTS[key] = {
+        "input_cost_per_token": _to_per_token(input_cost_per_1k_tokens),
+        "output_cost_per_token": _to_per_token(output_cost_per_1k_tokens),
+        "mode": mode,
+    }
+    if max_input_tokens is not None:
+        TOKEN_COSTS[key]["max_input_tokens"] = int(max_input_tokens)
+    if max_output_tokens is not None:
+        TOKEN_COSTS[key]["max_output_tokens"] = int(max_output_tokens)
+    if litellm_provider is not None:
+        TOKEN_COSTS[key]["litellm_provider"] = litellm_provider
+
+
+def register_model_pattern(
+    pattern: str,
+    input_cost_per_1k_tokens: Union[int, float, Decimal],
+    output_cost_per_1k_tokens: Union[int, float, Decimal],
+    *,
+    max_input_tokens: Optional[int] = None,
+    max_output_tokens: Optional[int] = None,
+    litellm_provider: Optional[str] = None,
+    mode: str = "chat",
+) -> None:
+    """
+    Register a wildcard or regex-like pattern that assigns pricing to any matching model.
+
+    The pattern supports '*' as a wildcard. It is converted to a full regex match.
+    Example: "bedrock/anthropic.claude-3-5-sonnet-*".
+    """
+    # Convert simple wildcard pattern to regex
+    regex_str = "^" + re.escape(pattern).replace(r"\*", ".*") + "$"
+    compiled = re.compile(regex_str)
+    entry: Dict[str, Union[int, float, str, bool]] = {
+        "input_cost_per_token": _to_per_token(input_cost_per_1k_tokens),
+        "output_cost_per_token": _to_per_token(output_cost_per_1k_tokens),
+        "mode": mode,
+    }
+    if max_input_tokens is not None:
+        entry["max_input_tokens"] = int(max_input_tokens)
+    if max_output_tokens is not None:
+        entry["max_output_tokens"] = int(max_output_tokens)
+    if litellm_provider is not None:
+        entry["litellm_provider"] = litellm_provider
+    MODEL_PRICE_PATTERNS.append((compiled, entry))
+
+
+def _normalize_model_for_pricing(model: str) -> str:
+    """
+    Normalize a model identifier for price lookup.
+
+    Rules:
+    - Lowercase everything
+    - Keep exact matches if present
+    - Special-case Bedrock Anthropics: strip the leading "bedrock/" prefix when the next
+      segment starts with "anthropic.", since pricing keys are stored without the prefix.
+    - Otherwise, try the last segment after '/'. This helps for provider prefixes like
+      "azure/", "openai/", etc., when prices are stored under the bare model key.
+    """
+    m = model.lower()
+    if m in TOKEN_COSTS:
+        return m
+
+    # bedrock/anthropic.* => anthropic.* (pricing keys stored this way)
+    if m.startswith("bedrock/") and "/" in m:
+        first, rest = m.split("/", 1)
+        if rest.startswith("anthropic."):
+            if rest in TOKEN_COSTS:
+                return rest
+
+    # Try last path segment as a fallback (handles e.g., azure/gpt-4o)
+    if "/" in m:
+        last = m.split("/")[-1]
+        if last in TOKEN_COSTS:
+            return last
+
+    # Try matching any user-registered wildcard patterns. If matched, bind pricing to this key.
+    for regex, entry in MODEL_PRICE_PATTERNS:
+        if regex.match(m):
+            # Cache the computed pricing under the exact model string
+            TOKEN_COSTS[m] = dict(entry)
+            return m
+
+    return m
+
+
+def _get_field_from_token_type(token_type: TokenType) -> str:
+    """
+    Get the field name from the token type.
+
+    Args:
+        token_type (TokenType): The token type.
+
+    Returns:
+        str: The field name to use for the token cost data in the TOKEN_COSTS dictionary.
+    """
+    lookups = {
+        "input": "input_cost_per_token",
+        "output": "output_cost_per_token",
+        "cached": "cache_read_input_token_cost",
+    }
+
+    try:
+        return lookups[token_type]
+    except KeyError:
+        raise ValueError(f"Invalid token type: {token_type}.")
+
+
 def get_anthropic_token_count(messages: List[Dict[str, str]], model: str) -> int:
     if not any(
         supported_model in model
         for supported_model in [
+            "claude-opus-4",
+            "claude-sonnet-4",
             "claude-3-7-sonnet",
             "claude-3-5-sonnet",
             "claude-3-5-haiku",
@@ -70,7 +214,7 @@ def count_message_tokens(messages: List[Dict[str, str]], model: str) -> int:
     model = strip_ft_model_name(model)
 
     # Anthropic token counting requires a valid API key
-    if "claude-" in model:
+    if "claude-" in model and not model.startswith("anthropic."):
         logger.warning(
             "Warning: Anthropic token counting API is currently in beta. Please expect differences in costs!"
         )
@@ -79,7 +223,7 @@ def count_message_tokens(messages: List[Dict[str, str]], model: str) -> int:
     try:
         encoding = tiktoken.encoding_for_model(model)
     except KeyError:
-        logger.info("Model not found. Using cl100k_base encoding.")
+        logger.warning("Model not found. Using cl100k_base encoding.")
         encoding = tiktoken.get_encoding("cl100k_base")
     if model in {
         "gpt-3.5-turbo-0613",
@@ -165,7 +309,7 @@ def count_string_tokens(prompt: str, model: str) -> int:
     return len(encoding.encode(prompt))
 
 
-def calculate_cost_by_tokens(num_tokens: int, model: str, token_type: str) -> Decimal:
+def calculate_cost_by_tokens(num_tokens: int, model: str, token_type: TokenType) -> Decimal:
     """
     Calculate the cost based on the number of tokens and the model.
 
@@ -177,17 +321,18 @@ def calculate_cost_by_tokens(num_tokens: int, model: str, token_type: str) -> De
     Returns:
         Decimal: The calculated cost in USD.
     """
-    model = model.lower()
+    model = _normalize_model_for_pricing(model)
     if model not in TOKEN_COSTS:
         raise KeyError(
             f"""Model {model} is not implemented.
             Double-check your spelling, or submit an issue/PR"""
         )
 
-    cost_per_token_key = (
-        "input_cost_per_token" if token_type == "input" else "output_cost_per_token"
-    )
-    cost_per_token = TOKEN_COSTS[model][cost_per_token_key]
+    try:
+        token_key = _get_field_from_token_type(token_type)
+        cost_per_token = TOKEN_COSTS[model][token_key]
+    except KeyError:
+        raise KeyError(f"Model {model} does not have cost data for `{token_type}` tokens.")
 
     return Decimal(str(cost_per_token)) * Decimal(num_tokens)
 
@@ -215,7 +360,8 @@ def calculate_prompt_cost(prompt: Union[List[dict], str], model: str) -> Decimal
     """
     model = model.lower()
     model = strip_ft_model_name(model)
-    if model not in TOKEN_COSTS:
+    pricing_model = _normalize_model_for_pricing(model)
+    if pricing_model not in TOKEN_COSTS:
         raise KeyError(
             f"""Model {model} is not implemented.
             Double-check your spelling, or submit an issue/PR"""
@@ -230,7 +376,7 @@ def calculate_prompt_cost(prompt: Union[List[dict], str], model: str) -> Decimal
         else count_message_tokens(prompt, model)
     )
 
-    return calculate_cost_by_tokens(prompt_tokens, model, "input")
+    return calculate_cost_by_tokens(prompt_tokens, pricing_model, "input")
 
 
 def calculate_completion_cost(completion: str, model: str) -> Decimal:
@@ -250,7 +396,8 @@ def calculate_completion_cost(completion: str, model: str) -> Decimal:
     Decimal('0.000014')
     """
     model = strip_ft_model_name(model)
-    if model not in TOKEN_COSTS:
+    pricing_model = _normalize_model_for_pricing(model)
+    if pricing_model not in TOKEN_COSTS:
         raise KeyError(
             f"""Model {model} is not implemented.
             Double-check your spelling, or submit an issue/PR"""
@@ -268,7 +415,7 @@ def calculate_completion_cost(completion: str, model: str) -> Decimal:
     else:
         completion_tokens = count_string_tokens(completion, model)
 
-    return calculate_cost_by_tokens(completion_tokens, model, "output")
+    return calculate_cost_by_tokens(completion_tokens, pricing_model, "output")
 
 
 def calculate_all_costs_and_tokens(
@@ -299,7 +446,7 @@ def calculate_all_costs_and_tokens(
         else count_message_tokens(prompt, model)
     )
 
-    if "claude-" in model:
+    if "claude-" in model and not model.startswith("anthropic."):
         logger.warning("Warning: Token counting is estimated for ")
         completion_list = [{"role": "assistant", "content": completion}]
         # Anthropic appends some 13 additional tokens to the actual completion tokens
