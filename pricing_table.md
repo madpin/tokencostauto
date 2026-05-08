@@ -3260,3 +3260,5 @@
 | openai/gpt-5.4-nano-2026-03-17                                               | $0.2                              | $1.25                                 |    272000           |    128000           |
 | openai/gpt-image-2                                                           | $5                                | $10                                   |       nan           |       nan           |
 | openai/gpt-image-2-2026-04-21                                                | $5                                | $10                                   |       nan           |       nan           |
+| xai/grok-4.3                                                                 | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
+| xai/grok-4.3-latest                                                          | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
