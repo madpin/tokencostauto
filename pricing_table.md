@@ -3262,3 +3262,4 @@
 | openai/gpt-image-2-2026-04-21                                                | $5                                | $10                                   |       nan           |       nan           |
 | xai/grok-4.3                                                                 | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
 | xai/grok-4.3-latest                                                          | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
+| sambanova/MiniMax-M2.7                                                       | $0.3                              | $1.2                                  |    204800           |    131072           |
