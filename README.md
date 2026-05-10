@@ -3391,6 +3391,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | xai/grok-4.3                                                                 | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
 | xai/grok-4.3-latest                                                          | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
 | sambanova/MiniMax-M2.7                                                       | $0.3                              | $1.2                                  |    204800           |    131072           |
+| openrouter/qwen/qwen3.6-plus                                                 | $0.32                             | $1.95                                 |         1e+06       |     65536           |
 
 <!-- PRICING_TABLE_END -->
 
