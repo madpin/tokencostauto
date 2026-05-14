@@ -3264,3 +3264,5 @@
 | xai/grok-4.3-latest                                                          | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
 | sambanova/MiniMax-M2.7                                                       | $0.3                              | $1.2                                  |    204800           |    131072           |
 | openrouter/qwen/qwen3.6-plus                                                 | $0.32                             | $1.95                                 |         1e+06       |     65536           |
+| gpt-realtime-2                                                               | $4                                | $16                                   |     32000           |      4096           |
+| openai/gpt-realtime-2                                                        | $4                                | $16                                   |     32000           |      4096           |
