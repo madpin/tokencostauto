@@ -3033,7 +3033,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | black_forest_labs/flux-dev                                                   | --                                | --                                    |       nan           |       nan           |
 | black_forest_labs/flux-pro                                                   | --                                | --                                    |       nan           |       nan           |
 | gemini-embedding-2-preview                                                   | $0.2                              | $0                                    |      8192           |       nan           |
-| vertex_ai/gemini-embedding-2-preview                                         | $0.15                             | $0                                    |      8192           |       nan           |
+| vertex_ai/gemini-embedding-2-preview                                         | $0.2                              | $0                                    |      8192           |       nan           |
 | gemini/gemini-embedding-2-preview                                            | $0.2                              | $0                                    |      8192           |       nan           |
 | openrouter/qwen/qwen3.5-35b-a3b                                              | $0.25                             | $2                                    |    262144           |     65536           |
 | openrouter/qwen/qwen3.5-27b                                                  | $0.3                              | $2.4                                  |    262144           |     65536           |
