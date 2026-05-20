@@ -3403,6 +3403,9 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure_ai/gpt-5.4-mini-2026-03-17                                             | $0.75                             | $4.5                                  |    400000           |    128000           |
 | azure_ai/gpt-5.4-nano                                                        | $0.2                              | $1.25                                 |    400000           |    128000           |
 | azure_ai/gpt-5.4-nano-2026-03-17                                             | $0.2                              | $1.25                                 |    400000           |    128000           |
+| vertex_ai/gemini-3.5-flash                                                   | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
+| gemini/gemini-3.5-flash                                                      | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
+| gemini-3.5-flash                                                             | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
 
 <!-- PRICING_TABLE_END -->
 
