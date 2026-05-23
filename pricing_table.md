@@ -2601,7 +2601,7 @@
 | kimi-k2-thinking-251104                                                      | $0                                | $0                                    |    229376           |     32768           |
 | gemini-robotics-er-1.5-preview                                               | $0.3                              | $2.5                                  |         1.04858e+06 |     65535           |
 | gemini/gemini-robotics-er-1.5-preview                                        | $0.3                              | $2.5                                  |         1.04858e+06 |     65535           |
-| openrouter/xiaomi/mimo-v2-flash                                              | $0.09                             | $0.29                                 |    262144           |     16384           |
+| openrouter/xiaomi/mimo-v2-flash                                              | $0.1                              | $0.3                                  |    262144           |     16384           |
 | openrouter/z-ai/glm-4.7                                                      | $0.4                              | $1.5                                  |    202752           |     64000           |
 | openrouter/z-ai/glm-4.7-flash                                                | $0.07                             | $0.4                                  |    200000           |     32000           |
 | openrouter/minimax/minimax-m2.1                                              | $0.27                             | $1.2                                  |    204000           |     64000           |
@@ -3278,3 +3278,14 @@
 | vertex_ai/gemini-3.5-flash                                                   | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
 | gemini/gemini-3.5-flash                                                      | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
 | gemini-3.5-flash                                                             | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
+| fireworks_ai/accounts/fireworks/models/glm-5p1                               | $1.4                              | $4.4                                  |    202800           |    202800           |
+| fireworks_ai/glm-5p1                                                         | $1.4                              | $4.4                                  |    202800           |    202800           |
+| gemini-3.1-flash-lite                                                        | $0.25                             | $1.5                                  |         1.04858e+06 |     65536           |
+| gemini/gemini-3.1-flash-lite                                                 | $0.25                             | $1.5                                  |         1.04858e+06 |     65536           |
+| mistral/ministral-8b-2512                                                    | $0.15                             | $0.15                                 |    262144           |    262144           |
+| openrouter/google/gemini-3.1-flash-lite                                      | $0.25                             | $1.5                                  |         1.04858e+06 |     65536           |
+| openrouter/xiaomi/mimo-v2.5-pro                                              | $1                                | $3                                    |         1.04858e+06 |     16384           |
+| openrouter/xiaomi/mimo-v2.5                                                  | $0.4                              | $2                                    |         1.04858e+06 |    131072           |
+| reducto/parse-legacy                                                         | --                                | --                                    |       nan           |       nan           |
+| reducto/parse-v3                                                             | --                                | --                                    |       nan           |       nan           |
+| vertex_ai/gemini-3.1-flash-lite                                              | $0.25                             | $1.5                                  |         1.04858e+06 |     65536           |
