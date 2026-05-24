@@ -1443,8 +1443,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | groq/openai/gpt-oss-20b                                                      | $0.08                             | $0.3                                  |    131072           |     32768           |
 | groq/openai/gpt-oss-120b                                                     | $0.15                             | $0.6                                  |    131072           |     32766           |
 | claude-opus-4-1                                                              | $15                               | $75                                   |    200000           |     32000           |
-| oci/meta.llama-4-maverick-17b-128e-instruct-fp8                              | $0.72                             | $0.72                                 |    512000           |      4000           |
-| oci/meta.llama-4-scout-17b-16e-instruct                                      | $0.72                             | $0.72                                 |    192000           |      4000           |
+| oci/meta.llama-4-maverick-17b-128e-instruct-fp8                              | $0.72                             | $0.72                                 |         1.04858e+06 |      8192           |
+| oci/meta.llama-4-scout-17b-16e-instruct                                      | $0.72                             | $0.72                                 |         1.04858e+07 |      8192           |
 | oci/meta.llama-3.3-70b-instruct                                              | $0.72                             | $0.72                                 |    128000           |      4000           |
 | oci/meta.llama-3.2-90b-vision-instruct                                       | $2                                | $2                                    |    128000           |      4000           |
 | oci/meta.llama-3.1-405b-instruct                                             | $10.68                            | $10.68                                |    128000           |      4000           |
@@ -3417,6 +3417,14 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | reducto/parse-legacy                                                         | --                                | --                                    |       nan           |       nan           |
 | reducto/parse-v3                                                             | --                                | --                                    |       nan           |       nan           |
 | vertex_ai/gemini-3.1-flash-lite                                              | $0.25                             | $1.5                                  |         1.04858e+06 |     65536           |
+| azure/speech/azure-stt                                                       | --                                | --                                    |       nan           |       nan           |
+| oci/meta.llama-3.1-8b-instruct                                               | $0.72                             | $0.72                                 |    128000           |      4000           |
+| oci/cohere.command-a-vision                                                  | $1.56                             | $1.56                                 |    256000           |      8192           |
+| oci/cohere.command-a-reasoning                                               | $1.56                             | $1.56                                 |    256000           |      8192           |
+| oci/cohere.embed-multilingual-image-v3.0                                     | $0.1                              | --                                    |       512           |       nan           |
+| oci/openai.gpt-5                                                             | $1.25                             | $10                                   |    272000           |    128000           |
+| oci/openai.gpt-5-mini                                                        | $0.25                             | $2                                    |    272000           |    128000           |
+| oci/openai.gpt-5-nano                                                        | $0.05                             | $0.4                                  |    272000           |    128000           |
 
 <!-- PRICING_TABLE_END -->
 
