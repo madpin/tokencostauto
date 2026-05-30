@@ -3297,3 +3297,12 @@
 | oci/openai.gpt-5                                                             | $1.25                             | $10                                   |    272000           |    128000           |
 | oci/openai.gpt-5-mini                                                        | $0.25                             | $2                                    |    272000           |    128000           |
 | oci/openai.gpt-5-nano                                                        | $0.05                             | $0.4                                  |    272000           |    128000           |
+| anthropic.claude-opus-4-8                                                    | $5                                | $25                                   |         1e+06       |    128000           |
+| global.anthropic.claude-opus-4-8                                             | $5                                | $25                                   |         1e+06       |    128000           |
+| us.anthropic.claude-opus-4-8                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
+| eu.anthropic.claude-opus-4-8                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
+| au.anthropic.claude-opus-4-8                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
+| azure_ai/claude-opus-4-8                                                     | $5                                | $25                                   |    200000           |    128000           |
+| claude-opus-4-8                                                              | $5                                | $25                                   |         1e+06       |    128000           |
+| vertex_ai/claude-opus-4-8                                                    | $5                                | $25                                   |         1e+06       |    128000           |
+| vertex_ai/claude-opus-4-8@default                                            | $5                                | $25                                   |         1e+06       |    128000           |
