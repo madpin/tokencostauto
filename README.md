@@ -3462,6 +3462,14 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | snowflake/snowflake-arctic-embed-l-v2.0                                      | $0.07                             | $0                                    |      8192           |       nan           |
 | snowflake/snowflake-arctic-embed-m-v2.0                                      | $0.07                             | $0                                    |      8192           |       nan           |
 | soniox/stt-async-v4                                                          | --                                | --                                    |       nan           |      8000           |
+| anthropic.claude-fable-5                                                     | $10                               | $50                                   |         1e+06       |    128000           |
+| global.anthropic.claude-fable-5                                              | $10                               | $50                                   |         1e+06       |    128000           |
+| us.anthropic.claude-fable-5                                                  | $11                               | $55                                   |         1e+06       |    128000           |
+| eu.anthropic.claude-fable-5                                                  | $11                               | $55                                   |         1e+06       |    128000           |
+| azure_ai/claude-fable-5                                                      | $10                               | $50                                   |         1e+06       |    128000           |
+| claude-fable-5                                                               | $10                               | $50                                   |         1e+06       |    128000           |
+| vertex_ai/claude-fable-5                                                     | $10                               | $50                                   |         1e+06       |    128000           |
+| vertex_ai/claude-fable-5@default                                             | $10                               | $50                                   |         1e+06       |    128000           |
 
 <!-- PRICING_TABLE_END -->
 
