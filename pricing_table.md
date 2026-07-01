@@ -3479,3 +3479,14 @@
 | vertex_ai/gemini-3.1-flash-image                                             | $0.5                              | $3                                    |     65536           |     32768           |
 | zai/glm-5.1                                                                  | $1.4                              | $4.4                                  |    200000           |    128000           |
 | zai/glm-4.7-flash                                                            | $0                                | $0                                    |    200000           |    128000           |
+| anthropic.claude-sonnet-5                                                    | $3                                | $15                                   |         1e+06       |    128000           |
+| global.anthropic.claude-sonnet-5                                             | $3                                | $15                                   |         1e+06       |    128000           |
+| us.anthropic.claude-sonnet-5                                                 | $3.3                              | $16.5                                 |         1e+06       |    128000           |
+| eu.anthropic.claude-sonnet-5                                                 | $3.3                              | $16.5                                 |         1e+06       |    128000           |
+| au.anthropic.claude-sonnet-5                                                 | $3.3                              | $16.5                                 |         1e+06       |    128000           |
+| jp.anthropic.claude-sonnet-5                                                 | $3.3                              | $16.5                                 |         1e+06       |    128000           |
+| azure_ai/claude-sonnet-5                                                     | $3                                | $15                                   |         1e+06       |    128000           |
+| claude-sonnet-5                                                              | $3                                | $15                                   |         1e+06       |    128000           |
+| vertex_ai/claude-sonnet-5                                                    | $3                                | $15                                   |         1e+06       |    128000           |
+| vertex_ai/claude-sonnet-5@default                                            | $3                                | $15                                   |         1e+06       |    128000           |
+| fallback_generalizations                                                     | --                                | --                                    |       nan           |       nan           |
