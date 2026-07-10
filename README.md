@@ -3630,6 +3630,20 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure/us/gpt-5.5-2026-04-23                                                  | $5.5                              | $33                                   |         1.05e+06    |    128000           |
 | azure/eu/gpt-5.5-2026-04-23                                                  | $5.5                              | $33                                   |         1.05e+06    |    128000           |
 | vertex_ai/chirp_3                                                            | --                                | --                                    |       nan           |       nan           |
+| gpt-5.6                                                                      | $5                                | $30                                   |         1.05e+06    |    128000           |
+| gpt-5.6-sol                                                                  | $5                                | $30                                   |         1.05e+06    |    128000           |
+| gpt-5.6-terra                                                                | $2.5                              | $15                                   |         1.05e+06    |    128000           |
+| gpt-5.6-luna                                                                 | $1                                | $6                                    |         1.05e+06    |    128000           |
+| gpt-realtime-2.1                                                             | $4                                | $24                                   |    128000           |     32000           |
+| gpt-realtime-2.1-mini                                                        | $0.6                              | $2.4                                  |    128000           |      4096           |
+| xai/grok-4.5                                                                 | $2                                | $6                                    |    500000           |    500000           |
+| xai/grok-4.5-latest                                                          | $2                                | $6                                    |    500000           |    500000           |
+| openai/gpt-5.6                                                               | $5                                | $30                                   |         1.05e+06    |    128000           |
+| openai/gpt-5.6-sol                                                           | $5                                | $30                                   |         1.05e+06    |    128000           |
+| openai/gpt-5.6-terra                                                         | $2.5                              | $15                                   |         1.05e+06    |    128000           |
+| openai/gpt-5.6-luna                                                          | $1                                | $6                                    |         1.05e+06    |    128000           |
+| openai/gpt-realtime-2.1                                                      | $4                                | $24                                   |    128000           |     32000           |
+| openai/gpt-realtime-2.1-mini                                                 | $0.6                              | $2.4                                  |    128000           |      4096           |
 
 <!-- PRICING_TABLE_END -->
 
