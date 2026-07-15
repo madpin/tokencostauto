@@ -3530,3 +3530,5 @@
 | azure/eu/gpt-5.6-terra                                                       | $2.75                             | $16.5                                 |         1.05e+06    |    128000           |
 | azure/eu/gpt-5.6-luna                                                        | $1.1                              | $6.6                                  |         1.05e+06    |    128000           |
 | meta/muse-spark-1.1                                                          | $1.25                             | $4.25                                 |         1.04858e+06 |    131072           |
+| gemini/gemini-omni-flash-preview                                             | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
+| gemini-omni-flash-preview                                                    | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
