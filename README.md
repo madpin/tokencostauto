@@ -3660,6 +3660,9 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | meta/muse-spark-1.1                                                          | $1.25                             | $4.25                                 |         1.04858e+06 |    131072           |
 | gemini/gemini-omni-flash-preview                                             | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
 | gemini-omni-flash-preview                                                    | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
+| bedrock_mantle/openai.gpt-5.6-sol                                            | $5.5                              | $33                                   |    272000           |    128000           |
+| bedrock_mantle/openai.gpt-5.6-terra                                          | $2.75                             | $16.5                                 |    272000           |    128000           |
+| bedrock_mantle/openai.gpt-5.6-luna                                           | $1.1                              | $6.6                                  |    272000           |    128000           |
 
 <!-- PRICING_TABLE_END -->
 
