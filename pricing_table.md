@@ -3535,3 +3535,9 @@
 | bedrock_mantle/openai.gpt-5.6-sol                                            | $5.5                              | $33                                   |    272000           |    128000           |
 | bedrock_mantle/openai.gpt-5.6-terra                                          | $2.75                             | $16.5                                 |    272000           |    128000           |
 | bedrock_mantle/openai.gpt-5.6-luna                                           | $1.1                              | $6.6                                  |    272000           |    128000           |
+| gemini-3.5-flash-lite                                                        | $0.3                              | $2.5                                  |         1.04858e+06 |     65536           |
+| vertex_ai/gemini-3.6-flash                                                   | $1.5                              | $7.5                                  |         1.04858e+06 |     65536           |
+| gemini/gemini-3.5-flash-lite                                                 | $0.3                              | $2.5                                  |         1.04858e+06 |     65536           |
+| gemini/gemini-3.6-flash                                                      | $1.5                              | $7.5                                  |         1.04858e+06 |     65536           |
+| gemini-3.6-flash                                                             | $1.5                              | $7.5                                  |         1.04858e+06 |     65536           |
+| vertex_ai/gemini-3.5-flash-lite                                              | $0.3                              | $2.5                                  |         1.04858e+06 |     65536           |
