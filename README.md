@@ -3669,6 +3669,16 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gemini/gemini-3.6-flash                                                      | $1.5                              | $7.5                                  |         1.04858e+06 |     65536           |
 | gemini-3.6-flash                                                             | $1.5                              | $7.5                                  |         1.04858e+06 |     65536           |
 | vertex_ai/gemini-3.5-flash-lite                                              | $0.3                              | $2.5                                  |         1.04858e+06 |     65536           |
+| anthropic.claude-opus-5                                                      | $5                                | $25                                   |         1e+06       |    128000           |
+| global.anthropic.claude-opus-5                                               | $5                                | $25                                   |         1e+06       |    128000           |
+| us.anthropic.claude-opus-5                                                   | $5.5                              | $27.5                                 |         1e+06       |    128000           |
+| eu.anthropic.claude-opus-5                                                   | $5.5                              | $27.5                                 |         1e+06       |    128000           |
+| au.anthropic.claude-opus-5                                                   | $5.5                              | $27.5                                 |         1e+06       |    128000           |
+| jp.anthropic.claude-opus-5                                                   | $5.5                              | $27.5                                 |         1e+06       |    128000           |
+| azure_ai/claude-opus-5                                                       | $5                                | $25                                   |         1e+06       |    128000           |
+| claude-opus-5                                                                | $5                                | $25                                   |         1e+06       |    128000           |
+| vertex_ai/claude-opus-5                                                      | $5                                | $25                                   |         1e+06       |    128000           |
+| vertex_ai/claude-opus-5@default                                              | $5                                | $25                                   |         1e+06       |    128000           |
 
 <!-- PRICING_TABLE_END -->
 
