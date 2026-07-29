@@ -2622,7 +2622,7 @@
 | us.anthropic.claude-opus-4-6-v1:0                                            | $5.5                              | $27.5                                 |         1e+06       |    128000           |
 | eu.anthropic.claude-opus-4-6-v1:0                                            | $5.5                              | $27.5                                 |    200000           |    128000           |
 | apac.anthropic.claude-opus-4-6-v1:0                                          | $5.5                              | $27.5                                 |    200000           |    128000           |
-| azure_ai/claude-opus-4-6                                                     | $5                                | $25                                   |    200000           |    128000           |
+| azure_ai/claude-opus-4-6                                                     | $5                                | $25                                   |         1e+06       |    128000           |
 | claude-opus-4-6                                                              | $5                                | $25                                   |         1e+06       |    128000           |
 | claude-opus-4-6-20260205                                                     | $5                                | $25                                   |         1e+06       |    128000           |
 | openrouter/qwen/qwen3-235b-a22b-2507                                         | $0.07                             | $0.1                                  |    262144           |    262144           |
@@ -2994,7 +2994,7 @@
 | us.anthropic.claude-opus-4-7                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
 | eu.anthropic.claude-opus-4-7                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
 | au.anthropic.claude-opus-4-7                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
-| azure_ai/claude-opus-4-7                                                     | $5                                | $25                                   |    200000           |    128000           |
+| azure_ai/claude-opus-4-7                                                     | $5                                | $25                                   |         1e+06       |    128000           |
 | claude-opus-4-7                                                              | $5                                | $25                                   |         1e+06       |    128000           |
 | claude-opus-4-7-20260416                                                     | $5                                | $25                                   |         1e+06       |    128000           |
 | perplexity/anthropic/claude-opus-4-7                                         | --                                | --                                    |       nan           |       nan           |
@@ -3302,7 +3302,7 @@
 | us.anthropic.claude-opus-4-8                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
 | eu.anthropic.claude-opus-4-8                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
 | au.anthropic.claude-opus-4-8                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
-| azure_ai/claude-opus-4-8                                                     | $5                                | $25                                   |    200000           |    128000           |
+| azure_ai/claude-opus-4-8                                                     | $5                                | $25                                   |         1e+06       |    128000           |
 | claude-opus-4-8                                                              | $5                                | $25                                   |         1e+06       |    128000           |
 | vertex_ai/claude-opus-4-8                                                    | $5                                | $25                                   |         1e+06       |    128000           |
 | vertex_ai/claude-opus-4-8@default                                            | $5                                | $25                                   |         1e+06       |    128000           |
