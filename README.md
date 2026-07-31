@@ -3044,14 +3044,14 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | xai/grok-4.20-multi-agent-beta-0309                                          | $2                                | $6                                    |         2e+06       |         2e+06       |
 | xai/grok-4.20-beta-0309-reasoning                                            | $2                                | $6                                    |         2e+06       |         2e+06       |
 | xai/grok-4.20-beta-0309-non-reasoning                                        | $2                                | $6                                    |         2e+06       |         2e+06       |
-| azure/gpt-5.4-mini                                                           | $0.75                             | $4.5                                  |         1.05e+06    |    128000           |
-| azure/gpt-5.4-nano                                                           | $0.2                              | $1.25                                 |         1.05e+06    |    128000           |
+| azure/gpt-5.4-mini                                                           | $0.75                             | $4.5                                  |    272000           |    128000           |
+| azure/gpt-5.4-nano                                                           | $0.2                              | $1.25                                 |    272000           |    128000           |
 | volcengine/doubao-seed-2-0-pro-260215                                        | --                                | --                                    |    256000           |    128000           |
 | volcengine/doubao-seed-2-0-lite-260215                                       | --                                | --                                    |    256000           |    128000           |
 | volcengine/doubao-seed-2-0-mini-260215                                       | --                                | --                                    |    256000           |    128000           |
 | volcengine/doubao-seed-2-0-code-preview-260215                               | --                                | --                                    |    256000           |    128000           |
-| gpt-5.4-mini                                                                 | $0.75                             | $4.5                                  |         1.05e+06    |    128000           |
-| gpt-5.4-nano                                                                 | $0.2                              | $1.25                                 |         1.05e+06    |    128000           |
+| gpt-5.4-mini                                                                 | $0.75                             | $4.5                                  |    272000           |    128000           |
+| gpt-5.4-nano                                                                 | $0.2                              | $1.25                                 |    272000           |    128000           |
 | gemini/lyria-3-clip-preview                                                  | $0                                | $0                                    |    131072           |      8192           |
 | gemini/lyria-3-pro-preview                                                   | $0                                | $0                                    |    131072           |      8192           |
 | gemini-3.1-flash-live-preview                                                | $0.75                             | $4.5                                  |    131072           |     65536           |
@@ -3143,13 +3143,13 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure/gpt-5.5-2026-04-23                                                     | $5                                | $30                                   |         1.05e+06    |    128000           |
 | azure/gpt-5.5-pro                                                            | $30                               | $180                                  |         1.05e+06    |    128000           |
 | azure/gpt-5.5-pro-2026-04-23                                                 | $30                               | $180                                  |         1.05e+06    |    128000           |
-| azure/gpt-5.4-mini-2026-03-17                                                | $0.75                             | $4.5                                  |         1.05e+06    |    128000           |
-| azure/gpt-5.4-nano-2026-03-17                                                | $0.2                              | $1.25                                 |         1.05e+06    |    128000           |
+| azure/gpt-5.4-mini-2026-03-17                                                | $0.75                             | $4.5                                  |    272000           |    128000           |
+| azure/gpt-5.4-nano-2026-03-17                                                | $0.2                              | $1.25                                 |    272000           |    128000           |
 | gemini-embedding-2                                                           | $0.2                              | $0                                    |      8192           |       nan           |
 | vertex_ai/gemini-embedding-2                                                 | $0.2                              | $0                                    |      8192           |       nan           |
 | gemini/gemini-embedding-2                                                    | $0.2                              | $0                                    |      8192           |       nan           |
-| gpt-5.4-mini-2026-03-17                                                      | $0.75                             | $4.5                                  |         1.05e+06    |    128000           |
-| gpt-5.4-nano-2026-03-17                                                      | $0.2                              | $1.25                                 |         1.05e+06    |    128000           |
+| gpt-5.4-mini-2026-03-17                                                      | $0.75                             | $4.5                                  |    272000           |    128000           |
+| gpt-5.4-nano-2026-03-17                                                      | $0.2                              | $1.25                                 |    272000           |    128000           |
 | bedrock/us-east-1/zai.glm-5                                                  | $1                                | $3.2                                  |    200000           |    128000           |
 | bedrock/us-west-2/zai.glm-5                                                  | $1                                | $3.2                                  |    200000           |    128000           |
 | azure/gpt-image-2                                                            | $5                                | $10                                   |       nan           |       nan           |
@@ -3378,14 +3378,14 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openai/gpt-5.4-2026-03-05                                                    | $2.5                              | $15                                   |         1.05e+06    |    128000           |
 | openai/gpt-5.4-pro                                                           | $30                               | $180                                  |         1.05e+06    |    128000           |
 | openai/gpt-5.4-pro-2026-03-05                                                | $30                               | $180                                  |         1.05e+06    |    128000           |
-| openai/gpt-5.4-mini                                                          | $0.75                             | $4.5                                  |         1.05e+06    |    128000           |
-| openai/gpt-5.4-nano                                                          | $0.2                              | $1.25                                 |         1.05e+06    |    128000           |
+| openai/gpt-5.4-mini                                                          | $0.75                             | $4.5                                  |    272000           |    128000           |
+| openai/gpt-5.4-nano                                                          | $0.2                              | $1.25                                 |    272000           |    128000           |
 | openai/gpt-5.5                                                               | $5                                | $30                                   |         1.05e+06    |    128000           |
 | openai/gpt-5.5-2026-04-23                                                    | $5                                | $30                                   |         1.05e+06    |    128000           |
 | openai/gpt-5.5-pro                                                           | $30                               | $180                                  |         1.05e+06    |    128000           |
 | openai/gpt-5.5-pro-2026-04-23                                                | $30                               | $180                                  |         1.05e+06    |    128000           |
-| openai/gpt-5.4-mini-2026-03-17                                               | $0.75                             | $4.5                                  |         1.05e+06    |    128000           |
-| openai/gpt-5.4-nano-2026-03-17                                               | $0.2                              | $1.25                                 |         1.05e+06    |    128000           |
+| openai/gpt-5.4-mini-2026-03-17                                               | $0.75                             | $4.5                                  |    272000           |    128000           |
+| openai/gpt-5.4-nano-2026-03-17                                               | $0.2                              | $1.25                                 |    272000           |    128000           |
 | openai/gpt-image-2                                                           | $5                                | $10                                   |       nan           |       nan           |
 | openai/gpt-image-2-2026-04-21                                                | $5                                | $10                                   |       nan           |       nan           |
 | xai/grok-4.3                                                                 | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
@@ -3399,10 +3399,10 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure_ai/gpt-5.4-2026-03-05                                                  | $2.5                              | $15                                   |         1.05e+06    |    128000           |
 | azure_ai/gpt-5.4-pro                                                         | $30                               | $180                                  |         1.05e+06    |    128000           |
 | azure_ai/gpt-5.4-pro-2026-03-05                                              | $30                               | $180                                  |         1.05e+06    |    128000           |
-| azure_ai/gpt-5.4-mini                                                        | $0.75                             | $4.5                                  |    400000           |    128000           |
-| azure_ai/gpt-5.4-mini-2026-03-17                                             | $0.75                             | $4.5                                  |    400000           |    128000           |
-| azure_ai/gpt-5.4-nano                                                        | $0.2                              | $1.25                                 |    400000           |    128000           |
-| azure_ai/gpt-5.4-nano-2026-03-17                                             | $0.2                              | $1.25                                 |    400000           |    128000           |
+| azure_ai/gpt-5.4-mini                                                        | $0.75                             | $4.5                                  |    272000           |    128000           |
+| azure_ai/gpt-5.4-mini-2026-03-17                                             | $0.75                             | $4.5                                  |    272000           |    128000           |
+| azure_ai/gpt-5.4-nano                                                        | $0.2                              | $1.25                                 |    272000           |    128000           |
+| azure_ai/gpt-5.4-nano-2026-03-17                                             | $0.2                              | $1.25                                 |    272000           |    128000           |
 | vertex_ai/gemini-3.5-flash                                                   | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
 | gemini/gemini-3.5-flash                                                      | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
 | gemini-3.5-flash                                                             | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
@@ -3679,6 +3679,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | claude-opus-5                                                                | $5                                | $25                                   |         1e+06       |    128000           |
 | vertex_ai/claude-opus-5                                                      | $5                                | $25                                   |         1e+06       |    128000           |
 | vertex_ai/claude-opus-5@default                                              | $5                                | $25                                   |         1e+06       |    128000           |
+| dashscope/qwen3.7-max                                                        | $2.5                              | $7.5                                  |    991808           |     65536           |
+| dashscope/qwen3.7-plus                                                       | --                                | --                                    |    991808           |     65536           |
 
 <!-- PRICING_TABLE_END -->
 
