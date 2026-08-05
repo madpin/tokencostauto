@@ -3647,16 +3647,16 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | jp.anthropic.claude-opus-4-8                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
 | azure/gpt-5.6                                                                | $5                                | $30                                   |         1.05e+06    |    128000           |
 | azure/gpt-5.6-sol                                                            | $5                                | $30                                   |         1.05e+06    |    128000           |
-| azure/gpt-5.6-terra                                                          | $2.5                              | $15                                   |         1.05e+06    |    128000           |
-| azure/gpt-5.6-luna                                                           | $1                                | $6                                    |         1.05e+06    |    128000           |
+| azure/gpt-5.6-terra                                                          | $2                                | $12                                   |         1.05e+06    |    128000           |
+| azure/gpt-5.6-luna                                                           | $0.2                              | $1.2                                  |         1.05e+06    |    128000           |
 | azure/us/gpt-5.6                                                             | $5.5                              | $33                                   |         1.05e+06    |    128000           |
 | azure/us/gpt-5.6-sol                                                         | $5.5                              | $33                                   |         1.05e+06    |    128000           |
-| azure/us/gpt-5.6-terra                                                       | $2.75                             | $16.5                                 |         1.05e+06    |    128000           |
-| azure/us/gpt-5.6-luna                                                        | $1.1                              | $6.6                                  |         1.05e+06    |    128000           |
+| azure/us/gpt-5.6-terra                                                       | $2.2                              | $13.2                                 |         1.05e+06    |    128000           |
+| azure/us/gpt-5.6-luna                                                        | $0.22                             | $1.32                                 |         1.05e+06    |    128000           |
 | azure/eu/gpt-5.6                                                             | $5.5                              | $33                                   |         1.05e+06    |    128000           |
 | azure/eu/gpt-5.6-sol                                                         | $5.5                              | $33                                   |         1.05e+06    |    128000           |
-| azure/eu/gpt-5.6-terra                                                       | $2.75                             | $16.5                                 |         1.05e+06    |    128000           |
-| azure/eu/gpt-5.6-luna                                                        | $1.1                              | $6.6                                  |         1.05e+06    |    128000           |
+| azure/eu/gpt-5.6-terra                                                       | $2.2                              | $13.2                                 |         1.05e+06    |    128000           |
+| azure/eu/gpt-5.6-luna                                                        | $0.22                             | $1.32                                 |         1.05e+06    |    128000           |
 | meta/muse-spark-1.1                                                          | $1.25                             | $4.25                                 |         1.04858e+06 |    131072           |
 | gemini/gemini-omni-flash-preview                                             | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
 | gemini-omni-flash-preview                                                    | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
@@ -3681,6 +3681,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | vertex_ai/claude-opus-5@default                                              | $5                                | $25                                   |         1e+06       |    128000           |
 | dashscope/qwen3.7-max                                                        | $2.5                              | $7.5                                  |    991808           |     65536           |
 | dashscope/qwen3.7-plus                                                       | --                                | --                                    |    991808           |     65536           |
+| gemini/gemini-robotics-er-2-preview                                          | $2                                | $10                                   |    131072           |     65536           |
+| gemini/gemini-robotics-er-1.6-preview                                        | $1                                | $5                                    |    131072           |     65536           |
 
 <!-- PRICING_TABLE_END -->
 
