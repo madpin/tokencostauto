@@ -3555,3 +3555,4 @@
 | dashscope/qwen3.7-plus                                                       | --                                | --                                    |    991808           |     65536           |
 | gemini/gemini-robotics-er-2-preview                                          | $2                                | $10                                   |    131072           |     65536           |
 | gemini/gemini-robotics-er-1.6-preview                                        | $1                                | $5                                    |    131072           |     65536           |
+| replicate/openai/gpt-oss-20b                                                 | $0.09                             | $0.36                                 |       nan           |       nan           |
