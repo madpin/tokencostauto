@@ -279,7 +279,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | groq/llama2-70b-4096                                                         | $0.7                              | $0.8                                  |      4096           |      4096           |
 | groq/llama3-8b-8192                                                          | $0.05                             | $0.08                                 |      8192           |      8192           |
 | groq/llama3-70b-8192                                                         | $0.59                             | $0.79                                 |      8192           |      8192           |
-| groq/llama-3.1-8b-instant                                                    | $0.05                             | $0.08                                 |    128000           |      8192           |
+| groq/llama-3.1-8b-instant                                                    | $0.05                             | $0.08                                 |    131072           |    131072           |
 | groq/llama-3.1-70b-versatile                                                 | $0.59                             | $0.79                                 |      8192           |      8192           |
 | groq/llama-3.1-405b-reasoning                                                | $0.59                             | $0.79                                 |      8192           |      8192           |
 | groq/mixtral-8x7b-32768                                                      | $0.24                             | $0.24                                 |     32768           |     32768           |
@@ -842,7 +842,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | mistral/pixtral-large-2411                                                   | $2                                | $6                                    |    128000           |    128000           |
 | deepseek/deepseek-chat                                                       | $0.28                             | $0.42                                 |    131072           |      8192           |
 | deepseek/deepseek-coder                                                      | $0.14                             | $0.28                                 |    128000           |      4096           |
-| groq/llama-3.3-70b-versatile                                                 | $0.59                             | $0.79                                 |    128000           |     32768           |
+| groq/llama-3.3-70b-versatile                                                 | $0.59                             | $0.79                                 |    131072           |     32768           |
 | groq/llama-3.3-70b-specdec                                                   | $0.59                             | $0.99                                 |      8192           |      8192           |
 | friendliai/meta-llama-3.1-8b-instruct                                        | $0.1                              | $0.1                                  |      8192           |      8192           |
 | friendliai/meta-llama-3.1-70b-instruct                                       | $0.6                              | $0.6                                  |      8192           |      8192           |
@@ -1440,8 +1440,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure/gpt-5-nano                                                             | $0.05                             | $0.4                                  |    272000           |    128000           |
 | azure/gpt-5-chat                                                             | $1.25                             | $10                                   |    128000           |     16384           |
 | azure/gpt-5-chat-latest                                                      | $1.25                             | $10                                   |    128000           |     16384           |
-| groq/openai/gpt-oss-20b                                                      | $0.08                             | $0.3                                  |    131072           |     32768           |
-| groq/openai/gpt-oss-120b                                                     | $0.15                             | $0.6                                  |    131072           |     32766           |
+| groq/openai/gpt-oss-20b                                                      | $0.08                             | $0.3                                  |    131072           |     65536           |
+| groq/openai/gpt-oss-120b                                                     | $0.15                             | $0.6                                  |    131072           |     65536           |
 | claude-opus-4-1                                                              | $15                               | $75                                   |    200000           |     32000           |
 | oci/meta.llama-4-maverick-17b-128e-instruct-fp8                              | $0.72                             | $0.72                                 |         1.04858e+06 |      8192           |
 | oci/meta.llama-4-scout-17b-16e-instruct                                      | $0.72                             | $0.72                                 |         1.04858e+07 |      8192           |
@@ -3660,9 +3660,9 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | meta/muse-spark-1.1                                                          | $1.25                             | $4.25                                 |         1.04858e+06 |    131072           |
 | gemini/gemini-omni-flash-preview                                             | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
 | gemini-omni-flash-preview                                                    | $1.5                              | $9                                    |         1.04858e+06 |     65535           |
-| bedrock_mantle/openai.gpt-5.6-sol                                            | $5.5                              | $33                                   |    272000           |    128000           |
-| bedrock_mantle/openai.gpt-5.6-terra                                          | $2.2                              | $13.2                                 |    272000           |    128000           |
-| bedrock_mantle/openai.gpt-5.6-luna                                           | $0.22                             | $1.32                                 |    272000           |    128000           |
+| bedrock_mantle/openai.gpt-5.6-sol                                            | $5.5                              | $33                                   |         1e+06       |    128000           |
+| bedrock_mantle/openai.gpt-5.6-terra                                          | $2.2                              | $13.2                                 |         1e+06       |    128000           |
+| bedrock_mantle/openai.gpt-5.6-luna                                           | $0.22                             | $1.32                                 |         1e+06       |    128000           |
 | gemini-3.5-flash-lite                                                        | $0.3                              | $2.5                                  |         1.04858e+06 |     65536           |
 | vertex_ai/gemini-3.6-flash                                                   | $1.5                              | $7.5                                  |         1.04858e+06 |     65536           |
 | gemini/gemini-3.5-flash-lite                                                 | $0.3                              | $2.5                                  |         1.04858e+06 |     65536           |
@@ -3702,6 +3702,23 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openai/gpt-transcribe                                                        | --                                | --                                    |       nan           |       nan           |
 | openai/gpt-live-transcribe                                                   | --                                | --                                    |       nan           |       nan           |
 | openai/gpt-realtime-translate                                                | --                                | --                                    |     16000           |      2000           |
+| dashscope/deepseek-v4-flash                                                  | $0.2                              | $0.4                                  |         1e+06       |    393216           |
+| dashscope/deepseek-v4-flash-0731                                             | $0.2                              | $0.4                                  |         1e+06       |    393216           |
+| dashscope/deepseek-v4-pro                                                    | $2.4                              | $4.8                                  |         1e+06       |    393216           |
+| dashscope/glm-5.1                                                            | $1.4                              | $4.4                                  |    202745           |    131072           |
+| dashscope/glm-5.2                                                            | $1.4                              | $4.4                                  |         1.04858e+06 |    131072           |
+| dashscope/kimi-k2.7-code                                                     | $0.95                             | $4                                    |    229376           |     16384           |
+| dashscope/qwen3.8-max                                                        | $2                                | $6                                    |    991808           |    131072           |
+| deepinfra/nvidia/NVIDIA-Nemotron-3.5-Lightning                               | $0.05                             | $0.2                                  |    262144           |       nan           |
+| vertex_ai/gemini-3.7-flash                                                   | $0.75                             | $3.75                                 |         1.04858e+06 |     65536           |
+| gemini/gemini-3.7-flash                                                      | $0.75                             | $3.75                                 |         1.04858e+06 |     65536           |
+| gemini-3.7-flash                                                             | $0.75                             | $3.75                                 |         1.04858e+06 |     65536           |
+| groq/meta-llama/llama-prompt-guard-2-22m                                     | $0.03                             | $0.03                                 |       512           |       512           |
+| groq/meta-llama/llama-prompt-guard-2-86m                                     | $0.04                             | $0.04                                 |       512           |       512           |
+| groq/canopylabs/orpheus-v1-english                                           | --                                | --                                    |      4000           |     50000           |
+| groq/canopylabs/orpheus-arabic-saudi                                         | --                                | --                                    |      4000           |     50000           |
+| groq/qwen/qwen3.6-27b                                                        | $0.6                              | $3                                    |    131072           |     16384           |
+| openrouter/nvidia/nemotron-3.5-lightning                                     | $0.05                             | $0.2                                  |    262144           |       nan           |
 
 <!-- PRICING_TABLE_END -->
 
