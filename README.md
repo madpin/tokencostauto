@@ -3664,10 +3664,10 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | bedrock_mantle/openai.gpt-5.6-terra                                          | $2.2                              | $13.2                                 |         1e+06       |    128000           |
 | bedrock_mantle/openai.gpt-5.6-luna                                           | $0.22                             | $1.32                                 |         1e+06       |    128000           |
 | gemini-3.5-flash-lite                                                        | $0.3                              | $2.5                                  |         1.04858e+06 |     65536           |
-| vertex_ai/gemini-3.6-flash                                                   | $1.5                              | $7.5                                  |         1.04858e+06 |     65536           |
+| vertex_ai/gemini-3.6-flash                                                   | $0.75                             | $3.75                                 |         1.04858e+06 |     65536           |
 | gemini/gemini-3.5-flash-lite                                                 | $0.3                              | $2.5                                  |         1.04858e+06 |     65536           |
-| gemini/gemini-3.6-flash                                                      | $1.5                              | $7.5                                  |         1.04858e+06 |     65536           |
-| gemini-3.6-flash                                                             | $1.5                              | $7.5                                  |         1.04858e+06 |     65536           |
+| gemini/gemini-3.6-flash                                                      | $0.75                             | $3.75                                 |         1.04858e+06 |     65536           |
+| gemini-3.6-flash                                                             | $0.75                             | $3.75                                 |         1.04858e+06 |     65536           |
 | vertex_ai/gemini-3.5-flash-lite                                              | $0.3                              | $2.5                                  |         1.04858e+06 |     65536           |
 | anthropic.claude-opus-5                                                      | $5                                | $25                                   |         1e+06       |    128000           |
 | global.anthropic.claude-opus-5                                               | $5                                | $25                                   |         1e+06       |    128000           |
@@ -3739,6 +3739,21 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | meta/muse-spark-1.2-contributor                                              | $0.1                              | $0.2                                  |         1.04858e+06 |    131072           |
 | xai/grok-4.6                                                                 | $2                                | $6                                    |    500000           |    500000           |
 | gemini/gemini-3.1-flash-tts-preview                                          | $1                                | $20                                   |      8192           |     16384           |
+| bedrock/guardrails                                                           | --                                | --                                    |       nan           |       nan           |
+| databricks/databricks-claude-opus-4-6                                        | $5                                | $25                                   |         1e+06       |    128000           |
+| databricks/databricks-claude-sonnet-4-6                                      | $3                                | $15                                   |         1e+06       |     64000           |
+| databricks/databricks-gemini-3-1-flash-lite                                  | $0.31                             | $1.88                                 |         1.04858e+06 |     65536           |
+| databricks/databricks-gemini-3-1-pro                                         | $2.5                              | $15                                   |         1.04858e+06 |     65536           |
+| databricks/databricks-gemini-3-flash                                         | $0.63                             | $3.75                                 |         1.04858e+06 |     65536           |
+| databricks/databricks-gemini-3-pro                                           | $2.5                              | $15                                   |         1.04858e+06 |     65536           |
+| databricks/databricks-gpt-5-1-codex-max                                      | $1.25                             | $10                                   |    272000           |    128000           |
+| databricks/databricks-gpt-5-1-codex-mini                                     | $0.25                             | $2                                    |    272000           |    128000           |
+| databricks/databricks-gpt-5-2                                                | $1.75                             | $14                                   |    272000           |    128000           |
+| databricks/databricks-gpt-5-2-codex                                          | $1.75                             | $14                                   |    272000           |    128000           |
+| databricks/databricks-gpt-5-3-codex                                          | $1.75                             | $14                                   |    272000           |    128000           |
+| databricks/databricks-gpt-5-4                                                | $2.5                              | $15                                   |    272000           |    128000           |
+| databricks/databricks-gpt-5-4-mini                                           | $0.75                             | $4.5                                  |    272000           |    128000           |
+| databricks/databricks-gpt-5-4-nano                                           | $0.2                              | $1.25                                 |    272000           |    128000           |
 
 <!-- PRICING_TABLE_END -->
 
