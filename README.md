@@ -253,7 +253,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | mistral/mistral-tiny                                                         | $0.25                             | $0.25                                 |     32000           |      8191           |
 | mistral/mistral-small                                                        | $0.1                              | $0.3                                  |     32000           |      8191           |
 | mistral/mistral-small-latest                                                 | $0.15                             | $0.6                                  |    262144           |    262144           |
-| mistral/mistral-medium                                                       | $2.7                              | $8.1                                  |     32000           |      8191           |
+| mistral/mistral-medium                                                       | $1.5                              | $7.5                                  |    262144           |    262144           |
 | mistral/mistral-medium-latest                                                | $1.5                              | $7.5                                  |    262144           |    262144           |
 | mistral/mistral-medium-2312                                                  | $2.7                              | $8.1                                  |     32000           |      8191           |
 | mistral/mistral-large-latest                                                 | $0.5                              | $1.5                                  |    262144           |    262144           |
@@ -1247,8 +1247,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | deepgram/whisper-large                                                       | --                                | --                                    |       nan           |       nan           |
 | azure/gpt-4o-transcribe                                                      | $2.5                              | $10                                   |     16000           |      2000           |
 | azure/gpt-4o-mini-transcribe                                                 | $1.25                             | $5                                    |     16000           |      2000           |
-| mistral/magistral-medium-latest                                              | $2                                | $5                                    |     40000           |     40000           |
-| mistral/magistral-small-latest                                               | $0.5                              | $1.5                                  |     40000           |     40000           |
+| mistral/magistral-medium-latest                                              | $1.5                              | $7.5                                  |    262144           |    262144           |
+| mistral/magistral-small-latest                                               | $0.15                             | $0.6                                  |    262144           |    262144           |
 | xai/grok-3-latest                                                            | $1.25                             | $2.5                                  |    131072           |    131072           |
 | xai/grok-3-mini                                                              | $1.25                             | $2.5                                  |    131072           |    131072           |
 | xai/grok-3-mini-latest                                                       | $1.25                             | $2.5                                  |    131072           |    131072           |
@@ -1341,7 +1341,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | bedrock/us-gov-west-1/anthropic.claude-3-5-sonnet-20240620-v1:0              | $3.6                              | $18                                   |    200000           |      8192           |
 | bedrock/us-gov-west-1/anthropic.claude-3-haiku-20240307-v1:0                 | $0.3                              | $1.5                                  |    200000           |      4096           |
 | bedrock/us-gov-west-1/meta.llama3-70b-instruct-v1:0                          | $2.65                             | $3.5                                  |      8000           |      2048           |
-| bedrock/us-gov-west-1/meta.llama3-8b-instruct-v1:0                           | $0.3                              | $2.65                                 |      8000           |      2048           |
+| bedrock/us-gov-west-1/meta.llama3-8b-instruct-v1:0                           | $0.3                              | $0.6                                  |      8000           |      2048           |
 | bedrock/us-gov-east-1/amazon.nova-pro-v1:0                                   | $0.96                             | $3.84                                 |    300000           |     10000           |
 | bedrock/us-gov-west-1/amazon.nova-pro-v1:0                                   | $0.96                             | $3.84                                 |    300000           |     10000           |
 | moonshot/kimi-latest                                                         | $2                                | $5                                    |    131072           |    131072           |
@@ -1864,7 +1864,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | global.anthropic.claude-sonnet-4-20250514-v1:0                               | $3                                | $15                                   |         1e+06       |     64000           |
 | gpt-5-pro                                                                    | $15                               | $120                                  |    400000           |    272000           |
 | gpt-image-1-mini                                                             | $2                                | --                                    |       nan           |       nan           |
-| gpt-realtime-mini                                                            | $0.6                              | $2.4                                  |    128000           |      4096           |
+| gpt-realtime-mini                                                            | $0.6                              | $2.4                                  |     32000           |      4096           |
 | low/1024-x-1024/gpt-image-1-mini                                             | --                                | --                                    |       nan           |       nan           |
 | low/1024-x-1536/gpt-image-1-mini                                             | --                                | --                                    |       nan           |       nan           |
 | low/1536-x-1024/gpt-image-1-mini                                             | --                                | --                                    |       nan           |       nan           |
@@ -3295,7 +3295,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openai/gpt-5-codex                                                           | $1.25                             | $10                                   |    272000           |    128000           |
 | openai/gpt-5-pro                                                             | $15                               | $120                                  |    400000           |    272000           |
 | openai/gpt-image-1-mini                                                      | $2                                | --                                    |       nan           |       nan           |
-| openai/gpt-realtime-mini                                                     | $0.6                              | $2.4                                  |    128000           |      4096           |
+| openai/gpt-realtime-mini                                                     | $0.6                              | $2.4                                  |     32000           |      4096           |
 | openai/low/1024-x-1024/gpt-image-1-mini                                      | --                                | --                                    |       nan           |       nan           |
 | openai/low/1024-x-1536/gpt-image-1-mini                                      | --                                | --                                    |       nan           |       nan           |
 | openai/low/1536-x-1024/gpt-image-1-mini                                      | --                                | --                                    |       nan           |       nan           |
@@ -3392,8 +3392,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | xai/grok-4.3-latest                                                          | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
 | sambanova/MiniMax-M2.7                                                       | $0.6                              | $2.4                                  |    196608           |    131072           |
 | openrouter/qwen/qwen3.6-plus                                                 | $0.32                             | $1.95                                 |         1e+06       |     65536           |
-| gpt-realtime-2                                                               | $4                                | $16                                   |     32000           |      4096           |
-| openai/gpt-realtime-2                                                        | $4                                | $16                                   |     32000           |      4096           |
+| gpt-realtime-2                                                               | $4                                | $24                                   |    128000           |     32000           |
+| openai/gpt-realtime-2                                                        | $4                                | $24                                   |    128000           |     32000           |
 | jp.anthropic.claude-sonnet-4-6                                               | $3.3                              | $16.5                                 |         1e+06       |     64000           |
 | azure_ai/gpt-5.4                                                             | $2.5                              | $15                                   |         1.05e+06    |    128000           |
 | azure_ai/gpt-5.4-2026-03-05                                                  | $2.5                              | $15                                   |         1.05e+06    |    128000           |
@@ -3635,7 +3635,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gpt-5.6-terra                                                                | $2                                | $12                                   |    922000           |    128000           |
 | gpt-5.6-luna                                                                 | $0.2                              | $1.2                                  |    922000           |    128000           |
 | gpt-realtime-2.1                                                             | $4                                | $24                                   |    128000           |     32000           |
-| gpt-realtime-2.1-mini                                                        | $0.6                              | $2.4                                  |    128000           |      4096           |
+| gpt-realtime-2.1-mini                                                        | $0.6                              | $2.4                                  |    128000           |     32000           |
 | xai/grok-4.5                                                                 | $2                                | $6                                    |    500000           |    500000           |
 | xai/grok-4.5-latest                                                          | $2                                | $6                                    |    500000           |    500000           |
 | openai/gpt-5.6                                                               | $4                                | $20                                   |    922000           |    128000           |
@@ -3643,7 +3643,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openai/gpt-5.6-terra                                                         | $2                                | $12                                   |    922000           |    128000           |
 | openai/gpt-5.6-luna                                                          | $0.2                              | $1.2                                  |    922000           |    128000           |
 | openai/gpt-realtime-2.1                                                      | $4                                | $24                                   |    128000           |     32000           |
-| openai/gpt-realtime-2.1-mini                                                 | $0.6                              | $2.4                                  |    128000           |      4096           |
+| openai/gpt-realtime-2.1-mini                                                 | $0.6                              | $2.4                                  |    128000           |     32000           |
 | jp.anthropic.claude-opus-4-8                                                 | $5.5                              | $27.5                                 |         1e+06       |    128000           |
 | azure/gpt-5.6                                                                | $5                                | $30                                   |    922000           |    128000           |
 | azure/gpt-5.6-sol                                                            | $5                                | $30                                   |    922000           |    128000           |
@@ -3891,7 +3891,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | together_ai/Qwen/Qwen3.6-Plus                                                | $0.5                              | $3                                    |         1e+06       |       nan           |
 | together_ai/Qwen/Qwen3.7-Max                                                 | $2.5                              | $7.5                                  |         1e+06       |       nan           |
 | together_ai/Qwen/Qwen3.7-Plus                                                | $0.32                             | $1.28                                 |         1e+06       |       nan           |
-| together_ai/Qwen/Qwen3.8-2.4T-A95B                                           | $2.5                              | $6.25                                 |         1.01e+06    |       nan           |
+| together_ai/Qwen/Qwen3.8-2.4T-A95B                                           | $2                                | $6                                    |         1.01e+06    |       nan           |
 | together_ai/arize-ai/qwen-2-1.5b-instruct                                    | $0.1                              | $0.1                                  |     32768           |       nan           |
 | together_ai/deepseek-ai/DeepSeek-V4-Flash-0731                               | $0.14                             | $0.28                                 |         1.04858e+06 |       nan           |
 | together_ai/deepseek-ai/DeepSeek-V4-Pro                                      | $1.74                             | $3.48                                 |    512000           |       nan           |
@@ -4231,6 +4231,51 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | together_ai/Qwen/Qwen3.8-Flash                                               | $0.15                             | $0.47                                 |         1e+06       |       nan           |
 | cerebras/gemma-4-31b                                                         | $0.99                             | $1.49                                 |    131072           |     40960           |
 | elevenlabs/scribe_v2                                                         | --                                | --                                    |       nan           |       nan           |
+| azure_ai/DeepSeek-V4-Flash-0731                                              | $0.44                             | $1.32                                 |         1e+06       |    128000           |
+| vertex_ai/gemini-3.8-flash                                                   | $0.75                             | $3.75                                 |         1.04858e+06 |     65536           |
+| gemini/gemini-3.8-flash                                                      | $0.75                             | $3.75                                 |         1.04858e+06 |     65536           |
+| gemini-3.8-flash                                                             | $0.75                             | $3.75                                 |         1.04858e+06 |     65536           |
+| gpt-6-astra                                                                  | $10                               | $50                                   |    922000           |    128000           |
+| meta/muse-spark-1.3                                                          | $1.25                             | $4.25                                 |         1.04858e+06 |    131072           |
+| meta/muse-spark-1.3-contributor                                              | $0.1                              | $0.2                                  |         1.04858e+06 |    131072           |
+| parallel_ai/search-fast                                                      | --                                | --                                    |       nan           |       nan           |
+| parallel_ai/search-turbo                                                     | --                                | --                                    |       nan           |       nan           |
+| us-gov.anthropic.claude-sonnet-5                                             | $2.4                              | $12                                   |         1e+06       |    128000           |
+| us-gov.anthropic.claude-opus-4-8                                             | $6                                | $30                                   |         1e+06       |    128000           |
+| voyage/rerank-3                                                              | $0.05                             | $0                                    |     32000           |     32000           |
+| voyage/rerank-3-lite                                                         | $0.02                             | $0                                    |     32000           |     32000           |
+| xai/grok-build-latest                                                        | $2                                | $6                                    |    500000           |    500000           |
+| fireworks_ai/accounts/fireworks/models/glm-5p3-flash                         | $0.15                             | $0.5                                  |         1.04858e+06 |       nan           |
+| fireworks_ai/accounts/fireworks/models/inkling                               | $1                                | $4.05                                 |         1.04858e+06 |       nan           |
+| scaleway/glm-5.2                                                             | $1.8                              | $5.5                                  |    256000           |     16384           |
+| scaleway/deepseek-v4-flash-0731                                              | $0.4                              | $0.8                                  |    256000           |     32768           |
+| azure_ai/kimi-k2.7-code                                                      | $0.95                             | $4                                    |    262144           |    262144           |
+| bedrock/us-gov-west-1/nvidia.nemotron-nano-3-30b                             | $0.07                             | $0.29                                 |    262144           |      8192           |
+| bedrock/us-gov-west-1/nvidia.nemotron-nano-12b-v2                            | $0.24                             | $0.72                                 |    128000           |      8192           |
+| bedrock/us-gov-west-1/nvidia.nemotron-super-3-120b                           | $0.18                             | $0.78                                 |    256000           |     32768           |
+| bedrock/us-gov-west-1/openai.gpt-oss-20b-1:0                                 | $0.08                             | $0.36                                 |    128000           |    128000           |
+| bedrock/us-gov-west-1/openai.gpt-oss-120b-1:0                                | $0.18                             | $0.72                                 |    128000           |    128000           |
+| bedrock/us-gov-west-1/anthropic.claude-sonnet-5                              | $2.4                              | $12                                   |         1e+06       |    128000           |
+| bedrock/us-gov-west-1/anthropic.claude-opus-4-8                              | $6                                | $30                                   |         1e+06       |    128000           |
+| bedrock/us-gov-east-1/nvidia.nemotron-nano-3-30b                             | $0.07                             | $0.29                                 |    262144           |      8192           |
+| bedrock/us-gov-east-1/nvidia.nemotron-nano-12b-v2                            | $0.24                             | $0.72                                 |    128000           |      8192           |
+| bedrock/us-gov-east-1/nvidia.nemotron-super-3-120b                           | $0.18                             | $0.78                                 |    256000           |     32768           |
+| bedrock/us-gov-east-1/openai.gpt-oss-20b-1:0                                 | $0.08                             | $0.36                                 |    128000           |    128000           |
+| bedrock/us-gov-east-1/openai.gpt-oss-120b-1:0                                | $0.18                             | $0.72                                 |    128000           |    128000           |
+| bedrock/us-gov-east-1/anthropic.claude-sonnet-5                              | $2.4                              | $12                                   |         1e+06       |    128000           |
+| bedrock/us-gov-east-1/anthropic.claude-opus-4-8                              | $6                                | $30                                   |         1e+06       |    128000           |
+| bedrock_mantle/us-gov-west-1/openai.gpt-5.6-terra                            | $2.64                             | $15.84                                |         1.05e+06    |    128000           |
+| bedrock_mantle/us-gov-west-1/openai.gpt-5.6-luna                             | $0.26                             | $1.58                                 |         1.05e+06    |    128000           |
+| bedrock_mantle/us-gov-west-1/openai.gpt-5.4                                  | $3.3                              | $19.8                                 |         1.05e+06    |    128000           |
+| bedrock_mantle/us-gov-west-1/xai.grok-4.3                                    | $1.5                              | $3                                    |    131072           |     16384           |
+| bedrock_mantle/us-gov-east-1/openai.gpt-5.4                                  | $3.3                              | $19.8                                 |         1.05e+06    |    128000           |
+| azure/us-gov/gpt-5.1                                                         | $1.72                             | $13.75                                |    272000           |    128000           |
+| azure/us-gov/o3-mini                                                         | $1.51                             | $6.05                                 |    200000           |    100000           |
+| azure/us-gov/text-embedding-3-large                                          | $0.16                             | $0                                    |      8191           |       nan           |
+| azure/us-gov/text-embedding-3-small                                          | $0.02                             | $0                                    |      8191           |       nan           |
+| cloudflare/@cf/openai/whisper                                                | --                                | --                                    |       nan           |       nan           |
+| cloudflare/@cf/openai/whisper-large-v3-turbo                                 | --                                | --                                    |       nan           |       nan           |
+| openai/gpt-6-astra                                                           | $10                               | $50                                   |    922000           |    128000           |
 
 <!-- PRICING_TABLE_END -->
 
