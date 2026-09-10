@@ -798,7 +798,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/anthropic/claude-3-5-haiku-20241022                               | $1                                | $5                                    |    200000           |      8192           |
 | anthropic.claude-3-5-haiku-20241022-v1:0                                     | $0.8                              | $4                                    |    200000           |      8192           |
 | us.anthropic.claude-3-5-haiku-20241022-v1:0                                  | $0.8                              | $4                                    |    200000           |      8192           |
-| eu.anthropic.claude-3-5-haiku-20241022-v1:0                                  | $0.25                             | $1.25                                 |    200000           |      8192           |
+| eu.anthropic.claude-3-5-haiku-20241022-v1:0                                  | $0.8                              | $4                                    |    200000           |      8192           |
 | stability.sd3-large-v1:0                                                     | --                                | --                                    |        77           |       nan           |
 | gpt-4o-2024-11-20                                                            | $2.5                              | $10                                   |    128000           |     16384           |
 | ft:gpt-4o-2024-11-20                                                         | $3.75                             | $15                                   |    128000           |     16384           |
@@ -1900,7 +1900,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | lemonade/Qwen3-4B-Instruct-2507-GGUF                                         | $0                                | $0                                    |    262144           |     32768           |
 | jp.anthropic.claude-haiku-4-5-20251001-v1:0                                  | $1.1                              | $5.5                                  |    200000           |     64000           |
 | us.anthropic.claude-haiku-4-5-20251001-v1:0                                  | $1.1                              | $5.5                                  |    200000           |     64000           |
-| vertex_ai/claude-haiku-4-5@20251001                                          | $1                                | $5                                    |    200000           |      8192           |
+| vertex_ai/claude-haiku-4-5@20251001                                          | $1                                | $5                                    |    200000           |     64000           |
 | azure_ai/mistral-document-ai-2505                                            | --                                | --                                    |       nan           |       nan           |
 | mistral/mistral-ocr-latest                                                   | --                                | --                                    |       nan           |       nan           |
 | mistral/mistral-ocr-2505-completion                                          | --                                | --                                    |       nan           |       nan           |
@@ -2738,7 +2738,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | eu.amazon.nova-2-pro-preview-20251202-v1:0                                   | $2.19                             | $17.5                                 |         1e+06       |     64000           |
 | us.amazon.nova-2-pro-preview-20251202-v1:0                                   | $2.19                             | $17.5                                 |         1e+06       |     64000           |
 | openrouter/moonshotai/kimi-k2.5                                              | $0.45                             | $2.25                                 |    262144           |    262144           |
-| azure_ai/model_router                                                        | $0.14                             | $0                                    |       nan           |       nan           |
+| azure_ai/model_router                                                        | $0.14                             | $0                                    |    200000           |     32768           |
 | moonshot/kimi-k2.5                                                           | $0.6                              | $3                                    |    262144           |    262144           |
 | together_ai/zai-org/GLM-4.7                                                  | $0.45                             | $2                                    |    200000           |       nan           |
 | together_ai/moonshotai/Kimi-K2.5                                             | $0.5                              | $2.8                                  |    256000           |       nan           |
@@ -3004,9 +3004,9 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gpt-5.4                                                                      | $2.5                              | $15                                   |         1.05e+06    |    128000           |
 | gpt-5.4-2026-03-05                                                           | $2.5                              | $15                                   |         1.05e+06    |    128000           |
 | bedrock_mantle/openai.gpt-oss-120b                                           | $0.15                             | $0.6                                  |    131072           |     32768           |
-| bedrock_mantle/openai.gpt-oss-20b                                            | $0.08                             | $0.3                                  |    131072           |     32768           |
+| bedrock_mantle/openai.gpt-oss-20b                                            | $0.07                             | $0.3                                  |    131072           |     32768           |
 | bedrock_mantle/openai.gpt-oss-safeguard-120b                                 | $0.15                             | $0.6                                  |    131072           |     65536           |
-| bedrock_mantle/openai.gpt-oss-safeguard-20b                                  | $0.08                             | $0.3                                  |    131072           |     65536           |
+| bedrock_mantle/openai.gpt-oss-safeguard-20b                                  | $0.07                             | $0.2                                  |    131072           |     65536           |
 | chatgpt/gpt-5.4                                                              | --                                | --                                    |         1.05e+06    |    128000           |
 | chatgpt/gpt-5.4-pro                                                          | --                                | --                                    |         1.05e+06    |    128000           |
 | chatgpt/gpt-5.3-codex                                                        | --                                | --                                    |    128000           |    128000           |
@@ -3099,7 +3099,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | oci/cohere.embed-english-light-image-v3.0                                    | $0.1                              | $0                                    |       512           |       nan           |
 | oci/cohere.embed-multilingual-light-image-v3.0                               | $0.1                              | $0                                    |       512           |       nan           |
 | oci/cohere.embed-v4.0                                                        | $0.12                             | $0                                    |    128000           |       nan           |
-| vertex_ai/claude-haiku-4-5                                                   | $1                                | $5                                    |    200000           |      8192           |
+| vertex_ai/claude-haiku-4-5                                                   | $1                                | $5                                    |    200000           |     64000           |
 | bedrock/us-gov-east-1/anthropic.claude-sonnet-4-5-20250929-v1:0              | $3.6                              | $18                                   |    200000           |      8192           |
 | bedrock/us-gov-west-1/anthropic.claude-sonnet-4-5-20250929-v1:0              | $3.6                              | $18                                   |    200000           |      8192           |
 | us-gov.anthropic.claude-sonnet-4-5-20250929-v1:0                             | $3.6                              | $18                                   |    200000           |     64000           |
@@ -3163,10 +3163,10 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | crusoe/moonshotai/Kimi-K2-Thinking                                           | $2.5                              | $2.5                                  |    262144           |    262144           |
 | crusoe/openai/gpt-oss-120b                                                   | $0.8                              | $0.8                                  |    131072           |    131072           |
 | crusoe/Qwen/Qwen3-235B-A22B-Instruct-2507                                    | $3                                | $3                                    |    262144           |    262144           |
-| vertex_ai/xai/grok-4.1-fast-non-reasoning                                    | $0.2                              | $0.5                                  |         2e+06       |         2e+06       |
-| vertex_ai/xai/grok-4.1-fast-reasoning                                        | $0.2                              | $0.5                                  |         2e+06       |         2e+06       |
-| vertex_ai/xai/grok-4.20-non-reasoning                                        | $2                                | $6                                    |         2e+06       |         2e+06       |
-| vertex_ai/xai/grok-4.20-reasoning                                            | $2                                | $6                                    |         2e+06       |         2e+06       |
+| vertex_ai/xai/grok-4.1-fast-non-reasoning                                    | $0.2                              | $0.5                                  |    128000           |    128000           |
+| vertex_ai/xai/grok-4.1-fast-reasoning                                        | $0.2                              | $0.5                                  |    128000           |    128000           |
+| vertex_ai/xai/grok-4.20-non-reasoning                                        | $1.25                             | $2.5                                  |         2e+06       |         2e+06       |
+| vertex_ai/xai/grok-4.20-reasoning                                            | $1.25                             | $2.5                                  |         2e+06       |         2e+06       |
 | openai/gpt-4                                                                 | $30                               | $60                                   |      8192           |      4096           |
 | openai/gpt-4o                                                                | $2.5                              | $10                                   |    128000           |     16384           |
 | openai/gpt-4o-audio-preview                                                  | $2.5                              | $10                                   |    128000           |     16384           |
@@ -3923,7 +3923,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | databricks/databricks-glm-5-2                                                | $1.4                              | $4.4                                  |         1e+06       |    131072           |
 | databricks/databricks-kimi-k3                                                | $3                                | $15                                   |         1e+06       |         1.04858e+06 |
 | fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813                  | $1.32                             | $3.96                                 |         1.04858e+06 |    131072           |
-| gemini-live-2.5-flash-native-audio                                           | $0.5                              | $2                                    |         1.04858e+06 |     65535           |
+| gemini-live-2.5-flash-native-audio                                           | $0.5                              | $2                                    |    131072           |     65536           |
 | mistral/ministral-14b-2512                                                   | $0.2                              | $0.2                                  |    262144           |    262144           |
 | mistral/ministral-14b-latest                                                 | $0.2                              | $0.2                                  |    262144           |    262144           |
 | mistral/ministral-3b-2512                                                    | $0.1                              | $0.1                                  |    131072           |    131072           |
@@ -4086,7 +4086,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | together_ai/zai-org/GLM-5.3                                                  | $1.4                              | $4.4                                  |         1.04858e+06 |    128000           |
 | vertex_ai/veo-3.1-lite-generate-001                                          | --                                | --                                    |      1024           |       nan           |
 | zai/glm-5.3-flash                                                            | $0.15                             | $0.5                                  |         1.04858e+06 |    128000           |
-| vertex_ai/gemini-3.5-transcribe-preview                                      | $2.5                              | $12                                   |       nan           |       nan           |
+| vertex_ai/gemini-3.5-transcribe-preview                                      | $2                                | $12                                   |       nan           |       nan           |
 | vertex_ai/gemini-3.5-transcribe-live-preview                                 | $3.5                              | $21                                   |       nan           |       nan           |
 | gemini/gemini-omni-1.1-flash                                                 | $1.5                              | $9                                    |    131072           |     65536           |
 | xai/grok-4.20                                                                | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
@@ -4570,6 +4570,43 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | bedrock_mantle/us-gov-east-1/xai.grok-4.6                                    | $2.64                             | $7.92                                 |    500000           |    500000           |
 | bedrock_mantle/us-gov-east-1/openai.gpt-oss-20b                              | $0.08                             | $0.36                                 |    131072           |     32768           |
 | bedrock_mantle/us-gov-east-1/openai.gpt-oss-120b                             | $0.18                             | $0.72                                 |    131072           |     32768           |
+| global.twelvelabs.pegasus-1-2-v1:0                                           | --                                | $7.5                                  |       nan           |       nan           |
+| azure_ai/gpt-chat-latest                                                     | $5                                | $30                                   |    272000           |    128000           |
+| azure_ai/codex-mini                                                          | $1.5                              | $6                                    |    200000           |    100000           |
+| azure_ai/whisper                                                             | --                                | --                                    |       nan           |       nan           |
+| azure_ai/model-router                                                        | $0.14                             | $0                                    |    200000           |     32768           |
+| azure_ai/cohere-command-a                                                    | $2.5                              | $10                                   |    131072           |      8182           |
+| azure_ai/grok-4-20-reasoning                                                 | $1.25                             | $2.5                                  |    262000           |      8192           |
+| azure_ai/grok-4-20-non-reasoning                                             | $1.25                             | $2.5                                  |    262000           |      8192           |
+| us.cohere.embed-v4:0                                                         | $0.12                             | $0                                    |    128000           |       nan           |
+| global.cohere.embed-v4:0                                                     | $0.12                             | $0                                    |    128000           |       nan           |
+| chatgpt/gpt-5.5                                                              | --                                | --                                    |         1.05e+06    |    128000           |
+| chatgpt/gpt-5.6-luna                                                         | --                                | --                                    |         1.05e+06    |    128000           |
+| chatgpt/gpt-5.6-sol                                                          | --                                | --                                    |         1.05e+06    |    128000           |
+| chatgpt/gpt-5.6-terra                                                        | --                                | --                                    |         1.05e+06    |    128000           |
+| gpt-image-2.5-flare                                                          | $5                                | --                                    |       nan           |       nan           |
+| gpt-image-2.5-flare-2026-09-08                                               | $5                                | --                                    |       nan           |       nan           |
+| gpt-image-2.5-sunburst                                                       | $5                                | --                                    |       nan           |       nan           |
+| gpt-image-2.5-sunburst-2026-09-08                                            | $5                                | --                                    |       nan           |       nan           |
+| rerank-v4.0-fast                                                             | $0                                | $0                                    |     32768           |     32768           |
+| rerank-v4.0-pro                                                              | $0                                | $0                                    |     32768           |     32768           |
+| vertex_ai/xai/grok-4.3                                                       | $1.25                             | $2.5                                  |    200000           |    200000           |
+| vertex_ai/xai/grok-4.6                                                       | $2                                | $6                                    |    524288           |    524288           |
+| voyage/voyage-multilingual-2                                                 | $0.12                             | $0                                    |     32000           |       nan           |
+| bedrock_mantle/openai.gpt-daybreak-blue-5.6-sol                              | $5.5                              | $33                                   |         1.05e+06    |    128000           |
+| bedrock_mantle/openai.gpt-6-astra                                            | $11                               | $55                                   |         1.05e+06    |    128000           |
+| us.openai.gpt-6-astra                                                        | $11                               | $55                                   |         1.05e+06    |    128000           |
+| global.openai.gpt-6-astra                                                    | $10                               | $50                                   |         1.05e+06    |    128000           |
+| vertex_ai/gemini-3.5-live-translate-preview                                  | $3.5                              | $21                                   |       nan           |       nan           |
+| xai/grok-imagine-video                                                       | --                                | --                                    |       nan           |       nan           |
+| xai/grok-imagine-video-1.5                                                   | --                                | --                                    |       nan           |       nan           |
+| xai/grok-imagine-video-1.5-2026-05-30                                        | --                                | --                                    |       nan           |       nan           |
+| xai/grok-imagine-video-1.5-preview                                           | --                                | --                                    |       nan           |       nan           |
+| gemini/lyria-3.5                                                             | $0                                | $0                                    |         1.04858e+06 |     65536           |
+| openai/gpt-image-2.5-flare                                                   | $5                                | --                                    |       nan           |       nan           |
+| openai/gpt-image-2.5-flare-2026-09-08                                        | $5                                | --                                    |       nan           |       nan           |
+| openai/gpt-image-2.5-sunburst                                                | $5                                | --                                    |       nan           |       nan           |
+| openai/gpt-image-2.5-sunburst-2026-09-08                                     | $5                                | --                                    |       nan           |       nan           |
 
 <!-- PRICING_TABLE_END -->
 
