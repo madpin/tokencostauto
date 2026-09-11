@@ -941,7 +941,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | anthropic.claude-3-7-sonnet-20250219-v1:0                                    | $3                                | $15                                   |    200000           |      8192           |
 | us.anthropic.claude-3-7-sonnet-20250219-v1:0                                 | $3                                | $15                                   |    200000           |      8192           |
 | cohere.rerank-v3-5:0                                                         | $0                                | $0                                    |     32000           |     32000           |
-| jina-reranker-v2-base-multilingual                                           | $0.02                             | $0.02                                 |      1024           |      1024           |
+| jina-reranker-v2-base-multilingual                                           | $0.05                             | $0                                    |      1024           |      1024           |
 | bedrock/invoke/anthropic.claude-3-5-sonnet-20240620-v1:0                     | $3                                | $15                                   |    200000           |      4096           |
 | azure/gpt-4o-mini-realtime-preview-2024-12-17                                | $0.6                              | $2.4                                  |    128000           |      4096           |
 | azure/eu/gpt-4o-mini-realtime-preview-2024-12-17                             | $0.66                             | $2.64                                 |    128000           |      4096           |
@@ -4607,6 +4607,9 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openai/gpt-image-2.5-flare-2026-09-08                                        | $5                                | --                                    |       nan           |       nan           |
 | openai/gpt-image-2.5-sunburst                                                | $5                                | --                                    |       nan           |       nan           |
 | openai/gpt-image-2.5-sunburst-2026-09-08                                     | $5                                | --                                    |       nan           |       nan           |
+| openrouter/openai/gpt-5.6-sol                                                | $2                                | $10                                   |         1.05e+06    |    128000           |
+| wandb/deepseek-ai/DeepSeek-V4-Pro-0813                                       | $1.31                             | $3.96                                 |       nan           |       nan           |
+| wandb/ibm-granite/granite-4.2-8b                                             | $0.1                              | $0.15                                 |       nan           |       nan           |
 
 <!-- PRICING_TABLE_END -->
 
