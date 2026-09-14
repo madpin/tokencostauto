@@ -4512,3 +4512,9 @@
 | openrouter/openai/gpt-chat-latest                                            | $5                                | $30                                   |    400000           |    128000           |
 | openai/computer-use-preview                                                  | $3                                | $12                                   |      8192           |      1024           |
 | openai/gpt-live-1                                                            | --                                | --                                    |       nan           |       nan           |
+| friendliai/google/gemma-4-31B-it                                             | $0.14                             | $0.4                                  |    262144           |    262144           |
+| friendliai/zai-org/GLM-5.2                                                   | $1.4                              | $4.4                                  |         1.04858e+06 |         1.04858e+06 |
+| friendliai/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B                                | $0.6                              | $2.4                                  |    262144           |    262144           |
+| friendliai/deepseek-ai/DeepSeek-V3.2                                         | $0.5                              | $1.5                                  |    163840           |    163840           |
+| friendliai/MiniMaxAI/MiniMax-M2.5                                            | $0.3                              | $1.2                                  |    196608           |    196608           |
+| friendliai/zai-org/GLM-5.1                                                   | $1.4                              | $4.4                                  |    202752           |    202752           |
