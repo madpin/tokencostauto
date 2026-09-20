@@ -1456,7 +1456,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | cerebras/openai/gpt-oss-20b                                                  | $0.07                             | $0.3                                  |    131072           |     32768           |
 | cerebras/openai/gpt-oss-120b                                                 | $0.25                             | $0.69                                 |    131072           |     32768           |
 | openrouter/openai/gpt-oss-20b                                                | $0.03                             | $0.13                                 |    131072           |    117964           |
-| openrouter/openai/gpt-oss-120b                                               | $0.15                             | $0.6                                  |    131072           |    117964           |
+| openrouter/openai/gpt-oss-120b                                               | $0.15                             | $0.6                                  |    131072           |     65536           |
 | gradient_ai/anthropic-claude-3.7-sonnet                                      | $3                                | $15                                   |    200000           |      1024           |
 | gradient_ai/anthropic-claude-3.5-sonnet                                      | $3                                | $15                                   |    200000           |      1024           |
 | gradient_ai/anthropic-claude-3.5-haiku                                       | $0.8                              | $4                                    |    200000           |      1024           |
@@ -3035,7 +3035,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gemini-embedding-2-preview                                                   | $0.2                              | $0                                    |      8192           |       nan           |
 | vertex_ai/gemini-embedding-2-preview                                         | $0.2                              | $0                                    |      8192           |       nan           |
 | gemini/gemini-embedding-2-preview                                            | $0.2                              | $0                                    |      8192           |       nan           |
-| openrouter/qwen/qwen3.5-35b-a3b                                              | $0.16                             | $1.3                                  |    262144           |     65536           |
+| openrouter/qwen/qwen3.5-35b-a3b                                              | $0.31                             | $1.25                                 |    262144           |     16384           |
 | openrouter/qwen/qwen3.5-27b                                                  | $0.2                              | $1.56                                 |    262144           |     65536           |
 | openrouter/qwen/qwen3.5-122b-a10b                                            | $0.26                             | $2.08                                 |    262144           |     65536           |
 | openrouter/qwen/qwen3.5-flash-02-23                                          | $0.06                             | $0.26                                 |         1e+06       |     65536           |
@@ -3718,7 +3718,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | groq/canopylabs/orpheus-v1-english                                           | --                                | --                                    |      4000           |     50000           |
 | groq/canopylabs/orpheus-arabic-saudi                                         | --                                | --                                    |      4000           |     50000           |
 | groq/qwen/qwen3.6-27b                                                        | $0.6                              | $3                                    |    131072           |     16384           |
-| openrouter/nvidia/nemotron-3.5-lightning                                     | $0.08                             | $0.2                                  |    262144           |    131072           |
+| openrouter/nvidia/nemotron-3.5-lightning                                     | $0.07                             | $0.2                                  |    262144           |    235929           |
 | azure_ai/FW-DeepSeek-V3.2                                                    | $0.62                             | $1.85                                 |    163840           |    163840           |
 | azure_ai/FW-DeepSeek-V4-Pro                                                  | $1.92                             | $3.83                                 |         1e+06       |    384000           |
 | azure_ai/FW-GLM-5                                                            | $1.1                              | $3.52                                 |    200000           |    128000           |
@@ -3770,8 +3770,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | mistral/mistral-ocr-4-1                                                      | --                                | --                                    |       nan           |       nan           |
 | moonshot/kimi-k3                                                             | $3                                | $15                                   |         1.04858e+06 |         1.04858e+06 |
 | openrouter/anthropic/claude-opus-5                                           | $5                                | $25                                   |         1e+06       |    128000           |
-| openrouter/deepseek/deepseek-v4-pro                                          | $1.6                              | $3.2                                  |         1.04858e+06 |    393216           |
-| openrouter/deepseek/deepseek-v4-pro-0813                                     | $0.58                             | $1.73                                 |         1.04858e+06 |    393216           |
+| openrouter/deepseek/deepseek-v4-pro                                          | $0.42                             | $0.84                                 |         1.04858e+06 |    384000           |
+| openrouter/deepseek/deepseek-v4-pro-0813                                     | $1.32                             | $3.96                                 |         1.04858e+06 |    384000           |
 | perplexity/perplexity/deepseek-v4-flash-0731                                 | $0.13                             | $0.26                                 |       nan           |       nan           |
 | perplexity/perplexity/glm-5.2                                                | $1.4                              | $4.4                                  |       nan           |       nan           |
 | perplexity/perplexity/kimi-k3                                                | $3                                | $15                                   |       nan           |       nan           |
@@ -4405,17 +4405,17 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/openai/gpt-6-astra                                                | $10                               | $50                                   |         1.05e+06    |    128000           |
 | openrouter/qwen/qwen3.8-flash                                                | $0.15                             | $0.47                                 |         1e+06       |    131072           |
 | openrouter/z-ai/glm-5.3-flash                                                | $0.09                             | $0.3                                  |         1.31072e+06 |    131072           |
-| openrouter/deepseek/deepseek-v4-flash-vision-exp                             | $0.22                             | $0.65                                 |         1.04858e+06 |    943718           |
-| openrouter/z-ai/glm-5.3                                                      | $0.91                             | $2.86                                 |         1.31072e+06 |    943717           |
-| openrouter/qwen/qwen3.8-27b                                                  | $0.21                             | $2.55                                 |         1e+06       |    131072           |
+| openrouter/deepseek/deepseek-v4-flash-vision-exp                             | $0.22                             | $0.65                                 |         1.04858e+06 |    262144           |
+| openrouter/z-ai/glm-5.3                                                      | $0.9                              | $2.82                                 |         1.31072e+06 |    131072           |
+| openrouter/qwen/qwen3.8-27b                                                  | $0.42                             | $3                                    |         1e+06       |    131072           |
 | openrouter/qwen/qwen3.8-2.4t-a95b                                            | $2                                | $6                                    |         1.04858e+06 |    131072           |
 | openrouter/nvidia/nemotron-3.5-lightning:free                                | $0                                | $0                                    |         1e+06       |     65536           |
 | openrouter/qwen/qwen3.8-max                                                  | $2                                | $6                                    |         1e+06       |    131072           |
-| openrouter/deepseek/deepseek-v4-flash-0731                                   | $0.06                             | $0.12                                 |         1.31072e+06 |    943718           |
+| openrouter/deepseek/deepseek-v4-flash-0731                                   | $0.04                             | $0.08                                 |         1.31072e+06 |    943718           |
 | openrouter/qwen/qwen3.7-flash                                                | $0.03                             | $0.13                                 |         1e+06       |     65536           |
 | openrouter/poolside/laguna-s-2.1                                             | $0.09                             | $0.18                                 |         1.04858e+06 |    131072           |
 | openrouter/poolside/laguna-s-2.1:free                                        | $0                                | $0                                    |    262144           |     32768           |
-| openrouter/moonshotai/kimi-k3                                                | $2.1                              | $10.95                                |         1.04858e+06 |    943718           |
+| openrouter/moonshotai/kimi-k3                                                | $1.7                              | $8.5                                  |         1.04858e+06 |    943718           |
 | openrouter/poolside/laguna-xs-2.1                                            | $0.06                             | $0.12                                 |    262144           |     32768           |
 | openrouter/poolside/laguna-xs-2.1:free                                       | $0                                | $0                                    |    262144           |     32768           |
 | openrouter/google/gemini-3.1-flash-lite-image                                | $0.25                             | $1.5                                  |     65536           |     58982           |
@@ -4426,7 +4426,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/moonshotai/kimi-k2.7-code                                         | $0.71                             | $3.21                                 |    262144           |    235929           |
 | openrouter/nvidia/nemotron-3.5-content-safety                                | $0.2                              | $0.2                                  |    131072           |    117964           |
 | openrouter/nvidia/nemotron-3.5-content-safety:free                           | $0                                | $0                                    |    128000           |      8192           |
-| openrouter/nvidia/nemotron-3-ultra-550b-a55b                                 | $0.62                             | $3.12                                 |    262144           |     32768           |
+| openrouter/nvidia/nemotron-3-ultra-550b-a55b                                 | $0.6                              | $2.4                                  |    262144           |    182520           |
 | openrouter/nvidia/nemotron-3-ultra-550b-a55b:free                            | $0                                | $0                                    |         1e+06       |     65536           |
 | openrouter/minimax/minimax-m3:free                                           | $0                                | $0                                    |         1.04858e+06 |    943718           |
 | openrouter/qwen/qwen3.7-max                                                  | $1.48                             | $4.42                                 |         1e+06       |    131072           |
@@ -4438,7 +4438,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/qwen/qwen3.6-max-preview                                          | $1.03                             | $6.16                                 |    262144           |     65536           |
 | openrouter/qwen/qwen3.6-27b                                                  | $0.3                              | $2                                    |    262144           |     65536           |
 | openrouter/openai/gpt-5.5-pro                                                | $30                               | $180                                  |         1.05e+06    |    128000           |
-| openrouter/deepseek/deepseek-v4-flash                                        | $0.05                             | $0.1                                  |         1.04858e+06 |    384000           |
+| openrouter/deepseek/deepseek-v4-flash                                        | $0.04                             | $0.07                                 |         1.04858e+06 |    384000           |
 | openrouter/moonshotai/kimi-k2.6                                              | $0.95                             | $4                                    |    262144           |    235929           |
 | openrouter/google/gemma-4-26b-a4b-it                                         | $0.09                             | $0.3                                  |    262144           |    235929           |
 | openrouter/google/gemma-4-26b-a4b-it:free                                    | $0                                | $0                                    |    262144           |     32768           |
@@ -4451,7 +4451,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/z-ai/glm-5-turbo                                                  | $1.2                              | $4                                    |    202752           |    131072           |
 | openrouter/nvidia/nemotron-3-super-120b-a12b                                 | $0.08                             | $0.45                                 |    262144           |    235929           |
 | openrouter/nvidia/nemotron-3-super-120b-a12b:free                            | $0                                | $0                                    |    262144           |    235929           |
-| openrouter/qwen/qwen3.5-9b                                                   | $0.1                              | $0.15                                 |    262144           |    235929           |
+| openrouter/qwen/qwen3.5-9b                                                   | $0.1                              | $0.15                                 |    262144           |     32768           |
 | openrouter/openai/gpt-5.4-pro                                                | $30                               | $180                                  |         1.05e+06    |    128000           |
 | openrouter/google/gemini-3.1-flash-image-preview                             | $0.5                              | $3                                    |     65536           |     58982           |
 | openrouter/google/gemini-3.1-pro-preview-customtools                         | $2                                | $12                                   |         1.04858e+06 |     65536           |
@@ -4613,7 +4613,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | cerebras/qwen-3.8-27b                                                        | $0.99                             | $1.49                                 |     65536           |     32768           |
 | inception/mercury-2.5                                                        | $0.2                              | $0.75                                 |    260000           |     65536           |
 | meta/muse-voice-transcribe-1.0                                               | --                                | --                                    |       nan           |       nan           |
-| openrouter/deepseek/deepseek-v4.1-flash                                      | $0.15                             | $0.6                                  |         1.04858e+06 |    384000           |
+| openrouter/deepseek/deepseek-v4.1-flash                                      | $0.3                              | $1.2                                  |         1.04858e+06 |    384000           |
 | openrouter/openai/gpt-5.6-sol-pro                                            | $2                                | $10                                   |         1.05e+06    |    128000           |
 | deepseek-flash                                                               | $0.3                              | $1.2                                  |         1e+06       |    393216           |
 | deepseek/deepseek-flash                                                      | $0.3                              | $1.2                                  |         1e+06       |    393216           |
@@ -4861,12 +4861,12 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/~anthropic/claude-haiku-latest                                    | $1                                | $5                                    |    200000           |     64000           |
 | openrouter/~anthropic/claude-opus-latest                                     | $5                                | $25                                   |         1e+06       |    128000           |
 | openrouter/~anthropic/claude-sonnet-latest                                   | $2                                | $10                                   |         1e+06       |    128000           |
-| openrouter/~deepseek/deepseek-flash-latest                                   | $0.14                             | $0.42                                 |         1.04858e+06 |    393216           |
-| openrouter/~deepseek/deepseek-pro-latest                                     | $0.58                             | $1.73                                 |         1.04858e+06 |    393216           |
-| openrouter/~deepseek/deepseek-v4-flash-latest                                | $0.06                             | $0.16                                 |         1.31072e+06 |    393216           |
+| openrouter/~deepseek/deepseek-flash-latest                                   | $0.13                             | $0.52                                 |         1.04858e+06 |    943718           |
+| openrouter/~deepseek/deepseek-pro-latest                                     | $0.58                             | $1.73                                 |         1.04858e+06 |    384000           |
+| openrouter/~deepseek/deepseek-v4-flash-latest                                | $0.04                             | $0.08                                 |         1.31072e+06 |    943718           |
 | openrouter/~google/gemini-flash-latest                                       | $0.75                             | $3.75                                 |         1.04858e+06 |     65536           |
 | openrouter/~google/gemini-pro-latest                                         | $2                                | $12                                   |         1.04858e+06 |     65536           |
-| openrouter/~moonshotai/kimi-latest                                           | $2.1                              | $10.95                                |         1.04858e+06 |    943718           |
+| openrouter/~moonshotai/kimi-latest                                           | $1.7                              | $8.5                                  |         1.04858e+06 |    943718           |
 | openrouter/~openai/gpt-astra-latest                                          | $10                               | $50                                   |         1.05e+06    |    128000           |
 | openrouter/~openai/gpt-luna-latest                                           | $0.2                              | $1.2                                  |         1.05e+06    |    128000           |
 | openrouter/~openai/gpt-mini-latest                                           | $0.75                             | $4.5                                  |    400000           |    128000           |
@@ -4874,7 +4874,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/~openai/gpt-terra-latest                                          | $2                                | $12                                   |         1.05e+06    |    128000           |
 | openrouter/~x-ai/grok-latest                                                 | $2                                | $6                                    |    500000           |    450000           |
 | openrouter/~z-ai/glm-flash-latest                                            | $0.08                             | $0.25                                 |         1.31072e+06 |    131072           |
-| openrouter/~z-ai/glm-latest                                                  | $0.9                              | $2.8                                  |         1.31072e+06 |    235929           |
+| openrouter/~z-ai/glm-latest                                                  | $0.84                             | $2.65                                 |         1.31072e+06 |    131072           |
 | openrouter/aion-labs/aion-2.0                                                | $0.8                              | $1.6                                  |    131072           |     32768           |
 | openrouter/aion-labs/aion-3.0                                                | $3                                | $6                                    |    131072           |     32768           |
 | openrouter/aion-labs/aion-3.0-mini                                           | $0.7                              | $1.4                                  |    131072           |     32768           |
@@ -5029,7 +5029,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/tencent/hy-mt2-1.8b                                               | $0.04                             | $0.18                                 |      8192           |      4096           |
 | openrouter/tencent/hy-mt2-30b-a3b                                            | $0.07                             | $0.3                                  |      8192           |      4096           |
 | openrouter/tencent/hy-mt2-7b                                                 | $0.07                             | $0.3                                  |      8192           |      4096           |
-| openrouter/tencent/hy3                                                       | $0.08                             | $0.33                                 |    262144           |    128000           |
+| openrouter/tencent/hy3                                                       | $0.13                             | $0.53                                 |    262144           |    128000           |
 | openrouter/tencent/hy3-preview                                               | $0.18                             | $0.6                                  |    262144           |    235929           |
 | openrouter/tencent/hy4-preview                                               | $0.83                             | $2.5                                  |         1.04858e+06 |     64000           |
 | openrouter/thedrummer/cydonia-24b-v4.1                                       | $0.3                              | $0.5                                  |    131072           |    117964           |
@@ -5048,6 +5048,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/z-ai/glm-5.2:batch                                                | $0.7                              | $2.2                                  |         1.04858e+06 |    943718           |
 | openrouter/z-ai/glm-5.3-flash:batch                                          | $0.08                             | $0.25                                 |         1.04858e+06 |    943718           |
 | openrouter/z-ai/glm-5.3:batch                                                | $0.7                              | $2.2                                  |         1.04858e+06 |    943718           |
+| openrouter/prism-ml/ternary-bonsai-2-27b                                     | $0.08                             | $0.5                                  |    262144           |     32768           |
+| openrouter/z-ai/glm-5.3-flashx                                               | $0.37                             | $1.25                                 |         1.04858e+06 |    131072           |
 
 <!-- PRICING_TABLE_END -->
 
