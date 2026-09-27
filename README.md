@@ -200,7 +200,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure/gpt-4o-2024-05-13                                                      | $5                                | $15                                   |    128000           |      4096           |
 | azure/global-standard/gpt-4o-2024-08-06                                      | $2.5                              | $10                                   |    128000           |     16384           |
 | azure/global-standard/gpt-4o-mini                                            | $0.15                             | $0.6                                  |    128000           |     16384           |
-| azure/gpt-4o-mini                                                            | $0.16                             | $0.66                                 |    128000           |     16384           |
+| azure/gpt-4o-mini                                                            | $0.15                             | $0.6                                  |    128000           |     16384           |
 | azure/gpt-4-turbo-2024-04-09                                                 | $10                               | $30                                   |    128000           |      4096           |
 | azure/gpt-4-0125-preview                                                     | $10                               | $30                                   |    128000           |      4096           |
 | azure/gpt-4-1106-preview                                                     | $10                               | $30                                   |    128000           |      4096           |
@@ -1148,7 +1148,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | nscale/meta-llama/Llama-3.3-70B-Instruct                                     | $0.2                              | $0.2                                  |       nan           |       nan           |
 | nscale/black-forest-labs/FLUX.1-schnell                                      | --                                | --                                    |       nan           |       nan           |
 | nscale/stabilityai/stable-diffusion-xl-base-1.0                              | --                                | --                                    |       nan           |       nan           |
-| azure/gpt-4o-mini-tts                                                        | $2.5                              | $10                                   |       nan           |       nan           |
+| azure/gpt-4o-mini-tts                                                        | $0.6                              | $10                                   |       nan           |       nan           |
 | azure_ai/embed-v-4-0                                                         | $0.12                             | $0                                    |    128000           |       nan           |
 | eu.anthropic.claude-3-7-sonnet-20250219-v1:0                                 | $3                                | $15                                   |    200000           |      8192           |
 | groq/llama-guard-3-8b                                                        | $0.2                              | $0.2                                  |      8192           |       nan           |
@@ -1978,7 +1978,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | moonshot/kimi-k2-thinking                                                    | $0.6                              | $2.5                                  |    262144           |    262144           |
 | mistral/magistral-medium-2509                                                | $2                                | $5                                    |     40000           |     40000           |
 | openrouter/deepseek/deepseek-v3.2-exp                                        | $0.27                             | $0.41                                 |    163840           |     65536           |
-| openrouter/minimax/minimax-m2                                                | $0.3                              | $1.2                                  |    204800           |    131072           |
+| openrouter/minimax/minimax-m2                                                | $0.26                             | $1.02                                 |    204800           |    131072           |
 | openrouter/z-ai/glm-4.6                                                      | $0.43                             | $1.75                                 |    204800           |     16384           |
 | openrouter/z-ai/glm-4.6:exacto                                               | $0.45                             | $1.9                                  |    202800           |    131000           |
 | runwayml/gen4_turbo                                                          | --                                | --                                    |       nan           |       nan           |
@@ -3037,7 +3037,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gemini/gemini-embedding-2-preview                                            | $0.2                              | $0                                    |      8192           |       nan           |
 | openrouter/qwen/qwen3.5-35b-a3b                                              | $0.31                             | $1.25                                 |    262144           |     16384           |
 | openrouter/qwen/qwen3.5-27b                                                  | $0.2                              | $1.56                                 |    262144           |     65536           |
-| openrouter/qwen/qwen3.5-122b-a10b                                            | $0.26                             | $2.08                                 |    262144           |     65536           |
+| openrouter/qwen/qwen3.5-122b-a10b                                            | $0.26                             | $2.08                                 |    262144           |    235929           |
 | openrouter/qwen/qwen3.5-flash-02-23                                          | $0.06                             | $0.26                                 |         1e+06       |     65536           |
 | openrouter/qwen/qwen3.5-plus-02-15                                           | $0.26                             | $1.56                                 |         1e+06       |     65536           |
 | openrouter/qwen/qwen3.5-397b-a17b                                            | $0.55                             | $3.5                                  |    262144           |    235929           |
@@ -3600,7 +3600,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | mistral/mistral-ocr-2512                                                     | --                                | --                                    |       nan           |       nan           |
 | mistral/mistral-medium-2508                                                  | $0.4                              | $2                                    |    131072           |    131072           |
 | mistral/mistral-medium-2604                                                  | $1.5                              | $7.5                                  |    262144           |    262144           |
-| openrouter/z-ai/glm-5.1                                                      | $0.96                             | $3.03                                 |    204800           |    128000           |
+| openrouter/z-ai/glm-5.1                                                      | $0.96                             | $3.03                                 |    204800           |    131072           |
 | sambanova/DeepSeek-V3.2                                                      | $3                                | $4.5                                  |     32768           |     32768           |
 | sambanova/gemma-4-31B-it                                                     | $0.38                             | $1.15                                 |    131072           |    131072           |
 | vertex_ai/gemini-3-pro-image                                                 | $2                                | $12                                   |     65536           |     32768           |
@@ -3770,8 +3770,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | mistral/mistral-ocr-4-1                                                      | --                                | --                                    |       nan           |       nan           |
 | moonshot/kimi-k3                                                             | $3                                | $15                                   |         1.04858e+06 |         1.04858e+06 |
 | openrouter/anthropic/claude-opus-5                                           | $5                                | $25                                   |         1e+06       |    128000           |
-| openrouter/deepseek/deepseek-v4-pro                                          | $0.46                             | $0.92                                 |         1.04858e+06 |    384000           |
-| openrouter/deepseek/deepseek-v4-pro-0813                                     | $0.26                             | $0.79                                 |         1.04858e+06 |    384000           |
+| openrouter/deepseek/deepseek-v4-pro                                          | $0.35                             | $0.7                                  |         1.04858e+06 |    384000           |
+| openrouter/deepseek/deepseek-v4-pro-0813                                     | $0.25                             | $3.5                                  |         1.04858e+06 |    943718           |
 | perplexity/perplexity/deepseek-v4-flash-0731                                 | $0.13                             | $0.26                                 |       nan           |       nan           |
 | perplexity/perplexity/glm-5.2                                                | $1.4                              | $4.4                                  |       nan           |       nan           |
 | perplexity/perplexity/kimi-k3                                                | $3                                | $15                                   |       nan           |       nan           |
@@ -4404,9 +4404,9 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/qwen/qwen3.7-plus                                                 | $0.32                             | $1.28                                 |         1e+06       |    131072           |
 | openrouter/openai/gpt-6-astra                                                | $10                               | $50                                   |         1.05e+06    |    128000           |
 | openrouter/qwen/qwen3.8-flash                                                | $0.15                             | $0.47                                 |         1e+06       |    131072           |
-| openrouter/z-ai/glm-5.3-flash                                                | $0.04                             | $0.14                                 |         1.31072e+06 |    943718           |
+| openrouter/z-ai/glm-5.3-flash                                                | $0.04                             | $0.5                                  |         1.31072e+06 |    131072           |
 | openrouter/deepseek/deepseek-v4-flash-vision-exp                             | $0.22                             | $0.66                                 |         1.04858e+06 |    943718           |
-| openrouter/z-ai/glm-5.3                                                      | $1.4                              | $4.4                                  |         1.31072e+06 |    943717           |
+| openrouter/z-ai/glm-5.3                                                      | $0.24                             | $0.75                                 |         1.31072e+06 |    943718           |
 | openrouter/qwen/qwen3.8-27b                                                  | $0.42                             | $3                                    |         1e+06       |    131072           |
 | openrouter/qwen/qwen3.8-2.4t-a95b                                            | $2                                | $6                                    |         1.04858e+06 |    131072           |
 | openrouter/nvidia/nemotron-3.5-lightning:free                                | $0                                | $0                                    |         1e+06       |     65536           |
@@ -4436,7 +4436,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/qwen/qwen3.6-flash                                                | $0.19                             | $1.12                                 |         1e+06       |     65536           |
 | openrouter/qwen/qwen3.6-35b-a3b                                              | $0.15                             | $1                                    |    262144           |    235929           |
 | openrouter/qwen/qwen3.6-max-preview                                          | $1.03                             | $6.16                                 |    262144           |     65536           |
-| openrouter/qwen/qwen3.6-27b                                                  | $0.32                             | $3.2                                  |    262144           |    262140           |
+| openrouter/qwen/qwen3.6-27b                                                  | $0.32                             | $3.2                                  |    262144           |     81920           |
 | openrouter/openai/gpt-5.5-pro                                                | $30                               | $180                                  |         1.05e+06    |    128000           |
 | openrouter/deepseek/deepseek-v4-flash                                        | $0.05                             | $0.09                                 |         1.04858e+06 |    384000           |
 | openrouter/moonshotai/kimi-k2.6                                              | $0.95                             | $4                                    |    262144           |    235929           |
@@ -4445,7 +4445,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/google/gemma-4-31b-it                                             | $0.09                             | $0.34                                 |    262144           |     16384           |
 | openrouter/google/gemma-4-31b-it:free                                        | $0                                | $0                                    |    262144           |     32768           |
 | openrouter/z-ai/glm-5v-turbo                                                 | $1.2                              | $4                                    |    202752           |    131072           |
-| openrouter/minimax/minimax-m2.7                                              | $0.3                              | $1.2                                  |    204800           |    131072           |
+| openrouter/minimax/minimax-m2.7                                              | $0.21                             | $0.84                                 |    204800           |    176947           |
 | openrouter/minimax/minimax-m2.7:free                                         | $0                                | $0                                    |    196608           |    176947           |
 | openrouter/mistralai/mistral-small-2603                                      | $0.15                             | $0.6                                  |    262144           |    209715           |
 | openrouter/z-ai/glm-5-turbo                                                  | $1.2                              | $4                                    |    202752           |    131072           |
@@ -4473,7 +4473,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/qwen/qwen3-vl-8b-instruct                                         | $0.12                             | $0.46                                 |    262144           |     32768           |
 | openrouter/google/gemini-2.5-flash-image                                     | $0.3                              | $2.5                                  |     32768           |      8192           |
 | openrouter/qwen/qwen3-vl-30b-a3b-thinking                                    | $0.2                              | $2.4                                  |    262144           |     32768           |
-| openrouter/qwen/qwen3-vl-30b-a3b-instruct                                    | $0.15                             | $0.6                                  |    262144           |     32768           |
+| openrouter/qwen/qwen3-vl-30b-a3b-instruct                                    | $0.15                             | $0.6                                  |    262144           |     16384           |
 | openrouter/openai/gpt-5-pro                                                  | $15                               | $120                                  |    400000           |    128000           |
 | openrouter/qwen/qwen3-vl-235b-a22b-thinking                                  | $0.4                              | $4                                    |    131072           |     32768           |
 | openrouter/qwen/qwen3-vl-235b-a22b-instruct                                  | $0.21                             | $1.9                                  |    262144           |     32768           |
@@ -4481,7 +4481,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/deepseek/deepseek-v3.1-terminus                                   | $0.27                             | $1                                    |    163840           |     32768           |
 | openrouter/qwen/qwen3-coder-flash                                            | $0.2                              | $0.98                                 |         1e+06       |     65536           |
 | openrouter/qwen/qwen3-next-80b-a3b-thinking                                  | $0.15                             | $1.2                                  |    262144           |    235929           |
-| openrouter/qwen/qwen3-next-80b-a3b-instruct                                  | $0.1                              | $1.1                                  |    262144           |     16384           |
+| openrouter/qwen/qwen3-next-80b-a3b-instruct                                  | $0.1                              | $1.1                                  |    262144           |    235929           |
 | openrouter/qwen/qwen-plus-2025-07-28                                         | $0.26                             | $0.78                                 |         1e+06       |     32768           |
 | openrouter/moonshotai/kimi-k2-0905                                           | $0.6                              | $2.5                                  |    262144           |     98304           |
 | openrouter/qwen/qwen3-30b-a3b-thinking-2507                                  | $0.2                              | $2.4                                  |     81920           |     32768           |
@@ -4489,7 +4489,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/z-ai/glm-4.5v                                                     | $0.6                              | $1.8                                  |     65536           |     16384           |
 | openrouter/mistralai/codestral-2508                                          | $0.3                              | $0.9                                  |    256000           |    204800           |
 | openrouter/qwen/qwen3-coder-30b-a3b-instruct                                 | $0.07                             | $0.28                                 |    262144           |    235929           |
-| openrouter/qwen/qwen3-30b-a3b-instruct-2507                                  | $0.1                              | $0.3                                  |    262144           |     32000           |
+| openrouter/qwen/qwen3-30b-a3b-instruct-2507                                  | $0.1                              | $0.3                                  |    262144           |    235929           |
 | openrouter/z-ai/glm-4.5                                                      | $0.6                              | $2.2                                  |    131072           |     98304           |
 | openrouter/z-ai/glm-4.5-air                                                  | $0.13                             | $0.85                                 |    131072           |     98304           |
 | openrouter/moonshotai/kimi-k2                                                | $0.57                             | $2.3                                  |    131072           |     98304           |
@@ -4499,7 +4499,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openrouter/mistralai/mistral-medium-3                                        | $0.4                              | $2                                    |    131072           |    104857           |
 | openrouter/google/gemini-2.5-pro-preview-05-06                               | $1.25                             | $10                                   |         1.04858e+06 |     65535           |
 | openrouter/meta-llama/llama-guard-4-12b                                      | $0.18                             | $0.18                                 |    163840           |     16384           |
-| openrouter/qwen/qwen3-30b-a3b                                                | $0.12                             | $0.5                                  |    131072           |     16384           |
+| openrouter/qwen/qwen3-30b-a3b                                                | $0.13                             | $0.52                                 |    131072           |      8192           |
 | openrouter/qwen/qwen3-8b                                                     | $0.12                             | $0.46                                 |    131072           |      8192           |
 | openrouter/qwen/qwen3-14b                                                    | $0.12                             | $0.24                                 |    131072           |     16384           |
 | openrouter/qwen/qwen3-32b                                                    | $0.08                             | $0.28                                 |    131072           |     16384           |
@@ -4613,13 +4613,13 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | cerebras/qwen-3.8-27b                                                        | $0.99                             | $1.49                                 |     65536           |     32768           |
 | inception/mercury-2.5                                                        | $0.2                              | $0.75                                 |    260000           |     65536           |
 | meta/muse-voice-transcribe-1.0                                               | --                                | --                                    |       nan           |       nan           |
-| openrouter/deepseek/deepseek-v4.1-flash                                      | $0.14                             | $0.42                                 |         1.04858e+06 |    393216           |
+| openrouter/deepseek/deepseek-v4.1-flash                                      | $0.04                             | $0.29                                 |         1.04858e+06 |    384000           |
 | openrouter/openai/gpt-5.6-sol-pro                                            | $2                                | $10                                   |         1.05e+06    |    128000           |
 | deepseek-flash                                                               | $0.3                              | $1.2                                  |         1e+06       |    393216           |
 | deepseek/deepseek-flash                                                      | $0.3                              | $1.2                                  |         1e+06       |    393216           |
 | gpt-live-1                                                                   | --                                | --                                    |       nan           |       nan           |
-| fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash                   | $0.3                              | $1.2                                  |         1.04858e+06 |    393216           |
-| fireworks_ai/deepseek-v4p1-flash                                             | $0.3                              | $1.2                                  |         1.04858e+06 |    393216           |
+| fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash                   | $0.22                             | $0.66                                 |         1.04858e+06 |    393216           |
+| fireworks_ai/deepseek-v4p1-flash                                             | $0.22                             | $0.66                                 |         1.04858e+06 |    393216           |
 | together_ai/moonshotai/Kimi-K2.6                                             | $1.2                              | $4.5                                  |    262144           |       nan           |
 | together_ai/moonshotai/Kimi-K2.5-fp4                                         | $0.5                              | $2.8                                  |    262144           |       nan           |
 | together_ai/MiniMaxAI/MiniMax-M2.7                                           | $0.3                              | $1.2                                  |    196608           |       nan           |
@@ -4650,7 +4650,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure/chat-latest                                                            | $5                                | $30                                   |    272000           |    128000           |
 | azure/us/gpt-chat-latest                                                     | $5.5                              | $33                                   |    272000           |    128000           |
 | fireworks_ai/accounts/fireworks/routers/glm-5p3-fast                         | $2.1                              | $6.6                                  |         1.04858e+06 |       nan           |
-| together_ai/arcee-ai/trinity-mini                                            | $0.04                             | $0.15                                 |       nan           |       nan           |
+| together_ai/arcee-ai/trinity-mini                                            | $0.04                             | $0.15                                 |    128000           |       nan           |
 | together_ai/deepseek-ai/deepseek-coder-33b-instruct                          | $0.8                              | $0.8                                  |     16384           |       nan           |
 | together_ai/deepseek-ai/DeepSeek-R1-Distill-Llama-70B                        | $2                                | $2                                    |    131072           |       nan           |
 | together_ai/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B                        | $0.18                             | $0.18                                 |    131072           |       nan           |
@@ -4669,18 +4669,18 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gpt-5.5-cyber                                                                | $12.5                             | $75                                   |       nan           |       nan           |
 | gpt-rosalind-research                                                        | $5                                | $25                                   |       nan           |       nan           |
 | together_ai/meta-llama/Llama-3-8b-chat-hf                                    | $0.2                              | $0.2                                  |      8192           |       nan           |
-| together_ai/meta-llama/Llama-3.1-405B-Instruct                               | $3.5                              | $3.5                                  |       nan           |       nan           |
-| together_ai/meta-llama/Llama-3.2-1B-Instruct                                 | $0.06                             | $0.06                                 |       nan           |       nan           |
-| together_ai/meta-llama/Llama-3.2-3B-Instruct                                 | $0.06                             | $0.06                                 |       nan           |       nan           |
+| together_ai/meta-llama/Llama-3.1-405B-Instruct                               | $3.5                              | $3.5                                  |      4096           |       nan           |
+| together_ai/meta-llama/Llama-3.2-1B-Instruct                                 | $0.06                             | $0.06                                 |    131072           |       nan           |
+| together_ai/meta-llama/Llama-3.2-3B-Instruct                                 | $0.06                             | $0.06                                 |    131072           |       nan           |
 | together_ai/meta-llama/Meta-Llama-3-70B-Instruct-Turbo                       | $0.88                             | $0.88                                 |      8192           |       nan           |
 | together_ai/meta-llama/Meta-Llama-3-8B-Instruct                              | $0.2                              | $0.2                                  |      8192           |       nan           |
 | together_ai/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO                      | $0.6                              | $0.6                                  |     32768           |       nan           |
 | together_ai/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF                        | $0.88                             | $0.88                                 |     32768           |       nan           |
-| together_ai/Qwen/Qwen2-1.5B-Instruct                                         | $0.02                             | $0.02                                 |       nan           |       nan           |
+| together_ai/Qwen/Qwen2-1.5B-Instruct                                         | $0.02                             | $0.02                                 |     32768           |       nan           |
 | together_ai/Qwen/Qwen2-72B-Instruct                                          | $0.9                              | $0.9                                  |     32768           |       nan           |
 | together_ai/Qwen/Qwen2-VL-72B-Instruct                                       | $1.2                              | $1.2                                  |     32768           |       nan           |
-| together_ai/Qwen/Qwen2.5-14B-Instruct                                        | $0.8                              | $0.8                                  |       nan           |       nan           |
-| together_ai/Qwen/Qwen2.5-72B-Instruct                                        | $1.2                              | $1.2                                  |       nan           |       nan           |
+| together_ai/Qwen/Qwen2.5-14B-Instruct                                        | $0.8                              | $0.8                                  |     32768           |       nan           |
+| together_ai/Qwen/Qwen2.5-72B-Instruct                                        | $1.2                              | $1.2                                  |     32768           |       nan           |
 | together_ai/Qwen/Qwen2.5-Coder-32B-Instruct                                  | $0.8                              | $0.8                                  |     16384           |       nan           |
 | together_ai/Qwen/Qwen2.5-VL-72B-Instruct                                     | $1.95                             | $8                                    |     32768           |       nan           |
 | openai/gpt-5.5-cyber                                                         | $12.5                             | $75                                   |       nan           |       nan           |
@@ -5382,6 +5382,21 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | bedrock_mantle/qwen.qwen3-vl-235b-a22b-instruct                              | $0.53                             | $2.66                                 |    256000           |      8000           |
 | openrouter/typesafe/jev-router                                               | $0                                | $0                                    |         1e+06       |       nan           |
 | openrouter/perceptron/perceptron-mk1.5                                       | $0.15                             | $1.5                                  |     36864           |      8192           |
+| databricks/databricks-claude-opus-5-5                                        | $4                                | $20                                   |         1e+06       |    128000           |
+| sail/moonshotai/Kimi-K3                                                      | $2.5                              | $12.5                                 |         1.04858e+06 |         1.04858e+06 |
+| sail/zai-org/GLM-5.3                                                         | $0.98                             | $3.08                                 |         1.04858e+06 |         1.04858e+06 |
+| sail/zai-org/GLM-5.3-Flash                                                   | $0.11                             | $0.35                                 |         1.04858e+06 |         1.04858e+06 |
+| sail/deepseek-ai/DeepSeek-V4-Pro-0813                                        | $0.92                             | $2.77                                 |         1.04858e+06 |         1.04858e+06 |
+| sail/deepseek-ai/DeepSeek-V4-Flash-0731                                      | $0.09                             | $0.18                                 |         1.04858e+06 |         1.04858e+06 |
+| sail/deepseek-ai/DeepSeek-V4.1-Flash                                         | $0.15                             | $0.6                                  |         1.04858e+06 |         1.04858e+06 |
+| sail/moonshotai/Kimi-K2.6                                                    | $1                                | $4                                    |    262144           |    262144           |
+| sail/google/gemma-4-31B-it                                                   | $0.4                              | $0.6                                  |    256000           |    256000           |
+| sail/nvidia/Gemma-4-31B-IT-NVFP4                                             | $0.14                             | $0.4                                  |    262144           |    262144           |
+| sail/google/gemma-4-12B-it                                                   | $0.3                              | $2                                    |     16384           |     16384           |
+| sail/openai/gpt-oss-120b                                                     | $0.06                             | $0.4                                  |    131072           |    131072           |
+| sail/Qwen/Qwen3.6-35B-A3B                                                    | $0.05                             | $0.4                                  |    262144           |    262144           |
+| together_ai/Salesforce/Llama-Rank-V1                                         | $0.1                              | $0                                    |      8192           |       nan           |
+| together_ai/meta-llama/Meta-Llama-3.1-8B                                     | $0.2                              | $0.2                                  |     16384           |       nan           |
 
 <!-- PRICING_TABLE_END -->
 
