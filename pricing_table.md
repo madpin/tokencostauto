@@ -2605,10 +2605,10 @@
 | openrouter/z-ai/glm-4.7                                                      | $0.6                              | $2.2                                  |    204800           |    131072           |
 | openrouter/z-ai/glm-4.7-flash                                                | $0.06                             | $0.4                                  |    200000           |    117964           |
 | openrouter/minimax/minimax-m2.1                                              | $0.3                              | $1.2                                  |    204800           |    131072           |
-| amazon.nova-2-pro-preview-20251202-v1:0                                      | $2.19                             | $17.5                                 |         1e+06       |     64000           |
-| apac.amazon.nova-2-pro-preview-20251202-v1:0                                 | $2.19                             | $17.5                                 |         1e+06       |     64000           |
-| eu.amazon.nova-2-pro-preview-20251202-v1:0                                   | $2.19                             | $17.5                                 |         1e+06       |     64000           |
-| us.amazon.nova-2-pro-preview-20251202-v1:0                                   | $2.19                             | $17.5                                 |         1e+06       |     64000           |
+| amazon.nova-2-pro-preview-20251202-v1:0                                      | $1.25                             | $10                                   |         1e+06       |     64000           |
+| apac.amazon.nova-2-pro-preview-20251202-v1:0                                 | $1.38                             | $11                                   |         1e+06       |     64000           |
+| eu.amazon.nova-2-pro-preview-20251202-v1:0                                   | $1.38                             | $11                                   |         1e+06       |     64000           |
+| us.amazon.nova-2-pro-preview-20251202-v1:0                                   | $1.38                             | $11                                   |         1e+06       |     64000           |
 | openrouter/moonshotai/kimi-k2.5                                              | $0.45                             | $2.25                                 |    262144           |    235929           |
 | azure_ai/model_router                                                        | $0.14                             | $0                                    |    200000           |     32768           |
 | moonshot/kimi-k2.5                                                           | $0.6                              | $3                                    |    262144           |    262144           |
@@ -2907,7 +2907,7 @@
 | gemini-embedding-2-preview                                                   | $0.2                              | $0                                    |      8192           |       nan           |
 | vertex_ai/gemini-embedding-2-preview                                         | $0.2                              | $0                                    |      8192           |       nan           |
 | gemini/gemini-embedding-2-preview                                            | $0.2                              | $0                                    |      8192           |       nan           |
-| openrouter/qwen/qwen3.5-35b-a3b                                              | $0.16                             | $1.3                                  |    262144           |     16384           |
+| openrouter/qwen/qwen3.5-35b-a3b                                              | $0.15                             | $1                                    |    262144           |    235929           |
 | openrouter/qwen/qwen3.5-27b                                                  | $0.2                              | $1.56                                 |    262144           |     65536           |
 | openrouter/qwen/qwen3.5-122b-a10b                                            | $0.26                             | $2.08                                 |    262144           |    235929           |
 | openrouter/qwen/qwen3.5-flash-02-23                                          | $0.06                             | $0.26                                 |         1e+06       |     65536           |
@@ -3472,7 +3472,7 @@
 | mistral/mistral-ocr-2512                                                     | --                                | --                                    |       nan           |       nan           |
 | mistral/mistral-medium-2508                                                  | $0.4                              | $2                                    |    131072           |    131072           |
 | mistral/mistral-medium-2604                                                  | $1.5                              | $7.5                                  |    262144           |    262144           |
-| openrouter/z-ai/glm-5.1                                                      | $0.96                             | $3.03                                 |    204800           |    131072           |
+| openrouter/z-ai/glm-5.1                                                      | $1.4                              | $4.4                                  |    204800           |    131072           |
 | sambanova/DeepSeek-V3.2                                                      | $3                                | $4.5                                  |     32768           |     32768           |
 | sambanova/gemma-4-31B-it                                                     | $0.38                             | $1.15                                 |    131072           |    131072           |
 | vertex_ai/gemini-3-pro-image                                                 | $2                                | $12                                   |     65536           |     32768           |
@@ -4278,7 +4278,7 @@
 | openrouter/qwen/qwen3.8-flash                                                | $0.15                             | $0.47                                 |         1e+06       |    131072           |
 | openrouter/z-ai/glm-5.3-flash                                                | $0.15                             | $0.5                                  |         1.31072e+06 |    131072           |
 | openrouter/deepseek/deepseek-v4-flash-vision-exp                             | $0.22                             | $0.65                                 |         1.04858e+06 |    262144           |
-| openrouter/z-ai/glm-5.3                                                      | $0.22                             | $3.39                                 |         1.04858e+06 |    943718           |
+| openrouter/z-ai/glm-5.3                                                      | $1.4                              | $4.4                                  |         1.04858e+06 |    131072           |
 | openrouter/qwen/qwen3.8-27b                                                  | $0.42                             | $3                                    |         1e+06       |    131072           |
 | openrouter/qwen/qwen3.8-2.4t-a95b                                            | $2                                | $6                                    |         1.04858e+06 |    131072           |
 | openrouter/nvidia/nemotron-3.5-lightning:free                                | $0                                | $0                                    |         1e+06       |     65536           |
@@ -4287,7 +4287,7 @@
 | openrouter/qwen/qwen3.7-flash                                                | $0.03                             | $0.13                                 |         1e+06       |     65536           |
 | openrouter/poolside/laguna-s-2.1                                             | $0.09                             | $0.18                                 |         1.04858e+06 |    131072           |
 | openrouter/poolside/laguna-s-2.1:free                                        | $0                                | $0                                    |    262144           |     32768           |
-| openrouter/moonshotai/kimi-k3                                                | $0.44                             | $10                                   |         1.04858e+06 |    943718           |
+| openrouter/moonshotai/kimi-k3                                                | $2.7                              | $13.5                                 |         1.04858e+06 |    943718           |
 | openrouter/poolside/laguna-xs-2.1                                            | $0.06                             | $0.12                                 |    262144           |     32768           |
 | openrouter/poolside/laguna-xs-2.1:free                                       | $0                                | $0                                    |    262144           |     32768           |
 | openrouter/google/gemini-3.1-flash-lite-image                                | $0.25                             | $1.5                                  |     65536           |     58982           |
@@ -4298,7 +4298,7 @@
 | openrouter/moonshotai/kimi-k2.7-code                                         | $0.67                             | $3.35                                 |    262144           |    235929           |
 | openrouter/nvidia/nemotron-3.5-content-safety                                | $0.2                              | $0.2                                  |    131072           |    117964           |
 | openrouter/nvidia/nemotron-3.5-content-safety:free                           | $0                                | $0                                    |    128000           |      8192           |
-| openrouter/nvidia/nemotron-3-ultra-550b-a55b                                 | $0.6                              | $2.4                                  |    262144           |    182520           |
+| openrouter/nvidia/nemotron-3-ultra-550b-a55b                                 | $0.5                              | $2.2                                  |    262144           |     16384           |
 | openrouter/nvidia/nemotron-3-ultra-550b-a55b:free                            | $0                                | $0                                    |         1e+06       |     65536           |
 | openrouter/minimax/minimax-m3:free                                           | $0                                | $0                                    |         1.04858e+06 |    943718           |
 | openrouter/qwen/qwen3.7-max                                                  | $1.48                             | $4.42                                 |         1e+06       |    131072           |
@@ -4310,9 +4310,9 @@
 | openrouter/qwen/qwen3.6-max-preview                                          | $1.03                             | $6.16                                 |    262144           |     65536           |
 | openrouter/qwen/qwen3.6-27b                                                  | $0.32                             | $3.2                                  |    262144           |     81920           |
 | openrouter/openai/gpt-5.5-pro                                                | $30                               | $180                                  |         1.05e+06    |    128000           |
-| openrouter/deepseek/deepseek-v4-flash                                        | $0.04                             | $0.08                                 |         1.04858e+06 |    131072           |
+| openrouter/deepseek/deepseek-v4-flash                                        | $0.03                             | $0.06                                 |         1.04858e+06 |    384000           |
 | openrouter/moonshotai/kimi-k2.6                                              | $0.43                             | $1.83                                 |    262144           |    235929           |
-| openrouter/google/gemma-4-26b-a4b-it                                         | $0.08                             | $0.26                                 |    262144           |    235929           |
+| openrouter/google/gemma-4-26b-a4b-it                                         | $0.07                             | $0.22                                 |    262144           |    235929           |
 | openrouter/google/gemma-4-26b-a4b-it:free                                    | $0                                | $0                                    |    262144           |     32768           |
 | openrouter/google/gemma-4-31b-it                                             | $0.09                             | $0.34                                 |    262144           |     16384           |
 | openrouter/google/gemma-4-31b-it:free                                        | $0                                | $0                                    |    262144           |     32768           |
@@ -4350,9 +4350,9 @@
 | openrouter/qwen/qwen3-vl-235b-a22b-thinking                                  | $0.4                              | $4                                    |    131072           |     32768           |
 | openrouter/qwen/qwen3-vl-235b-a22b-instruct                                  | $0.21                             | $1.9                                  |    262144           |     32768           |
 | openrouter/qwen/qwen3-max                                                    | $0.78                             | $3.9                                  |    262144           |     65536           |
-| openrouter/deepseek/deepseek-v3.1-terminus                                   | $0.3                              | $1                                    |    163840           |     65536           |
+| openrouter/deepseek/deepseek-v3.1-terminus                                   | $0.27                             | $1                                    |    163840           |    147456           |
 | openrouter/qwen/qwen3-coder-flash                                            | $0.2                              | $0.98                                 |         1e+06       |     65536           |
-| openrouter/qwen/qwen3-next-80b-a3b-thinking                                  | $0.15                             | $1.2                                  |    262144           |    235929           |
+| openrouter/qwen/qwen3-next-80b-a3b-thinking                                  | $0.15                             | $1.2                                  |    262144           |     32768           |
 | openrouter/qwen/qwen3-next-80b-a3b-instruct                                  | $0.1                              | $1.1                                  |    262144           |    235929           |
 | openrouter/qwen/qwen-plus-2025-07-28                                         | $0.26                             | $0.78                                 |         1e+06       |     32768           |
 | openrouter/moonshotai/kimi-k2-0905                                           | $0.6                              | $2.5                                  |    262144           |     98304           |
@@ -4361,7 +4361,7 @@
 | openrouter/z-ai/glm-4.5v                                                     | $0.6                              | $1.8                                  |     65536           |     16384           |
 | openrouter/mistralai/codestral-2508                                          | $0.3                              | $0.9                                  |    256000           |    204800           |
 | openrouter/qwen/qwen3-coder-30b-a3b-instruct                                 | $0.07                             | $0.28                                 |    262144           |    235929           |
-| openrouter/qwen/qwen3-30b-a3b-instruct-2507                                  | $0.05                             | $0.19                                 |    262144           |     32000           |
+| openrouter/qwen/qwen3-30b-a3b-instruct-2507                                  | $0.1                              | $0.3                                  |    262144           |    235929           |
 | openrouter/z-ai/glm-4.5                                                      | $0.6                              | $2.2                                  |    131072           |     98304           |
 | openrouter/z-ai/glm-4.5-air                                                  | $0.13                             | $0.85                                 |    131072           |     98304           |
 | openrouter/moonshotai/kimi-k2                                                | $0.57                             | $2.3                                  |    131072           |     98304           |
@@ -4485,7 +4485,7 @@
 | cerebras/qwen-3.8-27b                                                        | $0.99                             | $1.49                                 |     65536           |     32768           |
 | inception/mercury-2.5                                                        | $0.2                              | $0.75                                 |    260000           |     65536           |
 | meta/muse-voice-transcribe-1.0                                               | --                                | --                                    |       nan           |       nan           |
-| openrouter/deepseek/deepseek-v4.1-flash                                      | $0.03                             | $0.5                                  |         1.04858e+06 |    943718           |
+| openrouter/deepseek/deepseek-v4.1-flash                                      | $0.3                              | $1.2                                  |         1.04858e+06 |    943718           |
 | openrouter/openai/gpt-5.6-sol-pro                                            | $4                                | $20                                   |         1.05e+06    |    128000           |
 | deepseek-flash                                                               | $0.3                              | $1.2                                  |         1e+06       |    393216           |
 | deepseek/deepseek-flash                                                      | $0.3                              | $1.2                                  |         1e+06       |    393216           |
@@ -4804,7 +4804,7 @@
 | openrouter/inception/mercury-2                                               | $0.25                             | $0.75                                 |    128000           |     50000           |
 | openrouter/inception/mercury-2.5                                             | $0.04                             | $0.15                                 |    260000           |     65536           |
 | openrouter/inclusionai/ling-3.0-flash                                        | $0.02                             | $0.06                                 |    262144           |     32768           |
-| openrouter/inclusionai/ling-3.0-flash-fin                                    | $0.06                             | $0.18                                 |    262144           |    235929           |
+| openrouter/inclusionai/ling-3.0-flash-fin                                    | $0.04                             | $0.12                                 |    262144           |     32768           |
 | openrouter/inclusionai/ling-3.0-flash-fin:free                               | $0                                | $0                                    |    262144           |     32768           |
 | openrouter/inclusionai/ling-3.0-flash-sante:free                             | $0                                | $0                                    |    262144           |     32768           |
 | openrouter/inclusionai/ling-3.0-flash-vl                                     | $0.02                             | $0.06                                 |    262144           |     32768           |
@@ -4907,7 +4907,7 @@
 | openrouter/thedrummer/cydonia-24b-v4.1                                       | $0.3                              | $0.5                                  |    131072           |    117964           |
 | openrouter/thedrummer/skyfall-36b-v2                                         | $0.55                             | $0.8                                  |     32768           |     29491           |
 | openrouter/thedrummer/unslopnemo-12b                                         | $0.4                              | $0.4                                  |         1.024e+06   |    819200           |
-| openrouter/thinkingmachines/inkling                                          | $1                                | $4.05                                 |    524288           |    471859           |
+| openrouter/thinkingmachines/inkling                                          | $0.95                             | $4.05                                 |    524288           |    262144           |
 | openrouter/thinkingmachines/inkling-small                                    | $0.45                             | $1.2                                  |    524288           |    262144           |
 | openrouter/thinkingmachines/inkling-small:free                               | $0                                | $0                                    |         1.04858e+06 |    262144           |
 | openrouter/thinkingmachines/inkling:batch                                    | $1                                | $4.05                                 |    524288           |    471859           |
@@ -5331,3 +5331,10 @@
 | perplexity/google/gemini-3.8-flash                                           | $0.75                             | $3.75                                 |       nan           |       nan           |
 | perplexity/xai/grok-4.7                                                      | $2                                | $6                                    |       nan           |       nan           |
 | vertex_ai/xai/grok-4.7                                                       | $2                                | $6                                    |    524288           |    524288           |
+| bespoke/nimble-latest                                                        | $0                                | $0                                    |      8192           |       nan           |
+| bespoke/nimble                                                               | $0                                | $0                                    |      8192           |       nan           |
+| bespoke/bespokelabs/Bespoke-Nimble-9B                                        | $0                                | $0                                    |      8192           |       nan           |
+| laya/english                                                                 | $0                                | $0                                    |       nan           |       nan           |
+| laya/multilingual                                                            | $0                                | $0                                    |       nan           |       nan           |
+| laya/typed-decisions                                                         | $0                                | $0                                    |       nan           |       nan           |
+| openrouter/inclusionai/ling-3.1-flash                                        | $0                                | $0                                    |    262144           |     32768           |
