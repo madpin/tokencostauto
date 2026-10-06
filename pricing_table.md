@@ -5351,3 +5351,10 @@
 | openrouter/openai/gpt-image-2.5-flare                                        | $5                                | --                                    |       nan           |       nan           |
 | openrouter/openai/gpt-image-2.5-sunburst                                     | $5                                | --                                    |       nan           |       nan           |
 | azure_ai/kimi-k2-thinking                                                    | $0.6                              | $2.5                                  |    262144           |    262144           |
+| chatgpt/gpt-6-sol                                                            | --                                | --                                    |    922000           |    128000           |
+| chatgpt/gpt-6-luna                                                           | --                                | --                                    |    922000           |    128000           |
+| chatgpt/gpt-6-astra                                                          | --                                | --                                    |    922000           |    128000           |
+| chatgpt/gpt-6.1-sol                                                          | --                                | --                                    |    922000           |    128000           |
+| global.zai.glm-5.3                                                           | $1.68                             | $5.28                                 |         1e+06       |    128000           |
+| us.zai.glm-5.3                                                               | $1.85                             | $5.81                                 |         1e+06       |    128000           |
+| amazon.nova-2-5-sonic                                                        | $0.33                             | $2.75                                 |       nan           |       nan           |
