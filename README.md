@@ -1041,7 +1041,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gpt-4o-mini-tts                                                              | $0.6                              | $10                                   |       nan           |       nan           |
 | azure/computer-use-preview                                                   | $3                                | $12                                   |      8192           |      1024           |
 | azure/gpt-4o-audio-preview-2024-12-17                                        | $2.5                              | $10                                   |    128000           |     16384           |
-| azure/gpt-4o-mini-audio-preview-2024-12-17                                   | $2.5                              | $10                                   |    128000           |     16384           |
+| azure/gpt-4o-mini-audio-preview-2024-12-17                                   | $0.15                             | $0.6                                  |    128000           |     16384           |
 | azure/gpt-4.1                                                                | $2                                | $8                                    |         1.04758e+06 |     32768           |
 | azure/gpt-4.1-2025-04-14                                                     | $2                                | $8                                    |         1.04758e+06 |     32768           |
 | azure/gpt-4.1-mini                                                           | $0.4                              | $1.6                                  |         1.04758e+06 |     32768           |
@@ -2506,8 +2506,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | vertex_ai/veo-3.1-generate-001                                               | --                                | --                                    |      1024           |       nan           |
 | vertex_ai/veo-3.1-fast-generate-001                                          | --                                | --                                    |      1024           |       nan           |
 | azure_ai/gpt-oss-120b                                                        | $0.15                             | $0.6                                  |    131072           |    131072           |
-| azure/gpt-image-1.5                                                          | $5                                | --                                    |       nan           |       nan           |
-| azure/gpt-image-1.5-2025-12-16                                               | $5                                | --                                    |       nan           |       nan           |
+| azure/gpt-image-1.5                                                          | $5                                | $10                                   |       nan           |       nan           |
+| azure/gpt-image-1.5-2025-12-16                                               | $5                                | $10                                   |       nan           |       nan           |
 | groq/meta-llama/llama-guard-4-12b                                            | $0.2                              | $0.2                                  |      8192           |      8192           |
 | minimax/speech-02-hd                                                         | --                                | --                                    |       nan           |       nan           |
 | minimax/speech-02-turbo                                                      | --                                | --                                    |       nan           |       nan           |
@@ -5499,6 +5499,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure_ai/grok-4.7                                                            | $2                                | $6                                    |    500000           |    500000           |
 | openrouter/mistralai/mistral-large-4-0                                       | $0.68                             | $2.09                                 |    524288           |    262144           |
 | openrouter/google/gemini-nano-banana-2.1                                     | $1.5                              | $7.5                                  |     65536           |     58982           |
+| in.moonshotai.kimi-k3                                                        | $3.3                              | $16.5                                 |         1e+06       |    131072           |
 
 <!-- PRICING_TABLE_END -->
 

@@ -1318,40 +1318,46 @@
         "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure"
     },
     "azure/standard/1024-x-1024/dall-e-3": {
-        "input_cost_per_pixel": 3.81469e-08,
+        "input_cost_per_pixel": 4.19617e-08,
         "litellm_provider": "azure",
         "mode": "image_generation",
-        "output_cost_per_token": 0.0
+        "output_cost_per_token": 0.0,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
     },
     "azure/hd/1024-x-1024/dall-e-3": {
-        "input_cost_per_pixel": 7.629e-08,
+        "input_cost_per_pixel": 8.39233e-08,
         "litellm_provider": "azure",
         "mode": "image_generation",
-        "output_cost_per_token": 0.0
+        "output_cost_per_token": 0.0,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
     },
     "azure/standard/1024-x-1792/dall-e-3": {
-        "input_cost_per_pixel": 4.359e-08,
+        "input_cost_per_pixel": 4.79562e-08,
         "litellm_provider": "azure",
         "mode": "image_generation",
-        "output_cost_per_token": 0.0
+        "output_cost_per_token": 0.0,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
     },
     "azure/standard/1792-x-1024/dall-e-3": {
-        "input_cost_per_pixel": 4.359e-08,
+        "input_cost_per_pixel": 4.79562e-08,
         "litellm_provider": "azure",
         "mode": "image_generation",
-        "output_cost_per_token": 0.0
+        "output_cost_per_token": 0.0,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
     },
     "azure/hd/1024-x-1792/dall-e-3": {
-        "input_cost_per_pixel": 6.539e-08,
+        "input_cost_per_pixel": 7.19343e-08,
         "litellm_provider": "azure",
         "mode": "image_generation",
-        "output_cost_per_token": 0.0
+        "output_cost_per_token": 0.0,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
     },
     "azure/hd/1792-x-1024/dall-e-3": {
-        "input_cost_per_pixel": 6.539e-08,
+        "input_cost_per_pixel": 7.19343e-08,
         "litellm_provider": "azure",
         "mode": "image_generation",
-        "output_cost_per_token": 0.0
+        "output_cost_per_token": 0.0,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
     },
     "azure/standard/1024-x-1024/dall-e-2": {
         "input_cost_per_pixel": 0.0,
@@ -12342,15 +12348,16 @@
         "supports_vision": false
     },
     "azure/gpt-4o-mini-audio-preview-2024-12-17": {
-        "input_cost_per_audio_token": 4e-05,
-        "input_cost_per_token": 2.5e-06,
+        "input_cost_per_audio_token": 1e-05,
+        "input_cost_per_token": 1.5e-07,
         "litellm_provider": "azure",
         "max_input_tokens": 128000,
         "max_output_tokens": 16384,
         "max_tokens": 16384,
         "mode": "chat",
-        "output_cost_per_audio_token": 8e-05,
-        "output_cost_per_token": 1e-05,
+        "output_cost_per_audio_token": 2e-05,
+        "output_cost_per_token": 6e-07,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_endpoints": [
             "/v1/chat/completions"
         ],
@@ -12722,9 +12729,9 @@
         "max_output_tokens": 4096,
         "max_tokens": 4096,
         "mode": "realtime",
-        "output_cost_per_audio_token": 8e-05,
+        "output_cost_per_audio_token": 8.8e-05,
         "output_cost_per_token": 2.2e-05,
-        "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_modalities": [
             "text",
             "audio"
@@ -12750,9 +12757,9 @@
         "max_output_tokens": 4096,
         "max_tokens": 4096,
         "mode": "realtime",
-        "output_cost_per_audio_token": 8e-05,
+        "output_cost_per_audio_token": 8.8e-05,
         "output_cost_per_token": 2.2e-05,
-        "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_modalities": [
             "text",
             "audio"
@@ -12790,6 +12797,7 @@
         "supports_vision": true
     },
     "azure/gpt-image-1": {
+        "cache_read_input_image_token_cost": 2.5e-06,
         "cache_read_input_token_cost": 1.25e-06,
         "deprecation_date": "2026-10-23",
         "input_cost_per_image_token": 1e-05,
@@ -12797,6 +12805,7 @@
         "litellm_provider": "azure",
         "mode": "image_generation",
         "output_cost_per_image_token": 4e-05,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_endpoints": [
             "/v1/images/generations",
             "/v1/images/edits"
@@ -16244,14 +16253,14 @@
     },
     "azure/gpt-4o-transcribe": {
         "deprecation_date": "2026-10-15",
-        "input_cost_per_audio_token": 2.5e-06,
+        "input_cost_per_audio_token": 6e-06,
         "input_cost_per_token": 2.5e-06,
         "litellm_provider": "azure",
         "max_input_tokens": 16000,
         "max_output_tokens": 2000,
         "mode": "audio_transcription",
         "output_cost_per_token": 1e-05,
-        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_endpoints": [
             "/v1/audio/transcriptions"
         ]
@@ -27767,6 +27776,7 @@
         "gemini_native_audio": true
     },
     "azure/gpt-image-1-mini": {
+        "cache_read_input_image_token_cost": 2.5e-07,
         "cache_read_input_token_cost": 2e-07,
         "deprecation_date": "2027-04-07",
         "input_cost_per_image_token": 2.5e-06,
@@ -27774,6 +27784,7 @@
         "litellm_provider": "azure",
         "mode": "image_generation",
         "output_cost_per_image_token": 8e-06,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_endpoints": [
             "/v1/images/generations",
             "/v1/images/edits"
@@ -29268,13 +29279,14 @@
     },
     "azure/gpt-4o-transcribe-diarize": {
         "deprecation_date": "2027-04-15",
-        "input_cost_per_audio_token": 2.5e-06,
+        "input_cost_per_audio_token": 6e-06,
         "input_cost_per_token": 2.5e-06,
         "litellm_provider": "azure",
         "max_input_tokens": 16000,
         "max_output_tokens": 2000,
         "mode": "audio_transcription",
         "output_cost_per_token": 1e-05,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_endpoints": [
             "/v1/audio/transcriptions"
         ]
@@ -36117,6 +36129,7 @@
         "supports_tool_choice": true
     },
     "azure/gpt-image-1.5": {
+        "cache_read_input_image_token_cost": 2e-06,
         "deprecation_date": "2026-12-16",
         "cache_read_input_token_cost": 1.25e-06,
         "input_cost_per_token": 5e-06,
@@ -36124,12 +36137,15 @@
         "litellm_provider": "azure",
         "mode": "image_generation",
         "output_cost_per_image_token": 3.2e-05,
+        "output_cost_per_token": 1e-05,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_endpoints": [
             "/v1/images/generations",
             "/v1/images/edits"
         ]
     },
     "azure/gpt-image-1.5-2025-12-16": {
+        "cache_read_input_image_token_cost": 2e-06,
         "cache_read_input_token_cost": 1.25e-06,
         "deprecation_date": "2026-12-16",
         "input_cost_per_token": 5e-06,
@@ -36137,6 +36153,8 @@
         "litellm_provider": "azure",
         "mode": "image_generation",
         "output_cost_per_image_token": 3.2e-05,
+        "output_cost_per_token": 1e-05,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_endpoints": [
             "/v1/images/generations",
             "/v1/images/edits"
@@ -43378,15 +43396,16 @@
     },
     "azure/gpt-audio-1.5-2026-02-23": {
         "deprecation_date": "2027-08-24",
-        "input_cost_per_audio_token": 4e-05,
+        "input_cost_per_audio_token": 3.2e-05,
         "input_cost_per_token": 2.5e-06,
         "litellm_provider": "azure",
         "max_input_tokens": 128000,
         "max_output_tokens": 16384,
         "max_tokens": 16384,
         "mode": "chat",
-        "output_cost_per_audio_token": 8e-05,
+        "output_cost_per_audio_token": 6.4e-05,
         "output_cost_per_token": 1e-05,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_endpoints": [
             "/v1/chat/completions"
         ],
@@ -48462,6 +48481,7 @@
         "source": "https://aws.amazon.com/bedrock/pricing/"
     },
     "azure/gpt-image-2": {
+        "cache_read_input_image_token_cost": 2e-06,
         "deprecation_date": "2027-10-21",
         "cache_read_input_token_cost": 1.25e-06,
         "input_cost_per_token": 5e-06,
@@ -48469,6 +48489,7 @@
         "litellm_provider": "azure",
         "mode": "image_generation",
         "output_cost_per_image_token": 3e-05,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_endpoints": [
             "/v1/images/generations",
             "/v1/images/edits"
@@ -48477,6 +48498,7 @@
         "supports_pdf_input": true
     },
     "azure/gpt-image-2-2026-04-21": {
+        "cache_read_input_image_token_cost": 2e-06,
         "cache_read_input_token_cost": 1.25e-06,
         "deprecation_date": "2027-10-21",
         "input_cost_per_token": 5e-06,
@@ -48484,6 +48506,7 @@
         "litellm_provider": "azure",
         "mode": "image_generation",
         "output_cost_per_image_token": 3e-05,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_endpoints": [
             "/v1/images/generations",
             "/v1/images/edits"
@@ -83022,6 +83045,7 @@
         "output_cost_per_token_above_272k_tokens_batches": 2.475e-05
     },
     "azure/gpt-image-2.5-flare": {
+        "cache_read_input_image_token_cost": 2e-06,
         "deprecation_date": "2027-09-09",
         "cache_read_input_token_cost": 1.25e-06,
         "input_cost_per_token": 5e-06,
@@ -83029,6 +83053,7 @@
         "litellm_provider": "azure",
         "mode": "image_generation",
         "output_cost_per_image_token": 3e-05,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_endpoints": [
             "/v1/images/generations",
             "/v1/images/edits"
@@ -83037,6 +83062,7 @@
         "supports_pdf_input": true
     },
     "azure/gpt-image-2.5-sunburst": {
+        "cache_read_input_image_token_cost": 2e-06,
         "deprecation_date": "2027-09-09",
         "cache_read_input_token_cost": 1.25e-06,
         "input_cost_per_token": 5e-06,
@@ -83044,6 +83070,7 @@
         "litellm_provider": "azure",
         "mode": "image_generation",
         "output_cost_per_image_token": 3e-05,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
         "supported_endpoints": [
             "/v1/images/generations",
             "/v1/images/edits"
@@ -93877,14 +93904,14 @@
     },
     "azure/gpt-audio-1.5": {
         "deprecation_date": "2027-08-24",
-        "input_cost_per_audio_token": 4e-05,
+        "input_cost_per_audio_token": 3.2e-05,
         "input_cost_per_token": 2.5e-06,
         "litellm_provider": "azure",
         "max_input_tokens": 128000,
         "max_output_tokens": 16384,
         "max_tokens": 16384,
         "mode": "chat",
-        "output_cost_per_audio_token": 8e-05,
+        "output_cost_per_audio_token": 6.4e-05,
         "output_cost_per_token": 1e-05,
         "supported_endpoints": [
             "/v1/chat/completions"
@@ -93906,7 +93933,7 @@
         "supports_system_messages": true,
         "supports_tool_choice": true,
         "supports_vision": false,
-        "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
     },
     "azure/gpt-realtime": {
         "cache_creation_input_audio_token_cost": 4e-06,
@@ -97699,5 +97726,35 @@
         "supports_tool_choice": true,
         "supports_vision": true,
         "supports_web_search": true
+    },
+    "in.moonshotai.kimi-k3": {
+        "cache_creation_input_token_cost": 4.125e-06,
+        "cache_creation_input_token_cost_flex": 2.0625e-06,
+        "cache_creation_input_token_cost_priority": 7.21875e-06,
+        "cache_read_input_token_cost": 3.3e-07,
+        "cache_read_input_token_cost_flex": 1.65e-07,
+        "cache_read_input_token_cost_priority": 5.775e-07,
+        "input_cost_per_token": 3.3e-06,
+        "input_cost_per_token_flex": 1.65e-06,
+        "input_cost_per_token_priority": 5.775e-06,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "output_cost_per_token": 1.65e-05,
+        "output_cost_per_token_flex": 8.25e-06,
+        "output_cost_per_token_priority": 2.8875e-05,
+        "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3.md",
+        "supports_audio_input": false,
+        "supports_function_calling": true,
+        "supports_prompt_cache_breakpoint": false,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_regex_lookaround": false,
+        "supports_response_schema": true,
+        "supports_system_messages": true,
+        "supports_tool_choice": true,
+        "supports_vision": true
     }
 }
