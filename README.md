@@ -505,8 +505,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | ai21.j2-mid-v1                                                               | $12.5                             | $12.5                                 |      8191           |      8191           |
 | ai21.j2-ultra-v1                                                             | $18.8                             | $18.8                                 |      8191           |      8191           |
 | ai21.jamba-instruct-v1:0                                                     | $0.5                              | $0.7                                  |     70000           |      4096           |
-| amazon.titan-text-lite-v1                                                    | $0.3                              | $0.4                                  |     42000           |      4000           |
-| amazon.titan-text-express-v1                                                 | $1.3                              | $1.7                                  |     42000           |      8000           |
+| amazon.titan-text-lite-v1                                                    | $0.15                             | $0.2                                  |     42000           |      4000           |
+| amazon.titan-text-express-v1                                                 | $0.2                              | $0.6                                  |     42000           |      8000           |
 | amazon.titan-text-premier-v1:0                                               | $0.5                              | $1.5                                  |     42000           |     32000           |
 | amazon.titan-embed-text-v1                                                   | $0.1                              | $0                                    |      8192           |       nan           |
 | amazon.titan-embed-text-v2:0                                                 | $0.02                             | $0                                    |      8192           |       nan           |
@@ -1334,8 +1334,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | bedrock/us-gov-east-1/meta.llama3-70b-instruct-v1:0                          | $2.65                             | $3.5                                  |      8000           |      2048           |
 | bedrock/us-gov-east-1/meta.llama3-8b-instruct-v1:0                           | $0.3                              | $2.65                                 |      8000           |      2048           |
 | bedrock/us-gov-west-1/amazon.titan-embed-text-v1                             | $0.1                              | $0                                    |      8192           |       nan           |
-| bedrock/us-gov-west-1/amazon.titan-embed-text-v2:0                           | $0.2                              | $0                                    |      8192           |       nan           |
-| bedrock/us-gov-west-1/amazon.titan-text-express-v1                           | $1.3                              | $1.7                                  |     42000           |      8000           |
+| bedrock/us-gov-west-1/amazon.titan-embed-text-v2:0                           | $0.11                             | $0                                    |      8192           |       nan           |
+| bedrock/us-gov-west-1/amazon.titan-text-express-v1                           | $0.8                              | $1.6                                  |     42000           |      8000           |
 | bedrock/us-gov-west-1/amazon.titan-text-lite-v1                              | $0.3                              | $0.4                                  |     42000           |      4000           |
 | bedrock/us-gov-west-1/amazon.titan-text-premier-v1:0                         | $0.5                              | $1.5                                  |     42000           |     32000           |
 | bedrock/us-gov-west-1/anthropic.claude-3-5-sonnet-20240620-v1:0              | $3.6                              | $18                                   |    200000           |      8192           |
@@ -2114,8 +2114,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | zai/glm-4-32b-0414-128k                                                      | $0.1                              | $0.1                                  |    128000           |     32000           |
 | zai/glm-4.5-flash                                                            | $0                                | $0                                    |    128000           |     32000           |
 | amazon.nova-2-lite-v1:0                                                      | $0.3                              | $2.5                                  |         1e+06       |     64000           |
-| apac.amazon.nova-2-lite-v1:0                                                 | $0.33                             | $2.75                                 |         1e+06       |     64000           |
-| eu.amazon.nova-2-lite-v1:0                                                   | $0.33                             | $2.75                                 |         1e+06       |     64000           |
+| apac.amazon.nova-2-lite-v1:0                                                 | $0.4                              | $3.31                                 |         1e+06       |     64000           |
+| eu.amazon.nova-2-lite-v1:0                                                   | $0.43                             | $3.6                                  |         1e+06       |     64000           |
 | us.amazon.nova-2-lite-v1:0                                                   | $0.33                             | $2.75                                 |         1e+06       |     64000           |
 | deepseek/deepseek-v3.2                                                       | $0.28                             | $0.4                                  |    163840           |    163840           |
 | ft:gpt-4.1-2025-04-14                                                        | $3                                | $12                                   |         1.04758e+06 |     32768           |
@@ -2781,8 +2781,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | vercel_ai_gateway/anthropic/claude-sonnet-4.5                                | $3                                | $15                                   |         1e+06       |     64000           |
 | azure_ai/kimi-k2.5                                                           | $0.6                              | $3                                    |    262144           |    262144           |
 | bedrock/ap-northeast-1/moonshotai.kimi-k2-thinking                           | $0.73                             | $3.03                                 |    262144           |     16000           |
-| bedrock/moonshotai.kimi-k2-thinking                                          | $0.73                             | $3.03                                 |    262144           |     16000           |
-| bedrock/moonshotai.kimi-k2.5                                                 | $0.6                              | $3.03                                 |    262144           |     16000           |
+| bedrock/moonshotai.kimi-k2-thinking                                          | $0.6                              | $2.5                                  |    262144           |     16000           |
+| bedrock/moonshotai.kimi-k2.5                                                 | $0.6                              | $3                                    |    262144           |     16000           |
 | bedrock/ap-south-1/moonshotai.kimi-k2-thinking                               | $0.71                             | $2.94                                 |    262144           |     16000           |
 | bedrock/sa-east-1/moonshotai.kimi-k2-thinking                                | $0.73                             | $3.03                                 |    262144           |     16000           |
 | bedrock/us-east-1/moonshotai.kimi-k2-thinking                                | $0.6                              | $2.5                                  |    262144           |     16000           |
@@ -5557,6 +5557,14 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gpt-rosalind-discovery                                                       | $5                                | $25                                   |       nan           |       nan           |
 | chatgpt/gpt-rosalind-discovery                                               | --                                | --                                    |       nan           |       nan           |
 | openai/gpt-rosalind-discovery                                                | $5                                | $25                                   |       nan           |       nan           |
+| amazon.nova-premier-v1:0                                                     | $2.5                              | $12.5                                 |         1e+06       |     10000           |
+| azure_ai/Cohere-Embed-V5-Fast                                                | $0.08                             | $0                                    |    128000           |       nan           |
+| azure_ai/Cohere-Embed-V5-Pro                                                 | $0.12                             | $0                                    |    128000           |       nan           |
+| scaledown/extract                                                            | $0.05                             | $0                                    |       nan           |       nan           |
+| scaledown/summarize                                                          | $0.05                             | $0                                    |       nan           |       nan           |
+| scaledown/compress                                                           | $0.05                             | $0                                    |       nan           |       nan           |
+| scaledown/classify                                                           | $0.05                             | $0                                    |       nan           |       nan           |
+| scaledown/decisions                                                          | $0.05                             | $0                                    |       nan           |       nan           |
 
 <!-- PRICING_TABLE_END -->
 
