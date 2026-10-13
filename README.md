@@ -5472,7 +5472,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | cloudflare/@cf/cloudflare/clef-flash                                         | $0.09                             | $0                                    |     65536           |       nan           |
 | cohere/embed-v5.0-pro                                                        | $0.12                             | $0                                    |    128000           |       nan           |
 | cohere/embed-v5.0-fast                                                       | $0.08                             | $0                                    |    128000           |       nan           |
-| perplexity/pplx-decider-v1-27b                                               | $0.04                             | $0                                    |    262144           |       nan           |
+| perplexity/pplx-decider-v1-27b                                               | $0.02                             | $0                                    |    262144           |       nan           |
 | xai/grok-imagine-video-1.5-lite                                              | --                                | --                                    |       nan           |       nan           |
 | strands_decider/strands-decider-2B-hobson-v19                                | $0                                | $0                                    |       nan           |       nan           |
 | openrouter/openai/gpt-image-2                                                | $5                                | --                                    |       nan           |       nan           |
@@ -5566,6 +5566,29 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | scaledown/classify                                                           | $0.05                             | $0                                    |       nan           |       nan           |
 | scaledown/decisions                                                          | $0.05                             | $0                                    |       nan           |       nan           |
 | databricks/ai_decide                                                         | $0                                | $0                                    |       nan           |       nan           |
+| cloudflare/clef-omni                                                         | $0.15                             | $0                                    |     64000           |       nan           |
+| cloudflare/@cf/cloudflare/clef-omni                                          | $0.15                             | $0                                    |     64000           |       nan           |
+| coralbricks/glm-5.3-fast                                                     | $1.12                             | $4.4                                  |         1.04858e+06 |       nan           |
+| coralbricks/glm-5.3-fp4                                                      | $1.12                             | $4.4                                  |         1.04858e+06 |       nan           |
+| coralbricks/glm-5.3                                                          | $1.12                             | $4.4                                  |         1.04858e+06 |       nan           |
+| coralbricks/deepseek-v4.1-flash-fast                                         | $0.01                             | $1.2                                  |         1.04858e+06 |       nan           |
+| coralbricks/deepseek-v4.1-flash-fast-fp4                                     | $0.01                             | $1.2                                  |         1.04858e+06 |       nan           |
+| coralbricks/deepseek-v4.1-flash                                              | $0.01                             | $1.2                                  |         1.04858e+06 |       nan           |
+| computer-use-preview-2025-03-11                                              | $3                                | $12                                   |      8192           |      1024           |
+| meta/muse-wonder-1.0                                                         | $4                                | $20                                   |         1.04858e+06 |    131072           |
+| perplexity/pplx-decider-v1.1-27b                                             | $0.02                             | $0                                    |    262144           |       nan           |
+| vertex_ai/semantic-ranker-default                                            | $0                                | $0                                    |       nan           |       nan           |
+| vertex_ai/semantic-ranker-default-002                                        | $0                                | $0                                    |       nan           |       nan           |
+| vertex_ai/semantic-ranker-default-003                                        | $0                                | $0                                    |       nan           |       nan           |
+| vertex_ai/semantic-ranker-default-004                                        | $0                                | $0                                    |       nan           |       nan           |
+| vertex_ai/semantic-ranker-default@latest                                     | $0                                | $0                                    |       nan           |       nan           |
+| vertex_ai/semantic-ranker-fast                                               | $0                                | $0                                    |       nan           |       nan           |
+| vertex_ai/semantic-ranker-fast-004                                           | $0                                | $0                                    |       nan           |       nan           |
+| vertex_ai/semantic-ranker-fast@latest                                        | $0                                | $0                                    |       nan           |       nan           |
+| fireworks_ai/accounts/fireworks/routers/rune                                 | $0.04                             | $0                                    |    262144           |       nan           |
+| vertex_ai/gemini-robotics-er-2-preview                                       | $1                                | $5                                    |    131072           |     65536           |
+| gemini-robotics-er-2-preview                                                 | $1                                | $5                                    |    131072           |     65536           |
+| openai/computer-use-preview-2025-03-11                                       | $3                                | $12                                   |      8192           |      1024           |
 
 <!-- PRICING_TABLE_END -->
 
