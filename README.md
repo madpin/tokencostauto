@@ -4839,9 +4839,9 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure/us/text-embedding-3-small                                              | $0.02                             | --                                    |       nan           |       nan           |
 | azure/us/text-embedding-ada-002                                              | $0.11                             | --                                    |       nan           |       nan           |
 | openrouter/stealth/union-alpha                                               | $0                                | $0                                    |    262144           |    131072           |
-| typesafe/jev-1.13.0                                                          | $0.04                             | $0                                    |       nan           |       nan           |
-| typesafe/jev-latest                                                          | $0.04                             | $0                                    |       nan           |       nan           |
-| typesafe/jev-preview                                                         | $0.04                             | $0                                    |       nan           |       nan           |
+| typesafe/jev-1.13.0                                                          | $0.04                             | $0                                    |     65536           |       nan           |
+| typesafe/jev-latest                                                          | $0.04                             | $0                                    |     65536           |       nan           |
+| typesafe/jev-preview                                                         | $0.04                             | $0                                    |     65536           |       nan           |
 | wandb/zai-org/GLM-5.3-Flash                                                  | $0.15                             | $0.5                                  |         1.049e+06   |       nan           |
 | azure_ai/FLUX.2-flex                                                         | --                                | --                                    |     32000           |       nan           |
 | dashscope/qwen3.8-flash                                                      | $0.15                             | $0.47                                 |    991808           |    131072           |
@@ -5604,6 +5604,43 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | vertex_ai/gemini-4-argon                                                     | $2                                | $10                                   |         1.04858e+06 |         1.04858e+06 |
 | vertex_ai/gemini-4-argon-cyber-permissive                                    | $4                                | $20                                   |         1.04858e+06 |         1.04858e+06 |
 | github_copilot/gemini-4-argon                                                | $2                                | $10                                   |    200000           |     65536           |
+| dashscope/wan3.0-video                                                       | --                                | --                                    |       nan           |       nan           |
+| dashscope/wan3.0-video-prime                                                 | --                                | --                                    |       nan           |       nan           |
+| dashscope/happyhorse-1.1-t2v                                                 | --                                | --                                    |       nan           |       nan           |
+| dashscope/happyhorse-1.1-i2v                                                 | --                                | --                                    |       nan           |       nan           |
+| dashscope/happyhorse-1.1-r2v                                                 | --                                | --                                    |       nan           |       nan           |
+| dashscope/happyhorse-1.0-t2v                                                 | --                                | --                                    |       nan           |       nan           |
+| dashscope/happyhorse-1.0-i2v                                                 | --                                | --                                    |       nan           |       nan           |
+| dashscope/happyhorse-1.0-r2v                                                 | --                                | --                                    |       nan           |       nan           |
+| dashscope/wan2.7-t2v                                                         | --                                | --                                    |       nan           |       nan           |
+| dashscope/wan2.7-i2v                                                         | --                                | --                                    |       nan           |       nan           |
+| dashscope/wan2.7-r2v                                                         | --                                | --                                    |       nan           |       nan           |
+| qwencloud/wan3.0-video                                                       | --                                | --                                    |       nan           |       nan           |
+| qwencloud/wan3.0-video-prime                                                 | --                                | --                                    |       nan           |       nan           |
+| qwencloud/happyhorse-1.1-t2v                                                 | --                                | --                                    |       nan           |       nan           |
+| qwencloud/happyhorse-1.1-i2v                                                 | --                                | --                                    |       nan           |       nan           |
+| qwencloud/happyhorse-1.1-r2v                                                 | --                                | --                                    |       nan           |       nan           |
+| qwencloud/happyhorse-1.0-t2v                                                 | --                                | --                                    |       nan           |       nan           |
+| qwencloud/happyhorse-1.0-i2v                                                 | --                                | --                                    |       nan           |       nan           |
+| qwencloud/happyhorse-1.0-r2v                                                 | --                                | --                                    |       nan           |       nan           |
+| qwencloud/wan2.7-t2v                                                         | --                                | --                                    |       nan           |       nan           |
+| qwencloud/wan2.7-i2v                                                         | --                                | --                                    |       nan           |       nan           |
+| qwencloud/wan2.7-r2v                                                         | --                                | --                                    |       nan           |       nan           |
+| qwen_ai_platform/wan3.0-video                                                | --                                | --                                    |       nan           |       nan           |
+| qwen_ai_platform/wan3.0-video-prime                                          | --                                | --                                    |       nan           |       nan           |
+| qwen_ai_platform/happyhorse-1.1-t2v                                          | --                                | --                                    |       nan           |       nan           |
+| qwen_ai_platform/happyhorse-1.1-i2v                                          | --                                | --                                    |       nan           |       nan           |
+| qwen_ai_platform/happyhorse-1.1-r2v                                          | --                                | --                                    |       nan           |       nan           |
+| qwen_ai_platform/happyhorse-1.0-t2v                                          | --                                | --                                    |       nan           |       nan           |
+| qwen_ai_platform/happyhorse-1.0-i2v                                          | --                                | --                                    |       nan           |       nan           |
+| qwen_ai_platform/happyhorse-1.0-r2v                                          | --                                | --                                    |       nan           |       nan           |
+| qwen_ai_platform/wan2.7-t2v                                                  | --                                | --                                    |       nan           |       nan           |
+| qwen_ai_platform/wan2.7-i2v                                                  | --                                | --                                    |       nan           |       nan           |
+| qwen_ai_platform/wan2.7-r2v                                                  | --                                | --                                    |       nan           |       nan           |
+| scx-ai/DeepSeek-V4.1-flash                                                   | $0.15                             | $0.6                                  |         1e+06       |    375000           |
+| scx-ai/GLM-5.3                                                               | $0.98                             | $3.08                                 |         1e+06       |    128000           |
+| scx-ai/Kimi-K3                                                               | $2.83                             | $14.13                                |         1e+06       |         1e+06       |
+| typesafe/jev-1.14.0                                                          | $0.04                             | $0                                    |     65536           |       nan           |
 
 <!-- PRICING_TABLE_END -->
 
