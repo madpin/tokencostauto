@@ -5584,3 +5584,14 @@
 | baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B                        | $0.2                              | $0.5                                  |         1.04858e+06 |         1.04858e+06 |
 | wandb/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B                          | $0.15                             | $0.75                                 |         1.049e+06   |       nan           |
 | openai/gpt-5.5-cyber-preview                                                 | $12.5                             | $75                                   |       nan           |       nan           |
+| volcengine/doubao-seedance-2-5-260628                                        | --                                | --                                    |       nan           |       nan           |
+| volcengine/doubao-seedance-2-0-260128                                        | --                                | --                                    |       nan           |       nan           |
+| volcengine/doubao-seedance-2-0-fast-260128                                   | --                                | --                                    |       nan           |       nan           |
+| volcengine/doubao-seedance-2-0-mini-260615                                   | --                                | --                                    |       nan           |       nan           |
+| nace/drex-v1.0                                                               | $0.04                             | $0                                    |     32768           |       nan           |
+| nace/drex-v1.5                                                               | $0.05                             | $0                                    |    131072           |       nan           |
+| nace/drex-v2.0                                                               | $0.06                             | $0                                    |    131072           |       nan           |
+| nace/drex-latest                                                             | $0.06                             | $0                                    |    131072           |       nan           |
+| together_ai/reflection/Beam-1.0-501B-A23B                                    | $0.4                              | $1.2                                  |         1.04858e+06 |       nan           |
+| baseten/reflection/Beam-1.0                                                  | $1.3                              | $4.3                                  |         1.04858e+06 |    131072           |
+| nebius/reflection/beam                                                       | $0.25                             | $1                                    |         1.04858e+06 |       nan           |
