@@ -1792,7 +1792,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | deepseek-reasoner                                                            | $0.28                             | $0.42                                 |    131072           |     65536           |
 | deepseek.v3-v1:0                                                             | $0.58                             | $1.68                                 |    128000           |      8000           |
 | gpt-5-codex                                                                  | $1.25                             | $10                                   |    272000           |    128000           |
-| qwen.qwen3-coder-480b-a35b-v1:0                                              | $0.45                             | $1.8                                  |    131072           |     16384           |
+| qwen.qwen3-coder-480b-a35b-v1:0                                              | $0.45                             | $1.8                                  |    262144           |     16384           |
 | qwen.qwen3-235b-a22b-2507-v1:0                                               | $0.22                             | $0.88                                 |    262144           |      8192           |
 | qwen.qwen3-coder-30b-a3b-v1:0                                                | $0.15                             | $0.6                                  |    262144           |     16384           |
 | qwen.qwen3-32b-v1:0                                                          | $0.15                             | $0.6                                  |     32768           |      8192           |
@@ -5377,7 +5377,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | bedrock_mantle/qwen.qwen3-235b-a22b-2507                                     | $0.22                             | $0.88                                 |    256000           |      8000           |
 | bedrock_mantle/qwen.qwen3-32b                                                | $0.15                             | $0.6                                  |     32000           |      8000           |
 | bedrock_mantle/qwen.qwen3-coder-30b-a3b-instruct                             | $0.15                             | $0.6                                  |    256000           |     16000           |
-| bedrock_mantle/qwen.qwen3-coder-480b-a35b-instruct                           | $0.45                             | $1.8                                  |    128000           |     16000           |
+| bedrock_mantle/qwen.qwen3-coder-480b-a35b-instruct                           | $0.45                             | $1.8                                  |    262144           |     16000           |
 | bedrock_mantle/qwen.qwen3-next-80b-a3b-instruct                              | $0.14                             | $1.2                                  |    256000           |      8000           |
 | bedrock_mantle/qwen.qwen3-vl-235b-a22b-instruct                              | $0.53                             | $2.66                                 |    256000           |      8000           |
 | openrouter/typesafe/jev-router                                               | $0                                | $0                                    |         1e+06       |       nan           |
@@ -5528,7 +5528,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | github_copilot/claude-fable-5.1                                              | $10                               | $50                                   |    200000           |     64000           |
 | github_copilot/claude-haiku-5.5                                              | $0.1                              | $0.5                                  |    128000           |     16000           |
 | github_copilot/claude-opus-4.8                                               | $5                                | $25                                   |    200000           |     64000           |
-| github_copilot/claude-opus-4.8-fast                                          | --                                | --                                    |    200000           |     64000           |
+| github_copilot/claude-opus-4.8-fast                                          | $10                               | $50                                   |    200000           |     64000           |
 | github_copilot/claude-opus-5                                                 | $5                                | $25                                   |    200000           |     64000           |
 | github_copilot/claude-opus-5.5                                               | $4                                | $20                                   |    200000           |    128000           |
 | github_copilot/claude-sonnet-5                                               | $2                                | $10                                   |    200000           |     64000           |
@@ -5734,6 +5734,14 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openinfer/@oi/GLM-5.3-Flash                                                  | $0.2                              | $1.56                                 |    393216           |    393216           |
 | openinfer/@oi/Qwen3.5-27B                                                    | $0.2                              | $1.56                                 |     32768           |     32768           |
 | openinfer/@oi/Qwen3.5-9B                                                     | $5                                | $0.15                                 |    100000           |    100000           |
+| baseten/deepseek-ai/DeepSeek-V4.1-Flash-1017                                 | $0.3                              | $1.2                                  |         1.04858e+06 |    262144           |
+| baseten/deepseek-ai/DeepSeek-V4.1-Flash-1017-Fast                            | $0.6                              | $2.4                                  |         1.04858e+06 |    262144           |
+| fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017              | $0.3                              | $1.2                                  |         1.04858e+06 |    393216           |
+| github_copilot/claude-sonnet-4.6                                             | $3                                | $15                                   |    200000           |     64000           |
+| github_copilot/gpt-5.4-nano                                                  | $0.2                              | $1.25                                 |    272000           |    128000           |
+| github_copilot/grok-4.5                                                      | $2                                | $6                                    |    500000           |    500000           |
+| github_copilot/grok-4.6                                                      | $2                                | $6                                    |    500000           |    500000           |
+| github_copilot/grok-4.7                                                      | $2                                | $6                                    |    500000           |    500000           |
 
 <!-- PRICING_TABLE_END -->
 
