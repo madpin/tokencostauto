@@ -5614,3 +5614,8 @@
 | github_copilot/grok-4.5                                                      | $2                                | $6                                    |    500000           |    500000           |
 | github_copilot/grok-4.6                                                      | $2                                | $6                                    |    500000           |    500000           |
 | github_copilot/grok-4.7                                                      | $2                                | $6                                    |    500000           |    500000           |
+| deepseek/search                                                              | --                                | --                                    |       nan           |       nan           |
+| together_ai/deepseek-ai/DeepSeek-V4.1-Flash-1017                             | $0.3                              | $1.2                                  |         1.04858e+06 |       nan           |
+| meta/muse-image-1.0                                                          | --                                | --                                    |       nan           |       nan           |
+| fireworks_ai/accounts/fireworks/models/minimax-m3p1-flash                    | $0.15                             | $0.6                                  |         1.04858e+06 |         1.04858e+06 |
+| meta/sam-3.1                                                                 | --                                | --                                    |       nan           |       nan           |
