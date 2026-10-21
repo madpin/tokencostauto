@@ -5766,6 +5766,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017-us           | $0.45                             | $1.8                                  |         1.04858e+06 |    393216           |
 | wandb/reflection/Beam-1.0-501B-A23B                                          | $1                                | $3                                    |         1.049e+06   |       nan           |
 | wandb/zai-org/GLM-5.3                                                        | $1.2                              | $4                                    |         1.049e+06   |       nan           |
+| azure_ai/MAI-Code-1.1-Flash                                                  | $0.2                              | $1.2                                  |    256000           |     64000           |
 
 <!-- PRICING_TABLE_END -->
 
