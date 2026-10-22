@@ -5721,7 +5721,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | nace/drex-v2.0                                                               | $0.06                             | $0                                    |    131072           |       nan           |
 | nace/drex-latest                                                             | $0.06                             | $0                                    |    131072           |       nan           |
 | together_ai/reflection/Beam-1.0-501B-A23B                                    | $0.4                              | $1.2                                  |         1.04858e+06 |       nan           |
-| baseten/reflection/Beam-1.0                                                  | $1.3                              | $4.3                                  |         1.04858e+06 |    131072           |
+| baseten/reflection/Beam-1.0                                                  | $0.4                              | $1.2                                  |         1.04858e+06 |    131072           |
 | nebius/reflection/beam                                                       | $0.25                             | $1                                    |         1.04858e+06 |       nan           |
 | databricks/system.ai.deepseek-v4-flash-0731                                  | --                                | --                                    |       nan           |       nan           |
 | databricks/system.ai.kimi-k3                                                 | --                                | --                                    |       nan           |       nan           |
