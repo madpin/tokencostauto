@@ -3936,7 +3936,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | mistral/voxtral-small-latest                                                 | $0.1                              | $0.4                                  |     32768           |     32768           |
 | together_ai/zai-org/GLM-5.3-Flash                                            | $0.15                             | $0.5                                  |         1.04858e+06 |    128000           |
 | zai/glm-5.3                                                                  | $1.4                              | $4.4                                  |         1e+06       |    128000           |
-| bedrock_mantle/openai.gpt-5.6-cyber                                          | $13.75                            | $82.5                                 |         1.05e+06    |    128000           |
+| bedrock_mantle/openai.gpt-5.6-cyber                                          | $13.75                            | $82.5                                 |    922000           |    128000           |
 | deepseek-v4-flash-vision-exp                                                 | $0.3                              | $1.2                                  |         1e+06       |    393216           |
 | deepseek/deepseek-v4-flash-vision-exp                                        | $0.3                              | $1.2                                  |         1e+06       |    393216           |
 | tencent/minimax-m3                                                           | $0.3                              | $1.2                                  |         1e+06       |       nan           |
@@ -6062,6 +6062,15 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | bigmodel/glm-5.3-flashx                                                      | $0.29                             | $1                                    |         1e+06       |    128000           |
 | fireworks_ai/accounts/fireworks/models/ultramarine-1-flash-us                | $0.22                             | $0.75                                 |         1.04858e+06 |         1.04858e+06 |
 | baseten/decision-models/baseten-joey-2b-latest                               | $0.01                             | $0                                    |     16384           |       nan           |
+| deepgram/aura                                                                | --                                | --                                    |       nan           |       nan           |
+| deepgram/aura-2                                                              | --                                | --                                    |       nan           |       nan           |
+| rerank-v5.0-fast                                                             | $0.02                             | $0                                    |     32768           |     32768           |
+| rerank-v5.0-pro                                                              | $0.05                             | $0                                    |     32768           |     32768           |
+| aiand/deepseek-ai/deepseek-v4.1-flash-1017                                   | $0.3                              | $0.6                                  |         1.04858e+06 |    384000           |
+| aiand/meta/muse-spark-open                                                   | $1.25                             | $4.25                                 |         1.04858e+06 |    943718           |
+| gpt-6-rosalind                                                               | $15                               | $75                                   |    922000           |    128000           |
+| chatgpt/gpt-6-rosalind                                                       | --                                | --                                    |    922000           |    128000           |
+| openai/gpt-6-rosalind                                                        | $15                               | $75                                   |    922000           |    128000           |
 
 <!-- PRICING_TABLE_END -->
 
