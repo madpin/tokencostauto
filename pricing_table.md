@@ -1212,8 +1212,8 @@
 | bedrock/us-gov-west-1/amazon.titan-text-premier-v1:0                         | $0.5                              | $1.5                                  |     42000           |     32000           |
 | bedrock/us-gov-west-1/anthropic.claude-3-5-sonnet-20240620-v1:0              | $3.6                              | $18                                   |    200000           |      8192           |
 | bedrock/us-gov-west-1/anthropic.claude-3-haiku-20240307-v1:0                 | $0.3                              | $1.5                                  |    200000           |      4096           |
-| bedrock/us-gov-west-1/meta.llama3-70b-instruct-v1:0                          | $2.65                             | $3.5                                  |      8000           |      2048           |
-| bedrock/us-gov-west-1/meta.llama3-8b-instruct-v1:0                           | $0.3                              | $0.6                                  |      8000           |      2048           |
+| bedrock/us-gov-west-1/meta.llama3-70b-instruct-v1:0                          | $2.65                             | $3.5                                  |      8000           |      8192           |
+| bedrock/us-gov-west-1/meta.llama3-8b-instruct-v1:0                           | $0.3                              | $0.6                                  |      8000           |      8192           |
 | bedrock/us-gov-east-1/amazon.nova-pro-v1:0                                   | $0.96                             | $3.84                                 |    300000           |     10000           |
 | bedrock/us-gov-west-1/amazon.nova-pro-v1:0                                   | $0.96                             | $3.84                                 |    300000           |     10000           |
 | moonshot/kimi-latest                                                         | $2                                | $5                                    |    131072           |    131072           |
@@ -5943,3 +5943,10 @@
 | gpt-6-rosalind                                                               | $15                               | $75                                   |    922000           |    128000           |
 | chatgpt/gpt-6-rosalind                                                       | --                                | --                                    |    922000           |    128000           |
 | openai/gpt-6-rosalind                                                        | $15                               | $75                                   |    922000           |    128000           |
+| hostinger_router/gpt-5.2                                                     | $2.1                              | $16.8                                 |    272000           |    128000           |
+| hostinger_router/claude-sonnet-5                                             | $2.64                             | $13.2                                 |         1e+06       |    128000           |
+| hostinger_router/text-embedding-3-large                                      | $0.17                             | $0                                    |      8191           |       nan           |
+| hostinger_router/text-embedding-3-small                                      | $0.03                             | $0                                    |      8191           |       nan           |
+| gpt-6-astra-law                                                              | $10                               | $50                                   |    922000           |    128000           |
+| chatgpt/gpt-6-astra-law                                                      | --                                | --                                    |    922000           |    128000           |
+| openai/gpt-6-astra-law                                                       | $10                               | $50                                   |    922000           |    128000           |
