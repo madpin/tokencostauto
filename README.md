@@ -1776,8 +1776,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | wandb/Qwen/Qwen3-Coder-480B-A35B-Instruct                                    | $1                                | $1.5                                  |    262144           |    262144           |
 | wandb/Qwen/Qwen3-235B-A22B-Thinking-2507                                     | $0.1                              | $0.1                                  |    262144           |    262144           |
 | wandb/moonshotai/Kimi-K2-Instruct                                            | $0.6                              | $2.5                                  |    128000           |    128000           |
-| wandb/meta-llama/Llama-3.1-8B-Instruct                                       | $0.22                             | $0.22                                 |    131000           |    128000           |
-| wandb/deepseek-ai/DeepSeek-V3.1                                              | $0.55                             | $1.65                                 |    161000           |    128000           |
+| wandb/meta-llama/Llama-3.1-8B-Instruct                                       | $0.22                             | $0.22                                 |    128000           |    128000           |
+| wandb/deepseek-ai/DeepSeek-V3.1                                              | $0.55                             | $1.65                                 |    128000           |    128000           |
 | wandb/deepseek-ai/DeepSeek-R1-0528                                           | $1.35                             | $5.4                                  |    161000           |    161000           |
 | wandb/deepseek-ai/DeepSeek-V3-0324                                           | $1.14                             | $2.75                                 |    161000           |    161000           |
 | wandb/meta-llama/Llama-3.3-70B-Instruct                                      | $0.71                             | $0.71                                 |    128000           |    128000           |
@@ -2802,19 +2802,19 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | minimax/MiniMax-M2.5                                                         | $0.3                              | $1.2                                  |         1e+06       |      8192           |
 | minimax/MiniMax-M2.5-lightning                                               | $0.3                              | $2.4                                  |         1e+06       |      8192           |
 | vertex_ai/zai-org/glm-5-maas                                                 | $1                                | $3.2                                  |    200000           |    128000           |
-| bedrock/ap-northeast-1/deepseek.v3.2                                         | $0.74                             | $2.22                                 |    163840           |      8000           |
+| bedrock/ap-northeast-1/deepseek.v3.2                                         | $0.74                             | $2.22                                 |    156000           |      8000           |
 | bedrock/ap-northeast-1/minimax.minimax-m2.1                                  | $0.36                             | $1.44                                 |    196000           |      8192           |
 | bedrock/ap-northeast-1/moonshotai.kimi-k2.5                                  | $0.72                             | $3.6                                  |    262144           |     16000           |
 | bedrock/ap-northeast-1/qwen.qwen3-coder-next                                 | $0.6                              | $1.44                                 |    262144           |     16384           |
-| bedrock/ap-south-1/deepseek.v3.2                                             | $0.74                             | $2.22                                 |    163840           |      8000           |
+| bedrock/ap-south-1/deepseek.v3.2                                             | $0.74                             | $2.22                                 |    156000           |      8000           |
 | bedrock/ap-south-1/minimax.minimax-m2.1                                      | $0.36                             | $1.44                                 |    196000           |      8192           |
 | bedrock/ap-south-1/moonshotai.kimi-k2.5                                      | $0.72                             | $3.6                                  |    262144           |     16000           |
 | bedrock/ap-south-1/qwen.qwen3-coder-next                                     | $0.6                              | $1.44                                 |    262144           |     16384           |
-| bedrock/ap-southeast-3/deepseek.v3.2                                         | $0.74                             | $2.22                                 |    163840           |      8000           |
+| bedrock/ap-southeast-3/deepseek.v3.2                                         | $0.74                             | $2.22                                 |    156000           |      8000           |
 | bedrock/ap-southeast-3/minimax.minimax-m2.1                                  | $0.36                             | $1.44                                 |    196000           |      8192           |
 | bedrock/ap-southeast-3/moonshotai.kimi-k2.5                                  | $0.72                             | $3.6                                  |    262144           |     16000           |
 | bedrock/ap-southeast-3/qwen.qwen3-coder-next                                 | $0.6                              | $1.44                                 |    262144           |     16384           |
-| bedrock/eu-north-1/deepseek.v3.2                                             | $0.74                             | $2.22                                 |    163840           |      8000           |
+| bedrock/eu-north-1/deepseek.v3.2                                             | $0.74                             | $2.22                                 |    156000           |      8000           |
 | bedrock/eu-north-1/minimax.minimax-m2.1                                      | $0.36                             | $1.44                                 |    196000           |      8192           |
 | bedrock/eu-north-1/moonshotai.kimi-k2.5                                      | $0.72                             | $3.6                                  |    262144           |     16000           |
 | bedrock/eu-central-1/minimax.minimax-m2.1                                    | $0.36                             | $1.44                                 |    196000           |      8192           |
@@ -2825,23 +2825,23 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | bedrock/eu-west-2/qwen.qwen3-coder-next                                      | $0.78                             | $1.86                                 |    262144           |     16384           |
 | bedrock/eu-south-1/minimax.minimax-m2.1                                      | $0.36                             | $1.44                                 |    196000           |      8192           |
 | bedrock/eu-south-1/qwen.qwen3-coder-next                                     | $0.6                              | $1.44                                 |    262144           |     16384           |
-| bedrock/sa-east-1/deepseek.v3.2                                              | $0.74                             | $2.22                                 |    163840           |      8000           |
+| bedrock/sa-east-1/deepseek.v3.2                                              | $0.74                             | $2.22                                 |    156000           |      8000           |
 | bedrock/sa-east-1/minimax.minimax-m2.1                                       | $0.36                             | $1.44                                 |    196000           |      8192           |
 | bedrock/sa-east-1/moonshotai.kimi-k2.5                                       | $0.72                             | $3.6                                  |    262144           |     16000           |
 | bedrock/sa-east-1/qwen.qwen3-coder-next                                      | $0.6                              | $1.44                                 |    262144           |     16384           |
-| bedrock/us-east-1/deepseek.v3.2                                              | $0.62                             | $1.85                                 |    163840           |      8000           |
+| bedrock/us-east-1/deepseek.v3.2                                              | $0.62                             | $1.85                                 |    156000           |      8000           |
 | bedrock/us-east-1/minimax.minimax-m2.1                                       | $0.3                              | $1.2                                  |    196000           |      8192           |
 | bedrock/us-east-1/moonshotai.kimi-k2.5                                       | $0.6                              | $3                                    |    262144           |     16000           |
 | bedrock/us-east-1/qwen.qwen3-coder-next                                      | $0.5                              | $1.2                                  |    262144           |     16384           |
-| bedrock/us-east-2/deepseek.v3.2                                              | $0.62                             | $1.85                                 |    163840           |      8000           |
+| bedrock/us-east-2/deepseek.v3.2                                              | $0.62                             | $1.85                                 |    156000           |      8000           |
 | bedrock/us-east-2/minimax.minimax-m2.1                                       | $0.3                              | $1.2                                  |    196000           |      8192           |
 | bedrock/us-east-2/moonshotai.kimi-k2.5                                       | $0.6                              | $3                                    |    262144           |     16000           |
 | bedrock/us-east-2/qwen.qwen3-coder-next                                      | $0.5                              | $1.2                                  |    262144           |     16384           |
-| bedrock/us-west-2/deepseek.v3.2                                              | $0.62                             | $1.85                                 |    163840           |      8000           |
+| bedrock/us-west-2/deepseek.v3.2                                              | $0.62                             | $1.85                                 |    156000           |      8000           |
 | bedrock/us-west-2/minimax.minimax-m2.1                                       | $0.3                              | $1.2                                  |    196000           |      8192           |
 | bedrock/us-west-2/moonshotai.kimi-k2.5                                       | $0.6                              | $3                                    |    262144           |     16000           |
 | bedrock/us-west-2/qwen.qwen3-coder-next                                      | $0.5                              | $1.2                                  |    262144           |     16384           |
-| deepseek.v3.2                                                                | $0.62                             | $1.85                                 |    164000           |      8000           |
+| deepseek.v3.2                                                                | $0.62                             | $1.85                                 |    156000           |      8000           |
 | minimax.minimax-m2.1                                                         | $0.3                              | $1.2                                  |    196000           |      8000           |
 | moonshotai.kimi-k2.5                                                         | $0.6                              | $3                                    |    256000           |     16000           |
 | nvidia.nemotron-nano-3-30b                                                   | $0.06                             | $0.24                                 |    256000           |      8000           |
@@ -6078,6 +6078,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gpt-6-astra-law                                                              | $10                               | $50                                   |    922000           |    128000           |
 | chatgpt/gpt-6-astra-law                                                      | --                                | --                                    |    922000           |    128000           |
 | openai/gpt-6-astra-law                                                       | $10                               | $50                                   |    922000           |    128000           |
+| deepgram/streaming/nova-3-medical                                            | --                                | --                                    |       nan           |       nan           |
+| parallel_ai/decision                                                         | $0                                | $0                                    |     32000           |       nan           |
 
 <!-- PRICING_TABLE_END -->
 
