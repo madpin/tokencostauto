@@ -4088,7 +4088,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | zai/glm-5.3-flash                                                            | $0.15                             | $0.5                                  |         1.04858e+06 |    128000           |
 | vertex_ai/gemini-3.5-transcribe-preview                                      | $2                                | $12                                   |       nan           |       nan           |
 | vertex_ai/gemini-3.5-transcribe-live-preview                                 | $3.5                              | $21                                   |       nan           |       nan           |
-| gemini/gemini-omni-1.1-flash                                                 | $1.5                              | $9                                    |         1.04858e+06 |     65536           |
+| gemini/gemini-omni-1.1-flash                                                 | $1.5                              | $9                                    |    131072           |     65536           |
 | xai/grok-4.20                                                                | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
 | xai/grok-4.20-reasoning                                                      | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
 | xai/grok-4.20-reasoning-latest                                               | $1.25                             | $2.5                                  |         1e+06       |         1e+06       |
@@ -6120,7 +6120,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | empiriolabs/gemma-4-26b-a4b                                                  | $0.05                             | $0.29                                 |    262144           |     32768           |
 | empiriolabs/glm-4-6v-flashx                                                  | $0.04                             | $0.4                                  |    131072           |     32768           |
 | empiriolabs/glm-4-7-flashx                                                   | $0.07                             | $0.4                                  |    202752           |    131072           |
-| empiriolabs/glm-5-1                                                          | $0.82                             | $3.3                                  |    202745           |       nan           |
+| empiriolabs/glm-5-1                                                          | $0.82                             | $3.3                                  |    202745           |    128000           |
 | empiriolabs/glm-5-2                                                          | $1.4                              | $4.4                                  |         1.04858e+06 |    131072           |
 | empiriolabs/glm-5-2:variant1                                                 | $1.1                              | $3.85                                 |         1.04858e+06 |    131072           |
 | empiriolabs/glm-5-2:variant2                                                 | $1.4                              | $4.4                                  |         1.04858e+06 |    131072           |
@@ -6317,6 +6317,23 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | together_ai/ricursive-ai/Ripple-65B-Preview                                  | $0.2                              | $0.6                                  |    131072           |    131072           |
 | openai/gpt-image-2.6-sunburst                                                | $5                                | --                                    |       nan           |       nan           |
 | openai/gpt-image-2.6-flare                                                   | $5                                | --                                    |       nan           |       nan           |
+| jina-reranker-v3.5                                                           | $0.05                             | $0                                    |    131072           |       nan           |
+| jina-reranker-m0                                                             | $0.05                             | $0                                    |     10240           |       nan           |
+| nebius/moonshotai/Kimi-K3.1-Pro                                              | $2                                | $10                                   |       nan           |       nan           |
+| us-gov.xai.grok-4.7                                                          | $2.64                             | $7.92                                 |    524288           |    524288           |
+| gpt-6-cyber                                                                  | $20                               | $100                                  |    922000           |    128000           |
+| empiriolabs/kimi-k3-1-pro                                                    | $2                                | $10                                   |         1.04858e+06 |    131072           |
+| gmi/XiaomiMiMo/MiMo-V2.6-Flash                                               | $0.11                             | $0.22                                 |         1.05e+06    |       nan           |
+| gmi/XiaomiMiMo/MiMo-V2.6-Pro                                                 | $0.35                             | $0.7                                  |         1.05e+06    |       nan           |
+| gmi/deepseek-ai/DeepSeek-V4.1-Flash                                          | $0.18                             | $0.72                                 |         1.04858e+06 |       nan           |
+| gmi/deepseek-ai/deepseek-v4.1-flash-1017                                     | $0.18                             | $0.72                                 |         1.04858e+06 |       nan           |
+| gmi/gmicloud/Ripple-65B-Preview                                              | $0.2                              | $0.6                                  |         1e+06       |       nan           |
+| gmi/openai/gpt-oss-20b                                                       | $0.04                             | $0.15                                 |    131072           |       nan           |
+| gmi/tencent/hy4                                                              | $0.42                             | $1.25                                 |         1e+06       |       nan           |
+| vertex_ai/gemini-omni-1.2-flash                                              | $1.5                              | $9                                    |    131072           |    260640           |
+| gemini/gemini-omni-1.2-flash                                                 | $1.5                              | $9                                    |    131072           |     65536           |
+| databricks/databricks-kimi-k3-1-pro                                          | $2                                | $10                                   |         1.04858e+06 |         1.04858e+06 |
+| openai/gpt-6-cyber                                                           | $20                               | $100                                  |    922000           |    128000           |
 
 <!-- PRICING_TABLE_END -->
 
