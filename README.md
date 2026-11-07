@@ -1318,7 +1318,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure_ai/global/grok-3                                                       | $3                                | $15                                   |    131072           |    131072           |
 | azure_ai/global/grok-3-mini                                                  | $0.25                             | $1.27                                 |    131072           |    131072           |
 | azure_ai/grok-3-mini                                                         | $0.25                             | $1.27                                 |       nan           |       nan           |
-| azure_ai/jais-30b-chat                                                       | $3200                             | $9710                                 |      8192           |      8192           |
+| azure_ai/jais-30b-chat                                                       | $3.2                              | $9.71                                 |      8192           |      8192           |
 | groq/moonshotai/kimi-k2-instruct                                             | $1                                | $3                                    |    131072           |     16384           |
 | openrouter/switchpoint/router                                                | $0.85                             | $3.4                                  |    131072           |    131072           |
 | v0/v0-1.0-md                                                                 | $3                                | $15                                   |    128000           |    128000           |
@@ -1777,7 +1777,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | wandb/Qwen/Qwen3-235B-A22B-Thinking-2507                                     | $0.1                              | $0.1                                  |    262144           |    262144           |
 | wandb/moonshotai/Kimi-K2-Instruct                                            | $0.6                              | $2.5                                  |    128000           |    128000           |
 | wandb/meta-llama/Llama-3.1-8B-Instruct                                       | $0.22                             | $0.22                                 |    128000           |    128000           |
-| wandb/deepseek-ai/DeepSeek-V3.1                                              | $0.55                             | $1.65                                 |    128000           |    128000           |
+| wandb/deepseek-ai/DeepSeek-V3.1                                              | $0.5                              | $1.5                                  |    128000           |    128000           |
 | wandb/deepseek-ai/DeepSeek-R1-0528                                           | $1.35                             | $5.4                                  |    161000           |    161000           |
 | wandb/deepseek-ai/DeepSeek-V3-0324                                           | $1.14                             | $2.75                                 |    161000           |    161000           |
 | wandb/meta-llama/Llama-3.3-70B-Instruct                                      | $0.71                             | $0.71                                 |    128000           |    128000           |
@@ -1836,7 +1836,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | deepinfra/nvidia/NVIDIA-Nemotron-Nano-9B-v2                                  | $0.04                             | $0.16                                 |    131072           |    131072           |
 | jp.anthropic.claude-sonnet-4-5-20250929-v1:0                                 | $3.3                              | $16.5                                 |    200000           |     64000           |
 | watsonx/bigscience/mt0-xxl-13b                                               | $1.91                             | $1.91                                 |      4096           |      4096           |
-| watsonx/core42/jais-13b-chat                                                 | $500                              | $2000                                 |      8192           |      8192           |
+| watsonx/core42/jais-13b-chat                                                 | $1.8                              | $1.8                                  |      8192           |      8192           |
 | watsonx/google/flan-t5-xl-3b                                                 | $0.6                              | $0.6                                  |      8192           |      8192           |
 | watsonx/ibm/granite-13b-chat-v2                                              | $0.6                              | $0.6                                  |      8192           |      8192           |
 | watsonx/ibm/granite-13b-instruct-v2                                          | $0.6                              | $0.6                                  |      8192           |      8192           |
@@ -3993,24 +3993,24 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | novita/thudm/glm-4-32b-0414                                                  | $0.55                             | $1.66                                 |     32000           |     32000           |
 | novita/meta-llama/llama-3.2-1b-instruct                                      | $0.02                             | $0.02                                 |    131000           |     32000           |
 | wandb/deepseek-ai/DeepSeek-V4-Flash                                          | $0.14                             | $0.28                                 |         1.049e+06   |         1.04858e+06 |
-| wandb/deepseek-ai/DeepSeek-V4-Flash-0731                                     | $0.13                             | $0.28                                 |    262000           |    262144           |
+| wandb/deepseek-ai/DeepSeek-V4-Flash-0731                                     | $0.13                             | $0.27                                 |    262000           |    262144           |
 | wandb/deepseek-ai/DeepSeek-V4-Pro                                            | $1.15                             | $2.55                                 |         1.049e+06   |         1.04858e+06 |
 | wandb/google/gemma-4-31B-it                                                  | $0.1                              | $0.34                                 |    262000           |    262144           |
 | wandb/ibm-granite/granite-4.1-8b                                             | $0.05                             | $0.1                                  |    131000           |    131072           |
 | wandb/JetBrains/Mellum2-12B-A2.5B-Instruct                                   | $0.05                             | $0.1                                  |    131000           |    131072           |
 | wandb/meta-llama/Llama-3.1-70B-Instruct                                      | $0.8                              | $0.8                                  |    131000           |    128000           |
 | wandb/MiniMaxAI/MiniMax-M3                                                   | $0.23                             | $0.96                                 |    262000           |    262144           |
-| wandb/moonshotai/Kimi-K2.7-Code                                              | $0.71                             | $3.5                                  |    262000           |    262144           |
+| wandb/moonshotai/Kimi-K2.7-Code                                              | $0.6                              | $3                                    |    262000           |    262144           |
 | wandb/moonshotai/Kimi-K2.6                                                   | $0.65                             | $3.41                                 |    262000           |    262144           |
 | wandb/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B                           | $0.07                             | $0.2                                  |    262000           |    262144           |
 | wandb/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B                               | $0.5                              | $2.15                                 |    262000           |    262144           |
 | wandb/OpenPipe/Qwen3-14B-Instruct                                            | $0.05                             | $0.22                                 |     32800           |     32768           |
 | wandb/Qwen/Qwen3.8-27B                                                       | $0.4                              | $3                                    |    262000           |    262144           |
-| wandb/Qwen/Qwen3.6-35B-A3B                                                   | $0.25                             | $1.25                                 |    262000           |    262144           |
+| wandb/Qwen/Qwen3.6-35B-A3B                                                   | $0.1                              | $0.89                                 |    262000           |    262144           |
 | wandb/Qwen/Qwen3.6-27B                                                       | $0.6                              | $3.6                                  |    262000           |    262144           |
 | wandb/Qwen/Qwen3.5-35B-A3B                                                   | $0.25                             | $1.25                                 |    262000           |    262144           |
 | wandb/Qwen/Qwen3-30B-A3B-Instruct-2507                                       | $0.1                              | $0.3                                  |    262000           |    262144           |
-| wandb/zai-org/GLM-5.2                                                        | $0.76                             | $2.42                                 |    262000           |    262144           |
+| wandb/zai-org/GLM-5.2                                                        | $0.62                             | $2.42                                 |    262000           |    262144           |
 | deepinfra/openai/gpt-oss-120b-Turbo                                          | $0.15                             | $0.6                                  |    131072           |    131072           |
 | deepinfra/MiniMaxAI/MiniMax-M2.7                                             | $0.25                             | $1                                    |    196608           |    196608           |
 | deepinfra/Qwen/Qwen3.8-27B                                                   | $0.4                              | $3                                    |    262144           |    262144           |
@@ -4609,7 +4609,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openai/gpt-image-2.5-sunburst-2026-09-08                                     | $5                                | --                                    |       nan           |       nan           |
 | openrouter/openai/gpt-5.6-sol                                                | $2                                | $10                                   |         1.05e+06    |    128000           |
 | wandb/deepseek-ai/DeepSeek-V4-Pro-0813                                       | $1.31                             | $3.96                                 |         1.049e+06   |       nan           |
-| wandb/ibm-granite/granite-4.2-8b                                             | $0.1                              | $0.15                                 |    131000           |       nan           |
+| wandb/ibm-granite/granite-4.2-8b                                             | $0.06                             | $0.15                                 |    131000           |       nan           |
 | cerebras/qwen-3.8-27b                                                        | $0.99                             | $1.49                                 |     65536           |     32768           |
 | inception/mercury-2.5                                                        | $0.2                              | $0.75                                 |    260000           |     65536           |
 | meta/muse-voice-transcribe-1.0                                               | --                                | --                                    |       nan           |       nan           |
@@ -4842,7 +4842,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | typesafe/jev-1.13.0                                                          | $0.04                             | $0                                    |     65536           |       nan           |
 | typesafe/jev-latest                                                          | $0.04                             | $0                                    |     65536           |       nan           |
 | typesafe/jev-preview                                                         | $0.04                             | $0                                    |     65536           |       nan           |
-| wandb/zai-org/GLM-5.3-Flash                                                  | $0.15                             | $0.5                                  |         1.049e+06   |       nan           |
+| wandb/zai-org/GLM-5.3-Flash                                                  | $0.12                             | $0.38                                 |         1.049e+06   |       nan           |
 | azure_ai/FLUX.2-flex                                                         | --                                | --                                    |     32000           |       nan           |
 | dashscope/qwen3.8-flash                                                      | $0.15                             | $0.47                                 |    991808           |    131072           |
 | dashscope/qwen3.8-omni-flash                                                 | $0.15                             | $0.47                                 |    991808           |    131072           |
@@ -5368,7 +5368,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure/gpt-live-transcribe                                                    | --                                | --                                    |     32000           |      4096           |
 | azure/gpt-transcribe                                                         | --                                | --                                    |       nan           |       nan           |
 | azure/gpt-realtime-translate                                                 | --                                | --                                    |     32000           |      4096           |
-| wandb/deepseek-ai/DeepSeek-V4.1-Flash                                        | $0.2                              | $0.65                                 |         1.049e+06   |         1.04858e+06 |
+| wandb/deepseek-ai/DeepSeek-V4.1-Flash                                        | $0.13                             | $0.65                                 |         1.049e+06   |         1.04858e+06 |
 | wandb/google/gemma-4-26B-A4B-it                                              | $0.1                              | $0.3                                  |    262000           |    262144           |
 | c4ai-aya-expanse-32b                                                         | $0.5                              | $1.5                                  |    128000           |      4000           |
 | nebius/deepseek-ai/DeepSeek-V4.1-Flash                                       | $0.3                              | $1.2                                  |         1.04858e+06 |    384000           |
@@ -5710,7 +5710,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure_ai/claude-opus-5-5-fast                                                | $8                                | $40                                   |         1e+06       |    128000           |
 | baseten/meta-models/muse-spark-open                                          | $1.25                             | $4.25                                 |         1.04858e+06 |         1.04858e+06 |
 | baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B                        | $0.2                              | $0.5                                  |         1.04858e+06 |         1.04858e+06 |
-| wandb/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B                          | $0.25                             | $1.5                                  |         1.049e+06   |    943718           |
+| wandb/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B                          | $0.15                             | $0.5                                  |         1.049e+06   |    943718           |
 | openai/gpt-5.5-cyber-preview                                                 | $12.5                             | $75                                   |       nan           |       nan           |
 | volcengine/doubao-seedance-2-5-260628                                        | --                                | --                                    |       nan           |       nan           |
 | volcengine/doubao-seedance-2-0-260128                                        | --                                | --                                    |       nan           |       nan           |
@@ -5764,8 +5764,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure/eu/o3                                                                  | $2.2                              | $8.8                                  |    200000           |    100000           |
 | azure/eu/o4-mini                                                             | $1.21                             | $4.84                                 |    200000           |    100000           |
 | fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017-us           | $0.45                             | $1.8                                  |         1.04858e+06 |    393216           |
-| wandb/reflection/Beam-1.0-501B-A23B                                          | $1                                | $3                                    |         1.049e+06   |       nan           |
-| wandb/zai-org/GLM-5.3                                                        | $1.2                              | $4                                    |         1.049e+06   |       nan           |
+| wandb/reflection/Beam-1.0-501B-A23B                                          | $0.3                              | $1                                    |         1.049e+06   |       nan           |
+| wandb/zai-org/GLM-5.3                                                        | $0.75                             | $3                                    |         1.049e+06   |       nan           |
 | azure_ai/MAI-Code-1.1-Flash                                                  | $0.2                              | $1.2                                  |    256000           |     64000           |
 | elevenlabs/eleven_v4                                                         | --                                | --                                    |       nan           |       nan           |
 | elevenlabs/eleven_v4_turbo                                                   | --                                | --                                    |       nan           |       nan           |
@@ -6105,7 +6105,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | wally/deepseek-v4.1-flash-f2                                                 | $0.3                              | $1.2                                  |         1.04858e+06 |     65536           |
 | fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast   | $2.4                              | $9.6                                  |         1.04858e+06 |    393216           |
 | empiriolabs/aplomb-1                                                         | $0.02                             | $0                                    |         1e+06       |       nan           |
-| empiriolabs/deepseek-v4-1-flash-1017                                         | $0.3                              | $1.2                                  |         1e+06       |    393216           |
+| empiriolabs/deepseek-v4-1-flash-1017                                         | $0.2                              | $0.8                                  |         1e+06       |    393216           |
 | empiriolabs/deepseek-v4-flash-0731                                           | $0.42                             | $1.27                                 |         1e+06       |    393216           |
 | empiriolabs/deepseek-v4-flash-0731:variant1                                  | $0.44                             | $1.32                                 |         1e+06       |    393216           |
 | empiriolabs/deepseek-v4-pro                                                  | $1.65                             | $3.3                                  |         1e+06       |    393216           |
@@ -6306,7 +6306,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gmi/zai-org/GLM-5.3                                                          | $0.7                              | $2.2                                  |         1.04858e+06 |       nan           |
 | gmi/zai-org/GLM-5.3-Flash                                                    | $0.08                             | $0.25                                 |         1.04858e+06 |       nan           |
 | fireworks_ai/accounts/fireworks/models/kimi-k3p1-pro                         | $2                                | $10                                   |         1.04858e+06 |    131072           |
-| baseten/moonshotai/Kimi-K3.1-Pro                                             | $2                                | $10                                   |         1e+06       |    262144           |
+| baseten/moonshotai/Kimi-K3.1-Pro                                             | $2                                | $10                                   |         1e+06       |         1.04858e+06 |
 | gpt-image-2.6-sunburst                                                       | $5                                | --                                    |       nan           |       nan           |
 | gpt-image-2.6-flare                                                          | $5                                | --                                    |       nan           |       nan           |
 | bedrock/us-gov-east-1/moonshotai.kimi-k3                                     | $3.96                             | $19.8                                 |    868928           |    131072           |
@@ -6334,6 +6334,15 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gemini/gemini-omni-1.2-flash                                                 | $1.5                              | $9                                    |    131072           |     65536           |
 | databricks/databricks-kimi-k3-1-pro                                          | $2                                | $10                                   |         1.04858e+06 |         1.04858e+06 |
 | openai/gpt-6-cyber                                                           | $20                               | $100                                  |    922000           |    128000           |
+| tencent/hy4                                                                  | $0.83                             | $2.5                                  |    960000           |     64000           |
+| tencent/hy4-preview                                                          | $0.83                             | $2.5                                  |    960000           |     64000           |
+| moonshotai.kimi-k3.1                                                         | $4.4                              | $22                                   |    868928           |    131072           |
+| us.moonshotai.kimi-k3.1                                                      | $4.4                              | $22                                   |    868928           |    131072           |
+| global.moonshotai.kimi-k3.1                                                  | $4                                | $20                                   |    868928           |    131072           |
+| in.moonshotai.kimi-k3.1                                                      | $4.4                              | $22                                   |    868928           |    131072           |
+| wandb/deepseek-ai/DeepSeek-V4.1-Flash-1017                                   | $0.13                             | $0.65                                 |         1.049e+06   |         1.04858e+06 |
+| azure_ai/cohere-rerank-v5-pro                                                | $0.05                             | $0                                    |     32768           |     32768           |
+| azure_ai/cohere-rerank-v5-fast                                               | $0.02                             | $0                                    |     32768           |     32768           |
 
 <!-- PRICING_TABLE_END -->
 
