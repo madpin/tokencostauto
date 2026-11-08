@@ -591,7 +591,7 @@
         "supports_tool_choice": true
     },
     "ft:gpt-3.5-turbo-1106": {
-        "deprecation_date": "2026-10-23",
+        "deprecation_date": "2026-09-28",
         "deprecation_source": "https://developers.openai.com/api/docs/deprecations",
         "successor_model": "gpt-5.6-terra",
         "input_cost_per_token": 3e-06,
@@ -684,7 +684,7 @@
         "supports_tool_choice": true
     },
     "ft:davinci-002": {
-        "deprecation_date": "2026-10-23",
+        "deprecation_date": "2026-09-28",
         "deprecation_source": "https://developers.openai.com/api/docs/deprecations",
         "successor_model": "gpt-5.6-terra",
         "input_cost_per_token": 1.2e-05,
@@ -698,7 +698,7 @@
         "source": "https://developers.openai.com/api/docs/pricing"
     },
     "ft:babbage-002": {
-        "deprecation_date": "2026-10-23",
+        "deprecation_date": "2026-09-28",
         "deprecation_source": "https://developers.openai.com/api/docs/deprecations",
         "successor_model": "gpt-5.6-terra",
         "input_cost_per_token": 1.6e-06,
@@ -1944,6 +1944,8 @@
         "supports_tool_choice": true
     },
     "codestral/codestral-2405": {
+        "deprecation_date": "2025-06-16",
+        "deprecation_source": "https://docs.mistral.ai/getting-started/models/",
         "input_cost_per_token": 0.0,
         "litellm_provider": "codestral",
         "max_input_tokens": 32000,
@@ -1964,6 +1966,8 @@
         "source": "https://docs.mistral.ai/capabilities/code_generation/"
     },
     "text-completion-codestral/codestral-2405": {
+        "deprecation_date": "2025-06-16",
+        "deprecation_source": "https://docs.mistral.ai/getting-started/models/",
         "input_cost_per_token": 0.0,
         "litellm_provider": "text-completion-codestral",
         "max_input_tokens": 32000,
@@ -16591,6 +16595,7 @@
         "output_cost_per_token_flex": 5e-06,
         "supports_url_context": true,
         "cache_read_input_token_cost_above_200k_tokens_batches": 2.5e-07,
+        "cache_read_input_token_cost_above_200k_tokens_flex": 2.5e-07,
         "deprecation_date": "2026-12-01",
         "deprecation_source": "https://ai.google.dev/gemini-api/docs/deprecations",
         "successor_model": "gemini/gemini-3.8-flash",
@@ -18272,19 +18277,7 @@
         "supports_tool_choice": true
     },
     "moonshot/kimi-latest": {
-        "cache_read_input_token_cost": 1.5e-07,
-        "deprecation_date": "2026-01-28",
-        "input_cost_per_token": 2e-06,
-        "litellm_provider": "moonshot",
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "max_tokens": 131072,
-        "mode": "chat",
-        "output_cost_per_token": 5e-06,
-        "source": "https://platform.moonshot.ai/docs/pricing",
-        "supports_function_calling": true,
-        "supports_tool_choice": true,
-        "supports_vision": true
+        "alias_of": "moonshot/kimi-k3"
     },
     "moonshot/kimi-latest-8k": {
         "cache_read_input_token_cost": 1.5e-07,
@@ -43602,6 +43595,7 @@
         "input_cost_per_token_flex": 1e-06,
         "output_cost_per_token_flex": 6e-06,
         "cache_read_input_token_cost_above_200k_tokens_batches": 4e-07,
+        "cache_read_input_token_cost_above_200k_tokens_flex": 4e-07,
         "input_cost_per_token_above_200k_tokens_batches": 2e-06,
         "input_cost_per_token_above_200k_tokens_flex": 2e-06,
         "output_cost_per_token_above_200k_tokens_batches": 9e-06,
@@ -43674,6 +43668,7 @@
         "input_cost_per_token_flex": 1e-06,
         "output_cost_per_token_flex": 6e-06,
         "cache_read_input_token_cost_above_200k_tokens_batches": 4e-07,
+        "cache_read_input_token_cost_above_200k_tokens_flex": 4e-07,
         "input_cost_per_token_above_200k_tokens_batches": 2e-06,
         "input_cost_per_token_above_200k_tokens_flex": 2e-06,
         "output_cost_per_token_above_200k_tokens_batches": 9e-06,
@@ -50166,7 +50161,7 @@
         "supports_tool_choice": true
     },
     "openai/ft:gpt-3.5-turbo-1106": {
-        "deprecation_date": "2026-10-23",
+        "deprecation_date": "2026-09-28",
         "deprecation_source": "https://developers.openai.com/api/docs/deprecations",
         "successor_model": "gpt-5.6-terra",
         "input_cost_per_token": 3e-06,
@@ -67994,13 +67989,13 @@
         "supports_reasoning": true
     },
     "together_ai/Qwen/Qwen3.7-Max": {
-        "cache_read_input_token_cost": 3e-07,
-        "input_cost_per_token": 1.5e-06,
+        "cache_read_input_token_cost": 5e-07,
+        "input_cost_per_token": 2.5e-06,
         "litellm_provider": "together_ai",
         "max_input_tokens": 1000000,
         "max_output_tokens": 1000000,
         "mode": "chat",
-        "output_cost_per_token": 4.5e-06,
+        "output_cost_per_token": 7.5e-06,
         "source": "https://www.together.ai/pricing",
         "supports_prompt_caching": true
     },
@@ -83235,7 +83230,8 @@
     },
     "azure/chat-latest": {
         "cache_read_input_token_cost": 5e-07,
-        "deprecation_date": "2026-12-02",
+        "deprecation_date": "2027-05-18",
+        "deprecation_source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
         "input_cost_per_token": 5e-06,
         "litellm_provider": "azure",
         "max_input_tokens": 272000,
@@ -83245,7 +83241,7 @@
         "reasoning_effort_levels": [
             "medium"
         ],
-        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/",
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
         "supported_endpoints": [
             "/v1/chat/completions",
             "/v1/responses"
@@ -116598,5 +116594,443 @@
         "mode": "rerank",
         "output_cost_per_token": 0.0,
         "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
+    },
+    "bedrock/claude-fable-latest": {
+        "alias_of": "global.anthropic.claude-fable-5-1"
+    },
+    "bedrock/claude-opus-latest": {
+        "alias_of": "global.anthropic.claude-opus-5-5"
+    },
+    "azure_ai/claude-fable-latest": {
+        "alias_of": "azure_ai/claude-fable-5-1"
+    },
+    "azure_ai/claude-opus-latest": {
+        "alias_of": "azure_ai/claude-opus-5-5"
+    },
+    "azure_ai/gpt-astra-latest": {
+        "alias_of": "azure_ai/gpt-6-astra"
+    },
+    "azure_ai/gpt-luna-latest": {
+        "alias_of": "azure_ai/gpt-6-luna"
+    },
+    "azure_ai/gpt-sol-latest": {
+        "alias_of": "azure_ai/gpt-6.1-sol"
+    },
+    "azure_ai/gpt-terra-latest": {
+        "alias_of": "azure_ai/gpt-6.1-terra"
+    },
+    "azure_ai/gpt-mini-latest": {
+        "alias_of": "azure_ai/gpt-5.4-mini"
+    },
+    "azure/gpt-astra-latest": {
+        "alias_of": "azure/gpt-6-astra"
+    },
+    "azure/gpt-luna-latest": {
+        "alias_of": "azure/gpt-6-luna"
+    },
+    "azure/gpt-terra-latest": {
+        "alias_of": "azure/gpt-6.1-terra"
+    },
+    "azure/gpt-sol-latest": {
+        "alias_of": "azure/gpt-6.1-sol"
+    },
+    "azure/gpt-mini-latest": {
+        "alias_of": "azure/gpt-5.4-mini"
+    },
+    "azure_ai/kimi-latest": {
+        "alias_of": "azure_ai/FW-Kimi-K3"
+    },
+    "azure_ai/minimax-latest": {
+        "alias_of": "azure_ai/FW-MiniMax-M3"
+    },
+    "azure_ai/deepseek-pro-latest": {
+        "alias_of": "azure_ai/deepseek-v4-pro"
+    },
+    "azure_ai/deepseek-flash-latest": {
+        "alias_of": "azure_ai/deepseek-v4-flash"
+    },
+    "claude-sonnet-latest": {
+        "alias_of": "claude-sonnet-5-5"
+    },
+    "claude-fable-latest": {
+        "alias_of": "claude-fable-5-1"
+    },
+    "claude-opus-latest": {
+        "alias_of": "claude-opus-5-5"
+    },
+    "dashscope/qwen-max-latest": {
+        "alias_of": "dashscope/qwen3.8-max"
+    },
+    "dashscope/qwen-flash-latest": {
+        "alias_of": "dashscope/qwen3.8-flash"
+    },
+    "databricks/claude-fable-latest": {
+        "alias_of": "databricks/databricks-claude-fable-5-1"
+    },
+    "databricks/claude-opus-latest": {
+        "alias_of": "databricks/databricks-claude-opus-5-5"
+    },
+    "databricks/glm-latest": {
+        "alias_of": "databricks/databricks-glm-5-3"
+    },
+    "databricks/glm-flash-latest": {
+        "alias_of": "databricks/databricks-glm-5-3-flash"
+    },
+    "databricks/gpt-mini-latest": {
+        "alias_of": "databricks/databricks-gpt-5-4-mini"
+    },
+    "databricks/kimi-latest": {
+        "alias_of": "databricks/databricks-kimi-k3"
+    },
+    "fireworks_ai/minimax-latest": {
+        "alias_of": "fireworks_ai/accounts/fireworks/models/minimax-m3"
+    },
+    "github_copilot/claude-fable-latest": {
+        "alias_of": "github_copilot/claude-fable-5.1"
+    },
+    "github_copilot/claude-haiku-latest": {
+        "alias_of": "github_copilot/claude-haiku-5.5"
+    },
+    "github_copilot/claude-opus-latest": {
+        "alias_of": "github_copilot/claude-opus-5.5"
+    },
+    "github_copilot/claude-sonnet-latest": {
+        "alias_of": "github_copilot/claude-sonnet-5.5"
+    },
+    "github_copilot/gpt-astra-latest": {
+        "alias_of": "github_copilot/gpt-6-astra"
+    },
+    "github_copilot/gpt-luna-latest": {
+        "alias_of": "github_copilot/gpt-6-luna"
+    },
+    "github_copilot/gpt-sol-latest": {
+        "alias_of": "github_copilot/gpt-6.1-sol"
+    },
+    "github_copilot/kimi-latest": {
+        "alias_of": "github_copilot/kimi-k3"
+    },
+    "gpt-astra-latest": {
+        "alias_of": "gpt-6-astra"
+    },
+    "gpt-luna-latest": {
+        "alias_of": "gpt-6-luna"
+    },
+    "gpt-mini-latest": {
+        "alias_of": "gpt-5.4-mini"
+    },
+    "minimax/minimax-latest": {
+        "alias_of": "minimax/MiniMax-M3"
+    },
+    "moonshot/kimi-k3.1-pro-highspeed": {
+        "cache_creation_input_token_cost": 4e-06,
+        "cache_creation_input_token_cost_above_1hr": 8e-06,
+        "cache_read_input_token_cost": 2e-07,
+        "input_cost_per_token": 4e-06,
+        "litellm_provider": "moonshot",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "mode": "chat",
+        "output_cost_per_token": 2e-05,
+        "reasoning_effort_levels": [
+            "low",
+            "high",
+            "max"
+        ],
+        "source": "https://platform.kimi.ai/docs/pricing/chat",
+        "supports_function_calling": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_vision": true
+    },
+    "together_ai/deepseek-pro-latest": {
+        "alias_of": "together_ai/deepseek-ai/DeepSeek-V4-Pro-0813"
+    },
+    "together_ai/kimi-latest": {
+        "alias_of": "together_ai/moonshotai/Kimi-K3"
+    },
+    "together_ai/glm-latest": {
+        "alias_of": "together_ai/zai-org/GLM-5.3"
+    },
+    "together_ai/glm-flash-latest": {
+        "alias_of": "together_ai/zai-org/GLM-5.3-Flash"
+    },
+    "vertex_ai/claude-fable-latest": {
+        "alias_of": "vertex_ai/claude-fable-5-1"
+    },
+    "vertex_ai/claude-opus-latest": {
+        "alias_of": "vertex_ai/claude-opus-5-5"
+    },
+    "xai/grok-latest": {
+        "alias_of": "xai/grok-4.7"
+    },
+    "zai/glm-latest": {
+        "alias_of": "zai/glm-5.3"
+    },
+    "zai/glm-flash-latest": {
+        "alias_of": "zai/glm-5.3-flash"
+    },
+    "bedrock_mantle/gpt-astra-latest": {
+        "alias_of": "bedrock_mantle/openai.gpt-6-astra"
+    },
+    "bedrock_mantle/gpt-luna-latest": {
+        "alias_of": "bedrock_mantle/openai.gpt-6-luna"
+    },
+    "bedrock/gpt-astra-latest": {
+        "alias_of": "global.openai.gpt-6-astra"
+    },
+    "bedrock/gpt-luna-latest": {
+        "alias_of": "global.openai.gpt-6-luna"
+    },
+    "bedrock_mantle/claude-opus-latest": {
+        "alias_of": "bedrock_mantle/anthropic.claude-opus-5-5"
+    },
+    "bedrock_mantle/claude-sonnet-latest": {
+        "alias_of": "bedrock_mantle/anthropic.claude-sonnet-5-5"
+    },
+    "deepseek/deepseek-flash-latest": {
+        "alias_of": "deepseek/deepseek-v4-flash"
+    },
+    "deepseek/deepseek-pro-latest": {
+        "alias_of": "deepseek/deepseek-v4-pro"
+    },
+    "fireworks_ai/kimi-latest": {
+        "alias_of": "fireworks_ai/accounts/fireworks/models/kimi-k3"
+    },
+    "together_ai/qwen-flash-latest": {
+        "alias_of": "together_ai/Qwen/Qwen3.8-Flash"
+    },
+    "azure_ai/glm-latest": {
+        "alias_of": "azure_ai/FW-GLM-5.3"
+    },
+    "azure_ai/glm-flash-latest": {
+        "alias_of": "azure_ai/FW-GLM-5.3-Flash"
+    },
+    "baseten/glm-latest": {
+        "alias_of": "baseten/zai-org/GLM-5.3"
+    },
+    "together_ai/essentialai/rnj-1-instruct": {
+        "input_cost_per_token": 1.5e-07,
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "output_cost_per_token": 1.5e-07,
+        "source": "https://www.together.ai/models/rnj-1-instruct"
+    },
+    "bedrock/kimi-latest": {
+        "alias_of": "global.moonshotai.kimi-k3"
+    },
+    "baseten/kimi-latest": {
+        "alias_of": "baseten/moonshotai/Kimi-K3"
+    },
+    "baseten/glm-flash-latest": {
+        "alias_of": "baseten/zai-org/GLM-5.3-Flash"
+    },
+    "baseten/deepseek-flash-latest": {
+        "alias_of": "baseten/deepseek-ai/DeepSeek-V4-Flash-0731"
+    },
+    "baseten/deepseek-pro-latest": {
+        "alias_of": "baseten/deepseek-ai/DeepSeek-V4-Pro-0813"
+    },
+    "azure_ai/claude-sonnet-latest": {
+        "alias_of": "azure_ai/claude-sonnet-5-5"
+    },
+    "bedrock/claude-sonnet-latest": {
+        "alias_of": "global.anthropic.claude-sonnet-5-5"
+    },
+    "vertex_ai/claude-sonnet-latest": {
+        "alias_of": "vertex_ai/claude-sonnet-5-5"
+    },
+    "bedrock/grok-latest": {
+        "alias_of": "global.xai.grok-4.7"
+    },
+    "gpt-sol-latest": {
+        "alias_of": "gpt-6.1-sol"
+    },
+    "bedrock/gpt-sol-latest": {
+        "alias_of": "global.openai.gpt-6.1-sol"
+    },
+    "bedrock_mantle/gpt-sol-latest": {
+        "alias_of": "bedrock_mantle/openai.gpt-6.1-sol"
+    },
+    "vertex_ai/grok-latest": {
+        "alias_of": "vertex_ai/xai/grok-4.7"
+    },
+    "bedrock/glm-latest": {
+        "alias_of": "global.zai.glm-5.3"
+    },
+    "azure_ai/grok-latest": {
+        "alias_of": "azure_ai/grok-4.7"
+    },
+    "claude-haiku-latest": {
+        "alias_of": "claude-haiku-5-5"
+    },
+    "bedrock_mantle/claude-haiku-latest": {
+        "alias_of": "bedrock_mantle/anthropic.claude-haiku-5-5"
+    },
+    "azure_ai/claude-haiku-latest": {
+        "alias_of": "azure_ai/claude-haiku-5-5"
+    },
+    "bedrock/claude-haiku-latest": {
+        "alias_of": "global.anthropic.claude-haiku-5-5"
+    },
+    "vertex_ai/claude-haiku-latest": {
+        "alias_of": "vertex_ai/claude-haiku-5-5"
+    },
+    "github_copilot/grok-latest": {
+        "alias_of": "github_copilot/grok-4.7"
+    },
+    "gpt-terra-latest": {
+        "alias_of": "gpt-6.1-terra"
+    },
+    "bedrock/gpt-terra-latest": {
+        "alias_of": "global.openai.gpt-6.1-terra"
+    },
+    "github_copilot/gpt-terra-latest": {
+        "alias_of": "github_copilot/gpt-6.1-terra"
+    },
+    "bedrock_mantle/gpt-terra-latest": {
+        "alias_of": "bedrock_mantle/openai.gpt-6.1-terra"
+    },
+    "databricks/claude-haiku-latest": {
+        "alias_of": "databricks/databricks-claude-haiku-5-5"
+    },
+    "databricks/claude-sonnet-latest": {
+        "alias_of": "databricks/databricks-claude-sonnet-5-5"
+    },
+    "databricks/gpt-sol-latest": {
+        "alias_of": "databricks/databricks-gpt-6-1-sol"
+    },
+    "databricks/gpt-terra-latest": {
+        "alias_of": "databricks/databricks-gpt-6-1-terra"
+    },
+    "databricks/gpt-astra-latest": {
+        "alias_of": "databricks/databricks-gpt-6-astra"
+    },
+    "databricks/gpt-luna-latest": {
+        "alias_of": "databricks/databricks-gpt-6-luna"
+    },
+    "databricks/grok-latest": {
+        "alias_of": "databricks/databricks-grok-4-7"
+    },
+    "bedrock_mantle/grok-latest": {
+        "alias_of": "bedrock_mantle/xai.grok-4.7"
+    },
+    "azure/us/gpt-realtime-2.1": {
+        "cache_read_input_audio_token_cost": 4.4e-07,
+        "cache_read_input_image_token_cost": 5.5e-07,
+        "cache_read_input_token_cost": 4.4e-07,
+        "deprecation_date": "2027-06-25",
+        "deprecation_source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+        "input_cost_per_audio_token": 3.52e-05,
+        "input_cost_per_image_token": 5.5e-06,
+        "input_cost_per_token": 4.4e-06,
+        "litellm_provider": "azure",
+        "max_input_tokens": 32000,
+        "max_output_tokens": 4096,
+        "mode": "realtime",
+        "output_cost_per_audio_token": 7.04e-05,
+        "output_cost_per_token": 2.64e-05,
+        "provider_specific_entry": {
+            "realtime_ga_only": 1
+        },
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/",
+        "supported_endpoints": [
+            "/v1/realtime"
+        ],
+        "supported_modalities": [
+            "text",
+            "image",
+            "audio"
+        ],
+        "supported_output_modalities": [
+            "text",
+            "audio"
+        ],
+        "supports_audio_input": true,
+        "supports_audio_output": true,
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_system_messages": true,
+        "supports_tool_choice": true
+    },
+    "azure/us/gpt-realtime-2.1-mini": {
+        "cache_read_input_audio_token_cost": 3.3e-07,
+        "cache_read_input_image_token_cost": 8.8e-08,
+        "cache_read_input_token_cost": 6.6e-08,
+        "deprecation_date": "2027-06-25",
+        "deprecation_source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+        "input_cost_per_audio_token": 1.1e-05,
+        "input_cost_per_image_token": 8.8e-07,
+        "input_cost_per_token": 6.6e-07,
+        "litellm_provider": "azure",
+        "max_input_tokens": 32000,
+        "max_output_tokens": 4096,
+        "mode": "realtime",
+        "output_cost_per_audio_token": 2.2e-05,
+        "output_cost_per_token": 2.64e-06,
+        "provider_specific_entry": {
+            "realtime_ga_only": 1
+        },
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/",
+        "supported_endpoints": [
+            "/v1/realtime"
+        ],
+        "supported_modalities": [
+            "text",
+            "image",
+            "audio"
+        ],
+        "supported_output_modalities": [
+            "text",
+            "audio"
+        ],
+        "supports_audio_input": true,
+        "supports_audio_output": true,
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_system_messages": true,
+        "supports_tool_choice": true
+    },
+    "azure/us/gpt-realtime-1.5": {
+        "cache_read_input_audio_token_cost": 4.4e-07,
+        "cache_read_input_image_token_cost": 5.5e-07,
+        "cache_read_input_token_cost": 4.4e-07,
+        "deprecation_date": "2027-08-24",
+        "deprecation_source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+        "input_cost_per_audio_token": 3.52e-05,
+        "input_cost_per_image_token": 5.5e-06,
+        "input_cost_per_token": 4.4e-06,
+        "litellm_provider": "azure",
+        "max_input_tokens": 32000,
+        "max_output_tokens": 4096,
+        "mode": "realtime",
+        "output_cost_per_audio_token": 7.04e-05,
+        "output_cost_per_token": 1.76e-05,
+        "provider_specific_entry": {
+            "realtime_ga_only": 1
+        },
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/",
+        "supported_endpoints": [
+            "/v1/realtime"
+        ],
+        "supported_modalities": [
+            "text",
+            "image",
+            "audio"
+        ],
+        "supported_output_modalities": [
+            "text",
+            "audio"
+        ],
+        "supports_audio_input": true,
+        "supports_audio_output": true,
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_system_messages": true,
+        "supports_tool_choice": true
     }
 }
