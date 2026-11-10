@@ -6340,3 +6340,4 @@
 | bedrock/us-gov-west-1/anthropic.claude-mythos-5-2                            | $9.6                              | $48                                   |         1e+06       |    128000           |
 | github_copilot/claude-fable-5.2                                              | $8                                | $40                                   |    200000           |     64000           |
 | together_ai/elorian-labs/glimpse-1.0                                         | $0.6                              | $3                                    |    262144           |    262144           |
+| meta/muse-ember-1.0                                                          | $0.1                              | $0.5                                  |         1.04858e+06 |    524288           |
