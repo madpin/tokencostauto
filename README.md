@@ -6340,7 +6340,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | us.moonshotai.kimi-k3.1                                                      | $4.4                              | $22                                   |    868928           |    131072           |
 | global.moonshotai.kimi-k3.1                                                  | $4                                | $20                                   |    868928           |    131072           |
 | in.moonshotai.kimi-k3.1                                                      | $4.4                              | $22                                   |    868928           |    131072           |
-| wandb/deepseek-ai/DeepSeek-V4.1-Flash-1017                                   | $0.13                             | $0.65                                 |         1.049e+06   |         1.04858e+06 |
+| wandb/deepseek-ai/DeepSeek-V4.1-Flash-1017                                   | $0.3                              | $1.2                                  |         1.049e+06   |         1.04858e+06 |
 | azure_ai/cohere-rerank-v5-pro                                                | $0.05                             | $0                                    |     32768           |     32768           |
 | azure_ai/cohere-rerank-v5-fast                                               | $0.02                             | $0                                    |     32768           |     32768           |
 | bedrock/claude-fable-latest                                                  | --                                | --                                    |       nan           |       nan           |
@@ -6445,6 +6445,29 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | azure/us/gpt-realtime-2.1                                                    | $4.4                              | $26.4                                 |     32000           |      4096           |
 | azure/us/gpt-realtime-2.1-mini                                               | $0.66                             | $2.64                                 |     32000           |      4096           |
 | azure/us/gpt-realtime-1.5                                                    | $4.4                              | $17.6                                 |     32000           |      4096           |
+| minimax/MiniMax-M3.1-Flash                                                   | $0.15                             | $0.6                                  |         1e+06       |       nan           |
+| vertex_ai/claude-fable-5-2                                                   | $8                                | $40                                   |         1e+06       |    128000           |
+| vertex_ai/claude-fable-5-2@default                                           | $8                                | $40                                   |         1e+06       |    128000           |
+| bedrock/us-gov-west-1/anthropic.claude-fable-5-2                             | $9.6                              | $48                                   |         1e+06       |    128000           |
+| bedrock/us-gov-east-1/anthropic.claude-fable-5-2                             | $9.6                              | $48                                   |         1e+06       |    128000           |
+| anthropic.claude-fable-5-2                                                   | $8                                | $40                                   |         1e+06       |    128000           |
+| anthropic.claude-mythos-5-2                                                  | $8                                | $40                                   |         1e+06       |    128000           |
+| eu.anthropic.claude-fable-5-2                                                | $8.8                              | $44                                   |         1e+06       |    128000           |
+| eu.anthropic.claude-mythos-5-2                                               | $8.8                              | $44                                   |         1e+06       |    128000           |
+| global.anthropic.claude-fable-5-2                                            | $8                                | $40                                   |         1e+06       |    128000           |
+| global.anthropic.claude-mythos-5-2                                           | $8                                | $40                                   |         1e+06       |    128000           |
+| us-gov.anthropic.claude-fable-5-2                                            | $9.6                              | $48                                   |         1e+06       |    128000           |
+| us-gov.anthropic.claude-mythos-5-2                                           | $9.6                              | $48                                   |         1e+06       |    128000           |
+| us.anthropic.claude-fable-5-2                                                | $8.8                              | $44                                   |         1e+06       |    128000           |
+| us.anthropic.claude-mythos-5-2                                               | $8.8                              | $44                                   |         1e+06       |    128000           |
+| claude-fable-5-2                                                             | $8                                | $40                                   |         1e+06       |    128000           |
+| bedrock/claude_platform/claude-fable-5-2                                     | $8                                | $40                                   |         1e+06       |    128000           |
+| azure_ai/claude-fable-5-2                                                    | $8                                | $40                                   |         1e+06       |    128000           |
+| azure_ai/claude-fable-5-2-fast                                               | $16                               | $80                                   |         1e+06       |    128000           |
+| bedrock/us-gov-east-1/anthropic.claude-mythos-5-2                            | $9.6                              | $48                                   |         1e+06       |    128000           |
+| bedrock/us-gov-west-1/anthropic.claude-mythos-5-2                            | $9.6                              | $48                                   |         1e+06       |    128000           |
+| github_copilot/claude-fable-5.2                                              | $8                                | $40                                   |    200000           |     64000           |
+| together_ai/elorian-labs/glimpse-1.0                                         | $0.6                              | $3                                    |    262144           |    262144           |
 
 <!-- PRICING_TABLE_END -->
 
