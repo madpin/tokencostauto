@@ -7446,6 +7446,9 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | databricks/system.ai.claude-fable-5-2                                        | $8                                | $40                                   |         1e+06       |    128000           |
 | replicate/google/gemini-4-carbon                                             | $2                                | $10                                   |         1.04858e+06 |     65535           |
 | azure_ai/mistral-large-4-latest                                              | $0.7                              | $2.1                                  |         1.04858e+06 |         1.04858e+06 |
+| fal_ai/fal-ai/recraft-20b                                                    | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/stable-diffusion-v3-medium/image-to-image                      | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/lipsync                                               | --                                | --                                    |       nan           |       nan           |
 
 <!-- PRICING_TABLE_END -->
 
