@@ -5716,10 +5716,10 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | volcengine/doubao-seedance-2-0-260128                                        | --                                | --                                    |       nan           |       nan           |
 | volcengine/doubao-seedance-2-0-fast-260128                                   | --                                | --                                    |       nan           |       nan           |
 | volcengine/doubao-seedance-2-0-mini-260615                                   | --                                | --                                    |       nan           |       nan           |
-| nace/drex-v1.0                                                               | $0.04                             | $0                                    |     32768           |       nan           |
-| nace/drex-v1.5                                                               | $0.05                             | $0                                    |    131072           |       nan           |
-| nace/drex-v2.0                                                               | $0.06                             | $0                                    |    131072           |       nan           |
-| nace/drex-latest                                                             | $0.06                             | $0                                    |    131072           |       nan           |
+| nace/drex-v1.0                                                               | $0.03                             | $0                                    |    262144           |       nan           |
+| nace/drex-v1.5                                                               | $0.03                             | $0                                    |    262144           |       nan           |
+| nace/drex-v2.0                                                               | $0.03                             | $0                                    |    262144           |       nan           |
+| nace/drex-latest                                                             | $0.03                             | $0                                    |    262144           |       nan           |
 | together_ai/reflection/Beam-1.0-501B-A23B                                    | $0.4                              | $1.2                                  |         1.04858e+06 |         1.04858e+06 |
 | baseten/reflection/Beam-1.0                                                  | $0.4                              | $1.2                                  |         1.04858e+06 |    131072           |
 | nebius/reflection/beam                                                       | $0.25                             | $1                                    |         1.04858e+06 |         1.04858e+06 |
@@ -7553,6 +7553,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | fal_ai/google/gemini-omni-flash/v1.2/upscale                                 | --                                | --                                    |       nan           |       nan           |
 | fal_ai/decart/lucy-5b/image-to-video                                         | --                                | --                                    |       nan           |       nan           |
 | fal_ai/fal-ai/decart/lucy-5b/image-to-video                                  | --                                | --                                    |       nan           |       nan           |
+| nace/drex-max                                                                | $0.03                             | $0                                    |    262144           |       nan           |
+| nace/drex-max-v1.1                                                           | $0.03                             | $0                                    |    262144           |       nan           |
 
 <!-- PRICING_TABLE_END -->
 
