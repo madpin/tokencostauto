@@ -2718,8 +2718,8 @@
 | moonshotai.kimi-k2.5                                                         | $0.6                              | $3                                    |    256000           |     16000           |
 | nvidia.nemotron-nano-3-30b                                                   | $0.06                             | $0.24                                 |    256000           |      8000           |
 | qwen.qwen3-coder-next                                                        | $0.5                              | $1.2                                  |    256000           |     16000           |
-| us.deepseek.v3.2                                                             | $0.62                             | $1.85                                 |    163840           |    163840           |
-| eu.deepseek.v3.2                                                             | $0.74                             | $2.22                                 |    163840           |    163840           |
+| us.deepseek.v3.2                                                             | $0.62                             | $1.85                                 |    163840           |      8000           |
+| eu.deepseek.v3.2                                                             | $0.74                             | $2.22                                 |    163840           |      8000           |
 | zai.glm-4.7                                                                  | $0.6                              | $2.2                                  |    203000           |    128000           |
 | openai/sora-2-pro-high-res                                                   | --                                | --                                    |       nan           |       nan           |
 | tts-1-1106                                                                   | --                                | --                                    |       nan           |       nan           |
@@ -7427,3 +7427,12 @@
 | fal_ai/fal-ai/decart/lucy-5b/image-to-video                                  | --                                | --                                    |       nan           |       nan           |
 | nace/drex-max                                                                | $0.03                             | $0                                    |    262144           |       nan           |
 | nace/drex-max-v1.1                                                           | $0.03                             | $0                                    |    262144           |       nan           |
+| vertex_ai/deep-research-preview-04-2026                                      | $2                                | $12                                   |       nan           |       nan           |
+| soniox/stt-async-v6                                                          | --                                | --                                    |      8000           |      8000           |
+| soniox/stt-rt-v6                                                             | --                                | --                                    |       nan           |       nan           |
+| deepinfra/zai-org/GLM-5.3-Flash                                              | $0.15                             | $0.5                                  |         1.04858e+06 |         1.04858e+06 |
+| deepinfra/XiaomiMiMo/MiMo-V2.6-Flash                                         | $0.14                             | $0.28                                 |         1.04858e+06 |       nan           |
+| deepinfra/nvidia/NVIDIA-Nemotron-3.5-Super-VL                                | $0.15                             | $0.5                                  |    262144           |       nan           |
+| deepinfra/tencent/Hy4-preview                                                | $0.83                             | $2.5                                  |         1.04858e+06 |    131072           |
+| perplexity/google/gemini-4-hydrogen                                          | $1.5                              | $7.5                                  |       nan           |       nan           |
+| github_copilot/gemini-4-hydrogen                                             | $1.5                              | $7.5                                  |    200000           |     65536           |
