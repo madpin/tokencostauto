@@ -7564,6 +7564,12 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | deepinfra/tencent/Hy4-preview                                                | $0.83                             | $2.5                                  |         1.04858e+06 |    131072           |
 | perplexity/google/gemini-4-hydrogen                                          | $1.5                              | $7.5                                  |       nan           |       nan           |
 | github_copilot/gemini-4-hydrogen                                             | $1.5                              | $7.5                                  |    200000           |     65536           |
+| vercel_ai_gateway/openai/gpt-6-luna-decisions                                | $0.1                              | $0                                    |         1.05e+06    |       nan           |
+| vercel_ai_gateway/typesafe-ai/jev                                            | $0.04                             | $0                                    |     32000           |       nan           |
+| vercel_ai_gateway/typesafe-ai/jev-1.13.0                                     | $0.04                             | $0                                    |     32000           |       nan           |
+| vercel_ai_gateway/typesafe-ai/jev-1.14.0                                     | $0.04                             | $0                                    |     32000           |       nan           |
+| fal_ai/bytedance/seedream/v5/pro/us/edit                                     | --                                | --                                    |       nan           |       nan           |
+| fal_ai/bytedance/seedream/v5/pro/us/text-to-image                            | --                                | --                                    |       nan           |       nan           |
 
 <!-- PRICING_TABLE_END -->
 
