@@ -6306,7 +6306,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gmi/zai-org/GLM-5.3                                                          | $0.7                              | $2.2                                  |         1.04858e+06 |       nan           |
 | gmi/zai-org/GLM-5.3-Flash                                                    | $0.08                             | $0.25                                 |         1.04858e+06 |       nan           |
 | fireworks_ai/accounts/fireworks/models/kimi-k3p1-pro                         | $2                                | $10                                   |         1.04858e+06 |    131072           |
-| baseten/moonshotai/Kimi-K3.1-Pro                                             | $2                                | $10                                   |         1e+06       |         1.04858e+06 |
+| baseten/moonshotai/Kimi-K3.1-Pro                                             | $2                                | $10                                   |         1.04858e+06 |         1.04858e+06 |
 | gpt-image-2.6-sunburst                                                       | $5                                | --                                    |       nan           |       nan           |
 | gpt-image-2.6-flare                                                          | $5                                | --                                    |       nan           |       nan           |
 | bedrock/us-gov-east-1/moonshotai.kimi-k3                                     | $3.96                             | $19.8                                 |    868928           |    131072           |
@@ -6319,7 +6319,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openai/gpt-image-2.6-flare                                                   | $5                                | --                                    |       nan           |       nan           |
 | jina-reranker-v3.5                                                           | $0.05                             | $0                                    |    131072           |       nan           |
 | jina-reranker-m0                                                             | $0.05                             | $0                                    |     10240           |       nan           |
-| nebius/moonshotai/Kimi-K3.1-Pro                                              | $2                                | $10                                   |       nan           |       nan           |
+| nebius/moonshotai/Kimi-K3.1-Pro                                              | $2                                | $10                                   |         1.04858e+06 |       nan           |
 | us-gov.xai.grok-4.7                                                          | $2.64                             | $7.92                                 |    524288           |    524288           |
 | gpt-6-cyber                                                                  | $20                               | $100                                  |    922000           |    128000           |
 | empiriolabs/kimi-k3-1-pro                                                    | $2                                | $10                                   |         1.04858e+06 |    131072           |
@@ -7570,6 +7570,49 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | vercel_ai_gateway/typesafe-ai/jev-1.14.0                                     | $0.04                             | $0                                    |     32000           |       nan           |
 | fal_ai/bytedance/seedream/v5/pro/us/edit                                     | --                                | --                                    |       nan           |       nan           |
 | fal_ai/bytedance/seedream/v5/pro/us/text-to-image                            | --                                | --                                    |       nan           |       nan           |
+| dashscope/qwen4-max                                                          | $1.5                              | $4.5                                  |    991808           |    131072           |
+| us.openai.gpt-daybreak-blue-5.6-sol                                          | $4.4                              | $22                                   |    922000           |    128000           |
+| global.openai.gpt-daybreak-blue-5.6-sol                                      | $4                                | $20                                   |    922000           |    128000           |
+| us.openai.gpt-5.6-cyber                                                      | $13.75                            | $82.5                                 |    922000           |    128000           |
+| global.openai.gpt-5.6-cyber                                                  | $12.5                             | $75                                   |    922000           |    128000           |
+| azure/us-gov/gpt-4.1                                                         | $2.75                             | $11                                   |    128000           |     32768           |
+| azure/us-gov/gpt-4.1-mini                                                    | $0.55                             | $2.2                                  |    128000           |     32768           |
+| azure/us-gov/gpt-4o                                                          | $3.44                             | $13.75                                |    128000           |     16384           |
+| azure/us-gov/gpt-5.6-luna                                                    | $0.28                             | $1.65                                 |    922000           |    128000           |
+| azure/us-gov/gpt-5.6-sol                                                     | $5.5                              | $27.5                                 |    922000           |    128000           |
+| azure/us-gov/gpt-5.6-terra                                                   | $2.75                             | $16.5                                 |    922000           |    128000           |
+| azure/us-gov/text-embedding-ada-002                                          | $0.12                             | $0                                    |      8192           |       nan           |
+| fal_ai/bytedance/seedance-2.5/flash/image-to-video                           | --                                | --                                    |       nan           |       nan           |
+| fal_ai/bytedance/seedance-2.5/flash/reference-to-video                       | --                                | --                                    |       nan           |       nan           |
+| fal_ai/bytedance/seedance-2.5/flash/text-to-video                            | --                                | --                                    |       nan           |       nan           |
+| cloudflare/@cf/thinkingmachines/inkling-2-small                              | $0.3                              | $1                                    |         1.04858e+06 |       nan           |
+| nebius/thinkingmachines/Inkling-2-Small                                      | $0.3                              | $1                                    |         1.04858e+06 |       nan           |
+| fal_ai/fal-ai/pixverse/extend                                                | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/extend/fast                                           | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v3.5/effects                                          | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v3.5/image-to-video                                   | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v3.5/image-to-video/fast                              | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v3.5/text-to-video                                    | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v3.5/text-to-video/fast                               | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v3.5/transition                                       | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v4.5/effects                                          | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v4.5/image-to-video                                   | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v4.5/image-to-video/fast                              | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v4.5/text-to-video                                    | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v4.5/text-to-video/fast                               | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v4.5/transition                                       | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v4/effects                                            | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v4/image-to-video                                     | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v4/image-to-video/fast                                | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v4/text-to-video                                      | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v4/text-to-video/fast                                 | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v5/effects                                            | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v5/image-to-video                                     | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v5/text-to-video                                      | --                                | --                                    |       nan           |       nan           |
+| fal_ai/fal-ai/pixverse/v5/transition                                         | --                                | --                                    |       nan           |       nan           |
+| fal_ai/bria/rmbg-3                                                           | --                                | --                                    |       nan           |       nan           |
+| omni-moderation-csam-latest                                                  | $0                                | $0                                    |     32768           |         0           |
+| openai/omni-moderation-csam-latest                                           | $0                                | $0                                    |     32768           |         0           |
 
 <!-- PRICING_TABLE_END -->
 
