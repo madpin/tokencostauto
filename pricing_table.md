@@ -5582,7 +5582,7 @@
 | azure_ai/claude-opus-5-5-fast                                                | $8                                | $40                                   |         1e+06       |    128000           |
 | baseten/meta-models/muse-spark-open                                          | $1.25                             | $4.25                                 |         1.04858e+06 |         1.04858e+06 |
 | baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B                        | $0.2                              | $0.5                                  |         1.04858e+06 |         1.04858e+06 |
-| wandb/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B                          | $0.15                             | $0.5                                  |         1.049e+06   |    943718           |
+| wandb/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B                          | $0.15                             | $0.47                                 |         1.049e+06   |    943718           |
 | openai/gpt-5.5-cyber-preview                                                 | $12.5                             | $75                                   |       nan           |       nan           |
 | volcengine/doubao-seedance-2-5-260628                                        | --                                | --                                    |       nan           |       nan           |
 | volcengine/doubao-seedance-2-0-260128                                        | --                                | --                                    |       nan           |       nan           |
@@ -5817,11 +5817,11 @@
 | databricks/databricks-gpt-image-2                                            | $5                                | --                                    |       nan           |       nan           |
 | databricks/databricks-grok-4-7                                               | $2.5                              | $7.5                                  |    500000           |    500000           |
 | databricks/databricks-kimi-k2-7                                              | $0.95                             | $4                                    |    262144           |    262144           |
-| fireworks_ai/accounts/fireworks/routers/spot-deepseek-v4-flash               | $0.1                              | $0.21                                 |         1.04858e+06 |    384000           |
+| fireworks_ai/accounts/fireworks/routers/spot-deepseek-v4-flash               | $0.07                             | $0.14                                 |         1.04858e+06 |    384000           |
 | fireworks_ai/accounts/fireworks/routers/kimi-k3-spot                         | $2.1                              | $10.5                                 |         1.04858e+06 |    131072           |
-| fireworks_ai/accounts/fireworks/routers/glm-5p3-spot                         | $0.98                             | $3.08                                 |         1.04858e+06 |    128000           |
-| fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-spot             | $0.21                             | $0.84                                 |         1.04858e+06 |    393216           |
-| fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot        | $0.21                             | $0.84                                 |         1.04858e+06 |    393216           |
+| fireworks_ai/accounts/fireworks/routers/glm-5p3-spot                         | $0.7                              | $2.2                                  |         1.04858e+06 |    128000           |
+| fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-spot             | $0.15                             | $0.6                                  |         1.04858e+06 |    393216           |
+| fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot        | $0.15                             | $0.6                                  |         1.04858e+06 |    393216           |
 | dashscope/qwen3-tts-flash                                                    | --                                | --                                    |       nan           |       nan           |
 | dashscope/qwen-audio-3.1-tts-flash                                           | $0.23                             | $1.87                                 |       nan           |       nan           |
 | dashscope/qwen-audio-3.1-tts-plus                                            | --                                | --                                    |       nan           |       nan           |
@@ -5975,7 +5975,7 @@
 | wally/minimax-m3                                                             | $0.33                             | $1.32                                 |    524287           |    131072           |
 | wally/deepseek-v4.1-flash-1017                                               | $0.38                             | $1.5                                  |         1.04858e+06 |     65536           |
 | wally/deepseek-v4.1-flash-f2                                                 | $0.3                              | $1.2                                  |         1.04858e+06 |     65536           |
-| fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast   | $2.4                              | $9.6                                  |         1.04858e+06 |    393216           |
+| fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast   | $1.2                              | $4.8                                  |         1.04858e+06 |    393216           |
 | empiriolabs/aplomb-1                                                         | $0.02                             | $0                                    |         1e+06       |       nan           |
 | empiriolabs/deepseek-v4-1-flash-1017                                         | $0.2                              | $0.8                                  |         1e+06       |    393216           |
 | empiriolabs/deepseek-v4-flash-0731                                           | $0.42                             | $1.27                                 |         1e+06       |    393216           |
@@ -7341,8 +7341,8 @@
 | fal_ai/bytedance/seedream/v5/pro/layerize                                    | --                                | --                                    |       nan           |       nan           |
 | fal_ai/luma/agent/uni-1/v1/edit                                              | --                                | --                                    |       nan           |       nan           |
 | fal_ai/luma/agent/uni-1/v1/max/edit                                          | --                                | --                                    |       nan           |       nan           |
-| databricks/databricks-gemini-4-carbon                                        | $2                                | $10                                   |         1.04858e+06 |         1.04858e+06 |
-| databricks/system.ai.gemini-4-carbon                                         | $2                                | $10                                   |         1.04858e+06 |         1.04858e+06 |
+| databricks/databricks-gemini-4-carbon                                        | $2.5                              | $12.5                                 |         1.04858e+06 |         1.04858e+06 |
+| databricks/system.ai.gemini-4-carbon                                         | $2.5                              | $12.5                                 |         1.04858e+06 |         1.04858e+06 |
 | runwayml/kling2.5_turbo_pro                                                  | --                                | --                                    |       nan           |       nan           |
 | runwayml/kling3.0_standard                                                   | --                                | --                                    |       nan           |       nan           |
 | runwayml/kling3.0_pro                                                        | --                                | --                                    |       nan           |       nan           |
@@ -7633,7 +7633,7 @@
 | bedrock/mantle/anthropic.claude-opus-5-5                                     | $4.4                              | $22                                   |         1e+06       |    128000           |
 | bedrock/mantle/anthropic.claude-sonnet-5-5                                   | $2.2                              | $11                                   |         1e+06       |    128000           |
 | bedrock/mantle/anthropic.claude-haiku-5-5                                    | $0.11                             | $0.55                                 |         1e+06       |    128000           |
-| databricks/system.ai.gemini-4-hydrogen                                       | $1.5                              | $7.5                                  |         1.04858e+06 |     65536           |
+| databricks/system.ai.gemini-4-hydrogen                                       | $1.88                             | $9.38                                 |         1.04858e+06 |     65536           |
 | gpt-6.2-astra                                                                | $8                                | $40                                   |    922000           |    128000           |
 | chatgpt/gpt-6.2-astra                                                        | --                                | --                                    |    922000           |    128000           |
 | gpt-6.2-sol                                                                  | $2                                | $10                                   |    922000           |    128000           |
@@ -7730,7 +7730,7 @@
 | openrouter/upstage/solar-decide                                              | $0.05                             | $0                                    |    524288           |       nan           |
 | openrouter/upstage/solar-decide-flash                                        | $0.05                             | $0                                    |    524288           |       nan           |
 | openrouter/~typesafe/jev-latest                                              | $0.04                             | $0                                    |    262144           |       nan           |
-| together_ai/Qwen/Qwen4-Max                                                   | $1.42                             | $4.28                                 |         1e+06       |         1e+06       |
+| together_ai/Qwen/Qwen4-Max                                                   | $1.05                             | $3.15                                 |         1e+06       |         1e+06       |
 | azure/us-gov/gpt-4-turbo                                                     | $12.5                             | $37.5                                 |    128000           |      4096           |
 | azure/us-gov/gpt-4o-2024-05-13                                               | $6.25                             | $18.75                                |    128000           |      4096           |
 | azure/us-gov/gpt-4o-2024-11-20                                               | $3.44                             | $13.75                                |    128000           |     16384           |
@@ -8486,3 +8486,13 @@
 | jina-embeddings-v5-omni-nano                                                 | $0.02                             | $0                                    |      8192           |       nan           |
 | perplexity/pplx-decider-v1.3                                                 | $0.02                             | $0                                    |       nan           |       nan           |
 | perplexity/pplx-decider-flash-v1.3                                           | $0.01                             | $0                                    |       nan           |       nan           |
+| fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-flex        | $0.15                             | $0.6                                  |         1.04858e+06 |    393216           |
+| gmi/google/gemini-4-hydrogen                                                 | $1.5                              | $7.5                                  |         1.04858e+06 |       nan           |
+| azure_ai/kimi-k3.1-pro                                                       | $2.3                              | $11.5                                 |         1.04858e+06 |         1.04858e+06 |
+| gemini/genie-4                                                               | $1.5                              | $9                                    |         1.04858e+06 |     65536           |
+| gpt-live-1.1                                                                 | --                                | --                                    |       nan           |       nan           |
+| fal_ai/ideogram/v4.6                                                         | --                                | --                                    |       nan           |       nan           |
+| fal_ai/ideogram/v4.6/edit                                                    | --                                | --                                    |       nan           |       nan           |
+| together_ai/tencent/Hy4                                                      | $0.83                             | $2.5                                  |         1.04858e+06 |         1.04858e+06 |
+| databricks/databricks-gemini-nano-banana-2-1                                 | $1.88                             | $9.38                                 |    131072           |     32768           |
+| openai/gpt-live-1.1                                                          | --                                | --                                    |       nan           |       nan           |
