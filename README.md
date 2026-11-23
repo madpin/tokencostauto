@@ -8684,6 +8684,8 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | vertex_ai/meta/muse-spark-1.3                                                | $1.25                             | $4.25                                 |         1.04858e+06 |       nan           |
 | fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-us          | $0.45                             | $1.8                                  |         1.04858e+06 |    393216           |
 | fireworks_ai/accounts/fireworks/routers/kimi-k3p1-pro-us                     | $2.5                              | $12.5                                 |         1.04858e+06 |    131072           |
+| gnani/prisma-v2.5                                                            | --                                | --                                    |       nan           |       nan           |
+| gnani/prisma-v3.0                                                            | --                                | --                                    |       nan           |       nan           |
 
 <!-- PRICING_TABLE_END -->
 
