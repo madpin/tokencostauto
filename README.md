@@ -3764,7 +3764,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | gpt-5.6-cyber                                                                | $12.5                             | $75                                   |    272000           |    128000           |
 | daybreak-red-latest                                                          | $12.5                             | $75                                   |    272000           |    128000           |
 | daybreak-blue-latest                                                         | $4                                | $20                                   |    922000           |    128000           |
-| chat-latest                                                                  | $5                                | $30                                   |    400000           |    128000           |
+| chat-latest                                                                  | $5                                | $30                                   |    272000           |    128000           |
 | mistral/zai-glm-5-2                                                          | $1.4                              | $4.4                                  |         1.04858e+06 |    131072           |
 | mistral/glm-5-2                                                              | $1.4                              | $4.4                                  |         1.04858e+06 |    131072           |
 | mistral/mistral-ocr-4-1                                                      | --                                | --                                    |       nan           |       nan           |
@@ -3813,7 +3813,7 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openai/gpt-5.6-cyber                                                         | $12.5                             | $75                                   |    272000           |    128000           |
 | openai/daybreak-red-latest                                                   | $12.5                             | $75                                   |    272000           |    128000           |
 | openai/daybreak-blue-latest                                                  | $4                                | $20                                   |    922000           |    128000           |
-| openai/chat-latest                                                           | $5                                | $30                                   |    400000           |    128000           |
+| openai/chat-latest                                                           | $5                                | $30                                   |    272000           |    128000           |
 | azure/gpt-audio-mini                                                         | $0.6                              | $2.4                                  |    128000           |     16384           |
 | azure/gpt-realtime-mini                                                      | $0.6                              | $2.4                                  |     32000           |      4096           |
 | fal_ai/low/1024-x-768/openai/gpt-image-2                                     | --                                | --                                    |       nan           |       nan           |
@@ -8742,6 +8742,23 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | vertex_ai/gemini-4-neon-cyber-permissive                                     | $3                                | $15                                   |         1.04858e+06 |         1.04858e+06 |
 | together_ai/deepseek-ai/DeepSeek-V4.1-Flash-1017-fast                        | $0.6                              | $2.4                                  |         1.04858e+06 |         1.04858e+06 |
 | fal_ai/recraft/vectorize/pro                                                 | --                                | --                                    |       nan           |       nan           |
+| elevenlabs/scribe_v2_realtime                                                | --                                | --                                    |       nan           |       nan           |
+| elevenlabs/scribe_v2_realtime/keyterms                                       | --                                | --                                    |       nan           |       nan           |
+| gpt-6.2-astra-healthcare                                                     | $8                                | $40                                   |    922000           |    128000           |
+| gpt-6.2-sol-healthcare                                                       | $2                                | $10                                   |    922000           |    128000           |
+| gpt-6-astra-healthcare                                                       | $10                               | $50                                   |    922000           |    128000           |
+| gpt-6.1-sol-healthcare                                                       | $2                                | $10                                   |    922000           |    128000           |
+| fireworks_ai/accounts/fireworks/models/qwen4-max                             | $1.5                              | $4.5                                  |    262144           |       nan           |
+| fireworks_ai/accounts/fireworks/models/hy4-flash                             | $0.07                             | $0.28                                 |    524288           |       nan           |
+| huawei_maas/glm-5.3                                                          | $1.4                              | $4.4                                  |         1e+06       |    128000           |
+| huawei_maas/glm-5.2                                                          | $1.4                              | $4.4                                  |         1e+06       |    128000           |
+| huawei_maas/deepseek-v4.1-flash-1017                                         | $0.3                              | $1.2                                  |         1e+06       |    384000           |
+| huawei_maas/deepseek-v4.1-flash                                              | $0.3                              | $1.2                                  |         1e+06       |    384000           |
+| us-gov.openai.gpt-5.6-cyber                                                  | $16.88                            | $101.25                               |    922000           |    128000           |
+| openai/gpt-6.2-astra-healthcare                                              | $8                                | $40                                   |    922000           |    128000           |
+| openai/gpt-6.2-sol-healthcare                                                | $2                                | $10                                   |    922000           |    128000           |
+| openai/gpt-6-astra-healthcare                                                | $10                               | $50                                   |    922000           |    128000           |
+| openai/gpt-6.1-sol-healthcare                                                | $2                                | $10                                   |    922000           |    128000           |
 
 <!-- PRICING_TABLE_END -->
 
