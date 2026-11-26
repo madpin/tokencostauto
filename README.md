@@ -8759,6 +8759,15 @@ Units denominated in USD. All prices can be located in `model_prices.json`.
 | openai/gpt-6.2-sol-healthcare                                                | $2                                | $10                                   |    922000           |    128000           |
 | openai/gpt-6-astra-healthcare                                                | $10                               | $50                                   |    922000           |    128000           |
 | openai/gpt-6.1-sol-healthcare                                                | $2                                | $10                                   |    922000           |    128000           |
+| xai/grok-4.7-latest                                                          | $2                                | $6                                    |    500000           |    500000           |
+| xai/grok-4.6-latest                                                          | $2                                | $6                                    |    500000           |    500000           |
+| fal_ai/krea/v3/text-to-image/lora                                            | --                                | --                                    |       nan           |       nan           |
+| fal_ai/krea/v3/edit/lora                                                     | --                                | --                                    |       nan           |       nan           |
+| fireworks_ai/accounts/fireworks/models/inkling-2-small                       | $0.3                              | $1                                    |         1.04858e+06 |       nan           |
+| fireworks_ai/accounts/fireworks/routers/glm-5p3-flex                         | $0.7                              | $2.2                                  |         1.04858e+06 |    128000           |
+| fireworks_ai/accounts/fireworks/routers/glm-5p3-flash-flex                   | $0.08                             | $0.25                                 |         1.04858e+06 |         1.04858e+06 |
+| fireworks_ai/accounts/fireworks/models/glm-5p3-spot                          | $0.7                              | $2.2                                  |         1.04858e+06 |    128000           |
+| fireworks_ai/accounts/fireworks/routers/kimi-k3p1-pro-ultrafast              | $5                                | $25                                   |         1.04858e+06 |    131072           |
 
 <!-- PRICING_TABLE_END -->
 
