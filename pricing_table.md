@@ -8640,3 +8640,14 @@
 | fireworks_ai/accounts/fireworks/routers/glm-5p3-flash-flex                   | $0.08                             | $0.25                                 |         1.04858e+06 |         1.04858e+06 |
 | fireworks_ai/accounts/fireworks/models/glm-5p3-spot                          | $0.7                              | $2.2                                  |         1.04858e+06 |    128000           |
 | fireworks_ai/accounts/fireworks/routers/kimi-k3p1-pro-ultrafast              | $5                                | $25                                   |         1.04858e+06 |    131072           |
+| volcengine/doubao-seedream-4-0-260415                                        | --                                | --                                    |       nan           |       nan           |
+| volcengine/doubao-seedream-4-0-20260415                                      | --                                | --                                    |       nan           |       nan           |
+| volcengine/doubao-seedream-5-0-flash-260915                                  | --                                | --                                    |       nan           |       nan           |
+| volcengine/doubao-seedream-5-0-pro-260628                                    | --                                | --                                    |       nan           |       nan           |
+| volcengine/dola-seedream-5-5-261028                                          | --                                | --                                    |       nan           |       nan           |
+| volcengine/dola-seedream-5-0-pro-260628                                      | --                                | --                                    |       nan           |       nan           |
+| volcengine/dola-seedream-5-0-flash-260915                                    | --                                | --                                    |       nan           |       nan           |
+| volcengine/seedream-5-0-lite-260128                                          | --                                | --                                    |       nan           |       nan           |
+| volcengine/seedream-4-5-251128                                               | --                                | --                                    |       nan           |       nan           |
+| volcengine/seedream-4-0-250828                                               | --                                | --                                    |       nan           |       nan           |
+| volcengine/doubao-seedream-5-5-261028                                        | --                                | --                                    |       nan           |       nan           |
