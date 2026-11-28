@@ -8651,3 +8651,5 @@
 | volcengine/seedream-4-5-251128                                               | --                                | --                                    |       nan           |       nan           |
 | volcengine/seedream-4-0-250828                                               | --                                | --                                    |       nan           |       nan           |
 | volcengine/doubao-seedream-5-5-261028                                        | --                                | --                                    |       nan           |       nan           |
+| databricks/system.ai.gemini-4-neon                                           | $3                                | $15                                   |         1.04858e+06 |         1.04858e+06 |
+| databricks/databricks-kimi-k3-1-pro-fast                                     | $2                                | $10                                   |         1.04858e+06 |         1.04858e+06 |
